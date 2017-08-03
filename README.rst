@@ -13,10 +13,10 @@ The users guides for the IBM Q experience
 -----------------------------------------
 This repository content the two User Guides from IBM Q Experience.
 
-`Beginner Guide <rsr/beginners-guide/introduction.rst>`__: You can find a simple aproach about Quantum Computing and
+`Beginner Guide <rsr/beginners-guide/>`__: You can find a simple aproach about Quantum Computing and
 how use the IBM Q Experice tools, like Quantum Composer, or the QISKit example.
 
-`Full User Guide <rsr/full-user-guide/introduction.rst>`__: This section contain the more full coverage from Quantum Computing
+`Full User Guide <rsr/full-user-guide/>`__: This section contain the more full coverage from Quantum Computing
 and in particular several examples and algorithm.
 
 Installation and setup
