@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../../_static/theme.css" type="text/css" /> 
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>GHZ States &#8212; Experience Documentation 2.0 documentation</title>
+<link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: '../../',
+        VERSION: '2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: true,
+        SOURCELINK_SUFFIX: '.txt'
+    };
+</script>
+<script type="text/javascript" src="../../_static/jquery.js"></script>
+<script type="text/javascript" src="../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Deutsch-Jozsa Algorithm" href="../004-Quantum Algorithms/080-Deutsch-Jozsa Algorithm.html" />
+    <link rel="prev" title="Entanglement and Bell Tests" href="050-Entanglement_and_Bell_Tests.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes"> 
+
+    <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+
+</head>
+
+<body>    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/ibm-q.png"></span>
+          Experience Documentation</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../user_guide.html">IBM Quantum Experience Documentation</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">GHZ States</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="050-Entanglement_and_Bell_Tests.html" title="Previous Chapter: Entanglement and Bell Tests"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Entanglement ...</span>
+    </a>
+  </li>
+  <li>
+    <a href="../004-Quantum Algorithms/080-Deutsch-Jozsa Algorithm.html" title="Next Chapter: Deutsch-Jozsa Algorithm"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Deutsch-Jozsa... &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../../_sources/full-user-guide/003-Multiple_Qubits_Gates_and_Entangled_States/060-GHZ_States.rst.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div> 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 content">
+            
+  <div class="section" id="ghz-states">
+<h1>GHZ States<a class="headerlink" href="#ghz-states" title="Permalink to this headline">¶</a></h1>
+<p>Perhaps even stranger than Bell states are their three-qubit
+generalization, the <a href="#id1"><span class="problematic" id="id2">*</span></a>GHZ states.&nbsp;<a href="#id3"><span class="problematic" id="id4">*</span></a>An example of one of these states
+is <span class="math">\(\frac{1}{\sqrt{2}}(|000\rangle- |111\rangle)\)</span>. The measured
+results should be half <span class="math">\(|000\rangle\)</span> and half <span class="math">\(|111\rangle\)</span>. GHZ
+states are named after Greenberger, Horne, and Zeilinger, who were the
+first to study them in 1997. GHZ states are also known as “Schroedinger
+cat states” or just “cat states.”</p>
+<p>In the 1990 paper by N. David Mermin, <em>What’s wrong with these elements
+of reality?</em>, the GHZ states demonstrate an even stronger violation of
+local reality than Bell’s inequality. Instead of a <em>probabilistic</em>
+violation of an inequality, the GHZ states lead to a <em>deterministic</em>
+violation of an equality.</p>
+<p><img alt="image0" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-02%20at%2012.42.45%20AMl8kxsz2b6cs4te29.png" />Imagine you have three independent systems which we denote by
+a blue, red, and green box. You are asked to solve the following
+problem: in each box there are two questions, labeled <span class="math">\(X\)</span> and <span class="math">\(Y\)</span>,
+that have only two possible outcomes, <span class="math">\(+1\)</span> or <span class="math">\(-1\)</span>. You must come up
+with a solution to the following set of identities.</p>
+<div class="line-block">
+<div class="line"><span class="math">\(XYY=1\)</span>.</div>
+</div>
+<p><span class="math">\(YXY =1\)</span>.</p>
+<p><span class="math">\(YYX=1\)</span>.</p>
+<div><p><span class="math">\(XXX = -1\)</span>.</p>
+</div><div></div><div><p>Try it!</p>
+<p>After a while you will realize this is not possible. The simple way to
+show this is the following: if we multiply the first three equations
+together, we can simplify squared quantities and obtain <span class="math">\(XXX=1\)</span>, which
+contradicts the fourth identity.</p>
+<p>Amazingly enough, a GHZ state can provide a solution to this problem.
+Then we have to accept what quantum mechanics teaches us: there are
+not&nbsp;local hidden elements of reality associated with each qubit which
+predetermine the outcomes of measurements in the <span class="math">\(X\)</span> and <span class="math">\(Y\)</span>
+bases.&nbsp;So, as Mermin pointed out, the GHZ test described above
+contradicts the possibility of physics being described by local reality!
+As opposed to the Bell test, which provides only a statistical evidence
+for the contradiction, the GHZ test can rule out the local reality
+description with certainty after a single run of the experiment (not
+including the effects of noise and imperfections in our system).</p>
+<p><img alt="image1" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-02%20at%2012.42.54%20AMjqrs28j545p6tj4i.png" /></p>
+<div><div class="line-block">
+<div class="line">To make this state we use the following circuit, which is slightly
+different to the standard way of creating a GHZ (in our hardware the
+CNOT gates are&nbsp;constrained in their orientation). In the first part of
+the circuit, the ground state is taken to a superposition
+<span class="math">\(\frac{1}{2}(|001\rangle+ |011\rangle + |101\rangle
++|111\rangle)\)</span>.&nbsp;The two CNOTs now&nbsp;entangle all the qubits into the
+state <span class="math">\(\frac{1}{2}(|001\rangle + |010\rangle + |100\rangle +
+|111\rangle)\)</span>. The final three&nbsp;Hadamard gates map this to the GHZ
+state <span class="math">\(\frac{1}{\sqrt{2}}(|000\rangle - |111\rangle)\)</span>.</div>
+</div>
+<p>To make the measurements in the <span class="math">\(X\)</span> and <span class="math">\(Y\)</span> basis we again rotate
+the measurement using the circuits you have seen before. For example,
+consider the <span class="math">\(XXX\)</span> measurement. Note that flipping all three qubits of
+the GHZ state gives the same state with the minus sign. In other words,
+the GHZ state is a <span class="math">\(-1\)</span> eigenvector of a three-qubit Pauli operator
+<span class="math">\(XXX\)</span>. This implies</p>
+<p><span class="math">\(XXX=-1\)</span></p>
+<p>for each realization of the experiment. Next consider the Pauli operator
+<span class="math">\(XYY\)</span>. One can check that the GHZ state is a <span class="math">\(+1\)</span> eigenevector of
+<span class="math">\(XYY\)</span>. Therefore,</p>
+<p><span class="math">\(XYY=1\)</span></p>
+<div class="line-block">
+<div class="line">for each realization of the experiment. Likewise,</div>
+</div>
+<p><span class="math">\(YXY=1\)</span>, and <span class="math">\(YYX=1\)</span>.</p>
+<p>One can verify this by running the experiments using the circuits
+provided below.</p>
+<div class="line-block">
+<div class="line">Here you can see the results we got when we ran this experiment on the
+processor:</div>
+</div>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="image2" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-03%20at%2010.30.31%20PM5vv145poc8qfflxr.png" /></p>
+<div class="line-block">
+<div class="line">EXAMPLE CIRCUITS:</div>
+</div>
+<div class="line-block">
+<div class="line">The first circuit shown below creates a GHZ state and then measures
+all qubits in the standard basis. The measured results should be half
+<span class="math">\(000\)</span> and half <span class="math">\(111\)</span>. The remaining four circuits describe the GHZ
+test. Each circuit prepares the GHZ state and then measures the three
+qubits by choosing the measurement bases according to <span class="math">\(YYX\)</span>,
+<span class="math">\(YXY\)</span>, <span class="math">\(XYY\)</span>, and <span class="math">\(XXX\)</span> respectively.</div>
+</div>
+</div></div></div>
+
+
+        </div>
+          
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-right">
+            <a href="#">Back to top</a> 
+        </p>
+        <p> &copy;
+            Copyright 2017, IBM Research, Jim Challenger, Andrew Cross, Ismael Faro, Jay Gambetta, Jesus Perez, and John Smolin.<br/> Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.<br/>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>

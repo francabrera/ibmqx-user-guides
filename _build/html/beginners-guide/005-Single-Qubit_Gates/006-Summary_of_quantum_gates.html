@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../../_static/theme.css" type="text/css" /> 
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Summary of quantum gates &#8212; Experience Documentation 2.0 documentation</title>
+<link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: '../../',
+        VERSION: '2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: true,
+        SOURCELINK_SUFFIX: '.txt'
+    };
+</script>
+<script type="text/javascript" src="../../_static/jquery.js"></script>
+<script type="text/javascript" src="../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Multi-Qubit Gates" href="../006-Multi-Qubit_Gates/001-Multi-Qubit_Gates.html" />
+    <link rel="prev" title="Introducing qubit phase" href="005-Introducing_qubit_phase.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes"> 
+
+    <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+
+</head>
+
+<body>    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/ibm-q.png"></span>
+          Experience Documentation</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../user_guide.html">IBM Quantum Experience Documentation</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Summary of quantum gates</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="005-Introducing_qubit_phase.html" title="Previous Chapter: Introducing qubit phase"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Introducing q...</span>
+    </a>
+  </li>
+  <li>
+    <a href="../006-Multi-Qubit_Gates/001-Multi-Qubit_Gates.html" title="Next Chapter: Multi-Qubit Gates"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Multi-Qubit Gates &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../../_sources/beginners-guide/005-Single-Qubit_Gates/006-Summary_of_quantum_gates.rst.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div> 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 content">
+            
+  <div class="section" id="summary-of-quantum-gates">
+<h1>Summary of quantum gates<a class="headerlink" href="#summary-of-quantum-gates" title="Permalink to this headline">¶</a></h1>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="line-block">
+<div class="line"><img alt="image0" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/screen-shot-2017-03-05-at-3.14.52-pmvyz57g2amwsif6r.png" /></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="line-block">
+<div class="line"><img alt="image1" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/screen-shot-2017-03-05-at-6.18.52-pmjzi5yc8nnbjll3di.png" /></div>
+</div>
+</div>
+
+
+        </div>
+          
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-right">
+            <a href="#">Back to top</a> 
+        </p>
+        <p> &copy;
+            Copyright 2017, IBM Research, Jim Challenger, Andrew Cross, Ismael Faro, Jay Gambetta, Jesus Perez, and John Smolin.<br/> Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.<br/>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>
