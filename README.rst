@@ -1,5 +1,7 @@
 IBM Quantum Experience Documentation
 ====================================
+The repository contains the user guides from the [IBM Q experience](https://quantumexperience.ng.bluemix.net).
+
 
 | If quantum physics sounds challenging to you, you are not alone. All
   of our intuitions are based on day-to-day experiences and are defined
@@ -118,6 +120,17 @@ needed. Once they're updated/added run this be sure they keep passing:
 
 :sunglasses: If you'd like to contribute please take a look to our
 `contribution guidelines <CONTRIBUTING.rst>`__.
+
+
+Other QISKit projects
+---------------------
+
+* [OpenQasm](https://github.com/QISKit/qiskit-openqasm) Examples and tools for the OpenQASM intermediate representation.
+* [QX User Guide](https://github.com/QISKit/qiskit-qx-user-guides) The users guides for the IBM Q experience.
+* [Python SDK](https://github.com/QISKit/qiskit-sdk-py) Software development kit for working with quantum programs in Python.
+* [Python API](https://github.com/QISKit/qiskit-api-py) API Client to use IBM Q experience in Python.
+* [Tutorial](https://github.com/QISKit/qiskit-tutorial) Jupyter notebooks for using QISKit.
+* [QX Information](https://github.com/QISKit/qiskit-qx-info) Information about the different IBM Q experience backends.
 
 License
 -------
