@@ -77,19 +77,33 @@ Do you want to help?
 Documentation
 -------------
 
-The documentation for the project is in the ``doc`` directory. The
+The documentation for the project is in the ``rst`` directory. The
 documentation for the python SDK is auto-generated from python
 docstrings using `Sphinx <www.sphinx-doc.org>`_ for generating the
-documentation. Please follow `Google's Python Style
-Guide <https://google.github.io/styleguide/pyguide.html?showone=Comments#Comments>`_
-for docstrings. A good example of the style can also be found with
-`sphinx's napolean converter
-documentation <http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html>`_.
+documentation. All the documents are created using RST format. You can 
+find more info about it in:
 
+- `Wikipedia <https://en.wikipedia.org/wiki/ReStructuredText>`_
+- `Oficial web <http://docutils.sourceforge.net/rst.html>`_
+- `Sphinx-doc quickstart <http://www.sphinx-doc.org/en/stable/rest.html>`_
+
+You can generate the documentation lile HTML using.
 
 .. code:: sh
 
 					make doc
+
+You can export the documenatation in other formats like "epub", "text" or others.
+
+.. code:: sh
+
+					make epub
+
+you can find more info about this formats using:
+
+.. code:: sh
+
+					make help
 
 Test
 ~~~~
