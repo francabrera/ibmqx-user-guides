@@ -1,5 +1,5 @@
-IBM Quantum Experience Documentation
-====================================
+IBM Quantum Experience user guides
+==================================
 The repository contains the user guides from the [IBM Q experience](https://quantumexperience.ng.bluemix.net).
 
 
@@ -11,15 +11,22 @@ The repository contains the user guides from the [IBM Q experience](https://quan
   develop an intuition for a completely different (and often surprising)
   set of laws.
 
-The users guides for the IBM Q experience
------------------------------------------
-This repository content the two User Guides from IBM Q Experience.
+The users guides
+----------------
 
-`Beginner Guide <rst/beginners-guide/>`__: You can find a simple aproach about Quantum Computing and
+The user guide is divided in two.
+
+`Beginner's Guide <rst/beginners-guide/>`__: You can find a simple aproach about Quantum Computing and
 how use the IBM Q Experice tools, like Quantum Composer, or the QISKit example.
 
-`Full User Guide <rst/full-user-guide/>`__: This section contain the more full coverage from Quantum Computing
+`Full User's Guide <rst/full-user-guide/>`__: This section contain the more full coverage from Quantum Computing
 and in particular several examples and algorithm.
+
+Contributors (alphabetically)
+-----------------------------
+
+Lev Bishop, Antonio Córcoles, Abigail Cross, Andrew Cross, Jay M. Gambetta.
+
 
 Installation and setup
 ----------------------
@@ -125,15 +132,13 @@ needed. Once they're updated/added run this be sure they keep passing:
 Other QISKit projects
 ---------------------
 
-* [OpenQasm](https://github.com/QISKit/qiskit-openqasm) Examples and tools for the OpenQASM intermediate representation.
-* [QX User Guide](https://github.com/QISKit/qiskit-qx-user-guides) The users guides for the IBM Q experience.
-* [Python SDK](https://github.com/QISKit/qiskit-sdk-py) Software development kit for working with quantum programs in Python.
+* [QX Information](https://github.com/QISKit/ibmqx-backend-information) Information about the different IBM Q experience backends.
+* [OpenQasm](https://github.com/QISKit/openqasm) Examples and tools for the OpenQASM intermediate representation.
 * [Python API](https://github.com/QISKit/qiskit-api-py) API Client to use IBM Q experience in Python.
+* [Python SDK](https://github.com/QISKit/qiskit-sdk-py) Software development kit for working with quantum programs in Python.
 * [Tutorial](https://github.com/QISKit/qiskit-tutorial) Jupyter notebooks for using QISKit.
-* [QX Information](https://github.com/QISKit/qiskit-qx-info) Information about the different IBM Q experience backends.
 
 License
 -------
 
-QISKit is released under the `Apache license, version
-2.0 <https://www.apache.org/licenses/LICENSE-2.0>`__.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
