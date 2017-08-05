@@ -132,12 +132,11 @@ needed. Once they're updated/added run this be sure they keep passing:
 Other QISKit projects
 ---------------------
 
-* 
-`QX Information <https://github.com/QISKit/ibmqx-backend-information>`__ Information about the different IBM Q experience backends.
-*`OpenQasm <https://github.com/QISKit/openqasm>`__ Examples and tools for the OpenQASM intermediate representation.
-*`Python API <https://github.com/QISKit/qiskit-api-pyt>`__ API Client to use IBM Q experience in Python.
-*`Python SDK <https://github.com/QISKit/qiskit-sdk-py>`__ Software development kit for working with quantum programs in Python.
-* `Tutorial <https://github.com/QISKit/qiskit-tutorial>`__ Jupyter notebooks for using QISKit.
+- `QX Information <https://github.com/QISKit/ibmqx-backend-information>`__ Information about the different IBM Q experience backends.
+- `OpenQasm <https://github.com/QISKit/openqasm>`__ Examples and tools for the OpenQASM intermediate representation.
+- `Python API <https://github.com/QISKit/qiskit-api-pyt>`__ API Client to use IBM Q experience in Python.
+- `Python SDK <https://github.com/QISKit/qiskit-sdk-py>`__ Software development kit for working with quantum programs in Python.
+- `Tutorial <https://github.com/QISKit/qiskit-tutorial>`__ Jupyter notebooks for using QISKit.
 
 License
 -------
