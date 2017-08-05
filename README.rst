@@ -83,6 +83,8 @@ You can find the generated documenatation into the `_build/html <_build/html>`_
 Do you want to help?
 ====================
 
+If you'd like to contribute please take a look to our `contribution guidelines <CONTRIBUTING.rst>`__.
+
 Documentation
 -------------
 
@@ -124,8 +126,6 @@ needed. Once they're updated/added run this be sure they keep passing:
 .. code:: sh
 
 					make test
-
-If you'd like to contribute please take a look to our `contribution guidelines <CONTRIBUTING.rst>`__.
 
 
 Other QISKit projects
