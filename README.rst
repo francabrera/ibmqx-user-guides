@@ -125,8 +125,7 @@ needed. Once they're updated/added run this be sure they keep passing:
 
 					make test
 
-:sunglasses: If you'd like to contribute please take a look to our
-`contribution guidelines <CONTRIBUTING.rst>`__.
+If you'd like to contribute please take a look to our `contribution guidelines <CONTRIBUTING.rst>`__.
 
 
 Other QISKit projects
