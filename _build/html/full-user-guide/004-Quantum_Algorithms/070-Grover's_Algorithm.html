@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../../_static/theme.css" type="text/css" /> 
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Grover’s Algorithm &#8212; Experience Documentation 2.0 documentation</title>
+<link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: '../../',
+        VERSION: '2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: true,
+        SOURCELINK_SUFFIX: '.txt'
+    };
+</script>
+<script type="text/javascript" src="../../_static/jquery.js"></script>
+<script type="text/javascript" src="../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Deutsch-Jozsa Algorithm" href="080-Deutsch-Jozsa_Algorithm.html" />
+    <link rel="prev" title="Basic Circuit Identities and Larger Circuits" href="061-Basic_Circuit_Identities_and_Larger_Circuits.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes"> 
+
+    <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+
+</head>
+
+<body>    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/ibm-q.png"></span>
+          Experience Documentation</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../user_guide.html">IBM Quantum Experience Documentation</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Grover’s Algorithm</a><ul>
+<li><a class="reference internal" href="#unstructured-search">Unstructured search</a></li>
+<li><a class="reference internal" href="#the-oracle">The Oracle</a></li>
+<li><a class="reference internal" href="#amplitude-amplification">Amplitude amplification</a></li>
+<li><a class="reference internal" href="#example-circuits">Example circuits</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="061-Basic_Circuit_Identities_and_Larger_Circuits.html" title="Previous Chapter: Basic Circuit Identities and Larger Circuits"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Basic Circuit...</span>
+    </a>
+  </li>
+  <li>
+    <a href="080-Deutsch-Jozsa_Algorithm.html" title="Next Chapter: Deutsch-Jozsa Algorithm"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Deutsch-Jozsa... &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../../_sources/full-user-guide/004-Quantum_Algorithms/070-Grover&#39;s_Algorithm.rst.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div> 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 content">
+            
+  <div class="section" id="grover-s-algorithm">
+<h1>Grover’s Algorithm<a class="headerlink" href="#grover-s-algorithm" title="Permalink to this headline">¶</a></h1>
+<p>We are now in a good place to discuss our first quantum algorithms and
+subroutines. Let’s begin with <a class="reference external" href="http://arxiv.org/abs/quant-ph/9605043">Grover’s search
+algorithm</a> and the <em>amplitude
+amplification trick</em>.</p>
+<p>You have likely heard that one of the many advantages a quantum computer
+has over a classical computer is its superior speed searching databases.
+Grover’s algorithm demonstrates this capability. This algorithm can
+speed up an unstructured search problem quadratically, but its uses
+extend beyond that; it can serve as a general trick or subroutine to
+obtain quadratic run time improvements for a variety of other
+algorithms. This is called the amplitude amplification trick. But before
+we start the simulations, let’s look at the unstructured search problem.</p>
+<div class="section" id="unstructured-search">
+<h2>Unstructured search<a class="headerlink" href="#unstructured-search" title="Permalink to this headline">¶</a></h2>
+<p>Suppose you are given a large list of <span class="math">\(N\)</span> items. Among these items
+there is one item with a unique property that we wish to locate; we will
+call this one the winner <span class="math">\(w\)</span>. Think of each item in the list as a box
+of a particular color. Say all items in the list are gray except the
+winner <span class="math">\(w\)</span>, which is pink.</p>
+<div class="line-block">
+<div class="line"><img alt="image0" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Picture1zdnvcphw1b07wrk9.png" /></div>
+</div>
+<p>To find the pink box – the <em>marked item</em> – using classical
+computation, one would have to check on average <span class="math">\(N/2\)</span> of these boxes,
+and in the worst case, all <span class="math">\(N\)</span> of them. On a quantum computer,
+however, we can find the marked item in roughly <span class="math">\(\sqrt{N}\)</span> steps with
+Grover’s amplitude amplification trick. It was proven (even before
+Grover’s algorithm was discovered!) that this speedup is in fact the
+most we can hope for [<a class="reference external" href="http://arxiv.org/abs/quant-ph/9701001">Bennett,
+1997</a>]. A quadratic speedup is
+indeed a substantial time-saver for finding marked items in long lists.
+Additionally, the algorithm does not use the list’s internal structure,
+which makes it <em>generic;</em> this is why it immediately provides a
+quadratic quantum speed-up for many classical problems.</p>
+</div>
+<div class="section" id="the-oracle">
+<h2>The Oracle<a class="headerlink" href="#the-oracle" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">How will the list items be provided to the quantum computer? A common
+way to encode such a list is in terms of a function <span class="math">\(f\)</span> which returns
+<span class="math">\(f(x) = 0\)</span> for all unmarked items <span class="math">\(x\)</span> and <span class="math">\(f(w) = 1\)</span> for the winner.
+To use a quantum computer for this problem, we must provide the items
+in superposition to this function, so we encode the function into a
+unitary matrix called an <em>oracle</em>. First we choose a binary encoding
+of the items <span class="math">\(x, w \in \{0,1\}^n\)</span> so that <span class="math">\(N = 2^n\)</span>; now we can
+represent it in terms of qubits on a quantum computer. Then we define
+the oracle matrix <span class="math">\(U_f\)</span> to act on any of the simple, standard basis
+states <span class="math">\(| x \rangle\)</span> by</div>
+</div>
+<div class="line-block">
+<div class="line">:math:` U_f | x rangle = (-1)^{f(x)}&nbsp; |&nbsp; x rangle.`</div>
+</div>
+<p>We see that if <span class="math">\(x\)</span> is an unmarked item, the oracle does nothing to the
+state. However, when we apply the oracle to the basis state :math:` | w
+rangle <cite>, it maps :math:`U_f | w rangle = -| w rangle</cite>.
+Geometrically, this unitary matrix corresponds to a reflection about the
+origin for the marked item in an <span class="math">\(N = 2^n\)</span> dimensional vector space.</p>
+</div>
+<div class="section" id="amplitude-amplification">
+<h2>Amplitude amplification<a class="headerlink" href="#amplitude-amplification" title="Permalink to this headline">¶</a></h2>
+<p>So how does the algorithm work? Before looking at the list of items, we
+have no idea where the marked item is. Therefore, any guess of its
+location is as good as any other, which can be expressed in terms of a
+quantum state called a <em>uniform superposition</em>:</p>
+<p>:math:` <a href="#id1"><span class="problematic" id="id2">|</span></a>s rangle = frac{1}{sqrt{N}} sum_{x = 0}^{N -1} | x
+rangle.`</p>
+<div class="line-block">
+<div class="line">If at this point we were to measure in the standard basis <span class="math">\(\{ | x
+\rangle \}\)</span>, this superposition would collapse, according to the
+fifth quantum law, to any one of the basis states with the same
+probability of <span class="math">\(\frac{1}{N} = \frac{1}{2^n}\)</span>. Our chances of
+guessing the right value <span class="math">\(w\)</span> is therefore <span class="math">\(1\)</span> in <span class="math">\(2^n\)</span>, as could be
+expected. Hence, on average we would need to try about <span class="math">\(N = 2^n\)</span> times
+to guess the correct item.</div>
+</div>
+<p>Enter the procedure called amplitude amplification, which is how a
+quantum computer significantly enhances this probability. This procedure
+stretches out (amplifies) the amplitude of the marked item, which
+shrinks the other items’ amplitude, so that measuring the final state
+will return the right item with near-certainty.</p>
+<p>This algorithm has a nice geometrical interpretation in terms of two
+reflections, which generate a rotation in a two-dimensional plane. The
+only two special states we need to consider are the winner <span class="math">\(| w
+\rangle\)</span> and the uniform superposition :math:` | s rangle <cite>. These two
+vectors span a two-dimensional plane in the vector space
+:math:</cite>mathbb{C}^N.` They are not quite perpendicular because <span class="math">\(| w
+\rangle\)</span> occurs in the superposition with amplitude <span class="math">\(N^{-1/2}\)</span> as well.
+We can, however, introduce an additional state <span class="math">\(|s'\rangle\)</span> that is in
+the span of these two vectors, which is perpendicular to <span class="math">\(| w \rangle\)</span>
+and is obtained from <span class="math">\(|s \rangle\)</span> by removing <span class="math">\(| w \rangle\)</span> and
+rescaling.</p>
+<div class="line-block">
+<div class="line"><strong>step 0</strong> The amplitude amplification procedure starts out in the
+uniform superposition <span class="math">\(| s \rangle\)</span>.&nbsp; (The uniform superposition is
+easily constructed from <span class="math">\(| s \rangle = H^{\otimes n} | 0
+\rangle^n\)</span>, as was shown in a previous section.) At <span class="math">\(t = 0\)</span> the
+initial state is <span class="math">\(| \psi_0 \rangle = &nbsp; |s \rangle\)</span>.</div>
+</div>
+<div class="line-block">
+<div class="line"><img alt="image1" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Picture15h8emcr7mucy2e29.png" /></div>
+</div>
+<div class="line-block">
+<div class="line">The left graphic corresponds to the two-dimensional plane spanned by
+<span class="math">\(|w\rangle, |s\rangle\)</span>. The right graphic is a bar graph of the
+amplitudes of the state <span class="math">\(| \psi_t \rangle\)</span> for the case <span class="math">\(N = 2^2 =
+4\)</span>. The average amplitude is indicated by a dashed line.</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>step 1</strong> We apply the oracle reflection <span class="math">\(U_f\)</span> to the state <span class="math">\(U_f |
+\psi_t \rangle = &nbsp;| \psi_{t'} \rangle\)</span>.</div>
+</div>
+<div class="line-block">
+<div class="line"><img alt="image2" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Picture1fj26kfen5xrsh5mi.png" /></div>
+</div>
+<p>Geometrically this corresponds to a reflection of the state
+<span class="math">\(|\psi_t\rangle\)</span> about <span class="math">\(-|w\rangle\)</span>. This transformation means
+that the amplitude in front of the <span class="math">\(|w\rangle\)</span> state becomes negative,
+which in turn means that the average amplitude has been lowered.</p>
+<div class="line-block">
+<div class="line"><strong>step 2</strong> We now apply an additional reflection <span class="math">\(U_s\)</span> about the
+state <span class="math">\(|s\rangle\)</span>. In the
+<a class="reference external" href="https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation">bra-ket</a>
+notation this reflection is written <span class="math">\(U_s = 2|s\rangle\langle s| -
+\mathbb{1}\)</span>. This transformation maps the state to <span class="math">\(U_s |
+\psi_{t'} \rangle\)</span> and completes the transformation
+<span class="math">\(|\psi_{t+1}\rangle = U_s U_f | \psi_t \rangle\)</span>.</div>
+</div>
+<div class="line-block">
+<div class="line"><img alt="image3" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Picture1j1gz5ve3zwyd5cdi.png" /></div>
+</div>
+<p>Two reflections always correspond to a rotation. The transformation
+<span class="math">\(U_s U_f\)</span> rotates the initial state <span class="math">\(|s\rangle\)</span> closer towards the
+winner <span class="math">\(|w\rangle\)</span>. The action of the reflection <span class="math">\(U_s\)</span> in the
+amplitude bar diagram can be understood as a reflection about the
+average amplitude. Since the average amplitude has been lowered by the
+first reflection, this transformation boosts the negative amplitude of
+<span class="math">\(|w\rangle\)</span> to roughly three times its original value, while it
+decreases the other amplitudes. We then go to <strong>step 1</strong> to repeat the
+application. This procedure will be repeated several times to zero in on
+the winner.</p>
+<div class="line-block">
+<div class="line">After <span class="math">\(t\)</span> steps the state will have transformed to</div>
+</div>
+<div class="line-block">
+<div class="line"><span class="math">\(| \psi_t \rangle = (U_s U_f)^t&nbsp; | \psi_0 \rangle.\)</span></div>
+</div>
+<div class="line-block">
+<div class="line">How many times do we need to apply the rotation? It turns out that
+roughly <span class="math">\(\sqrt{N}\)</span> rotations suffice. This becomes clear when looking
+at the amplitudes of the state <span class="math">\(| \psi_t \rangle\)</span>. We can see that
+the amplitude of :math:` | w rangle` grows linearly with the number of
+applications <span class="math">\(\sim t N^{-1/2}\)</span>. However, since we are dealing with
+amplitudes and not probabilities, the vector space’s dimension enters
+as a square root. Therefore it is the amplitude, and not just the
+probability, that is being amplified in this procedure.</div>
+</div>
+<div class="line-block">
+<div class="line">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="image4" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-04%20at%201.50.25%20AM0qbyzkc53sj1yvi.png" /></div>
+</div>
+</div>
+<div class="section" id="example-circuits">
+<h2>Example circuits<a class="headerlink" href="#example-circuits" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">Let us now examine a simple example. The smallest circuit for which
+this can be implemented involves 2 qubits, i.e. <span class="math">\(N = 2^2\)</span>, which means
+there are four possible oracles <span class="math">\(U_f\)</span>, one for each choice of the
+winner. The first part of this example creates the uniform
+superposition. The second part tags the state with <span class="math">\(U_f\)</span>, which is
+made from&nbsp;a control-Z gate, made from a CNOT (as described in the last
+section). The final part of the circuit performs <span class="math">\(U_s\)</span>.</div>
+</div>
+</div>
+</div>
+
+
+        </div>
+          
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-right">
+            <a href="#">Back to top</a> 
+        </p>
+        <p> &copy;
+            Copyright 2017, IBM Research, Jim Challenger, Andrew Cross, Ismael Faro, Jay Gambetta, Jesus Perez, and John Smolin.<br/> Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.<br/>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>

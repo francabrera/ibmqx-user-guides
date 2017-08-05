@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../../_static/theme.css" type="text/css" /> 
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Shor’s algorithm &#8212; Experience Documentation 2.0 documentation</title>
+<link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: '../../',
+        VERSION: '2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: true,
+        SOURCELINK_SUFFIX: '.txt'
+    };
+</script>
+<script type="text/javascript" src="../../_static/jquery.js"></script>
+<script type="text/javascript" src="../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Quantum Error Correction" href="../005-Quantum_Error_Correction/059-Quantum_Error_Correction.html" />
+    <link rel="prev" title="Quantum Phase Estimation" href="100-Quantum_Phase_Estimation.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes"> 
+
+    <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+
+</head>
+
+<body>    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/ibm-q.png"></span>
+          Experience Documentation</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../user_guide.html">IBM Quantum Experience Documentation</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Shor’s algorithm</a><ul>
+<li><a class="reference internal" href="#complexity-of-factoring"><strong>Complexity of factoring</strong>.</a></li>
+<li><a class="reference internal" href="#period-finding"><strong>Period finding</strong>.﻿﻿ ﻿</a></li>
+<li><a class="reference internal" href="#from-factoring-to-period-finding"><strong>From factoring to period finding</strong>.</a></li>
+<li><a class="reference internal" href="#id1"><strong>Shor’s algorithm</strong>.</a></li>
+<li><a class="reference internal" href="#reversible-classical-circuits"><strong>Reversible classical circuits</strong>.</a></li>
+<li><a class="reference internal" href="#quantum-circuits-for-modular-multiplication"><strong>Quantum circuits for modular multiplication</strong>.</a></li>
+<li><a class="reference internal" href="#controlled-operations-and-phase-estimation"><strong>﻿Controlled operations and phase estimation</strong>.﻿</a><ul>
+<li><a class="reference internal" href="#id8">**</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="100-Quantum_Phase_Estimation.html" title="Previous Chapter: Quantum Phase Estimation"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Quantum Phase...</span>
+    </a>
+  </li>
+  <li>
+    <a href="../005-Quantum_Error_Correction/059-Quantum_Error_Correction.html" title="Next Chapter: Quantum Error Correction"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Quantum Error... &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../../_sources/full-user-guide/004-Quantum_Algorithms/110-Shor&#39;s_algorithm.rst.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div> 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 content">
+            
+  <div class="section" id="shor-s-algorithm">
+<h1>Shor’s algorithm<a class="headerlink" href="#shor-s-algorithm" title="Permalink to this headline">¶</a></h1>
+<div class="line-block">
+<div class="line">Although any integer number has a unique decomposition into a product
+of primes, finding the prime factors is believed to be a hard&nbsp;problem.
+In fact, the security of our online transactions rests on the
+assumption that&nbsp;factoring integers with a thousand or more digits is
+practically impossible.&nbsp;This assumption has been challenged in 1995
+when Peter Shor proposed a polynomial-time quantum&nbsp;algorithm for the
+factoring problem. Shor’s algorithm is arguably the most dramatic
+example of how the paradigm of quantum computing changed our
+perception of which problems should be considered tractable. In this
+section we briefly summarize some basic facts about factoring,
+highlight&nbsp;main ingredients of the Shor’s algorithm,&nbsp;and illustrate how
+it works using a toy factoring problem.</div>
+</div>
+<div class="section" id="complexity-of-factoring">
+<h2><strong>Complexity of factoring</strong>.<a class="headerlink" href="#complexity-of-factoring" title="Permalink to this headline">¶</a></h2>
+<p>Suppose our task is to factor an integer <span class="math">\(N\)</span> with <span class="math">\(d\)</span> decimal
+digits. The brute force algorithm&nbsp;goes through all primes <span class="math">\(p\)</span> up to
+<span class="math">\(\sqrt{N}\)</span> and checks whether <span class="math">\(p\)</span> divides <span class="math">\(N\)</span>.&nbsp;In the worst case,
+this would take time roughly <span class="math">\(\sqrt{N}\)</span> which is exponential in the
+number of digits <span class="math">\(d\)</span>. &nbsp;A more efficient algorithm known as the
+quadratic sieve attempts to construct integers <span class="math">\(a,b\)</span> such that
+<span class="math">\(a^2-b^2\)</span> is a multiple of <span class="math">\(N\)</span>.&nbsp;Once such <span class="math">\(a,b\)</span> are found, one
+checks whether <span class="math">\(a\pm b\)</span> have common factors with <span class="math">\(N\)</span>. &nbsp;The
+quadratic sieve method has asymptotic runtime exponential in
+<span class="math">\(\sqrt{d}\)</span>. The most efficient classical factoring algorithm known as
+general number field sieve&nbsp;achieves an asymptotic runtime exponential in
+<span class="math">\(d^{1/3}\)</span>. &nbsp;The exponential runtime scaling limits applicability of
+the classical factoring algorithms&nbsp;to numbers with a few hundred digits
+&nbsp;with the world record being <span class="math">\(d=232\)</span> (which took roughly 2,000 CPU
+years). &nbsp;In contrast, Shor’s factoring algorithm has runtime
+<em>polynomial</em> in <span class="math">\(d\)</span>. The&nbsp;version of the algorithm described below due
+to Alexey Kitaev&nbsp;requires roughly <span class="math">\(10d\)</span> qubits and has runtime
+&nbsp;roughly <span class="math">\(d^3\)</span>.</p>
+<p><img alt="image0" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/shor-figure1l0qpbqeb138fr.png" />&nbsp; &nbsp; **&nbsp;**</p>
+<div class="line-block">
+<div class="line"><strong>Figure 1: classical vs quantum factoring algorithms</strong></div>
+</div>
+</div>
+<div class="section" id="period-finding">
+<h2><strong>Period finding</strong>.﻿﻿ ﻿<a class="headerlink" href="#period-finding" title="Permalink to this headline">¶</a></h2>
+<p>It has been known to mathematicians since 1970’s that factoring becomes
+easy if one can solve another hard problem: find a period&nbsp;of the modular
+exponential function. The period finding problem is defined as
+follows.&nbsp;Given integers <span class="math">\(N\)</span> and <span class="math">\(a\)</span>, find the smallest positive
+integer <span class="math">\(r\)</span> &nbsp;such that <span class="math">\(a^r-1\)</span> is a multiple of <span class="math">\(N\)</span>. The number
+<span class="math">\(r\)</span> is called the period of <span class="math">\(a\)</span> modulo <span class="math">\(N\)</span>.&nbsp;Recall that in modular
+arithmetics the remainder of a division <span class="math">\(a/N\)</span> is called the value of
+<span class="math">\(a\)</span> modulo <span class="math">\(N\)</span> and denoted <span class="math">\(a\pmod{N}\)</span>. For example, <span class="math">\(1=16=91
+\pmod{15}\)</span>. Thus the period of <span class="math">\(a\)</span> modulo <span class="math">\(N\)</span> is the smallest
+positive integer <span class="math">\(r\)</span> such that <span class="math">\(a^r=1{\pmod N}\)</span>. For example,
+suppose <span class="math">\(N=15\)</span> and <span class="math">\(a=7\)</span>. Then</p>
+<div class="line-block">
+<div class="line"><img alt="image1" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/shor-equation3fjaulqz4sqe3766r.png" /></div>
+</div>
+<p>that is, <span class="math">\(7\)</span> has period <span class="math">\(4\)</span> modulo <span class="math">\(15\)</span>. Note that computing the
+higher powers of <span class="math">\(7\)</span> would give rise to a periodic sequence:
+<span class="math">\(7^{x+4}=7^x\pmod{15}\)</span> for any integer <span class="math">\(x\)</span>. Thus <span class="math">\(r=4\)</span> is the
+period of the modular exponential function <span class="math">\(7^x\)</span>. &nbsp;In general the
+period finding problem is well-defined if <span class="math">\(N\)</span> and <span class="math">\(a\)</span> are co-prime
+(have no common factors).</p>
+</div>
+<div class="section" id="from-factoring-to-period-finding">
+<h2><strong>From factoring to period finding</strong>.<a class="headerlink" href="#from-factoring-to-period-finding" title="Permalink to this headline">¶</a></h2>
+<p>Assume for a moment that we are given a period finding machine that
+takes as input co-prime integers <span class="math">\(N,a\)</span> and outputs the period of <span class="math">\(a\)</span>
+modulo <span class="math">\(N\)</span>. Let us show how to use the machine to find all prime
+factors of <span class="math">\(N\)</span>. For simplicity, assume that <span class="math">\(N\)</span> has only two
+distinct prime factors:</p>
+<div class="line-block">
+<div class="line"><img alt="image2" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/shor-equation21ma2bwliskjd1jor.png" /></div>
+</div>
+<p>First, pick a random integer <span class="math">\(a\)</span> between <span class="math">\(2\)</span> and <span class="math">\(N-1\)</span>&nbsp;and compute
+the greatest common divisor gcd:math:<cite>(N,a)</cite>.&nbsp;This can be done very
+efficiently using <a class="reference external" href="http://en.wikipedia.org/wiki/Euclidean_algorithm">Euclid’s
+algorithm</a>.&nbsp;If we
+are lucky, <span class="math">\(N\)</span> and <span class="math">\(a\)</span> have some common prime factors&nbsp;in which case
+gcd:math:<cite>(N,a)</cite> equals <span class="math">\(p_1\)</span> or <span class="math">\(p_2\)</span>, so we are done.&nbsp;From now on
+let us assume that gcd:math:<cite>(N,a)=1</cite>, that is, <span class="math">\(N\)</span> and <span class="math">\(a\)</span> are
+co-prime.&nbsp;Let <span class="math">\(r\)</span> be the period of <span class="math">\(a\)</span> modulo <span class="math">\(N\)</span> computed by the
+machine.&nbsp;Repeat the above steps with different random choices of <span class="math">\(a\)</span>
+until <span class="math">\(r\)</span> is even. &nbsp;It can be shown that a significant fraction of all
+integers <span class="math">\(a\)</span> &nbsp;has even period,&nbsp;see Table 1 for examples, so on average
+one needs only a few repetitions. &nbsp;At this point we have found some pair
+<span class="math">\(r,a\)</span>&nbsp;such that <span class="math">\(r\)</span> is even and <span class="math">\(r\)</span> is the smallest integer such
+that <span class="math">\(a^r-1\)</span> is a multiple of <span class="math">\(N\)</span>.&nbsp;Let us use the identity</p>
+<div class="line-block">
+<div class="line"><img alt="image3" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/shor-equation1vm27qee4bcma38fr.png" /></div>
+</div>
+<div class="line-block">
+<div class="line">The above shows that <span class="math">\(a^{r/2}-1\)</span> is not a multiple of <span class="math">\(N\)</span>
+(otherwise the period of <span class="math">\(a\)</span> would be <span class="math">\(r/2\)</span>). Assume for a moment
+that <span class="math">\(a^{r/2}+1\)</span> is not a multiple of <span class="math">\(N\)</span>.&nbsp;Then neither of the
+integers <span class="math">\(a^{r/2}\pm 1\)</span>&nbsp;is a multiple of <span class="math">\(N\)</span>, but their product
+is. &nbsp;This is possible only if <span class="math">\(p_1\)</span> is a prime factor of
+<span class="math">\(a^{r/2}-1\)</span>&nbsp;and <span class="math">\(p_2\)</span> is a prime factor of <span class="math">\(a^{r/2}+1\)</span> (or vice
+verse).&nbsp;Thus we can find <span class="math">\(p_1\)</span> and <span class="math">\(p_2\)</span> by computing
+gcd:math:<cite>(N,a^{r/2}pm 1)</cite>, see Table 1 for examples. &nbsp;In the remaining
+``unlucky” case when <span class="math">\(a^{r/2}+1\)</span> is a multiple of <span class="math">\(N\)</span>&nbsp;we give up
+and try a different integer <span class="math">\(a\)</span>. &nbsp;For example, <span class="math">\(a=14\)</span> is the only
+unlucky integer in Table 1.&nbsp;In general, &nbsp;it can be shown that the
+unlucky integers <span class="math">\(a\)</span> are not too frequent, so on average only two
+calls to the period finding machine&nbsp;are sufficient to factor <span class="math">\(N\)</span>.</div>
+</div>
+<div class="line-block">
+<div class="line"><img alt="image4" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/shor-table9nl8715xk3d3rf6r.png" /></div>
+<div class="line"><strong>Table 1: period of integers :math:`a` modulo :math:`15`</strong></div>
+</div>
+</div>
+<div class="section" id="id1">
+<h2><strong>Shor’s algorithm</strong>.<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">Let us now show that a quantum computer can efficiently simulate&nbsp;the
+period finding machine. &nbsp;As in the case of the<a class="reference external" href="/qstage/#/tutorial?sectionId=8443c4f713521c10b1a56a533958286b&amp;pageIndex=3">Deutsch-Jozsa
+algorithm</a>,
+we shall exploit quantum parallelism and constructive interference to
+determine whether a complicated function has a certain&nbsp;global property
+that cannot be learned by evaluating the function only at a few
+points.&nbsp;However, instead of detecting the property of being a balanced
+function, we seek to detect and measure&nbsp;periodicity of the modular
+exponentiation function. The fact that interference makes it easier to
+measure&nbsp;periodicity should not come as a big surprise. After all,
+physicists routinely use scattering of electromagnetic waves&nbsp;and
+interference measurements to determine periodicity of physical objects
+such as crystal lattices. Likewise, Shor’s algorithm exploits
+interference to measure periodicity of arithmetic objects.</div>
+</div>
+<p>Suppose we are given co-prime integers <span class="math">\(a,N\)</span>. Our goal is compute the
+period of <span class="math">\(a\)</span>&nbsp;modulo <span class="math">\(N\)</span>, that is, the smallest positive integer
+<span class="math">\(r\)</span> such that <span class="math">\(a^r=1\pmod{N}\)</span>.&nbsp;The basic idea is to construct a
+unitary operator <span class="math">\(U_a\)</span> that implements the modular
+multiplication&nbsp;function <span class="math">\(x\to ax \pmod{N}\)</span>. It can be shown that
+eigenvalues of <span class="math">\(U_a\)</span> are closely related to the period of <span class="math">\(a\)</span>.
+Namely, each eigenvalue of <span class="math">\(U_a\)</span> has a form <span class="math">\(e^{i\phi}\)</span>, where
+<span class="math">\(\phi=2\pi k/r\)</span>&nbsp;for some integer <span class="math">\(k\)</span>. Furthermore, as we saw in
+the previous section, eigenvalues of certain unitary operators can be
+measured efficiently using the phase estimation
+algorithm.&nbsp;Unfortunately, inferring <span class="math">\(r\)</span> from the measured eigenvalues
+of <span class="math">\(U_a\)</span>&nbsp;is only possible if the eigenvalues are measured <em>exactly</em>
+(or with an exponentially small precision).&nbsp;For example, factoring a
+1,000-digit number would require measuring the eigenvalue of <span class="math">\(U_a\)</span>
+with a precision <span class="math">\(10^{-2000}\)</span>.&nbsp;Such accuracy cannot be achieved by a
+direct application of the phase estimation algorithm&nbsp;as this would
+require too large pointer system.&nbsp;Here comes the main trick: we shall
+estimate the eigenvalue of <span class="math">\(U_a\)</span> by&nbsp;applying&nbsp;the phase estimation
+algorithm to a family of unitary operators <span class="math">\(U_b\)</span>&nbsp;with
+<span class="math">\(b=a,a^2,a^4,a^8\)</span> etc.&nbsp;We stop at <span class="math">\(b=a^{2^p}\)</span> with <span class="math">\(2^p\approx
+N^2\)</span>.&nbsp;Why does it work? The first observation is that &nbsp;all operators
+<span class="math">\(U_b\)</span> are integer powers of <span class="math">\(U_a\)</span>.&nbsp;Namely, if <span class="math">\(b=a^t\)</span> then
+<span class="math">\(U_b=(U_a)^t\)</span>.&nbsp;This implies that the operators <span class="math">\(U_b\)</span>&nbsp;&nbsp;have the
+same eigenvectors.&nbsp;In particular, eigenvalues of the entire family
+<span class="math">\(U_b\)</span>&nbsp;can be measured simultaneously. &nbsp;Second, implementing <span class="math">\(U_b\)</span>
+is as easy as implementing <span class="math">\(U_a\)</span> - one just need&nbsp;to precompute the
+powers <span class="math">\(b=a,a^2,a^4,a^8,\ldots \pmod{N}\)</span> by the repeated squaring
+method.&nbsp;Finally, even if the eigenvalues of <span class="math">\(U_b\)</span> are measured with a
+poor precision (say 10%),&nbsp;each squaring of <span class="math">\(a\)</span> reduces the error in
+the estimated eigenvalue of <span class="math">\(U_a\)</span> by&nbsp;a factor <span class="math">\(1/2\)</span>. &nbsp;Indeed,
+consider an eigenvector of <span class="math">\(U_a\)</span> with an eigenvalue
+<span class="math">\(e^{i\phi}\)</span>.&nbsp;If <span class="math">\(b=a^2\)</span> then the eigenvalue of <span class="math">\(U_b\)</span> is
+<span class="math">\(e^{2i\phi}\)</span>. If <span class="math">\(b=a^4\)</span> then the&nbsp;eigenvalue of <span class="math">\(U_b\)</span> &nbsp;is
+<span class="math">\(e^{4i\phi}\)</span> etc. Thus we can estimate
+<span class="math">\(\phi,2\phi,4\phi,\ldots,2^p\phi\)</span> with a constant precision (say
+10%). We shall see that this&nbsp;is enough to estimate <span class="math">\(\phi\)</span> with a
+precision roughly <span class="math">\(2^{-p}\)</span>. &nbsp;For example, &nbsp;one can achieve a precision
+<span class="math">\(10^{-2000}\)</span>&nbsp;by a sequence of less than <span class="math">\(10^6\)</span> &nbsp;lousy measurements
+of <span class="math">\(U_b\)</span> with an error 10%. Furthermore, it can be shown that
+estimating a few randomly picked eigenvalues&nbsp;<span class="math">\(\phi=2\pi k/r\)</span> with a
+precision less than <span class="math">\(1/N^2\)</span> is enough to determine the period <span class="math">\(r\)</span>
+exactly (the idea is to find the best rational approximation to the
+estimate of <span class="math">\(k/r\)</span> using continued fractions).</p>
+<p>In order to use the phase estimation algorithm we need to construct a
+quantum circuit implementing the modular multiplication operator. By
+analogy with classical algorithms that can link standard library
+functions, a quantum algorithm is allowed to call classical subroutines,
+for example a subroutine for computing the modular multiplication.
+Importantly, before such classical subroutines are incorporated into a
+quantum circuit, they must be transformed into a <a href="#id2"><span class="problematic" id="id3">*</span></a>reversible
+form.&nbsp;<a href="#id4"><span class="problematic" id="id5">*</span></a>More precisely, a quantum algorithm can call a classical
+subroutine only if it is compiled into a sequence of reversible logical
+gates such as CNOT or Toffoli gate (in particular, the number of input
+and output wires in each gate must be the same). The&nbsp;subroutine is
+allowed to use a scratch memory similar to local variables used by the
+standard library functions. However, once the subroutine is completed,
+the scratch memory must be totally clean (say, all zeros).&nbsp;The reason is
+that a quantum algorithm operates on coherent superpositions of
+different classical states. Leaving information about the inputs or the
+outputs in the scratch memory could potentially destroy quantum
+coherence and prevent the algorithm from seeing interference between
+different states. Since the notion of reversible classical circuits
+&nbsp;plays an important role in the Shor’s algorithm and many other quantum
+algorithms, below we briefly discuss methods for constructing such
+circuits.</p>
+</div>
+<div class="section" id="reversible-classical-circuits">
+<h2><strong>Reversible classical circuits</strong>.<a class="headerlink" href="#reversible-classical-circuits" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">An important insight made in 1973 by our IBM colleague Charles Bennett
+is that any classical computation can be transformed into a reversible
+form.&nbsp;How does it work?&nbsp;Suppose <span class="math">\(f(x)\)</span> represents some classical
+computation that takes&nbsp;as input <span class="math">\(n\)</span>-bit strings <span class="math">\(x\)</span> and outputs
+<span class="math">\(m\)</span>-bit strings <span class="math">\(f(x)\)</span>. The first observation is that the answer
+<span class="math">\(f(x)\)</span>&nbsp;can be computed without erasing any intermediate data if we
+are allowed to use some extra memory. Indeed, let us write down an
+algorithm for computing <span class="math">\(f(x)\)</span> and compile it into a sequence of
+elementary&nbsp;logical gates such as AND, OR, etc. For concreteness,
+assume that each gate has two input wires and one output wire. &nbsp;Let
+<span class="math">\(L\)</span> be the total number of gates. We shall extend the <span class="math">\(n\)</span>-bit
+memory storing the input <span class="math">\(x\)</span> by adding <span class="math">\(L\)</span> bits initialized by
+zeros. These extra bits will serve as a scratch memory for storing
+intermediate data.&nbsp;We shall write the output of the &nbsp;<span class="math">\(i\)</span>-th gate to
+the <span class="math">\(i\)</span>-th bit of the scratch memory and keep the values of
+the&nbsp;input bits. Once the computation is completed, the final answer
+<span class="math">\(f(x)\)</span> is contained in some designated output register within the
+scratch memory. The remaining part of the scratch memory contains some
+“garbage” bit string <span class="math">\(g(x)\)</span> (intermediate data). &nbsp;Below we
+illustrate how it works for the example when <span class="math">\(f(x)\)</span> computes the
+3-bit Majority function.</div>
+</div>
+<div class="line-block">
+<div class="line"><img alt="image5" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/majority-example6x8rb37gj64dkj4i.png" /></div>
+</div>
+<p>At this point the circuit is reversible as a whole, but its individual
+gates are still irreversible. The next step is to transform each gate
+into a reversible form. Consider as an example the AND gate with input
+wires <span class="math">\(a,b\)</span> and output wire <span class="math">\(c\)</span> such that <span class="math">\(c=a\wedge b\)</span>. Let us
+define its reversible version R-AND. One of the output wires of R-AND
+must carry the output bit <span class="math">\(c\)</span> of the standard AND gate. To avoid
+losing information, R-AND must have at least two other output wires
+(note that in the case <span class="math">\(c=0\)</span> there are three possible input strings:
+<span class="math">\(ab=00,01,10\)</span>). The simplest version of R-AND has three input wires
+and three output wires as shown below.</p>
+<div class="line-block">
+<div class="line"><img alt="image6" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/and-circuit2u342pzqqlnv1jor.png" /></div>
+</div>
+<p>Here <span class="math">\(d\)</span> is a dummy input wire and <span class="math">\(\oplus\)</span> denotes XOR operation
+(addition modulo two). The gate expects to receive inputs with <span class="math">\(d=0\)</span>
+in which case <span class="math">\(c=a\wedge b\)</span>. If <span class="math">\(d=1\)</span> then the output data bit if
+flipped. Note that all inputs of R-AND can be computed from its outputs
+since <span class="math">\(d=c\oplus (a\wedge b)\)</span>. Thus R-AND indeed acts reversibly
+(technically, R-AND realizes a permutation on the set of 3-bit strings).
+Note also that R-AND coincides with the <a class="reference external" href="/qstage/#/tutorial?sectionId=8443c4f713521c10b1a56a533958286b&amp;pageIndex=1">Toffoli
+gate</a>.
+The same construction can be applied to any other gate with two input
+wires and one output wire. Namely, if a gate F computes some Boolean
+function <span class="math">\(c=F(a,b)\)</span> then its reversible version R-F would map inputs
+<span class="math">\(a,b,d\)</span> to outputs <span class="math">\(a,b,c\)</span> where <span class="math">\(c=d\oplus F(a,b)\)</span>, see below.
+Note that applying R-F twice implements the identity gate, that is, R-F
+coincides with its own inverse.</p>
+<div class="line-block">
+<div class="line"><img alt="image7" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/rgatearl3s2mvkon4gqfr.png" /></div>
+</div>
+<p>Suppose the original circuit is described by a sequence of <span class="math">\(L\)</span> gates
+<span class="math">\(F_1,\ldots,F_L\)</span>. Replace each gate &nbsp;<span class="math">\(F_i\)</span> &nbsp;by its reversible
+version <span class="math">\(G_i=R\)</span>-<span class="math">\(F_i\)</span> constructed above. &nbsp;We shall connect the
+dummy input wire of <span class="math">\(G_i\)</span> and its output wire <span class="math">\(c\)</span> to the <span class="math">\(i\)</span>-th
+bit of the scratch memory such that the gate always receives inputs with
+<span class="math">\(d=0\)</span>. The new circuit has <span class="math">\(n+L\)</span> input and <span class="math">\(n+L\)</span> output wires and
+is composed from reversible <span class="math">\(3\)</span>-bit gates. The final state generated
+by the circuit&nbsp;can be written as <span class="math">\(x,g(x),f(x)\)</span>, where&nbsp;<span class="math">\(f(x)\)</span> is the
+final answer stored in the output register somewhere within the&nbsp;scratch
+memory and <span class="math">\(g(x)\)</span>&nbsp;represents ``garbage”&nbsp;(intermediate data). Here we
+assumed that the scratch memory is initially clean (all zeros). Thus we
+have constructed a reversible circuit&nbsp;that maps <span class="math">\(x,0^L\)</span> to
+<span class="math">\(x,g(x),f(x)\)</span>. The final step is&nbsp;to get rid of the garbage <span class="math">\(g(x)\)</span>
+without erasing any information&nbsp;(which would render the circuit
+irreversible).&nbsp;A solution is to copy the answer <span class="math">\(f(x)\)</span> to a clean
+ancillary register of <span class="math">\(m\)</span> bits and then ``uncompute” <span class="math">\(f(x)\)</span>&nbsp;by
+applying the circuit backwards in time.&nbsp;Below we sketch how this works.</p>
+<p>&nbsp;<img alt="image8" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/uncomputel5yqmeuw09gam7vi.png" /></p>
+<p>Ignoring for&nbsp;simplicity all ancillary bits &nbsp;that are initialized and
+returned in the zero state, we obtained a reversible circuit on <span class="math">\(n+m\)</span>
+bits that maps input strings <span class="math">\(x,y\)</span> to output strings <span class="math">\(x,y\oplus
+f(x)\)</span>. In the special case when the <span class="math">\(f(x)\)</span> is invertible one can use
+similar tricks to &nbsp;construct a reversible circuit that maps input
+strings <span class="math">\(x\)</span> to output strings <span class="math">\(f(x)\)</span>. &nbsp;In practice, one would never
+use the method described above since it requires too large scratch
+memory. Several optimization techniques for constructing reversible
+circuits have been proposed (such as uncomputing partial results more
+often and reusing scratch memory bits).</p>
+</div>
+<div class="section" id="quantum-circuits-for-modular-multiplication">
+<h2><strong>Quantum circuits for modular multiplication</strong>.<a class="headerlink" href="#quantum-circuits-for-modular-multiplication" title="Permalink to this headline">¶</a></h2>
+<p>Suppose now that &nbsp;<span class="math">\(f(x)=ax\pmod{N}\)</span> is the modular multiplication
+function. Let <span class="math">\(n\)</span> be the number of binary digits in <span class="math">\(N\)</span>. Using
+<span class="math">\(n\)</span>-bit strings to represent integers modulo <span class="math">\(N\)</span>, one can implement
+&nbsp;<span class="math">\(f(x)\)</span> by a classical circuit <span class="math">\(U_a\)</span> composed of 3-bit reversible
+gates with <span class="math">\(n\)</span> input and output wires, as described above. The circuit
+<span class="math">\(U_a\)</span> may also use ancillary bits that are initialized and returned
+in the 0 state. The state-of-the-art implementation would require
+roughly <span class="math">\(n^2\)</span> gates and&nbsp;roughly <span class="math">\(2n\)</span> ancillary bits. For simplicity,
+below we shall often ignore the ancillary bits. &nbsp;Let us convert <span class="math">\(U_a\)</span>
+to a quantum circuit &nbsp;by replacing each classical gate with its quantum
+counterpart. This is possible because, by construction, each gate of
+<span class="math">\(U_a\)</span> implements some permutation on the set of input bit strings
+<span class="math">\(000,001,\ldots,111\)</span>. The corresponding quantum gate implements the
+same permutation on the set of basis states
+<span class="math">\(|000\rangle,|001\rangle,\ldots,|111\rangle\)</span>.&nbsp;We&nbsp;obtained a
+quantum circuit &nbsp;<span class="math">\(U_a\)</span> acting on a register of <span class="math">\(n\)</span> qubits that maps
+a basis state <span class="math">\(|x\rangle\)</span>&nbsp;to <span class="math">\(|f(x)\rangle\)</span>. An example for
+<span class="math">\(f(x)=7x\pmod{15}\)</span> is shown below. Period finding algorithm requires
+modular multiplication circuits <span class="math">\(U_b\)</span> for
+<span class="math">\(b=a,a^2,a^4,\ldots,a^{2^p} \pmod{N}\)</span>, where <span class="math">\(2^p\approx N^2\)</span>.</p>
+<div class="line-block">
+<div class="line"><img alt="image9" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/shor-encodingo3tdoo4oaytd42t9.png" /></div>
+<div class="line"><strong>some basis states representing integers modulo :math:`15`</strong></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="line-block">
+<div class="line"><img alt="image10" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/shor-u79r0hm5m0hot21emi.png" /></div>
+<div class="line"><strong>Modular multiplication operator &nbsp;maps :math:`|xrangle` to :math:`|7x
+pmod{15}rangle`</strong></div>
+</div>
+<p>&nbsp; &nbsp;This quantum circuit implements <span class="math">\(U_7\)</span> (see <a class="reference external" href="http://arxiv.org/abs/1202.6614">Markov and Saeedi
+2012</a>)</p>
+<p>&nbsp;&nbsp;<img alt="image11" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/multi7xmod159bozodtkjb9h33di.png" /></p>
+</div>
+<div class="section" id="controlled-operations-and-phase-estimation">
+<h2><strong>﻿Controlled operations and phase estimation</strong>.﻿<a class="headerlink" href="#controlled-operations-and-phase-estimation" title="Permalink to this headline">¶</a></h2>
+<p>Let <span class="math">\(U=U_a\)</span> be the modular multiplication operator.&nbsp;At this point we
+know how to construct a quantum circuit implementing&nbsp;<span class="math">\(U\)</span> as well as
+repeated squares of <span class="math">\(U\)</span> such as <span class="math">\(U^2,U^4,U^8\)</span>, etc. &nbsp;We also know
+that eigenvalues of <span class="math">\(U\)</span> reveal information about the period of <span class="math">\(a\)</span>
+modulo <span class="math">\(N\)</span>. The final step is to measure the eigenvalues. For that we
+shall need a controlled version of <span class="math">\(U\)</span>.&nbsp;A controlled unitary operator
+is a quantum analogue of classical conditional statements such as
+if-then-else.&nbsp;We already saw examples of controlled quantum
+gates<a class="reference external" href="/qstage/#/tutorial?sectionId=8443c4f713521c10b1a56a533958286b&amp;pageIndex=1">earlier in the
+tutorial</a>.&nbsp;In
+general, suppose <span class="math">\(U\)</span> is a quantum circuit acting on <span class="math">\(n\)</span> qubits.&nbsp;A
+controlled version of <span class="math">\(U\)</span> &nbsp;is a unitary operator acting on a larger
+system&nbsp;control+target, where control is a single qubit and target is a
+register of <span class="math">\(n\)</span> qubits.&nbsp;Controlled-<span class="math">\(U\)</span> applies <span class="math">\(U\)</span> to the target
+register if the control qubit is <span class="math">\(|1\rangle\)</span>&nbsp;state and does nothing
+if the control qubit is <span class="math">\(|0\rangle\)</span>.</p>
+<div class="line-block">
+<div class="line"><img alt="image12" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/cont18osk7q79jzx8byb9.png" /></div>
+<div class="line">Like their classical counterparts, controlled quantum operations are
+used in almost any quantum algorithm.&nbsp;We note that if <span class="math">\(U\)</span> can be
+realized by a short quantum circuit then so does
+controlled-<span class="math">\(U\)</span>.&nbsp;Indeed, one can take the circuit realizing <span class="math">\(U\)</span> and
+replace each gate by its controlled version (with the same control
+qubit).&nbsp;The main distinction from the classical if-then-else construct
+&nbsp;is that the controlled qubit can be in a superposition of state
+<span class="math">\(\alpha|0\rangle +\beta|1\rangle\)</span>.&nbsp;One could say that in the
+quantum world two branches of a conditional statement can be executed
+“at the same time”. &nbsp;Consider now a special case when the target
+register is prepared in some&nbsp;state <span class="math">\(\psi\)</span> which is an eigenvector
+of &nbsp;<span class="math">\(U\)</span>, that is <span class="math">\(U|\psi\rangle=e^{i\phi}
+|\psi\rangle\)</span>.&nbsp;Then the only difference between the two branches
+of the controlled-<span class="math">\(U\)</span> operation&nbsp;is the phase shift <span class="math">\(e^{i\phi}\)</span>.
+In other words, the control qubit gets mapped from
+&nbsp;<span class="math">\(\alpha|0\rangle+\beta|1\rangle\)</span> to <span class="math">\(\alpha|0\rangle
++e^{i\phi}\beta |1\rangle\)</span>, while&nbsp;the target register remains in
+the state <span class="math">\(\psi\)</span>.&nbsp;Thus we can describe that the action of
+controlled-<span class="math">\(U\)</span> on the composite&nbsp;system control+target by a
+single-qubit phase shift gate <span class="math">\(P\)</span>&nbsp;acting on the control qubit.</div>
+</div>
+<div class="line-block">
+<div class="line"><img alt="image13" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/cont22hp10kmu28146lxr.png" /></div>
+</div>
+<p>Below we focus on what happens with the control qubit only (keeping in
+mind&nbsp;that it is part of the larger system control+target). &nbsp;We shall
+measure the eigenvalue <span class="math">\(e^{i\phi}\)</span> using a pair of phase estimation
+circuits&nbsp;shown below.</p>
+<div class="line-block">
+<div class="line"><img alt="image14" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/pejy6u84yb7ucpiudi.png" /></div>
+</div>
+<div class="line-block">
+<div class="line">One can easily check that the probability of observing the measurement
+outcome <span class="math">\(0\)</span>&nbsp;is <span class="math">\(0.5(1+\cos{(\phi)})\)</span> for the first circuit and
+<span class="math">\(0.5(1-\sin{(\phi)})\)</span> for the second circuit. &nbsp;One should keep in
+mind that <span class="math">\(P\)</span> represents the controlled-<span class="math">\(U\)</span> operator, so the
+circuit extracts information about the phase <span class="math">\(\phi\)</span> by measuring
+interference between two branches of controlled-<span class="math">\(U\)</span> where one branch
+accumulates a phase factor <span class="math">\(e^{i\phi}\)</span> and the other branch
+accumulates no phase. By repeating each circuit several time and
+collecting the measurement statistics we&nbsp;can estimate the
+probabilities which gives us an estimate <span class="math">\(\phi\)</span>.&nbsp;For concreteness,
+assume that we are willing to perform at most 100 measurements.&nbsp;Then
+the statistical error in our estimate of <span class="math">\(\phi\)</span> is roughly 10%.</div>
+<div class="line">To factor a number <span class="math">\(N\)</span> with 1,000 decimal digits the phase <span class="math">\(\phi\)</span>
+has to be estimated with a very high precision <span class="math">\(\epsilon \sim 1/N^2
+\sim 10^{-2000}\)</span>.&nbsp;To this end we shall perform the phase estimation
+for a family of unitary operators <span class="math">\(U^t\)</span>, where&nbsp;<span class="math">\(t=1,2,4,8\)</span> etc. We
+stop at <span class="math">\(t=2^p\)</span> such that <span class="math">\(2^p\approx 1/\epsilon\)</span>. Recall that
+we can efficiently implement <span class="math">\(U^t\)</span> for very large values of <span class="math">\(t\)</span>
+&nbsp;by classically computing <span class="math">\(b=a^{t}\pmod{N}\)</span> and using the identity
+<span class="math">\(U^t=(U_a)^t=U_b\)</span>. Since all operators <span class="math">\(U^t\)</span> have the same
+eigenvector <span class="math">\(\psi\)</span>, we can do all phase estimations&nbsp;with the same
+target register (initialized in the eigenvector
+<span class="math">\(|\psi\rangle\)</span>).&nbsp;For simplicity, let us assume that the phase
+estimations are performed sequentially&nbsp;in which case only one control
+qubit is needed.&nbsp;The controlled-<span class="math">\(U^2\)</span> operator gives rise to a phase
+shift <span class="math">\(P^2\)</span> by angle <span class="math">\(2\phi\)</span>&nbsp;on the control qubit. Thus we can
+estimate <span class="math">\(2\phi\)</span> with a precision 10% &nbsp;by performing roughly 100
+measurements. This gives an estimate of <span class="math">\(\phi\)</span> &nbsp;with&nbsp;a precision
+5%. &nbsp;More precisely, since the phase <span class="math">\(\phi\)</span> lives on the unit
+circuit, we get a pair of candidate angles <span class="math">\(\phi'\)</span> and
+<span class="math">\(\phi''=\phi'+\pi\)</span> such that one of them approximates <span class="math">\(\phi\)</span>
+with a precision 5% and the other is very far from <span class="math">\(\phi\)</span>
+(approximately by <span class="math">\(\pi\)</span>). &nbsp;However, we have already estimated
+<span class="math">\(\phi\)</span> itself with a precision 10%. This is enough to select one of
+the candidate angles <span class="math">\(\phi'\)</span> and <span class="math">\(\phi''\)</span>. Applying this
+argument inductively several times shows that estimating
+&nbsp;<span class="math">\(\phi,2\phi,\ldots,2^p\phi\)</span> with a constant precision (say,
+10%) is enough to estimate&nbsp;<span class="math">\(\phi\)</span> with a precision roughly
+<span class="math">\(2^{-p}\sim \epsilon\)</span>. Overall we would need&nbsp;approximately
+<span class="math">\(M=100\log_2{(1/\epsilon)}\sim 10^6\)</span> measurements which
+translates&nbsp;to <span class="math">\(10^6\)</span> controlled modular multiplication operators. In
+general, <span class="math">\(M\)</span> scales as <span class="math">\(\log{(N)}\)</span> with some extra factors doubly
+logarithmic in <span class="math">\(N\)</span>. Since each controlled modular multiplication
+operator requires a quantum circuit of size <span class="math">\(\log^2{(N)}\)</span>, the
+overall complexity of the factoring algorithm scales as
+<span class="math">\(\log^3{(N)}\sim d^3\)</span>.</div>
+</div>
+<p>We have not explained yet how to initialize the target register in the
+eigenvector of <span class="math">\(U\)</span>. Fortunately, all eigenvectors are equally good for
+our purposes: we are not interested in any particular eigenvalue &nbsp;but
+rather want to measure a random eigenvalue drawn from the uniform
+distribution. Thus one can initialize the target register in an
+arbitrary state that has equal weight on each eigenvector of <span class="math">\(U\)</span>. For
+example, one can choose the initial state as the basis vector
+<span class="math">\(|0\ldots01\rangle\)</span> encoding the integer <span class="math">\(x=1\)</span>.</p>
+<div class="section" id="id8">
+<h3><a href="#id6"><span class="problematic" id="id7">**</span></a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+</div>
+</div>
+
+
+        </div>
+          
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-right">
+            <a href="#">Back to top</a> 
+        </p>
+        <p> &copy;
+            Copyright 2017, IBM Research, Jim Challenger, Andrew Cross, Ismael Faro, Jay Gambetta, Jesus Perez, and John Smolin.<br/> Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.<br/>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>

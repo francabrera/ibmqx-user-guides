@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../../_static/theme.css" type="text/css" /> 
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Getting Started &#8212; Experience Documentation 2.0 documentation</title>
+<link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: '../../',
+        VERSION: '2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: true,
+        SOURCELINK_SUFFIX: '.txt'
+    };
+</script>
+<script type="text/javascript" src="../../_static/jquery.js"></script>
+<script type="text/javascript" src="../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Histogram representation (Bar graph)" href="002-Histogram_representation_(Bar_graph).html" />
+    <link rel="prev" title="Introduction" href="../002-Introduction/001-Introduction.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes"> 
+
+    <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+
+</head>
+
+<body>    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/ibm-q.png"></span>
+          Experience Documentation</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../user_guide.html">IBM Quantum Experience Documentation</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Getting Started</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="../002-Introduction/001-Introduction.html" title="Previous Chapter: Introduction"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Introduction</span>
+    </a>
+  </li>
+  <li>
+    <a href="002-Histogram_representation_(Bar_graph).html" title="Next Chapter: Histogram representation (Bar graph)"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Histogram rep... &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../../_sources/beginners-guide/003-Getting_Started/001-Getting_Started.rst.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div> 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 content">
+            
+  <div class="section" id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<p>The <strong>Quantum Composer</strong> is a graphical user interface for programming a
+quantum processor. Think of it as a tool to construct&nbsp;quantum algorithms
+using a library of well-defined measurements and gates (operations that
+change the state of the qubit).</p>
+<p>Throughout this guide, you’ll try out many different experiments (feel
+free to explore on your own as well).&nbsp;When you first click on the
+“Composer” tab, you’ll name your experiment and choose between running
+a&nbsp;<em>real</em>&nbsp;quantum processor or a&nbsp;<em>custom</em>&nbsp;quantum processor
+(simulator). If you choose custom, you’ll select the number of qubits in
+the experiment and the number of classical bits in the classical bit
+register (you can keep this the same as the number of qubits).&nbsp;In the
+real processor, the possible connectivity between the qubits is limited
+by the experimental setup; there are also some errors in the measurement
+due to experimental imperfections. In the custom processor, however,
+quantum gates can be placed anywhere. While there are no experimental
+errors, you will still observe that random outcomes can occur due to the
+nature of quantum information. In this guide, we will show the results
+of running experiments on the custom processor (to avoid confusion about
+deviations that occur due to experimental errors). We encourage you to
+run some experiments on both the custom and real processors so that you
+can understand the differences.</p>
+<p>The Composer enables you to create a&nbsp;quantum&nbsp;score – not a score as in
+a sporting match, but rather in the musical sense. In a quantum score,
+just as with music, time progresses from left to right. Each line
+represents a qubit (as well as what happens to that qubit over time).
+Just as with musical notes, each qubit has a different frequency. A
+quantum algorithm (circuit) begins by preparing the qubits in
+well-defined states (for example, “<span class="math">\(|0\rangle\)</span>” in the picture
+below), then executing a series of single- and two-qubit gates in time
+from left to right.</p>
+<div class="line-block">
+<div class="line"><img alt="image0" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/p0-1xkkbcfvusaotuik9.png" /></div>
+</div>
+<p>Quantum gates are represented by square boxes; they play a frequency for
+different durations, amplitudes, and phases. These are called
+single-qubit gates. To apply a gate to a qubit, simply drag the gate box
+into the qubit staff. To delete, simply double-tap the box or drag it to
+the trash bin.</p>
+<p>Once you’ve populated the staff with all of the gates and measurements
+you’d like, click “Run” (only available for the real processor) or
+“Simulate” to generate results for your experiment. Each circuit must
+end with a measurement gate in order to run the experiment.</p>
+<p><a href="#id1"><span class="problematic" id="id2">**</span></a><em>Single Qubit Measurement:</em>
+**</p>
+<div class="line-block">
+<div class="line"><img alt="image1" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/p1-1xg3szp1jk40f3whfr.png" /></div>
+</div>
+<p>In the above example, we created a single-qubit score with one classical
+bit in the classical bit register. We measured Qubit “0” and stored the
+measurement result in the 0th position of the classical bit register
+(this is the line below the score labeled ‘c’).</p>
+<p>After performing a quantum measurement, a qubit’s information becomes a
+classical bit, meaning it loses the quantum properties of superposition
+and entanglement. Each qubit in the measurement either takes the value
+0, e.g., if the qubit is measured in state&nbsp;<span class="math">\(|0\rangle\)</span>; or 1, e.g.,
+if the qubit is measured in state&nbsp;<span class="math">\(|1\rangle\)</span>.&nbsp;Sometimes your qubit
+has an equal chance of being a <span class="math">\(|0\rangle\)</span> or a <span class="math">\(|1\rangle\)</span>,
+such as when it’s in an equal superposition state. In those cases, when
+you repeat the experiment many times on the real device (what we call
+“shots” in the pull-down menu of Simulate, e.g., 1024 times), you’ll
+find that about half the time you measure 0 and half the time you
+measure 1.</p>
+<p>In the IBM Q experience, the results of your quantum scores are shown in
+a standard histogram/bar graph representation.</p>
+</div>
+
+
+        </div>
+          
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-right">
+            <a href="#">Back to top</a> 
+        </p>
+        <p> &copy;
+            Copyright 2017, IBM Research, Jim Challenger, Andrew Cross, Ismael Faro, Jay Gambetta, Jesus Perez, and John Smolin.<br/> Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.<br/>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>
