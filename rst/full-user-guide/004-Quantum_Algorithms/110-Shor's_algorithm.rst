@@ -429,10 +429,6 @@ arbitrary state that has equal weight on each eigenvector of :math:`U`. For
 example, one can choose the initial state as the basis vector
 :math:`|0\ldots01\rangle` encoding the integer :math:`x=1`. 
 
-**
-**
-
-| 
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/shor-figure1l0qpbqeb138fr.png
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/shor-equation3fjaulqz4sqe3766r.png

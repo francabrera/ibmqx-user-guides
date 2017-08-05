@@ -10,7 +10,7 @@ Introducing the IBM Quantum Experience
   simulation, and executing them on the world’s first fully-controllable
   quantum processor through the IBM Cloud.
 
-****\  The IBM Quantum Experience consists of:
+The IBM Quantum Experience consists of:
 
 -  a set of tutorials (this User Guide) that will lead you from the
    basics of simple single-qubit experiments (`Section
@@ -18,17 +18,15 @@ Introducing the IBM Quantum Experience
    to more complicated multi-qubit experiments (`Section
    III </qstage/#/tutorial?sectionId=050edf961d485bfcd9962933ea09062b>`__),
    and then toward more advanced ideas in the area of quantum algorithms
-   (`Section
-   IV </qstage/#/tutorial?sectionId=8443c4f713521c10b1a56a533958286b>`__)
-   and quantum error correction (`Section
-   V </qstage/#/tutorial?sectionId=bfd2a30ad6c5c915da3a696d76c474d7>`__);
--  the ***Quantum Composer,*** which is a graphical user interface where
+   (`Section IV </qstage/#/tutorial?sectionId=8443c4f713521c10b1a56a533958286b>`__)
+   and quantum error correction (`Section V </qstage/#/tutorial?sectionId=bfd2a30ad6c5c915da3a696d76c474d7>`__);
+-  the **Quantum Composer,** which is a graphical user interface where
    you can create your very own quantum circuit (which we call a
-   ***quantum score),*** much like a composer composes a music score;
+   **quantum score),** much like a composer composes a music score;
 -  a simulator that can test your quantum scores;
 -  access to an actual quantum processor running in an IBM Quantum
    Computing lab, where your quantum scores will be executed; and
--  a ***quantum community*** where your quantum scores, ideas, and
+-  a **quantum community** where your quantum scores, ideas, and
    experiences can be shared and discussed.
 
 Please note that the IBM Quantum Experience is a "living experiment,"
@@ -62,11 +60,9 @@ will be displayed. In both cases the simulation will be available for
 you to keep learning and designing new experiments. 
 
 For those who wish to jump right into creating your own experiments, you
-can skip right to the \ `Quantum
-Composer </qstage/#/tutorial?sectionId=75a85f7e14ae3fd4329ad5c3e59466ea&pageIndex=3>`__\ .
+can skip right to the \ `Quantum Composer </qstage/#/tutorial?sectionId=75a85f7e14ae3fd4329ad5c3e59466ea&pageIndex=3>`__\ .
 If you wish to improve your understanding of the quantum world first,
-please continue reading this User Guide, starting with \ `the Quantum
-World </qstage/#/tutorial?sectionId=75a85f7e14ae3fd4329ad5c3e59466ea&pageIndex=1>`__\ 
+please continue reading this User Guide, starting with \ `the Quantum World </qstage/#/tutorial?sectionId=75a85f7e14ae3fd4329ad5c3e59466ea&pageIndex=1>`__\ 
 section on the next page.  Use the numbers at the top and bottom of each
 page to navigate through each section. 
 

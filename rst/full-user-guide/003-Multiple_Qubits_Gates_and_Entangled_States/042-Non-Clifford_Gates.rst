@@ -24,7 +24,7 @@ Any unitary matrix can be written as a combination of single- and
 two-qubit gates [`*Barenco et al.,
 1995* <http://journals.aps.org/pra/abstract/10.1103/PhysRevA.52.3457?cm_mc_uid=43781767191014577577895&cm_mc_sid_50200000=1460741020>`__].
 (This is unlike classical reversible computing, where 3-bit gates such
-as `Toffoli <https://en.wikipedia.org/wiki/Toffoli_gate>`__\ are
+as `Toffoli <https://en.wikipedia.org/wiki/Toffoli_gate>`__ are
 additionally required for functional completeness.) It turns out that
 adding almost any non-Clifford gate to single-qubit Clifford gates and
 CNOT gates is universal. There are several popular choices for

@@ -47,8 +47,8 @@ you’d like, click “Run” (only available for the real processor) or
 “Simulate” to generate results for your experiment. Each circuit must
 end with a measurement gate in order to run the experiment.
 
-***Single Qubit Measurement:*
-**
+**Single Qubit Measurement:**
+
 
 | |image1|
 

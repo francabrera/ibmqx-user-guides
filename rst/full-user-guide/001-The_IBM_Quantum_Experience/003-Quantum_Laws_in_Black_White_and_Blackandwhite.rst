@@ -21,9 +21,7 @@ distinguishable states (2).  
   distinguishable if and only if their directions are orthogonal (inner
   product is zero).
 
-**A quantum state changes; it naturally wants to evolve, but it can
-always be *undone*.
-**
+**A quantum state changes; it naturally wants to evolve, but it can always be undone.**
 
 | Evolution of a closed system is a unitary (4) transformation on its
   Hilbert space.
