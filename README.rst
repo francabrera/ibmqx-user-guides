@@ -83,6 +83,8 @@ You can find the generated documenatation into the `_build/html <_build/html>`_
 Do you want to help?
 ====================
 
+If you'd like to contribute please take a look to our `contribution guidelines <CONTRIBUTING.rst>`__.
+
 Documentation
 -------------
 
@@ -125,19 +127,15 @@ needed. Once they're updated/added run this be sure they keep passing:
 
 					make test
 
-:sunglasses: If you'd like to contribute please take a look to our
-`contribution guidelines <CONTRIBUTING.rst>`__.
-
 
 Other QISKit projects
 ---------------------
 
-* 
-`QX Information <https://github.com/QISKit/ibmqx-backend-information>`__ Information about the different IBM Q experience backends.
-*`OpenQasm <https://github.com/QISKit/openqasm>`__ Examples and tools for the OpenQASM intermediate representation.
-*`Python API <https://github.com/QISKit/qiskit-api-pyt>`__ API Client to use IBM Q experience in Python.
-*`Python SDK <https://github.com/QISKit/qiskit-sdk-py>`__ Software development kit for working with quantum programs in Python.
-* `Tutorial <https://github.com/QISKit/qiskit-tutorial>`__ Jupyter notebooks for using QISKit.
+- `QX Information <https://github.com/QISKit/ibmqx-backend-information>`__ Information about the different IBM Q experience backends.
+- `OpenQasm <https://github.com/QISKit/openqasm>`__ Examples and tools for the OpenQASM intermediate representation.
+- `Python API <https://github.com/QISKit/qiskit-api-py>`__ API Client to use IBM Q experience in Python.
+- `Python SDK <https://github.com/QISKit/qiskit-sdk-py>`__ Software development kit for working with quantum programs in Python.
+- `Tutorial <https://github.com/QISKit/qiskit-tutorial>`__ Jupyter notebooks for using QISKit.
 
 License
 -------
