@@ -26,8 +26,8 @@ If you have an idea for a new feature please open a ticket labeled as
 ``enhancement``. If you could also add a piece of code with the idea
 or a partial implementation it would be awesome.
 
-Doc
-~~~
+Documentation
+~~~~~~~~~~~~~
 
 Review the parts of the documentation regarding the new changes and
 update it if it's needed.
