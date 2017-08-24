@@ -1,4 +1,4 @@
-FAQ for_Beginners
+FAQ for Beginners
 =================
 
 .. toctree::

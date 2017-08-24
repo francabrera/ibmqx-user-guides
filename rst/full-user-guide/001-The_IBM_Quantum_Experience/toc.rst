@@ -1,4 +1,4 @@
-The IBM_Quantum_Experience
+The IBM Quantum Experience
 ==========================
 
 .. toctree::

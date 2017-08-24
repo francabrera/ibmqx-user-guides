@@ -1,4 +1,4 @@
-Multiple Qubits_Gates_and_Entangled_States
+Multiple Qubits Gates and Entangled States
 ==========================================
 
 .. toctree::

@@ -1,4 +1,4 @@
-The Real_Nitty-Gritty_Details
+The Real Nitty-Gritty Details
 =============================
 
 .. toctree::

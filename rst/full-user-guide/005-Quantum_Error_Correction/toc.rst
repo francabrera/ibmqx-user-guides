@@ -1,4 +1,4 @@
-Quantum Error_Correction
+Quantum Error Correction
 ========================
 
 .. toctree::
