@@ -25,8 +25,8 @@ Changing the direction of a CNOT gate
   :math:`\frac{1}{\sqrt{2}}\begin{pmatrix} H & H \\ H &
   -H\end{pmatrix}`. If you run the example, you will confirm that this
   combination of Hadamard and CNOT gates implements a CNOT gate in the
-  opposite direction. The `Pauli
-  :math:`X` <https://en.wikipedia.org/wiki/Quantum_gate#Pauli-X_gate>`__ acts
+  opposite direction. The `Pauli <https://en.wikipedia.org/wiki/Quantum_gate#Pauli-X_gate>`__
+  :math:`X` acts
   to invert the control qubit 2, and the result is :math:`|11\rangle` as
   expected for :math:`CNOT_{21}`.
 
@@ -47,7 +47,7 @@ classical state :math:`00`, :math:`01`, :math:`10`, and :math:`11`. Let's consid
 first gate :math:`CNOT_{12}` does nothing since the control is :math:`0`. The
 second gate :math:`CNOT_{21}` flips the first qubit, so we have :math:`11`.
 Finally, the last :math:`CNOT_{12}` flips the second qubit and we get :math:`10`.
-The ":math:`1`" has moved from the second qubit to the first. The other cases
+The :math:`1` has moved from the second qubit to the first. The other cases
 can be worked out similarly. Now you can see this for yourself by
 running the "Swap" example below. Notice that we have used the "CNOT
 (Reverse)" identity to change the direction of the :math:`CNOT_{21}` gate,

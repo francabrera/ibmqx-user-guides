@@ -24,7 +24,7 @@ depiction makes it easier to visualize qubit states and gates.
   is given by :math:`|\psi\rangle \langle\psi|=(I+\langle X\rangle X
   + \langle Y \rangle Y + \langle Z \rangle Z)/2`.
 
-Each expectation value :math:`\langle Q \rangle ` can be obtained
+Each expectation value :math:`\langle Q \rangle` can be obtained
 experimentally by first preparing the state, rotating the standard basis
 frame to lie along the corresponding axis :math:`Q`, and making a
 measurement in the standard basis. The probabilities of obtaining the

@@ -1,5 +1,5 @@
-Welcome to the IBM Quantum Experience
-=====================================
+Full User Guide
+===============
 
 | If quantum physics sounds challenging to you, you are not alone. All
   of our intuitions are based on day-to-day experiences and are defined
@@ -19,10 +19,8 @@ general level— we can more deeply explore all the possibilities quantum
 computing offers, and more rapidly bring its exciting power to a world
 whose perspective is limited by classical physics. 
 
-Full User Guide
----------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :glob:
 
-   full-user-guide/*/*
+   ./*/toc*

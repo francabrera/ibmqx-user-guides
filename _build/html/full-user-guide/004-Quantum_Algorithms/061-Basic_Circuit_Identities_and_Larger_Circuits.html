@@ -27,8 +27,6 @@
 <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Grover’s Algorithm" href="070-Grover&#39;s_Algorithm.html" />
-    <link rel="prev" title="Quantum Algorithms" href="060-Quantum_Algorithms.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -64,10 +62,7 @@
      href="../../index.html">Site <b class="caret"></b></a>
   <ul class="dropdown-menu globaltoc"
       role="menu"
-      aria-labelledby="dLabelGlobalToc"><ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../../user_guide.html">IBM Quantum Experience Documentation</a></li>
-</ul>
-<ul>
+      aria-labelledby="dLabelGlobalToc"><ul>
 <li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
 </ul>
 </ul>
@@ -98,14 +93,6 @@
             
               
                 
-  <li>
-    <a href="060-Quantum_Algorithms.html" title="Previous Chapter: Quantum Algorithms"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Quantum Algorithms</span>
-    </a>
-  </li>
-  <li>
-    <a href="070-Grover&#39;s_Algorithm.html" title="Next Chapter: Grover’s Algorithm"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Grover’s Algorithm &raquo;</span>
-    </a>
-  </li>
               
             
             
@@ -163,8 +150,8 @@ product</a>
 <span class="math">\(\frac{1}{\sqrt{2}}\begin{pmatrix} H &amp; H \\ H &amp;
 -H\end{pmatrix}\)</span>. If you run the example, you will confirm that this
 combination of Hadamard and CNOT gates implements a CNOT gate in the
-opposite direction. The <cite>Pauli
-:math:`X</cite> &lt;<a class="reference external" href="https://en.wikipedia.org/wiki/Quantum_gate#Pauli-X_gate">https://en.wikipedia.org/wiki/Quantum_gate#Pauli-X_gate</a>&gt;`__ acts
+opposite direction. The <a class="reference external" href="https://en.wikipedia.org/wiki/Quantum_gate#Pauli-X_gate">Pauli</a>
+<span class="math">\(X\)</span> acts
 to invert the control qubit 2, and the result is <span class="math">\(|11\rangle\)</span> as
 expected for <span class="math">\(CNOT_{21}\)</span>.</div>
 </div>
@@ -185,7 +172,7 @@ classical state <span class="math">\(00\)</span>, <span class="math">\(01\)</spa
 first gate <span class="math">\(CNOT_{12}\)</span> does nothing since the control is <span class="math">\(0\)</span>. The
 second gate <span class="math">\(CNOT_{21}\)</span> flips the first qubit, so we have <span class="math">\(11\)</span>.
 Finally, the last <span class="math">\(CNOT_{12}\)</span> flips the second qubit and we get <span class="math">\(10\)</span>.
-The “<span class="math">\(1\)</span>” has moved from the second qubit to the first. The other cases
+The <span class="math">\(1\)</span> has moved from the second qubit to the first. The other cases
 can be worked out similarly. Now you can see this for yourself by
 running the “Swap” example below. Notice that we have used the “CNOT
 (Reverse)” identity to change the direction of the <span class="math">\(CNOT_{21}\)</span> gate,

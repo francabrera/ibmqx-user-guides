@@ -27,8 +27,6 @@
 <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Multiple Qubits, Gates, and Entangled States" href="../003-Multiple_Qubits_Gates_and_Entangled_States/000-Multiple_Qubits_Gates_and_Entangled_States.html" />
-    <link rel="prev" title="The Bloch Sphere" href="030-The_Bloch_Sphere.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -64,10 +62,7 @@
      href="../../index.html">Site <b class="caret"></b></a>
   <ul class="dropdown-menu globaltoc"
       role="menu"
-      aria-labelledby="dLabelGlobalToc"><ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../../user_guide.html">IBM Quantum Experience Documentation</a></li>
-</ul>
-<ul>
+      aria-labelledby="dLabelGlobalToc"><ul>
 <li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
 </ul>
 </ul>
@@ -96,14 +91,6 @@
             
               
                 
-  <li>
-    <a href="030-The_Bloch_Sphere.html" title="Previous Chapter: The Bloch Sphere"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; The Bloch Sphere</span>
-    </a>
-  </li>
-  <li>
-    <a href="../003-Multiple_Qubits_Gates_and_Entangled_States/000-Multiple_Qubits_Gates_and_Entangled_States.html" title="Next Chapter: Multiple Qubits, Gates, and Entangled States"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Multiple Qubi... &raquo;</span>
-    </a>
-  </li>
               
             
             
@@ -138,27 +125,23 @@
 <h1>Decoherence<a class="headerlink" href="#decoherence" title="Permalink to this headline">¶</a></h1>
 <div class="line-block">
 <div class="line">Real quantum computers must deal with
-<a class="reference external" href="https://en.wikipedia.org/wiki/Quantum_decoherence">*decoherence*</a>,
+<a class="reference external" href="https://en.wikipedia.org/wiki/Quantum_decoherence">decoherence</a>,
 or the loss of information due to environmental disturbances (noise).
 The Bloch vector formalism we introduced in the previous section is
 sufficient to describe the state of the system under decoherence
-processes. The <a class="reference external" href="https://en.wikipedia.org/wiki/Quantum_state#Pure_states">*pure
-states*</a>we
+processes. The <a class="reference external" href="https://en.wikipedia.org/wiki/Quantum_state#Pure_states">pure states</a> we
 have studied so far have a Bloch vector of length 1, touching the
 surface of the Bloch sphere, and can be represented in density matrix
-form as <a href="#id1"><span class="problematic" id="id2">:math:`\rho=| \psi\rangle \langle \psi | `. Decoherence
-causes a change in our quantum states from pure to `*mixed
-states* &lt;https://en.wikipedia.org/wiki/Quantum_state#Mixed_states&gt;`__</span></a>,
-which have a <a class="reference external" href="https://en.wikipedia.org/wiki/Density_matrix">*density
-matrix*</a> <span class="math">\(\rho\)</span>
+form as <span class="math">\(\rho=| \psi\rangle \langle \psi |\)</span>. Decoherence causes
+a change in our quantum states from pure to <a class="reference external" href="https://en.wikipedia.org/wiki/Quantum_state#Mixed_states">mixed states</a>,
+which have a <a class="reference external" href="https://en.wikipedia.org/wiki/Density_matrix">density matrix</a> <span class="math">\(\rho\)</span>
 that can be written as a sum over pure states</div>
 </div>
-<p>:math:<a href="#id3"><span class="problematic" id="id4">`</span></a>rho = sum_k p_k | psi_krangle langle psi_k | `</p>
+<p><span class="math">\(\rho = \sum_k p_k | \psi_k\rangle \langle \psi_k |\)</span></p>
 <div class="line-block">
 <div class="line">and a Bloch vector that sits inside the Bloch sphere</div>
 </div>
-<p>:math:<a href="#id5"><span class="problematic" id="id6">`</span></a><a href="#id7"><span class="problematic" id="id8">|</span></a>langle Xrangle|^2 +&nbsp; <a href="#id9"><span class="problematic" id="id10">|</span></a>langle Yrangle|^2 + | langle
-Zrangle|^2 &lt; 1 <a href="#id11"><span class="problematic" id="id12">`</span></a>.</p>
+<p><span class="math">\(|\langle X\rangle|^2 +&nbsp; |\langle Y\rangle|^2 + | \langle Z\rangle|^2 &lt; 1\)</span>.</p>
 <div class="section" id="energy-relaxation-and">
 <h2>Energy relaxation and <span class="math">\(T_1\)</span><a class="headerlink" href="#energy-relaxation-and" title="Permalink to this headline">¶</a></h2>
 <p>One important decoherence process is called <em>energy relaxation</em>, where

@@ -27,7 +27,7 @@
 <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Coming soon…" href="full-user-guide/006-The_Real_Nitty-Gritty_Details/001-Coming_soon....html" />
+    <link rel="prev" title="IBM Quantum Experience Documentation" href="index.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -63,10 +63,7 @@
      href="index.html">Site <b class="caret"></b></a>
   <ul class="dropdown-menu globaltoc"
       role="menu"
-      aria-labelledby="dLabelGlobalToc"><ul>
-<li class="toctree-l1"><a class="reference internal" href="user_guide.html">IBM Quantum Experience Documentation</a></li>
-</ul>
-<ul class="current">
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Contributing</a></li>
 </ul>
 </ul>
@@ -84,13 +81,8 @@
 <li><a class="reference internal" href="#">Contributing</a><ul>
 <li><a class="reference internal" href="#issue-reporting">Issue reporting</a></li>
 <li><a class="reference internal" href="#doubts-solving">Doubts solving</a></li>
-<li><a class="reference internal" href="#improvement-proposal">Improvement proposal</a></li>
+<li><a class="reference internal" href="#improvement-proposal">Improvement proposal</a><ul>
 <li><a class="reference internal" href="#documentation">Documentation</a></li>
-<li><a class="reference internal" href="#code">Code</a><ul>
-<li><a class="reference internal" href="#dependencies">Dependencies</a></li>
-<li><a class="reference internal" href="#test">Test</a></li>
-<li><a class="reference internal" href="#style-guide">Style guide</a></li>
-<li><a class="reference internal" href="#doc">Doc</a></li>
 <li><a class="reference internal" href="#pull-requests">Pull requests</a></li>
 </ul>
 </li>
@@ -105,7 +97,7 @@
               
                 
   <li>
-    <a href="full-user-guide/006-The_Real_Nitty-Gritty_Details/001-Coming_soon....html" title="Previous Chapter: Coming soon…"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Coming soon…</span>
+    <a href="index.html" title="Previous Chapter: IBM Quantum Experience Documentation"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; IBM Quantum E...</span>
     </a>
   </li>
               
@@ -145,7 +137,7 @@
 <div class="section" id="issue-reporting">
 <h2>Issue reporting<a class="headerlink" href="#issue-reporting" title="Permalink to this headline">¶</a></h2>
 <p>This is a good point to start, when you find a problem please add
-it to the <a class="reference external" href="https://github.ibm.com/IBMQuantum/qiskit-sdk-py-dev/issues">issue traker</a>.
+it to the <a class="reference external" href="https://github.com/QISKit/qiskit-qx-user-guides/issues">issue traker</a>.
 The ideal report should include the steps to reproduce it.</p>
 </div>
 <div class="section" id="doubts-solving">
@@ -159,54 +151,8 @@ labeled as <code class="docutils literal"><span class="pre">question</span></cod
 <p>If you have an idea for a new feature please open a ticket labeled as
 <code class="docutils literal"><span class="pre">enhancement</span></code>. If you could also add a piece of code with the idea
 or a partial implementation it would be awesome.</p>
-</div>
 <div class="section" id="documentation">
-<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
-<p>The documentation for the project is in the <code class="docutils literal"><span class="pre">doc</span></code> directory. The
-documentation for the python SDK is auto-generated from python
-docstrings using <a class="reference external" href="www.sphinx-doc.org">Sphinx</a> for generating the
-documentation. Please follow <a class="reference external" href="https://google.github.io/styleguide/pyguide.html?showone=Comments#Comments">Google’s Python Style
-Guide</a>
-for docstrings. A good example of the style can also be found with
-<a class="reference external" href="http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html">sphinx’s napolean converter
-documentation</a>.
-To generate the documenatation run</p>
-<div class="code sh highlight-default"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">doc</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="code">
-<h2>Code<a class="headerlink" href="#code" title="Permalink to this headline">¶</a></h2>
-<p>This section include some tips that will help you to push source code.</p>
-<div class="section" id="dependencies">
-<h3>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h3>
-<p>Needed libraries should be installed in this way:</p>
-<div class="code sh highlight-default"><div class="highlight"><pre><span></span><span class="c1"># Depending on the system and setup to append &quot;sudo -H&quot; before could be needed.</span>
-<span class="n">pip3</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requires</span><span class="o">-</span><span class="n">dev</span><span class="o">.</span><span class="n">txt</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="test">
-<h3>Test<a class="headerlink" href="#test" title="Permalink to this headline">¶</a></h3>
-<p>New features often imply changes in the existent tests or new ones are
-needed. Once they’re updated/added run this be sure they keep passing:</p>
-<div class="code sh highlight-default"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">test</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="style-guide">
-<h3>Style guide<a class="headerlink" href="#style-guide" title="Permalink to this headline">¶</a></h3>
-<p>Submit clean code and please make effort to follow existing conventions
-in order to keep it as readable as possible. We use
-<a class="reference external" href="https://www.pylint.org">Pylint</a> and <a class="reference external" href="https://www.python.org/dev/peps/pep-0008">PEP
-8</a> style guide, to confirm
-the new stuff respects it run the next command:</p>
-<div class="code sh highlight-default"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">lint</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="doc">
-<h3>Doc<a class="headerlink" href="#doc" title="Permalink to this headline">¶</a></h3>
+<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
 <p>Review the parts of the documentation regarding the new changes and
 update it if it’s needed.</p>
 </div>

@@ -13,8 +13,6 @@ information itself. This led to a revolution in the science and
 technology of information processing, making possible previously
 unimagined kinds of computing and communication. 
 
-******
-******
 
 ::
 
@@ -24,20 +22,16 @@ A quantum computer is a device able to manipulate delicate quantum
 states in a controlled fashion, the way an ordinary computer manipulates
 its bits. 
 
-******
-******
 
 ::
 
     What is a qubit?
 
 A qubit is the quantum version of a bit, and its quantum state can take
-values of \|0>, \|1>, or \ ******both at once******, a phenomenon known
-as \ ******superposition******.  The half angle bracket notation \|>  is
+values of \|0>, \|1>, or \ **both at once**, a phenomenon known
+as \ **superposition**.  The half angle bracket notation \|>  is
 conventionally used to distinguish qubits from ordinary bits. 
 
-******
-******
 
 ::
 
@@ -48,8 +42,6 @@ for example, the state of the air when two or more musical tones are
 sounding at once.  Ordinary, or “classical,” superpositions commonly
 occur in everyday phenomena involving waves.
 
-******
-******
 
 ::
 
@@ -61,16 +53,14 @@ superposition of all 2\ :sup:`N`\  of its distinct logical states
 superposition. Playing N musical tones at once can only produce a
 superposition of N states. 
 
-******
-******
 
 ::
 
     How is superposition different from probability?
 
 A row of N coins, each of which might be heads or tails,
-has  2\ :sup:`N`\  \ ******possible ******\ states, but it
-actually \ ******is******\  in only one of them—we just don’t know
+has  2\ :sup:`N`\  \ **possible**\ states, but it
+actually \ **is**\  in only one of them—we just don’t know
 which. For this reason, quantum superposition is a more powerful
 resource than classical probabilism. 
 
@@ -85,9 +75,6 @@ actually having an army of 2\ :sup:`N`\  real computers all working on
 the problem at once. Superposition is strictly weaker than full
 parallelism, and strictly stronger than probabilism. 
 
-******
-******
-
 ::
 
     What is entanglement?
@@ -101,15 +88,13 @@ observation were made on it. Because entanglement involves a correlation
 between individually random behaviors of the two particles, it cannot be
 used to send a message. Therefore, the term “instantaneous action at a
 distance,” sometimes used to describe entanglement, is a misnomer. There
-is no \ ******action******, only \ ******correlation******, which,
+is no \ **action**, only \ **correlation**, which,
 though uncannily perfect, can only be detected afterward when the two
 observers compare notes. The ability of quantum computers to exist in
 entangled states is responsible for much of their extra computing power,
 as well as many other feats of quantum information processing that
 cannot be performed, or even described, classically.
 
-******
-******
 
 ::
 

@@ -2,27 +2,23 @@ Decoherence
 ===========
 
 | Real quantum computers must deal with
-  `*decoherence* <https://en.wikipedia.org/wiki/Quantum_decoherence>`__,
+  `decoherence <https://en.wikipedia.org/wiki/Quantum_decoherence>`_,
   or the loss of information due to environmental disturbances (noise).
   The Bloch vector formalism we introduced in the previous section is
   sufficient to describe the state of the system under decoherence
-  processes. The `*pure
-  states* <https://en.wikipedia.org/wiki/Quantum_state#Pure_states>`__\ we
+  processes. The `pure states <https://en.wikipedia.org/wiki/Quantum_state#Pure_states>`_ we
   have studied so far have a Bloch vector of length 1, touching the
   surface of the Bloch sphere, and can be represented in density matrix
-  form as :math:`\rho=| \psi\rangle \langle \psi | `. Decoherence
-  causes a change in our quantum states from pure to `*mixed
-  states* <https://en.wikipedia.org/wiki/Quantum_state#Mixed_states>`__,
-  which have a `*density
-  matrix* <https://en.wikipedia.org/wiki/Density_matrix>`__ :math:`\rho`
+  form as :math:`\rho=| \psi\rangle \langle \psi |`. Decoherence causes
+  a change in our quantum states from pure to `mixed states <https://en.wikipedia.org/wiki/Quantum_state#Mixed_states>`__,
+  which have a `density matrix <https://en.wikipedia.org/wiki/Density_matrix>`__ :math:`\rho`
   that can be written as a sum over pure states
 
-:math:`\rho = \sum_k p_k | \psi_k\rangle \langle \psi_k | `
+:math:`\rho = \sum_k p_k | \psi_k\rangle \langle \psi_k |`
 
 | and a Bloch vector that sits inside the Bloch sphere
 
-:math:`|\langle X\rangle|^2 +  |\langle Y\rangle|^2 + | \langle
-Z\rangle|^2 < 1 `.
+:math:`|\langle X\rangle|^2 +  |\langle Y\rangle|^2 + | \langle Z\rangle|^2 < 1`.
 
 Energy relaxation and :math:`T_1`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

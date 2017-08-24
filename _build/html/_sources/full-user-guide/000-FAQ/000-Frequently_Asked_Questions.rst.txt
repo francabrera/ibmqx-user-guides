@@ -6,8 +6,7 @@ General questions about quantum information science
 
 
 
-**What does “quantum” mean?
-**
+**What does “quantum” mean?**
 
 | Quantum theory is a revolutionary advancement in physics and chemistry
   that emerged in the early twentieth century. It is an elegant
@@ -39,8 +38,7 @@ General questions about quantum information science
 A qubit (pronounced “cue-bit” and short for quantum bit) is the physical
 carrier of quantum information. It is the quantum version of a bit, and
 its quantum state can take values of :math:`|0\rangle`, :math:`|1\rangle`,
-or both at once, which is a phenomenon known as **superposition**.\ **
-**
+or both at once, which is a phenomenon known as **superposition**.\
 
 
 
@@ -126,8 +124,7 @@ General questions about the IBM Quantum Experience
 
 The IBM Quantum Experience is a cloud-based platform where you can
 learn, research, and interact with a real quantum computer housed in an
-IBM Research lab.  **
-**
+IBM Research lab. 
 
 **What is the Quantum Composer?**
 
@@ -140,16 +137,14 @@ IBM Research lab.  **
 
 A Quantum Score is the set of instructions, or algorithm, to a quantum
 computer. It is a series of gates versus time played on different
-qubits, much like a musical score. **
-**
+qubits, much like a musical score.
 
 **What is the Quantum Sphere?**
 
 The Quantum Sphere is a graphical representation of the output of a
 Quantum Score. It provides the user a way to easily visualize properties
 of the measurements performed on a number of qubits, all in one
-diagram.\ **
-**
+diagram.
 
 Questions about quantum computers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -157,25 +152,21 @@ Questions about quantum computers
 **What is a universal quantum computer?**
 
 A universal quantum computer is a machine that can simulate an arbitrary
-quantum state from an arbitrary input quantum state. **
-**
+quantum state from an arbitrary input quantum state. 
 
-**What is a \ **universal** fault-tolerant quantum computer?
-**
+**What is a universal fault-tolerant quantum computer?**
 
 A universal fault-tolerant quantum computer is the grand challenge of
 quantum computing. It is device that can properly perform universal
-quantum operations using unreliable components. **
-**
+quantum operations using unreliable components.
 
 **When will I have a quantum computer?**
 
-You have access to one now with the Quantum Experience. **** It is small
+You have access to one now with the Quantum Experience. It is small
 at the moment, with a five-qubit processor, but it is a work-in-progress
-that we are continually improving. **
-**
+that we are continually improving.
 
-| **What does a quantum computer look like?**
+**What does a quantum computer look like?**
 
 A quantum computer looks like nothing you have on your desk, or in your
 office, or in your pocket. It is housed in a large unit known as a
@@ -203,10 +194,8 @@ Questions about our qubits and experiments
 The superconducting qubits are fabricated at IBM. The devices are made
 on silicon wafers with superconducting metals such as niobium and
 aluminum. Details about the fabrication processes are given in these
-references (`Chow *et al.*
-2014 <http://www.nature.com/ncomms/2014/140624/ncomms5015/full/ncomms5015.html>`__,
-`Córcoles *et al.*
-2015 <http://www.nature.com/ncomms/2015/150429/ncomms7979/full/ncomms7979.html>`__).
+references (`Chow *et al.* 2014 <http://www.nature.com/ncomms/2014/140624/ncomms5015/full/ncomms5015.html>`__,
+`Córcoles *et al.* 2015 <http://www.nature.com/ncomms/2015/150429/ncomms7979/full/ncomms7979.html>`__).
 
 **What are the properties of these qubits?**
 
@@ -224,11 +213,11 @@ dilution refrigerator, housed in one of IBM's Quantum Computing labs. 
 
 **What's a dilution refrigerator?**
 
-| A dilution refrigerator is the machine we use to cool down our quantum
-  processor device. The refrigerator cools the device down to around 15
-  miliKelvin. It works by circulating a mixture of two helium isotopes,
-  :math:`^{3}`He and :math:`^{4}`He, in a closed cycle within a complex system
-  of pipes and chambers.
+A dilution refrigerator is the machine we use to cool down our quantum
+processor device. The refrigerator cools the device down to around 15
+miliKelvin. It works by circulating a mixture of two helium isotopes,
+:math:`^{3}`He and :math:`^{4}`He, in a closed cycle within a complex system
+of pipes and chambers.
 
 **What happens when I hit the "Run" button?**
 
