@@ -16,7 +16,7 @@ install:
     - pip install --user travis-sphinx
 
 script:
-    - travis-sphinx build
+    - travis-sphinx --source=rst build
 
 after_success:
     - travis-sphinx deploy
