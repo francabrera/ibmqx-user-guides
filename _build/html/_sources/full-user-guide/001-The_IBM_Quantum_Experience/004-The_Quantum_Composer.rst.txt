@@ -1,7 +1,7 @@
 The Quantum Composer
 ====================
 
-The ***Quantum Composer*** is our graphical user interface for
+The **Quantum Composer** is our graphical user interface for
 programming a quantum processor. Those familiar with quantum computing
 may recognize the composer as a tool to construct *quantum
 circuits* using a library of well-defined gates and measurements. For

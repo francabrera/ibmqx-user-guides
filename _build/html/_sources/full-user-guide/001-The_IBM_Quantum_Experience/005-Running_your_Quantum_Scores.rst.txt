@@ -10,8 +10,7 @@ Running your Quantum Scores
   score by dragging gates onto the stave, adding a measurement, and then
   hitting "Run" for the score to execute. 
 
-**Running on an Custom Quantum Processor
-**
+Running on an Custom Quantum Processor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you select "Custom Topology," your only option is to run your score
@@ -24,8 +23,7 @@ execution of your circuit happens immediately (unless the number of
 qubits is large) and the output can then be viewed in the Results (see
 the next section). Try out the "Single Qubit Measurement" below.
 
-**Running on a Real Quantum Processor (Requires Units)
-**
+Running on a Real Quantum Processor (Requires Units)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 | If you select "Real Quantum Processor," the score you compose will be
