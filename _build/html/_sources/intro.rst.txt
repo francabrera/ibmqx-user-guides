@@ -1,1 +1,0 @@
-.. include:: ../../tutorial/rst/intro.rst
