@@ -19,8 +19,58 @@ general level— we can more deeply explore all the possibilities quantum
 computing offers, and more rapidly bring its exciting power to a world
 whose perspective is limited by classical physics. 
 
+FAQ
+---
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :glob:
 
-   ./*/toc*
+   000-FAQ/*
+
+The IBM Quantum Experience
+--------------------------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   001-The_IBM_Quantum_Experience/*
+
+The Weird and Wonderful World of the Qubit
+------------------------------------------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   
+   002-The_Weird_and_Wonderful_World_of_the_Qubit/*
+
+Multiple Qubits Gates and Entangled States
+------------------------------------------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   
+   003-Multiple_Qubits_Gates_and_Entangled_States/*
+
+Quantum Algorithms
+------------------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   
+   004-Quantum_Algorithms/*
+
+Quantum Error Correction
+------------------------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   
+   005-Quantum_Error_Correction/*
+
+The Real Nitty-Gritty Details
+------------------------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   
+   006-The_Real_Nitty-Gritty_Details/*
