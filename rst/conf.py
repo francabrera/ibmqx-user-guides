@@ -55,8 +55,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Experience Documentation'
-copyright = '2017, IBM Research'
-author = 'Jay M. Gambetta, Lev Bishop, Antonio Córcoles, Abigail Cross, Andrew Cross'
+copyright = '2017, IBM Research and the IBM QX team'
+author = 'Jay M. Gambetta, Lev Bishop, Antonio Córcoles, Andrew Cross'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
