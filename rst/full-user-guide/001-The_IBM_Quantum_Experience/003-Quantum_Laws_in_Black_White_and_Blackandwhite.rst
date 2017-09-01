@@ -8,13 +8,13 @@ Quantum Laws in Black, White, and Blackandwhite
   work through the rest of the tutorial, return to them every now and
   then to see how they tie into what you are learning.
 
-**Quantum is a system like everything else. **
+**Quantum is a system like everything else.**
 
 To each physical system there corresponds a Hilbert space (1) of
 dimensionality equal to the system's maximum number of reliably
 distinguishable states (2).  
 
-**﻿A quantum state is a configuration of the system.**
+**A quantum state is a configuration of the system.**
 
 | Each direction (ray) in the Hilbert space corresponds to a possible
   state of the system (3), with two states being reliably
@@ -39,7 +39,7 @@ distinguishable states (2).  
   :math:`j` occurs with probability :math:`P(j) = \langle \psi
   |\Pi_j|\psi\rangle` and the state after the measurement is
   :math:`|\psi_j\rangle = \Pi_j |\psi\rangle/\sqrt{P(j)}`.
-| ﻿
+|
 | These five principles are the foundation for the whole quantum world.
 | **Clarifications**
 
