@@ -66,11 +66,3 @@ Quantum Error Correction
    :glob:
    
    005-Quantum_Error_Correction/*
-
-The Real Nitty-Gritty Details
-------------------------
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   
-   006-The_Real_Nitty-Gritty_Details/*
