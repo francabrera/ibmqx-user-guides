@@ -1,0 +1,12 @@
+{%- if parents|length > 0 -%}
+    <div class="row">
+        <div class="{{ bs_span_prefix }}{{ bs_content_width }} breadcrumbs">
+        <ol class="breadcrumb">
+            {%- for parent in parents -%}
+            <li><a href="{{ parent.link }}">{{ parent.title }}</a></li>
+            {%- endfor -%}
+            <li class="active">{{ title }}</li>
+        </ol>
+        </div>
+    </div>
+{%- endif -%}

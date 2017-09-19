@@ -29,10 +29,11 @@ whose perspective is limited by classical physics. 
 Beginners User Guide
 --------------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :glob:
+   :includehidden:
 
-   beginners-guide/*/*
+   beginners-guide/introduction.rst
 
 Full User Guide
 ---------------
@@ -43,7 +44,7 @@ Full User Guide
    full-user-guide/*/*
 
 Contributing
--------------
+------------
 .. toctree::
    :maxdepth: 2
 

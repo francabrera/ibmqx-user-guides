@@ -30,6 +30,8 @@ pre {
     line-height: 1.1;
 }
 
+/* Styles for the guides index pages (table of contents) */
+
 .guide-toc > ul ul {
     list-style-type: disc;
     margin-top: 5px;
@@ -39,4 +41,14 @@ pre {
     font-size: 14px;
     font-weight: normal;
     line-height: 20px;
+}
+
+/* Styles for the breadcrumbs */
+
+ol.breadcrumb {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 1em;
+    background-color: transparent;
 }
