@@ -1,6 +1,13 @@
 Multiple Qubits, Gates, and Entangled States
 ============================================
 
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :hidden:
+
+   *
+
 In this section we will introduce you to multi-qubit states and
 operations. You will create an entangled state, known as a Bell state,
 and test some of the strangest properties of quantum physics. 

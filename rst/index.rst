@@ -38,10 +38,11 @@ Beginners User Guide
 Full User Guide
 ---------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :glob:
+   :includehidden:
 
-   full-user-guide/*/*
+   full-user-guide/introduction.rst
 
 Contributing
 ------------
