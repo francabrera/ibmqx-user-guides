@@ -1,6 +1,13 @@
 Single-Qubit Gates
 ==================
 
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :hidden:
+
+   *
+
 | **Just as classical computers perform calculations by manipulating
   bits between the 0 and 1 states, we manipulate qubits to perform
   calculations on a quantum computer. In this section, we’ll show you
@@ -9,8 +16,10 @@ Single-Qubit Gates
 | To understand what these do mathematically, go ahead and check out the
   full User Guide.
 
+.. cssclass:: h2
+
 X gate
-~~~~~~
+
 
 | Let’s start with the \ *X* gate, which is known as a “bit-flip”, since
   it flips the 0 to 1 and vice versa. This is similar to a classical NOT

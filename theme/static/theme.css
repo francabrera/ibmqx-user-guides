@@ -13,3 +13,30 @@ body {
 pre {
     font-family: "ibm-plex-mono","Helvetica Neue", "HelveticaNeue", "HelvRegularIBM", "Helvetica", Arial, sans-serif !important;
 }
+
+
+.guide-toc > ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.guide-toc li.toctree-l1 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.guide-toc > ul ul {
+    list-style-type: disc;
+    margin-top: 5px;
+}
+
+.guide-toc li.toctree-l2 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}

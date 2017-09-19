@@ -1,6 +1,13 @@
 FAQ for Beginners
 =================
 
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :hidden:
+
+   *
+
 ::
 
     What does “quantum” mean? 

@@ -1,6 +1,13 @@
 Multi-Qubit Gates
 =================
 
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :hidden:
+
+   *
+
 The notation for the state of a machine with multiple qubits is similar
 to what we have been using, but now there are multiple numbers inside
 the :math:`|\rangle` ‘ket’. For a two-qubit processor, the qubits can be
@@ -28,7 +35,7 @@ another. 
 | |image0|
 
 The CNOT gate's action on classical basis states is to flip (apply a NOT
-or X gate to) the target qubit *only *\ if the control qubit
+or X gate to) the target qubit \ *only*\ if the control qubit
 is :math:`|1\rangle`; otherwise it does nothing. 
 
 Below is how the CNOT gate transforms a set of 2 qubits (where **the
@@ -39,7 +46,7 @@ first qubit – the one on the right – is the control**):
 Try the "CNOT Circuits" example below with different input states. Drag
 the CNOT gate to the target qubit and then click on the control qubit to
 add the link between them. \ **Note that the X gates have prepared the
-qubits in a different configuration for each example. **
+qubits in a different configuration for each example.**\
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/cnotpiv8xpd3ep2jra4i.png
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/screen-shot-2017-03-04-at-5.10.14-pmb3gj6v8t7d9m5cdi.png

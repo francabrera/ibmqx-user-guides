@@ -1,6 +1,13 @@
 Entanglement
 ============
 
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :hidden:
+
+   *
+
 | We now come to entanglement, the weirdest of all quantum phenomena.
   Two or more quantum objects are entangled when, despite being too far
   apart to influence one another, they behave in ways that are 1)
