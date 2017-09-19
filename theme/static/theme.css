@@ -32,7 +32,7 @@ pre {
 
 /* Styles for the guides index pages (table of contents) */
 
-.guide-toc > ul ul {
+.guide-toc > ul > li > ul {
     list-style-type: disc;
     margin-top: 5px;
 }
