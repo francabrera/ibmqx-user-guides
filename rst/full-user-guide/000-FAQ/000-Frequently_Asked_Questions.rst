@@ -1,8 +1,16 @@
 Frequently Asked Questions
 ==========================
 
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :hidden:
+
+   *
+
+.. cssclass:: h2
+
 General questions about quantum information science
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
@@ -116,11 +124,12 @@ A quantum gate is an operation that is applied to a qubit to change its
 state. To generate entanglement you must have at least a two-qubit gate
 equivalent to the CNOT. 
 
+.. cssclass:: h2
+
 General questions about the IBM Quantum Experience
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 **What is the IBM Quantum Experience?**
-'''''''''''''''''''''''''''''''''''''''
 
 The IBM Quantum Experience is a cloud-based platform where you can
 learn, research, and interact with a real quantum computer housed in an
@@ -146,8 +155,10 @@ Quantum Score. It provides the user a way to easily visualize properties
 of the measurements performed on a number of qubits, all in one
 diagram.
 
+.. cssclass:: h2
+
 Questions about quantum computers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 **What is a universal quantum computer?**
 
@@ -175,8 +186,10 @@ pulse-generating equipment. However, you can access our quantum computer
 with very familiar personal computing devices, such as laptops, tablets,
 and smartphones.
 
+.. cssclass:: h2
+
 Questions about our qubits and experiments
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 **What is the qubit that you are physically using?**
 
@@ -294,8 +307,10 @@ amplifier at 15 mK, and a high-electron mobility transistor amplifier at
   about one hour.  During calibration, you will notice that the device
   will be "Down for Maintenance."
 
+.. cssclass:: h2
+
 Questions about running the simulator versus the experiment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 **What does the simulator do?**
 
@@ -359,8 +374,10 @@ than "Current Units".
   familiar with the tool, tell us about yourself and request an upgrade
   to the Expert User level. 
 
+.. cssclass:: h2
+
 How do I join IBM Quantum Computing?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 We are always interested in meeting the brightest and most inquisitive
 minds! Are you a `quantum

@@ -1,6 +1,13 @@
 Quantum Algorithms
 ==================
 
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :hidden:
+
+   *
+
 In this section we embark on more complex scores and explore the
 components it takes to construct real quantum algorithms. We go beyond
 simply defining entanglement and begin to use it in computation, in

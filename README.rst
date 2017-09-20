@@ -137,7 +137,10 @@ Other QISKit projects
 - `Python SDK <https://github.com/QISKit/qiskit-sdk-py>`__ Software development kit for working with quantum programs in Python.
 - `Tutorial <https://github.com/QISKit/qiskit-tutorial>`__ Jupyter notebooks for using QISKit.
 
-License
--------
+Licenses
+--------
 
 This project is licensed under the Apache License 2.0 - see the `LICENSE <LICENSE>`__ file for details.
+
+The Sphinx theme is based on `Sphinx Bootstrap Theme <https://github.com/ryan-roemer/sphinx-bootstrap-theme/blob/master/README.rst>`__
+by Ryan Roemer, which is licensed under the `MIT license <https://github.com/ryan-roemer/sphinx-bootstrap-theme/blob/v0.6.0/LICENSE.txt>`__.

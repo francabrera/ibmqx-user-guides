@@ -26,28 +26,19 @@ whose perspective is limited by classical physics. 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/quote-14n5c8oylkb2r19k9.png
 
 
-Beginners User Guide
---------------------
+.. cssclass:: guide-toc
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :glob:
+   :includehidden:
 
-   beginners-guide/*/*
+   Beginners User Guide <beginners-guide/introduction.rst>
+   full-user-guide/introduction.rst
 
-Full User Guide
----------------
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   full-user-guide/*/*
-
-Contributing
--------------
+.. cssclass:: guide-toc
 .. toctree::
    :maxdepth: 2
+   :glob:
+   :includehidden:
 
    contributing
-
-
-

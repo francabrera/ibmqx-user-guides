@@ -20,6 +20,7 @@
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes"> {% endblock %} {# Silence the sidebar's, relbar's #} {% block header %}{% endblock %} {% block relbar1 %}{% endblock %} {% block relbar2 %}{% endblock %} {% block sidebarsourcelink %}{% endblock %} {%- block content %} {{ navBar() }}
 <div class="container">
+    {% include "breadcrumbs.html" %}
     <div class="row">
         {%- block sidebar1 %}{{ bsidebar() }}{% endblock %}
         <div class="{{ bs_span_prefix }}{{ bs_content_width }} content">
