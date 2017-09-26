@@ -6,6 +6,7 @@ Multi-Qubit Gates
    :glob:
    :hidden:
 
+..
    *
 
 The notation for the state of a machine with multiple qubits is similar

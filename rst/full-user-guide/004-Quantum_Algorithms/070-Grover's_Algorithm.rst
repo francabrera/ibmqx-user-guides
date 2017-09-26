@@ -53,11 +53,11 @@ The Oracle
   the oracle matrix :math:`U_f` to act on any of the simple, standard basis
   states :math:`| x \rangle` by
 
-| :math:` U_f | x \rangle = (-1)^{f(x)}  |  x \rangle.`
+| :math:`U_f | x \rangle = (-1)^{f(x)}  |  x \rangle.`
 
 We see that if :math:`x` is an unmarked item, the oracle does nothing to the
-state. However, when we apply the oracle to the basis state :math:` | w
-\rangle `, it maps :math:`U_f | w \rangle = -| w \rangle`.
+state. However, when we apply the oracle to the basis state :math:`| w
+\rangle`, it maps :math:`U_f | w \rangle = -| w \rangle`.
 Geometrically, this unitary matrix corresponds to a reflection about the
 origin for the marked item in an :math:`N = 2^n` dimensional vector space.
 
@@ -69,7 +69,7 @@ have no idea where the marked item is. Therefore, any guess of its
 location is as good as any other, which can be expressed in terms of a
 quantum state called a *uniform superposition*:
 
-:math:` |s \rangle = \frac{1}{\sqrt{N}} \sum_{x = 0}^{N -1} | x
+:math:`|s \rangle = \frac{1}{\sqrt{N}} \sum_{x = 0}^{N -1} | x
 \rangle.`
 
 | If at this point we were to measure in the standard basis :math:`\{ | x
@@ -89,7 +89,7 @@ will return the right item with near-certainty. 
 This algorithm has a nice geometrical interpretation in terms of two
 reflections, which generate a rotation in a two-dimensional plane. The
 only two special states we need to consider are the winner :math:`| w
-\rangle` and the uniform superposition :math:` | s \rangle `. These two
+\rangle` and the uniform superposition :math:`| s \rangle`. These two
 vectors span a two-dimensional plane in the vector space
 :math:`\mathbb{C}^N.` They are not quite perpendicular because :math:`| w
 \rangle` occurs in the superposition with amplitude :math:`N^{-1/2}` as well.
@@ -149,7 +149,7 @@ the winner. 
 | How many times do we need to apply the rotation? It turns out that
   roughly :math:`\sqrt{N}` rotations suffice. This becomes clear when looking
   at the amplitudes of the state :math:`| \psi_t \rangle`. We can see that
-  the amplitude of :math:` | w \rangle` grows linearly with the number of
+  the amplitude of :math:`| w \rangle` grows linearly with the number of
   applications :math:`\sim t N^{-1/2}`. However, since we are dealing with
   amplitudes and not probabilities, the vector space's dimension enters
   as a square root. Therefore it is the amplitude, and not just the

@@ -180,7 +180,7 @@ functions, a quantum algorithm is allowed to call classical subroutines,
 for example a subroutine for computing the modular multiplication.
 Importantly, before such classical subroutines are incorporated into a
 quantum circuit, they must be transformed into a *reversible
-form. *\ More precisely, a quantum algorithm can call a classical
+form.*\ More precisely, a quantum algorithm can call a classical
 subroutine only if it is compiled into a sequence of reversible logical
 gates such as CNOT or Toffoli gate (in particular, the number of input
 and output wires in each gate must be the same). The subroutine is

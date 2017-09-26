@@ -47,9 +47,6 @@ distinguishable states (2).  
 
        <div style="text-align: left;">
 
-    .. rubric:: 
-       :name: section
-
     #. A Hilbert space is a linear vector space with complex
        coefficients and inner products :math:`\langle \phi|\psi\rangle =
        \sum_i \phi_{i}^{*}\psi_i`.
