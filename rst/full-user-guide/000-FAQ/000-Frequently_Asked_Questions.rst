@@ -6,6 +6,7 @@ Frequently Asked Questions
    :glob:
    :hidden:
 
+..
    *
 
 .. cssclass:: h2
@@ -229,7 +230,7 @@ dilution refrigerator, housed in one of IBM's Quantum Computing labs. 
 A dilution refrigerator is the machine we use to cool down our quantum
 processor device. The refrigerator cools the device down to around 15
 miliKelvin. It works by circulating a mixture of two helium isotopes,
-:math:`^{3}`He and :math:`^{4}`He, in a closed cycle within a complex system
+:math:`^{3}` He and :math:`^{4}` He, in a closed cycle within a complex system
 of pipes and chambers.
 
 **What happens when I hit the "Run" button?**

@@ -36,9 +36,9 @@ That is, if we apply the unitary :math:`\exp(- i \hat{p} \lambda)` to some
 wave packet :math:`\psi(x)`, then this wave packet will be shifted by
 :math:`\lambda` in the positive direction.
 
-| The scheme now assumes that we can apply the unitary evolution :math:`
-  \exp(-i H \otimes \hat{p} t )` to both the system and the pointer
-  register as illustrated in the following picture
+| The scheme now assumes that we can apply the unitary evolution
+  :math:`\exp(-i H \otimes \hat{p} t )` to both the system and the
+  pointer register as illustrated in the following picture
 
 | 
 | |image1|\ This picture essentially describes von Neumann"s measurement
@@ -50,16 +50,15 @@ wave packet :math:`\psi(x)`, then this wave packet will be shifted by
   according to the new Hamiltonian :math:`K = H\otimes\hat{p}` for a time
   :math:`t`, so the evolution is given by 
 
-:math:` e^{-it H\otimes \hat{p}} = \sum_{j=1}^{2^N}
-|\psi_{j}\rangle\langle \psi_{j}|\otimes e^{-itE_j \hat{p}}.
-`
+:math:`e^{-it H\otimes \hat{p}} = \sum_{j=1}^{2^N}
+|\psi_{j}\rangle\langle \psi_{j}|\otimes e^{-itE_j \hat{p}}.`
 
 We now observe the action of this measurement apparatus. Suppose that
 :math:`|\psi\rangle` is an
 `eigenstate <https://en.wikipedia.org/wiki/Introduction_to_eigenstates>`__
-:math:`|\psi_{j}\rangle` of :math:`H`, we find that the system evolves to :math:`
-e^{-it H\otimes \hat{p}}|\psi_{j}\rangle|0\rangle =
-|\psi_{j}\rangle |x = tE_j\rangle. ` A measurement of the
+:math:`|\psi_{j}\rangle` of :math:`H`, we find that the system evolves to
+:math:`e^{-it H\otimes \hat{p}}|\psi_{j}\rangle|0\rangle =
+|\psi_{j}\rangle |x = tE_j\rangle.` A measurement of the
 position of the pointer with sufficiently high accuracy will provide an
 approximation to :math:`E_j`.
 
@@ -75,15 +74,16 @@ The quantum algorithm
   :math:`0` through :math:`2^r-1`. In this representation, the discretization of
   the momentum operator becomes
 
-| :math:` \hat{p} = \sum_{j=1}^r 2^{-j}
-  \frac{\mathbb{I}-\sigma^z_j}{2}. `
+| :math:`\hat{p} = \sum_{j=1}^r 2^{-j}
+  \frac{\mathbb{I}-\sigma^z_j}{2}.`
+  xx
 | With this normalization :math:`\hat{p}|z\rangle =
   \frac{z}{2^r}|z\rangle`. Now the discretized Hamiltonian :math:`K =
   H\otimes \hat{p}` is a sum of terms involving at most :math:`k+1`
   qubits, if :math:`H` is a Hamiltonian involving terms of at most :math:`k`
   qubits. Thus we can simulate the dynamics of :math:`K` using standard
   methods. In terms of the momentum eigenbasis the initial (discretized)
-  state of the pointer is written :math:` | x=0\rangle =
+  state of the pointer is written :math:`| x=0\rangle =
   \frac{1}{2^{r/2}}\sum_{z=0}^{2^r-1} |z\rangle`. This state can
   be prepared efficiently on a quantum computer by first initializing
   the qubits of the pointer in the state :math:`|0\rangle \cdots
@@ -93,15 +93,15 @@ The quantum algorithm
   be represented by a product of Hadamard matrices. The discretized
   evolution of the system+pointer now can be written
 
-| :math:`  e^{-it  H\otimes \hat{p}}|\psi_{j}\rangle|x=0\rangle =
+| :math:`e^{-it  H\otimes \hat{p}}|\psi_{j}\rangle|x=0\rangle =
   \frac{1}{2^{r/2}}\sum_{z=0}^{2^r-1} e^{-iE_j
-  zt/2^r}|\psi_{j}\rangle z\rangle. `
+  zt/2^r}|\psi_{j}\rangle z\rangle.`
 
 | Performing an inverse quantum Fourier transform on the pointer leaves
   the system in the state :math:`|\psi_{j}\rangle\otimes|\phi\rangle`,
   where
 
-:math:` | \phi\rangle  = \sum_{x=0}^{2^r-1} \left(
+:math:`| \phi\rangle  = \sum_{x=0}^{2^r-1} \left(
 \frac{1}{2^{r}}\sum_{z=0}^{2^r-1}e^{\frac{2\pi
 i}{2^r}\left(x-\frac{E_j t}{2\pi}\right)z} \right)|x\rangle,`
 

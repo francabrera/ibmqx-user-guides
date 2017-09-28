@@ -21,7 +21,7 @@ Decoherence
 :math:`|\langle X\rangle|^2 +  |\langle Y\rangle|^2 + | \langle Z\rangle|^2 < 1`.
 
 Energy relaxation and :math:`T_1`
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 One important decoherence process is called *energy relaxation*, where
 the excited :math:`|1\rangle` state decays toward the ground state
@@ -35,7 +35,7 @@ gates that do nothing but wait) before measurement causes the state to
 gradually decay towards :math:`|0\rangle`.
 
 Dephasing and :math:`T_2`
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 | Dephasing is another decoherence process, and unlike energy
   relaxation, it affects only superposition states. It can be understood

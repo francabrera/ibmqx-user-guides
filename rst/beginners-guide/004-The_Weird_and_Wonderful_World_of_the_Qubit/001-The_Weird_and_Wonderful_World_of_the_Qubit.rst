@@ -6,6 +6,7 @@ The Weird and Wonderful World of the Qubit
    :glob:
    :hidden:
 
+..
    *
 
 A qubit is a quantum system consisting of two energy levels, labeled

@@ -6,6 +6,7 @@ FAQ for Beginners
    :glob:
    :hidden:
 
+..
    *
 
 ::

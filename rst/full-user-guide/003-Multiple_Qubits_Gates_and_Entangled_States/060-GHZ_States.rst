@@ -2,7 +2,7 @@ GHZ States
 ==========
 
 Perhaps even stranger than Bell states are their three-qubit
-generalization, the \ *GHZ states. *\ An example of one of these states
+generalization, the *GHZ states*. An example of one of these states
 is :math:`\frac{1}{\sqrt{2}}(|000\rangle- |111\rangle)`. The measured
 results should be half :math:`|000\rangle` and half :math:`|111\rangle`. GHZ
 states are named after Greenberger, Horne, and Zeilinger, who were the
