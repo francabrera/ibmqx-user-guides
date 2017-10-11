@@ -31,7 +31,8 @@ Creating superposition
   along +X on the Bloch sphere**.
 |  :math:`|+\rangle` superposition state, the standard representation of a
   superposition:
-
+| 
+| 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f5294f27ffbeb32810084f175e7dc1b3&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-3033b263493f8f4eacad676036b70f22.png" style="width: 100%; max-width: 600px;"></a>
