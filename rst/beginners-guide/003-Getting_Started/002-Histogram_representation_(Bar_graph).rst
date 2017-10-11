@@ -25,8 +25,8 @@ into more detail about the *H* gate in a later section.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=05bcd5c0aa7b77ff858cab66f6a5bf5b&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-f45e53d09688085a2363c7fc60406e9c.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=05bcd5c0aa7b77ff858cab66f6a5bf5b&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f45e53d09688085a2363c7fc60406e9c&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-f45e53d09688085a2363c7fc60406e9c.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f45e53d09688085a2363c7fc60406e9c&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 | |image1|
 
@@ -62,8 +62,8 @@ QISKit SDK example
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b380f377ff5c27355a254bf795385097&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-db03d34bf6ad5c4f27777fc3c8adb769.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b380f377ff5c27355a254bf795385097&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=db03d34bf6ad5c4f27777fc3c8adb769&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-db03d34bf6ad5c4f27777fc3c8adb769.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=db03d34bf6ad5c4f27777fc3c8adb769&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 |image3|
 
