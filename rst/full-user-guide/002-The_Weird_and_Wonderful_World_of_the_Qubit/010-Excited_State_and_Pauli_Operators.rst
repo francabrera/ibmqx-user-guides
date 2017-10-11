@@ -40,31 +40,29 @@ matrix :math:`A`).
   do you get when you try a :math:`Y` or :math:`Z` gate? Did you find that :math:`Y`
   gave you an excited state and :math:`Z` did not do anything?
 
-
 |
 | **1Q Pauli X**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d6547531acdc7e80689a611d214f3d41&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-d45a9317f90b97fddfda9f15f31eb14f.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d6547531acdc7e80689a611d214f3d41&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f31eb14f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-d45a9317f90b97fddfda9f15f31eb14f.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f31eb14f&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **1Q Pauli Y**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a147923199cc52de491e8b9c351df1b3&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-d45a9317f90b97fddfda9f15f33478de.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a147923199cc52de491e8b9c351df1b3&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f33478de&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-d45a9317f90b97fddfda9f15f33478de.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f33478de&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **1Q Pauli Z**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=df15f8325fc7509ab413f6bef67917cf&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-8afcf3a276348f6c37ee3246a5e3c561.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=df15f8325fc7509ab413f6bef67917cf&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
-
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8afcf3a276348f6c37ee3246a5e3c561&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-8afcf3a276348f6c37ee3246a5e3c561.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8afcf3a276348f6c37ee3246a5e3c561&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 
 
