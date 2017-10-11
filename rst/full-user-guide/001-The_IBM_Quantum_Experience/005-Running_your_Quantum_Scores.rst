@@ -53,14 +53,15 @@ return. 
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5dfa4e1b5597138d8e0cbcd919470e34&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-c0e1386ab6ad50c7464096012f656334.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5dfa4e1b5597138d8e0cbcd919470e34&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c0e1386ab6ad50c7464096012f656334&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-c0e1386ab6ad50c7464096012f656334.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c0e1386ab6ad50c7464096012f656334&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Single Qubit Measurement (Real)**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e773f95dc59959b23389983fe647cd1f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-68d7454c2e1e9e6dfd17d2c0289a387f.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e773f95dc59959b23389983fe647cd1f&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=68d7454c2e1e9e6dfd17d2c0289a387f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-68d7454c2e1e9e6dfd17d2c0289a387f.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=68d7454c2e1e9e6dfd17d2c0289a387f&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
 
