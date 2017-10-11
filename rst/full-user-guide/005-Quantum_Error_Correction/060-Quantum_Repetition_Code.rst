@@ -121,4 +121,26 @@ decode, and detect errors.
 
 | 
 
-| 
+|
+| **Encoder into bit-flip code (qubits 1-3)**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=0076df50ccabbc408765b8e66b700902&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-74154f1a9b7afaa85e52795ab985e503.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=0076df50ccabbc408765b8e66b700902&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **Bit-flip encoder and decoder (tomography)**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=66cde4d6ab22ac4ae487bfd4d3a17f6d&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-c318faf262d3e567c71d1acfd981254f.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=66cde4d6ab22ac4ae487bfd4d3a17f6d&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **Encoder into bit-flip code with parity checks (qubits 0,1,3)**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=80003062fc6e993e68f66a907e7becd5&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-b25b8a91a6f8355fff5a96b3a51078bd.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=80003062fc6e993e68f66a907e7becd5&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
