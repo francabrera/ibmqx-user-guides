@@ -176,6 +176,48 @@ processor: 
 Try it out for yourself! Compare what we got with the simulations (with
 both ideal and realistic parameters). 
 
+|
+| **Bell State ZZ-Measurement**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=76e1f11a2c5de774fa21e183f96424dc&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-479450d7f0d95a28e4fa155576a9bcbd.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=76e1f11a2c5de774fa21e183f96424dc&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **Bell State ZW-Measurement**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e67ad3a1edb73e541f306301e88cd78b&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-e21164be4db4b6f5698f254a30184862.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e67ad3a1edb73e541f306301e88cd78b&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **Bell State ZV-Measurement**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=008f94b5ddf0b03a9a78d884a4e68351&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-e21164be4db4b6f5698f254a30191fac.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=008f94b5ddf0b03a9a78d884a4e68351&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **Bell State XW-Measurement**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b630be21497ae7b18e6a38aff41586b7&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-e21164be4db4b6f5698f254a301a9363.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b630be21497ae7b18e6a38aff41586b7&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **Bell State XV-Measurement**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=2f1b473067783b332ee169b6103e4113&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-479450d7f0d95a28e4fa155576ae55fb.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=2f1b473067783b332ee169b6103e4113&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+
+
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-01%20at%2011.01.47%20PMp7ywz1fvomuhxgvi.png
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-01%20at%2011.58.25%20PM26fjth9ka5nah5mi.png
 .. |image2| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-02%20at%2012.00.28%20AMh9cbwavb76uyds4i.png
