@@ -97,6 +97,42 @@ time the outcome is 0 and 1 respectively. That is, if we make a
 measurement in the standard (“Z”) basis, the outcome is completely
 random. But, in the X basis, it has a deterministic outcome!
 
+|
+| **+> superposition state**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f5294f27ffbeb32810084f175e7dc1b3&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-3033b263493f8f4eacad676036b70f22.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f5294f27ffbeb32810084f175e7dc1b3&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **|- > superposition state**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=af8f4e948a7f6fdb7072d4b1517ab4d6&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-69105edada81f30718a6872b1133ee2d.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=af8f4e948a7f6fdb7072d4b1517ab4d6&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **|+> state measured in X basis**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f0d84446239fcaa802f5bf7ba2f9587b&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-61eed74ff0b30d2476bdac5d454f0024.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f0d84446239fcaa802f5bf7ba2f9587b&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **|-> state measured in X basis**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=27eb191c2c7cfb1e5127cc6dbc6110b7&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-b8c9dbdafa24ade6bc96be2916487493.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=27eb191c2c7cfb1e5127cc6dbc6110b7&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+
+
+
+
 .. |image0| image:: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAm1pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpYUmVzb2x1dGlvbj43MjwvdGlmZjpYUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6WVJlc29sdXRpb24+NzI8L3RpZmY6WVJlc29sdXRpb24+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4K0ULlwgAAAj5JREFUaAXtWktOwzAQHafpR7SCDWJVQWGHxIIVa86AuEdViSU7uAC3YVGx5BCIM0BFCxL9pLyJErGxEzfxlBB5JFOIn8fz5k1cO0ENX+drqpOBzVlXkaLxZ72IRUTDkyaFFNSLF0GrABXIrZbmif03Wb1iXrGKZMCXYkWEsA7DK2adqooAvWIVEcI6DK+YdapS4Fqlv5k/GWODM3sw9oTGnjIdIQJuoC3hZJVxLGqi3wZXIBb3pRgpuj9q0eSiQ7eHLSL8rTVcf8CBkHE3fTDEAdGluSeG6PYaaFCti88s24VajOuxao5NhFiEUyxbRhHG/alIebgYvOEPEWIbxiACry0xmVUx0WDJNRbXm+YewvWsBbOsjKLETncUXR5gBdHUhQKxQUdDuCyjZLwosev9BnH7CxMl9vwR0eNbRIFGmAhlegXS5z1Np4NMiBIbTyK6e/nG7kIT6Yqo326DmEwIMl4THk0Wg798tU+bFfHOS8o0t7XUVNv164ltN9/lZxNRLEh2iXm3UDp5Hq4IzdR3kbHGMVN8+b5j2/HFa3qGTbH1YNxMYAui6GmWPXtGYMYuXu648Z4q3lcZkLxsxgfNHJxhuPYyznmjAb/4k7AFnC6SfGXV2ZwnB04lWIexyBCzDdQWV4CwyD1WIA7nQzwx5ykVdugVE06wc/deMecpFXboFRNOsHP3XjHnKRV26BUTTrBz914x5ykVdhga3zgKTyzmHo8l+IlEODrmF8EFzf3Bt2Agv8PWiIn/2fkHtm5mLH8+iCoAAAAASUVORK5CYII=
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/1q-hgate8rwln2i8kpc1h5mi.png
 .. |image2| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/4-4ygaleeu23g4on7b9.png
