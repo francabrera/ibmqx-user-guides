@@ -78,8 +78,8 @@ Pascal's triangle. 
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e88752e99bae916d37597e48708cb23c&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-8ea323460b6f03cb9002b802139af008.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e88752e99bae916d37597e48708cb23c&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8ea323460b6f03cb9002b802139af008&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-8ea323460b6f03cb9002b802139af008.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8ea323460b6f03cb9002b802139af008&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 
 
