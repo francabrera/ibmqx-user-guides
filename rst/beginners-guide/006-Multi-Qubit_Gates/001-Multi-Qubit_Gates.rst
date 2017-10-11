@@ -49,6 +49,41 @@ the CNOT gate to the target qubit and then click on the control qubit to
 add the link between them. \ **Note that the X gates have prepared the
 qubits in a different configuration for each example.**\
 
+|
+| **CNOT (input 00)**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=fef6752ff80abc813c401752483659b9&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1ae7fa71f3ad1e6f8fbe269fafcc7ca9.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=fef6752ff80abc813c401752483659b9&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **CNOT (input 01)**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8786815e9d526bce832932736a3af574&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1ae7fa71f3ad1e6f8fbe269fafd9abf4.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8786815e9d526bce832932736a3af574&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **CNOT (input 10)**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=fd41ed6a72d684095b7c10cfc97e519b&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-15d54765a0eeedcf83c173d5a6b80166.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=fd41ed6a72d684095b7c10cfc97e519b&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **CNOT (input 11)**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a14da8229230c02c5d760eab3d36763c&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-7177ed173b5d2e3124c405339b9b6f15.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a14da8229230c02c5d760eab3d36763c&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+
+
+
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/cnotpiv8xpd3ep2jra4i.png
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/screen-shot-2017-03-04-at-5.10.14-pmb3gj6v8t7d9m5cdi.png
 
