@@ -91,54 +91,53 @@ as *entangled* states.
 
 | 
 
-
 |
 | **A Random Classical Circuit**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3f2d649034a83db47c39729a9a466f85&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-eb66af75098f190ea9e7c6f7df658b1b.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3f2d649034a83db47c39729a9a466f85&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=eb66af75098f190ea9e7c6f7df658b1b&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-eb66af75098f190ea9e7c6f7df658b1b.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=eb66af75098f190ea9e7c6f7df658b1b&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **CNOT (input 00)**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=72460a9b0004a527e676e99d27e8a36f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-a95f11718a78d8ff64bdd87cecc8ba63.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=72460a9b0004a527e676e99d27e8a36f&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a95f11718a78d8ff64bdd87cecc8ba63&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-a95f11718a78d8ff64bdd87cecc8ba63.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a95f11718a78d8ff64bdd87cecc8ba63&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **CNOT (input 01)**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=71bf43c7e6c9893a2e18f50451716f29&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-6c3621d910c99f3d4670a5ea5285e9d9.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=71bf43c7e6c9893a2e18f50451716f29&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6c3621d910c99f3d4670a5ea5285e9d9&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-6c3621d910c99f3d4670a5ea5285e9d9.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6c3621d910c99f3d4670a5ea5285e9d9&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **CNOT (input 10)**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=00e878a0478450c30fd772dbd8412636&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-6dcb75a9dd05dca9f0504ec02153c124.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=00e878a0478450c30fd772dbd8412636&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec02153c124&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-6dcb75a9dd05dca9f0504ec02153c124.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec02153c124&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **CNOT (input 11)**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=135bba91f1ea54c16c50ac38d5222750&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-6dcb75a9dd05dca9f0504ec0216cd1b6.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=135bba91f1ea54c16c50ac38d5222750&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec0216cd1b6&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-6dcb75a9dd05dca9f0504ec0216cd1b6.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec0216cd1b6&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **5Q Complete Superposition Circuit**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a24e493cdf74811d67fab5c60a14a37c&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-e21164be4db4b6f5698f254a300838ec.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a24e493cdf74811d67fab5c60a14a37c&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a300838ec&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-e21164be4db4b6f5698f254a300838ec.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a300838ec&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 
 
