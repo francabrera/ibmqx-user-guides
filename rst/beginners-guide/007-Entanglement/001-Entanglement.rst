@@ -64,16 +64,16 @@ Entanglement
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=941d27560e0688ef8ad6c184dcce05de&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1fcc3d6878c984ce05e69298a76abe36.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=941d27560e0688ef8ad6c184dcce05de&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1fcc3d6878c984ce05e69298a76abe36&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1fcc3d6878c984ce05e69298a76abe36.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1fcc3d6878c984ce05e69298a76abe36&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Example of Bell, or entangled, states (2)**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=2e3cc94582c74f661f680a849f78f998&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-136177cb0d92579d4630b69d7812ea54.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=2e3cc94582c74f661f680a849f78f998&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=136177cb0d92579d4630b69d7812ea54&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-136177cb0d92579d4630b69d7812ea54.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=136177cb0d92579d4630b69d7812ea54&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
    
    |
 
