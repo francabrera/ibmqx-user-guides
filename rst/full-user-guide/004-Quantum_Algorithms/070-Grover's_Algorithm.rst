@@ -168,33 +168,38 @@ Example circuits
   made from a control-Z gate, made from a CNOT (as described in the last
   section). The final part of the circuit performs :math:`U_s`. 
 
- **Grover N=2 A=00**
+|
+| **Grover N=2 A=00**
 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f18270d86b81a32770a286c826712a87&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-ac042c16f1d2bf7312503e842e7ffbcc.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f18270d86b81a32770a286c826712a87&sharedCode=true" target="_parent">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f18270d86b81a32770a286c826712a87&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
+|
 | **Grover N=2 A=01**
 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=344f2ef0e2d031b44196d0f542376a72&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-34bf6d8078127a4cbb85dcba18d71547.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=344f2ef0e2d031b44196d0f542376a72&sharedCode=true" target="_parent">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=344f2ef0e2d031b44196d0f542376a72&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
+|
 | **Grover N=2 A=10**
 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=2cd300bfa6cfe9c70aa305a82bcac894&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-e554e35d344f1e346c3b7cd30c5d1939.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=2cd300bfa6cfe9c70aa305a82bcac894&sharedCode=true" target="_parent">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=2cd300bfa6cfe9c70aa305a82bcac894&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
+|
 | **Grover N=2 A=11**
 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=edc6e730748b73f392bf650edc49b3e4&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-764735cc22581811f9f382d3b3c644f0.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=edc6e730748b73f392bf650edc49b3e4&sharedCode=true" target="_parent">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=edc6e730748b73f392bf650edc49b3e4&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
 
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Picture1zdnvcphw1b07wrk9.png
