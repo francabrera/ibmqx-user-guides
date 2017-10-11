@@ -32,9 +32,6 @@ Creating superposition
 |  :math:`|+\rangle` superposition state, the standard representation of a
   superposition:
 
-|
-| **+> superposition state**
-
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f5294f27ffbeb32810084f175e7dc1b3&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-3033b263493f8f4eacad676036b70f22.png" style="width: 100%; max-width: 600px;"></a>
@@ -67,9 +64,6 @@ Different states give the same outcomes! 
 | |image4|
 
 
-|
-| **|- > superposition state**
-
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=af8f4e948a7f6fdb7072d4b1517ab4d6&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-69105edada81f30718a6872b1133ee2d.png" style="width: 100%; max-width: 600px;"></a>
@@ -96,9 +90,6 @@ measurement. 
 
 :math:`|+\rangle` state measured in X basis:
 
-|
-| **|+> state measured in X basis**
-
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f0d84446239fcaa802f5bf7ba2f9587b&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/1q-hgate-xmeasm9641j8qcl3di.png" style="width: 100%; max-width: 600px;"></a>
@@ -107,9 +98,6 @@ measurement. 
 | |image9|
 
 :math:`|-\rangle` state measured in X basis:
-
-|
-| **|-> state measured in X basis**
 
 .. raw:: html
 
