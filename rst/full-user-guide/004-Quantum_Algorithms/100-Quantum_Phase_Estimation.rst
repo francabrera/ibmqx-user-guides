@@ -137,25 +137,22 @@ Example circuit
   initialized in a state :math:`Z H|0\rangle` which is :math:`-1` eigenvector
   :math:`\sigma^x`. Accordingly, the measurement outcome is :math:`1`. 
   
-  
+
 |
 | **Phase Estimation Circuit (-)**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=385635ce2710c8c8a72c0e47b8b85374&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-bc8e23382f4bb64da16c0a4579f9dc8a.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=385635ce2710c8c8a72c0e47b8b85374&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=bc8e23382f4bb64da16c0a4579f9dc8a&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-bc8e23382f4bb64da16c0a4579f9dc8a.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=bc8e23382f4bb64da16c0a4579f9dc8a&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Phase Estimation Circuit (+)**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=16fdd4f0ce4e005f66adda7b16e38650&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-b5a0e7376ded40cd7dc1022e778ebd71.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=16fdd4f0ce4e005f66adda7b16e38650&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
-
-
-
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e778ebd71&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-b5a0e7376ded40cd7dc1022e778ebd71.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e778ebd71&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-04%20at%203.38.02%20PMn0sfx8psrw0l766r.png
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-04%20at%203.38.25%20PMf1vr8qjhvh5dygb9.png
