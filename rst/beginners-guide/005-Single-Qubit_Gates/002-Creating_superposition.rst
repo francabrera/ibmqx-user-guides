@@ -32,7 +32,13 @@ Creating superposition
 |  :math:`|+\rangle` superposition state, the standard representation of a
   superposition:
 
-| |image1|
+|
+| **+> superposition state**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f5294f27ffbeb32810084f175e7dc1b3&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-3033b263493f8f4eacad676036b70f22.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f5294f27ffbeb32810084f175e7dc1b3&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 | 
 
@@ -60,7 +66,14 @@ Different states give the same outcomes! 
 
 | |image4|
 
-| |image5|
+
+|
+| **|- > superposition state**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=af8f4e948a7f6fdb7072d4b1517ab4d6&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-69105edada81f30718a6872b1133ee2d.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=af8f4e948a7f6fdb7072d4b1517ab4d6&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
 | |image6|
 
@@ -83,53 +96,31 @@ measurement. 
 
 :math:`|+\rangle` state measured in X basis:
 
-| |image8|
-
-| |image9|
-
-:math:`|-\rangle` state measured in X basis :
-
-|image10|
-
-Try the above measurements of the superposition :math:`|+\rangle` and
-:math:`|-\rangle` states in the X basis. You should find that 100% of the
-time the outcome is 0 and 1 respectively. That is, if we make a
-measurement in the standard (“Z”) basis, the outcome is completely
-random. But, in the X basis, it has a deterministic outcome!
-
-|
-| **+> superposition state**
-
-.. raw:: html
-
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f5294f27ffbeb32810084f175e7dc1b3&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-3033b263493f8f4eacad676036b70f22.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f5294f27ffbeb32810084f175e7dc1b3&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
-
-|
-| **|- > superposition state**
-
-.. raw:: html
-
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=af8f4e948a7f6fdb7072d4b1517ab4d6&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-69105edada81f30718a6872b1133ee2d.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=af8f4e948a7f6fdb7072d4b1517ab4d6&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
-
 |
 | **|+> state measured in X basis**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f0d84446239fcaa802f5bf7ba2f9587b&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-61eed74ff0b30d2476bdac5d454f0024.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f0d84446239fcaa802f5bf7ba2f9587b&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/1q-hgate-xmeasm9641j8qcl3di.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f0d84446239fcaa802f5bf7ba2f9587b&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+| |image9|
+
+:math:`|-\rangle` state measured in X basis:
 
 |
 | **|-> state measured in X basis**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=27eb191c2c7cfb1e5127cc6dbc6110b7&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-b8c9dbdafa24ade6bc96be2916487493.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=27eb191c2c7cfb1e5127cc6dbc6110b7&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/1q-x-hgates-xmeas5a5ys1vws2ejc3di.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=27eb191c2c7cfb1e5127cc6dbc6110b7&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
 
-
+Try the above measurements of the superposition :math:`|+\rangle` and
+:math:`|-\rangle` states in the X basis. You should find that 100% of the
+time the outcome is 0 and 1 respectively. That is, if we make a
+measurement in the standard (“Z”) basis, the outcome is completely
+random. But, in the X basis, it has a deterministic outcome!
 
 
 
