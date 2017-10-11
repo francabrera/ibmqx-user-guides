@@ -126,6 +126,49 @@ provided below. 
 .. raw:: html
 
    </div>
+   
+   
+|
+| **3Q GHZ State**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5d7e8d8480ed87350d7139987e4dc263&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-479450d7f0d95a28e4fa155576c25c03.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5d7e8d8480ed87350d7139987e4dc263&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **3Q GHZ State YYX-Measurement**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a079a8587269fc3ac5352bac0c6bfcb0&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-0e6a68c3cd23d638b8093ad4d067d45f.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a079a8587269fc3ac5352bac0c6bfcb0&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **3Q GHZ State YXY-Measurement**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=890af8221f59fe7be7a0c7253669aa6a&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-09ed38c0975b6f51d6945603177805c3.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=890af8221f59fe7be7a0c7253669aa6a&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **3Q GHZ State XYY-Measurement**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=ae3e60e47e4c28f29edcb5a9a49519c3&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-0e6a68c3cd23d638b8093ad4d06b9d72.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=ae3e60e47e4c28f29edcb5a9a49519c3&sharedCode=true" target="_parent" style="text-align" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **3Q GHZ State XXX-Measurement**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f23f9086ab9eacc82d18a0c62596d41d&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-ba07eaf7c8c75a9f9c5cf12a947ce1e0.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f23f9086ab9eacc82d18a0c62596d41d&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-02%20at%2012.42.45%20AMl8kxsz2b6cs4te29.png
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-02%20at%2012.42.54%20AMjqrs28j545p6tj4i.png
