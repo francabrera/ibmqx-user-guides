@@ -73,6 +73,8 @@ added in the future.
 
 | **My First Score**
 
-.. image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1f234d4750fe47817393d8e1c801c478.png
-   :target: https://quantumexperience.ng.bluemix.net/qx/editor?codeId=197852e542039814eb9600e38309037a&sharedCode=true
+.. raw:: html
+   
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=197852e542039814eb9600e38309037a&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1f234d4750fe47817393d8e1c801c478.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=197852e542039814eb9600e38309037a&sharedCode=true" target="_parent">Open in composer</a>
 
