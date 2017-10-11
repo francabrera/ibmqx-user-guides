@@ -50,6 +50,32 @@ T-Depths are 0, 1, 2, 3, 4, and 5. 
 
 | 
 
+|
+| **Red State**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=39ccb9a9facf97289640294f0acaec70&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-4c0c46c51bc95c280e3cecc7140121c0.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=39ccb9a9facf97289640294f0acaec70&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **Green State**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e65c5ab82ad56eeef03fcd7fb217d3d4&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-4c0c46c51bc95c280e3cecc71432020c.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e65c5ab82ad56eeef03fcd7fb217d3d4&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+
+|
+| **Blue State**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3920432afcf8e641524c9db0d2db11f2&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-82f8e7eaf1640aed285a4e982a12571f.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3920432afcf8e641524c9db0d2db11f2&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   
+|
+
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-02%20at%2012.45.45%20AMfhgoazwxmbgctyb9.png
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/int_t_0fi382bh9mhg2e29.png
 .. |image2| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/int_t_13fid4cebb6ueg66r.png
