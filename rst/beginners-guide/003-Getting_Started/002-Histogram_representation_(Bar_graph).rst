@@ -30,11 +30,14 @@ into more detail about the *H* gate in a later section.
 
 | |image1|
 
-QISKit SDK example
+
+.. raw:: html
+
+   <a href="https://qiskit.org" target="_parent">QISKit SDK python</a> example
 
 .. code-block:: python
 
-    # use QISKit
+    # use QISKit.org
     from qiskit import QuantumProgram
 
     # useful additional packages
@@ -67,11 +70,14 @@ QISKit SDK example
 
 |image3|
 
-QISKit SDK example
+.. raw:: html
+
+   <a href="https://qiskit.org" target="_parent">QISKit SDK python</a> example
+
 
 .. code-block:: python
 
-    # use QISKit
+    # use QISKit.org
     from qiskit import QuantumProgram
 
     # useful additional packages
