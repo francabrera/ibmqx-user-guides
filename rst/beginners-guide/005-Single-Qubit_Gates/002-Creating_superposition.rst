@@ -22,7 +22,7 @@ Creating superposition
 | The special case where the *H* gate is applied to the :math:`|0\rangle`
   state is given its own symbol and definition: :math:`|+\rangle =
   \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)`. This is a fancy way
-  of saying that this new state that we call “\ **:math:`|+\rangle`**\ ”
+  of saying that this new state that we call “\ :math:`|+\rangle`\ ”
   has a 1/2 probability of giving the outcome 0 and 1/2 probability of
   giving the outcome 1 (remember how the coefficient squared gives the
   probability of the outcome?). You can think of the *H* gate as a
