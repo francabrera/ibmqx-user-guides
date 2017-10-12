@@ -33,7 +33,7 @@ into more detail about the *H* gate in a later section.
 
 .. raw:: html
 
-   <a href="https://qiskit.org" target="_parent">QISKit SDK python</a> example
+   <a href="https://qiskit.org"  target="_blank">QISKit SDK python</a> example
 
 .. code-block:: python
 
@@ -72,7 +72,7 @@ into more detail about the *H* gate in a later section.
 
 .. raw:: html
 
-   <a href="https://qiskit.org" target="_parent">QISKit SDK python</a> example
+   <a href="https://qiskit.org" target="_blank">QISKit SDK python</a> example
 
 
 .. code-block:: python
