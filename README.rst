@@ -54,7 +54,7 @@ machine:
 .. code:: sh
 
     git clone https://github.com/QISKit/ibmqx-user-guides.git
-    cd ibmqx-user-guide
+    cd ibmqx-user-guides
 
 -  If you don't have Git installed, click the "Clone or download" button
    at the URL shown in the git clone command, unzip the file if needed,
