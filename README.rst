@@ -53,7 +53,7 @@ machine:
 
 .. code:: sh
 
-    git clone https://github.com/QISKit/qiskit-qx-user-guides.git
+    git clone https://github.com/QISKit/ibmqx-user-guides.git
     cd qiskit-qx-user-guide
 
 -  If you don't have Git installed, click the "Clone or download" button
@@ -76,6 +76,7 @@ To use as a library install the dependencies:
 To generate HTML documenatation run
 
 .. code:: sh
+   
     make doc
 
 You can find the generated documenatation into the `_build/html <_build/html>`_
@@ -98,23 +99,23 @@ find more info about it in:
 - `Oficial web <http://docutils.sourceforge.net/rst.html>`_
 - `Sphinx-doc quickstart <http://www.sphinx-doc.org/en/stable/rest.html>`_
 
-You can generate the documentation lile HTML using.
+You can generate the documentation in format HTML using.
 
 .. code:: sh
 
-					make doc
+    make doc
 
 You can export the documenatation in other formats like "epub", "text" or others.
 
 .. code:: sh
 
-					make epub
+    make epub
 
-you can find more info about this formats using:
+You can find more info about this formats using:
 
 .. code:: sh
 
-					make help
+    make help
 
 Test
 ~~~~
@@ -125,7 +126,7 @@ needed. Once they're updated/added run this be sure they keep passing:
 
 .. code:: sh
 
-					make test
+    make test
 
 
 Other QISKit projects
