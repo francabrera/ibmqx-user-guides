@@ -54,7 +54,7 @@ machine:
 .. code:: sh
 
     git clone https://github.com/QISKit/ibmqx-user-guides.git
-    cd qiskit-qx-user-guide
+    cd ibmqx-user-guide
 
 -  If you don't have Git installed, click the "Clone or download" button
    at the URL shown in the git clone command, unzip the file if needed,
@@ -79,7 +79,7 @@ To generate HTML documenatation run
    
     make doc
 
-You can find the generated documenatation into the `_build/html <_build/html>`_
+You can find the generated documenatation in `_build/html <_build/html>`_
 
 Do you want to help?
 ====================
