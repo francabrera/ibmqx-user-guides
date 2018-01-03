@@ -46,7 +46,7 @@ matrix :math:`A`).
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f31eb14f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-d45a9317f90b97fddfda9f15f31eb14f.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f31eb14f&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f31eb14f&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **1Q Pauli Y**
@@ -54,7 +54,7 @@ matrix :math:`A`).
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f33478de&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-d45a9317f90b97fddfda9f15f33478de.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f33478de&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f33478de&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **1Q Pauli Z**
@@ -62,7 +62,7 @@ matrix :math:`A`).
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8afcf3a276348f6c37ee3246a5e3c561&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-8afcf3a276348f6c37ee3246a5e3c561.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8afcf3a276348f6c37ee3246a5e3c561&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8afcf3a276348f6c37ee3246a5e3c561&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
 

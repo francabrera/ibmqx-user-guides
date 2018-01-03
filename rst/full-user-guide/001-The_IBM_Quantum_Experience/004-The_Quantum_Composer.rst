@@ -55,9 +55,7 @@ executing a series of one- and two-qubit gates in time, followed by a
 measurement of the qubits.
 
 If you are feeling brave, you can hit the **Advanced** button to view an
-additional set of gate operations and sub-routines; these are described
-in further detail
-`here <https://quantumexperience.ng.bluemix.net/qstage/#/tutorial?sectionId=89ada8b1aa9e798ce6aa9a705feab237&pageIndex=0>`__. 
+additional set of gate operations and sub-routines. 
 
 To use the Composer, simply drag the gate boxes onto the qubit stave to
 place them. Double-tap the boxes to delete, or drag them to the trash
@@ -76,7 +74,7 @@ added in the future.
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1f234d4750fe47817393d8e1c801c478&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1f234d4750fe47817393d8e1c801c478.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1f234d4750fe47817393d8e1c801c478&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1f234d4750fe47817393d8e1c801c478&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
 

@@ -43,7 +43,7 @@ X gate
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1a35de9b1f3b236cf98fc3e0960da72e&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1a35de9b1f3b236cf98fc3e0960da72e.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1a35de9b1f3b236cf98fc3e0960da72e&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1a35de9b1f3b236cf98fc3e0960da72e&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
 | 
