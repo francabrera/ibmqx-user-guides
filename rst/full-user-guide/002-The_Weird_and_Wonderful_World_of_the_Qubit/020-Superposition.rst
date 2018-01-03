@@ -85,7 +85,7 @@ followed by :math:`H` before your measurement.
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5306b82998001797c6ef04345641bab8&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-5306b82998001797c6ef04345641bab8.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5306b82998001797c6ef04345641bab8&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5306b82998001797c6ef04345641bab8&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Superposition (-) Z-Measurement**
@@ -93,7 +93,7 @@ followed by :math:`H` before your measurement.
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5306b82998001797c6ef0434564767f0&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-5306b82998001797c6ef0434564767f0.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5306b82998001797c6ef0434564767f0&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5306b82998001797c6ef0434564767f0&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Superposition (+) X-Measurement**
@@ -101,7 +101,7 @@ followed by :math:`H` before your measurement.
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=7c2bba34e2503c02aa981dcca8fa718f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-7c2bba34e2503c02aa981dcca8fa718f.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=7c2bba34e2503c02aa981dcca8fa718f&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=7c2bba34e2503c02aa981dcca8fa718f&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Superposition (-) X-Measurement**
@@ -109,7 +109,7 @@ followed by :math:`H` before your measurement.
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=ba9448cba01a6e174b2cbccad444da1a&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-ba9448cba01a6e174b2cbccad444da1a.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=ba9448cba01a6e174b2cbccad444da1a&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=ba9448cba01a6e174b2cbccad444da1a&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Superposition (+i) Y-Measurement**
@@ -117,7 +117,7 @@ followed by :math:`H` before your measurement.
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5306b82998001797c6ef0434561ebdeb&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-5306b82998001797c6ef0434561ebdeb.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5306b82998001797c6ef0434561ebdeb&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5306b82998001797c6ef0434561ebdeb&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Superposition (-i) Y-Measurement**
@@ -125,7 +125,7 @@ followed by :math:`H` before your measurement.
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=89524da231758e94d5784382510c722d&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-89524da231758e94d5784382510c722d.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=89524da231758e94d5784382510c722d&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=89524da231758e94d5784382510c722d&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
 

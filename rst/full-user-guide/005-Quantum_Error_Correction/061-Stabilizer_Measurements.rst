@@ -60,7 +60,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=618bfcf17927bad8e5a5f8d37568772d&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-618bfcf17927bad8e5a5f8d37568772d.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=618bfcf17927bad8e5a5f8d37568772d&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=618bfcf17927bad8e5a5f8d37568772d&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 0001**
@@ -68,7 +68,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5cba20db95acffdf97bf95af4f253de8&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-5cba20db95acffdf97bf95af4f253de8.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5cba20db95acffdf97bf95af4f253de8&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5cba20db95acffdf97bf95af4f253de8&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 0010**
@@ -76,7 +76,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e356856b01d8bc9f8db0d3edced40ec1&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-e356856b01d8bc9f8db0d3edced40ec1.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e356856b01d8bc9f8db0d3edced40ec1&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e356856b01d8bc9f8db0d3edced40ec1&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 0011**
@@ -84,7 +84,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=35cfa432f306d500aa85941a932318bf&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-35cfa432f306d500aa85941a932318bf.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=35cfa432f306d500aa85941a932318bf&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=35cfa432f306d500aa85941a932318bf&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 0100**
@@ -92,7 +92,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=35cfa432f306d500aa85941a93421b6f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-35cfa432f306d500aa85941a93421b6f.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=35cfa432f306d500aa85941a93421b6f&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=35cfa432f306d500aa85941a93421b6f&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 0101**
@@ -100,7 +100,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=9d8a5f01839f380c33855ba11714ad18&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-9d8a5f01839f380c33855ba11714ad18.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=9d8a5f01839f380c33855ba11714ad18&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=9d8a5f01839f380c33855ba11714ad18&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 0110**
@@ -108,7 +108,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=618bfcf17927bad8e5a5f8d375b37f29&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-618bfcf17927bad8e5a5f8d375b37f29.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=618bfcf17927bad8e5a5f8d375b37f29&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=618bfcf17927bad8e5a5f8d375b37f29&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 0111**
@@ -116,7 +116,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c7177d58a05920ca438c872f1ce253b7&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-c7177d58a05920ca438c872f1ce253b7.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c7177d58a05920ca438c872f1ce253b7&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c7177d58a05920ca438c872f1ce253b7&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 1000**
@@ -124,7 +124,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=deb1f2aa1f7c5718bfdb4029eb67c200&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-deb1f2aa1f7c5718bfdb4029eb67c200.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=deb1f2aa1f7c5718bfdb4029eb67c200&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=deb1f2aa1f7c5718bfdb4029eb67c200&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 1001**
@@ -132,7 +132,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=618bfcf17927bad8e5a5f8d375c82131&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-618bfcf17927bad8e5a5f8d375c82131.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=618bfcf17927bad8e5a5f8d375c82131&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=618bfcf17927bad8e5a5f8d375c82131&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 1010**
@@ -140,7 +140,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c495ddc03a0d87c9c4c3a9b31a145813&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-c495ddc03a0d87c9c4c3a9b31a145813.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c495ddc03a0d87c9c4c3a9b31a145813&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c495ddc03a0d87c9c4c3a9b31a145813&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 1011**
@@ -148,7 +148,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=7ce6f28163171c882dc7228f080ca3a1&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-7ce6f28163171c882dc7228f080ca3a1.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=7ce6f28163171c882dc7228f080ca3a1&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=7ce6f28163171c882dc7228f080ca3a1&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 1100**
@@ -156,7 +156,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=9d8a5f01839f380c33855ba11789cc51&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-9d8a5f01839f380c33855ba11789cc51.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=9d8a5f01839f380c33855ba11789cc51&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=9d8a5f01839f380c33855ba11789cc51&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 1101**
@@ -164,7 +164,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5cba20db95acffdf97bf95af4fc5c23c&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-5cba20db95acffdf97bf95af4fc5c23c.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5cba20db95acffdf97bf95af4fc5c23c&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5cba20db95acffdf97bf95af4fc5c23c&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 1110**
@@ -172,7 +172,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b2d815e741f0b820bd5b93a583b3bf93&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-b2d815e741f0b820bd5b93a583b3bf93.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b2d815e741f0b820bd5b93a583b3bf93&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b2d815e741f0b820bd5b93a583b3bf93&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette Z 1111**
@@ -180,7 +180,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=84becc47be891676e7ddc04e8760069c&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-84becc47be891676e7ddc04e8760069c.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=84becc47be891676e7ddc04e8760069c&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=84becc47be891676e7ddc04e8760069c&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Plaquette X +-+-**
@@ -188,7 +188,7 @@ When we ran these experiments we got 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e777c3e7a&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-b5a0e7376ded40cd7dc1022e777c3e7a.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e777c3e7a&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e777c3e7a&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/PlaquetteWebExp18626ul21g1ra4i.png

@@ -182,7 +182,7 @@ both ideal and realistic parameters). 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=479450d7f0d95a28e4fa155576a9bcbd&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-479450d7f0d95a28e4fa155576a9bcbd.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=479450d7f0d95a28e4fa155576a9bcbd&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=479450d7f0d95a28e4fa155576a9bcbd&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Bell State ZW-Measurement**
@@ -190,7 +190,7 @@ both ideal and realistic parameters). 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a30184862&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-e21164be4db4b6f5698f254a30184862.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a30184862&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a30184862&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Bell State ZV-Measurement**
@@ -198,7 +198,7 @@ both ideal and realistic parameters). 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a30191fac&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-e21164be4db4b6f5698f254a30191fac.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a30191fac&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a30191fac&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Bell State XW-Measurement**
@@ -206,7 +206,7 @@ both ideal and realistic parameters). 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a301a9363&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-e21164be4db4b6f5698f254a301a9363.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a301a9363&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a301a9363&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Bell State XV-Measurement**
@@ -214,7 +214,7 @@ both ideal and realistic parameters). 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=479450d7f0d95a28e4fa155576ae55fb&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-479450d7f0d95a28e4fa155576ae55fb.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=479450d7f0d95a28e4fa155576ae55fb&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=479450d7f0d95a28e4fa155576ae55fb&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
 

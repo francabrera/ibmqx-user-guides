@@ -116,7 +116,7 @@ that :math:`a^r-1` is a multiple of :math:`N`. Let us use the identity 
 
 | Let us now show that a quantum computer can efficiently simulate the
   period finding machine.  As in the case of the\ `Deutsch-Jozsa
-  algorithm </qstage/#/tutorial?sectionId=8443c4f713521c10b1a56a533958286b&pageIndex=3>`__,
+  algorithm <rst/full-user-guide/004-Quantum_Algorithms/080-Deutsch-Jozsa_Algorithm.rst>`__,
   we shall exploit quantum parallelism and constructive interference to
   determine whether a complicated function has a certain global property
   that cannot be learned by evaluating the function only at a few
@@ -243,7 +243,7 @@ flipped. Note that all inputs of R-AND can be computed from its outputs
 since :math:`d=c\oplus (a\wedge b)`. Thus R-AND indeed acts reversibly
 (technically, R-AND realizes a permutation on the set of 3-bit strings).
 Note also that R-AND coincides with the `Toffoli
-gate </qstage/#/tutorial?sectionId=8443c4f713521c10b1a56a533958286b&pageIndex=1>`__.
+gate <rst/full-user-guide/004-Quantum_Algorithms/061-Basic_Circuit_Identities_and_Larger_Circuits.rst>`__.
 The same construction can be applied to any other gate with two input
 wires and one output wire. Namely, if a gate F computes some Boolean
 function :math:`c=F(a,b)` then its reversible version R-F would map inputs
@@ -334,7 +334,7 @@ shall need a controlled version of :math:`U`. A controlled unitary operator
 is a quantum analogue of classical conditional statements such as
 if-then-else. We already saw examples of controlled quantum
 gates\ `earlier in the
-tutorial </qstage/#/tutorial?sectionId=8443c4f713521c10b1a56a533958286b&pageIndex=1>`__. In
+tutorial <rst/full-user-guide/004-Quantum_Algorithms/061-Basic_Circuit_Identities_and_Larger_Circuits.rst>`__. In
 general, suppose :math:`U` is a quantum circuit acting on :math:`n` qubits. A
 controlled version of :math:`U`  is a unitary operator acting on a larger
 system control+target, where control is a single qubit and target is a
@@ -436,7 +436,7 @@ example, one can choose the initial state as the basis vector
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b15913f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-858317af73c7a5ed31f676db5b15913f.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b15913f&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b15913f&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Multi7x7Mod15**
@@ -444,7 +444,7 @@ example, one can choose the initial state as the basis vector
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c97d1b1f88e0615685200e6cd6d4b8d2&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-c97d1b1f88e0615685200e6cd6d4b8d2.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c97d1b1f88e0615685200e6cd6d4b8d2&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c97d1b1f88e0615685200e6cd6d4b8d2&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Multi7x4Mod15**
@@ -452,7 +452,7 @@ example, one can choose the initial state as the basis vector
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b62695e&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-858317af73c7a5ed31f676db5b62695e.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b62695e&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b62695e&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **Multi7x13Mod15**
@@ -460,7 +460,7 @@ example, one can choose the initial state as the basis vector
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b9099fd&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-858317af73c7a5ed31f676db5b9099fd.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b9099fd&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b9099fd&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **PhaseEstimationTgate**
@@ -468,7 +468,7 @@ example, one can choose the initial state as the basis vector
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=0a1742807714ccbf73df68bbef062fae&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-0a1742807714ccbf73df68bbef062fae.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=0a1742807714ccbf73df68bbef062fae&sharedCode=true" target="_parent" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=0a1742807714ccbf73df68bbef062fae&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
 
