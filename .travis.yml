@@ -13,7 +13,7 @@ before_install:
 
 install:
     - conda install --yes python="2.7" sphinx
-    - pip install --user travis-sphinx
+    - pip install --user travis-sphinx==1.4.4
 
 script:
     - travis-sphinx --source=rst -n build
