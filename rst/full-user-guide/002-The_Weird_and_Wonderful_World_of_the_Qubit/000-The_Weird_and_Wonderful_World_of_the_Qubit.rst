@@ -15,9 +15,8 @@ quantum computing revolves around it.
 
 By the end of this section you will have a basic understanding of
 
--  Qubits and their measurements
--  Excited states
--  Superpositions of qubit states
--  Single qubit phase 
+-  The Quantum Bit (Qubit)
+-  Creating superpositions
+-  Introducing qubit phase 
 -  The Bloch Sphere
 -  Decoherence

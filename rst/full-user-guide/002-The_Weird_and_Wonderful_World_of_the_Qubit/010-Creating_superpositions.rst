@@ -1,5 +1,5 @@
-Excited State and Pauli Operators
-=================================
+Creating superpositions
+=======================
 
 | As you may have guessed, a qubit does more than just sit around in the
   :math:`|0\rangle` ground state. To put it into the :math:`|1\rangle`

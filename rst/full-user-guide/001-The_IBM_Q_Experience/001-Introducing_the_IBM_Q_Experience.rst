@@ -1,5 +1,5 @@
-Introducing the IBM Quantum Experience
-======================================
+Introducing the IBM Q experience
+================================
 
 .. toctree::
    :maxdepth: 1

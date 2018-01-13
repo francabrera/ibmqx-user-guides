@@ -1,5 +1,5 @@
-Superposition
-=============
+Introducing qubit phase
+=======================
 
 | Now that we have the :math:`|0\rangle` and :math:`|1\rangle` states under
   our belt, let's explore superposition, which is the concept that

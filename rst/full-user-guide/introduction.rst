@@ -27,7 +27,7 @@ whose perspective is limited by classical physics. 
    :includehidden:
 
    000-FAQ/000*
-   001-The_IBM_Quantum_Experience/001*
+   001-The_IBM_Q_Experience/001*
    002-The_Weird_and_Wonderful_World_of_the_Qubit/000*
    003-Multiple_Qubits_Gates_and_Entangled_States/000*
    004-Quantum_Algorithms/060*
