@@ -31,7 +31,7 @@ the next section). Try out the "Single Qubit Measurement" below.
 
 .. code-block:: openqasm
   
-  //Single Qubit Measurement
+  //Single Q Measurement
   include "qelib1.inc";
   reg q[1];
   creg c[1];
@@ -56,14 +56,14 @@ the next section). Try out the "Single Qubit Measurement" below.
   c = qp.create_classical_register("c", 1)
 
   # Build the circuit
-  single_q_meas = qp.create_circuit("single_q_meas", [q], [c])
-  single_q_meas.measure(q[0], c[0])
+  single_q_measurement = qp.create_circuit("single_q_measurement", [q], [c])
+  single_q_measurement.measure(q[0], c[0])
  
   # Execute the circuit
-  result = qp.execute(["single_q_meas"], backend = 'local_qasm_simulator')
+  result = qp.execute(["single_q_measurement"], backend = 'local_qasm_simulator')
 
   # Plot result
-  plot_histogram(result.get_counts("single_q_meas"))
+  plot_histogram(result.get_counts("single_q_measurement"))
 
 
 Running on a Real Quantum Processor (Requires Units)
