@@ -64,8 +64,8 @@ you to keep learning and designing new experiments. 
 For those who wish to jump right into creating your own experiments, you
 can skip right to the \ `Quantum Composer <../001-The_IBM_Quantum_Experience/004-The_Quantum_Composer.html>`__\ .
 If you wish to improve your understanding of the quantum world first,
-please continue reading this User Guide, starting with \ `the Quantum World <../001-The_IBM_Quantum_Experience/002-The_Quantum_World.html>`__\ 
-section on the next page.  Use the numbers at the top and bottom of each
+please continue reading this User Guide, starting with \ 
+`the Quantum World <../001-The_IBM_Quantum_Experience/002-The_Quantum_World.html>`__\ .  Use the numbers at the top and bottom of each
 page to navigate through each section. 
 
 We would like to acknowledge the work done under the IARPA Multi-Qubit

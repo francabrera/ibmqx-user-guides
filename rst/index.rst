@@ -2,13 +2,13 @@
 IBM Quantum Experience Documentation
 ====================================
 
-| If quantum physics sounds challenging to you, you are not alone. All
-  of our intuitions are based on day-to-day experiences and are defined
-  by classical physics — so most of us find the concepts in quantum
-  physics counterintuitive at first. In order to comprehend the quantum
-  world, you must let go of your beliefs about our physical world, and
-  develop an intuition for a completely different (and often surprising)
-  set of laws.
+If quantum physics sounds challenging to you, you are not alone. All
+of our intuitions are based on day-to-day experiences and are defined
+by classical physics — so most of us find the concepts in quantum
+physics counterintuitive at first. In order to comprehend the quantum
+world, you must let go of your beliefs about our physical world, and
+develop an intuition for a completely different (and often surprising)
+set of laws.
 
 Our goal with the IBM Quantum Experience is to introduce this world
 through a set of short tutorials in our User Guide, and by providing the

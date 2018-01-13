@@ -17,7 +17,8 @@ usability of some of the two-qubit gates).
 Once you are in the "Composer" tab, you can start making your very own
 quantum circuits!
 
-With the Composer, you can create a *quantum* *score,* which is
+With the Composer, you can create a *quantum* *circuit* which we sometimes refer
+to as a *quantum* *score* as it is 
 analogous to a musical score in several respects. Time progresses from
 left to right. Each line represents a qubit (as well as what happens to
 that qubit over time). Each qubit has a different frequency, like a
@@ -65,15 +66,40 @@ then click on the control qubit (a solid dot will appear). Note that on
 the real quantum processor, you cannot add more gates to a circuit 
 after placing a measurement; this feature will be added in the future.
 
-Load the quantum score below and try out a simulation, or start
+Load the quantum circuit below and try out a simulation, or start
 composing your own!
   
 **My First Score**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1f234d4750fe47817393d8e1c801c478&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1f234d4750fe47817393d8e1c801c478.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1f234d4750fe47817393d8e1c801c478&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+  OpenQasm Input
 
+.. code-block:: openqasm
 
+  //My First Score
+  include "qelib1.inc";
+  qreg q[2];
+  creg c[2];
 
+  //Pauli operations 
+  x q[0];
+  y q[1];
+  z q[0];
+  barrier q[0],q[1];
+
+  //Clifford operations
+  h q;
+  s q[0];
+  sdg q[1];
+  cx q[0],q[1];
+  barrier q[0],q[1];
+
+  //non-Clifford operations
+  t q[0];
+  tdg q[1];
+  barrier q[0],q[1];
+
+  //measurement operations
+  measure q[0] -> c[0];
+  measure q[1] -> c[1];

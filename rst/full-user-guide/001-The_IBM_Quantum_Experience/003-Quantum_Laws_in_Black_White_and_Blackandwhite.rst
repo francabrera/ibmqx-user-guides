@@ -18,8 +18,8 @@ distinguishable states.  
 
 Each direction (ray) in the Hilbert space corresponds to a possible
 state of the system  :math:`|\psi\rangle`, with two states being reliably distinguishable 
-if and only if their directions are orthogonal (inner product is zero) 
-:math:`\langle \phi|\psi\rangle =0`.
+if and only if their directions are orthogonal :math:`\langle \phi|\psi\rangle =0` 
+(inner product is zero).
 
 **A quantum state changes; it naturally wants to evolve, but it can always be undone.**
 

@@ -27,8 +27,44 @@ the next section). Try out the "Single Qubit Measurement" below.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c0e1386ab6ad50c7464096012f656334&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-c0e1386ab6ad50c7464096012f656334.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c0e1386ab6ad50c7464096012f656334&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+  OpenQasm Input
+
+.. code-block:: openqasm
+  
+  //Single Qubit Measurement
+  include "qelib1.inc";
+  reg q[1];
+  creg c[1];
+
+  measure q[0] -> c[0];
+
+.. raw:: html
+
+  <a href="https://qiskit.org"  target="_blank">QISKit</a> example
+
+.. code-block:: python
+
+  # use QISKit.org
+  from qiskit import QuantumProgram
+
+  # useful additional packages
+  from qiskit.tools.visualization import plot_histogram
+
+  # Define the QProgram and the Quantum and Classical Registers
+  qp = QuantumProgram()
+  q = qp.create_quantum_register("q", 1)
+  c = qp.create_classical_register("c", 1)
+
+  # Build the circuit
+  single_q_meas = qp.create_circuit("single_q_meas", [q], [c])
+  single_q_meas.measure(q[0], c[0])
+ 
+  # Execute the circuit
+  result = qp.execute(["single_q_meas"], backend = 'local_qasm_simulator')
+
+  # Plot result
+  plot_histogram(result.get_counts("single_q_meas"))
+
 
 Running on a Real Quantum Processor (Requires Units)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -51,16 +87,6 @@ previous executions available for you to view and experiment with!
 
 Once you hit "Run," your score's progress will be visible in the "Quantum
 Scores" tab below the composer, sorted by date executed. When your results 
-are ready, you will be able to view them from this tab. 
-You can also re-edit your score
+are ready, you will be able to view them from this tab.  You can also re-edit your score
 and execute it on the simulator while you wait for your results to
 return. 
-
-**Single Qubit Measurement (Real)**
-
-.. raw:: html
-
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=68d7454c2e1e9e6dfd17d2c0289a387f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-68d7454c2e1e9e6dfd17d2c0289a387f.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=68d7454c2e1e9e6dfd17d2c0289a387f&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
-
-
