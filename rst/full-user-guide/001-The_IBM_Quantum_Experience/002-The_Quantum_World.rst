@@ -36,30 +36,30 @@ quantum computer is clearly the winner over a classical computer. A
 working quantum computer could factor numbers in a day that would take a
 classical computer millions of years.
 
-| One might think that the difficulty in understanding quantum computing
-  or quantum physics lies in "hard math"... but mathematically, quantum
-  concepts are only a bit more complex than high school algebra. Quantum
-  physics is hard because, like Einstein’s theory of relativity, it
-  requires internalizing ideas that are simple but counter-intuitive.
-  What is strange about relativity is the concept that time and space
-  are interconnected, when common sense tells us they should act
-  independently. If you begin to explain relativity to a person new to
-  the idea by jumping straight to time and space, you will likely be
-  greeted by a blank stare. A better way to start is as Einstein did, by
-  explaining that relativity follows from a simple physical principle:
-  the speed of light is the same for all uniformly moving observers.
-  This one modest idea then becomes extremely profound and leads, by
-  inexorable logic, to Einsteinian spacetime.
+One might think that the difficulty in understanding quantum computing
+or quantum physics lies in "hard math"... but mathematically, quantum
+concepts are only a bit more complex than high school algebra. Quantum
+physics is hard because, like Einstein’s theory of relativity, it
+requires internalizing ideas that are simple but counter-intuitive.
+What is strange about relativity is the concept that time and space
+are interconnected, when common sense tells us they should act
+independently. If you begin to explain relativity to a person new to
+the idea by jumping straight to time and space, you will likely be
+greeted by a blank stare. A better way to start is as Einstein did, by
+explaining that relativity follows from a simple physical principle:
+the speed of light is the same for all uniformly moving observers.
+This one modest idea then becomes extremely profound and leads, by
+inexorable logic, to Einsteinian spacetime.
 
-| The counter-intuitive ideas of quantum physics that one must accept
-  are 1) *a physical system in a perfectly definite state can still
-  behave randomly*, and 2) *two systems that are too far apart to
-  influence each other can nevertheless behave in ways that, though
-  individually random, are somehow strongly correlated*. Unfortunately,
-  unlike relativity, there is no single simple physical principle from
-  which these conclusions follow. The best we can do is to distill
-  quantum mechanics down to a few abstract-sounding mathematical laws,
-  from which all the observed behavior of quantum particles (and qubits
-  in a quantum computer) can be deduced and predicted. And, as with
-  relativity, we must guard against attempting to describe quantum
-  concepts in classical terms.
+The counter-intuitive ideas of quantum physics that one must accept
+are 1) *a physical system in a perfectly definite state can still
+behave randomly*, and 2) *two systems that are too far apart to
+influence each other can nevertheless behave in ways that, though
+individually random, are somehow strongly correlated*. Unfortunately,
+unlike relativity, there is no single simple physical principle from
+which these conclusions follow. The best we can do is to distill
+quantum mechanics down to a few abstract-sounding mathematical laws,
+from which all the observed behavior of quantum particles (and qubits
+in a quantum computer) can be deduced and predicted. And, as with
+relativity, we must guard against attempting to describe quantum
+concepts in classical terms.

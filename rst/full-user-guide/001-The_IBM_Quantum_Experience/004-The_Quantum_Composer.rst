@@ -7,12 +7,12 @@ may recognize the composer as a tool to construct *quantum
 circuits* using a library of well-defined gates and measurements. For
 those not familiar, we will explain a few of the key parts.
 
-| When you first click on the "Composer" tab above, you will have a
-  choice between running a \ *real* quantum processor or a
-  *custom* quantum processor. In the custom processor, gates can be
-  placed anywhere, whereas in the real processor, the topology is set by
-  the physical device running in our lab (note that this restricts the
-  usability of some of the two-qubit gates).
+When you first click on the "Composer" tab above, you will have a
+choice between running a \ *real* quantum processor or a
+*custom* quantum processor. In the custom processor, gates can be
+placed anywhere, whereas in the real processor, the topology is set by
+the physical device running in our lab (note that this restricts the
+usability of some of the two-qubit gates).
 
 Once you are in the "Composer" tab, you can start making your very own
 quantum circuits!
@@ -47,7 +47,7 @@ Clifford group and are important for giving quantum computing its power.
 To measure the state of any qubit, use the **pink** standard measurement
 operation, which is a simple :math:`Z` projection that is assigned to a
 classical bit in a classical bit register. If you ever need a reminder,
-hit the Help button (the question mark near the gates heading) for a
+hit the Help button (the **i** mark near the gates heading) for a
 quick summary of all available gates. A quantum algorithm (circuit)
 begins by preparing the qubits in well-defined states (here the ground
 state, :math:`|0\rangle`, which we've automatically done for you), then
@@ -55,21 +55,20 @@ executing a series of one- and two-qubit gates in time, followed by a
 measurement of the qubits.
 
 If you are feeling brave, you can hit the **Advanced** button to view an
-additional set of gate operations and sub-routines. 
+additional set of gate operations and sub-routines. These will be explained as 
+you move though the user guide. 
 
 To use the Composer, simply drag the gate boxes onto the qubit stave to
-place them. Double-tap the boxes to delete, or drag them to the trash
-bin. To place a CNOT gate, drag first onto the target qubit (a :math:`\oplus`
-symbol will appear), then click on the control qubit (a solid dot will
-appear). Note that on the real quantum processor, you cannot add more
-gates to a circuit after placing a measurement; this feature will be
-added in the future.
+place them. Double-tap the boxes to delete. To place a CNOT gate,
+drag first onto the target qubit (a :math:`\oplus` symbol will appear), 
+then click on the control qubit (a solid dot will appear). Note that on 
+the real quantum processor, you cannot add more gates to a circuit 
+after placing a measurement; this feature will be added in the future.
 
-| Load the quantum score below and try out a simulation, or start
-  composing your own!
+Load the quantum score below and try out a simulation, or start
+composing your own!
   
-|
-| **My First Score**
+**My First Score**
 
 .. raw:: html
 

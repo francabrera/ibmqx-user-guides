@@ -1,14 +1,14 @@
 Running your Quantum Scores
 ===========================
 
-| Now that we've gotten familiar with the Composer, let's go over how to
-  run a quantum score. 
+Now that we've gotten familiar with the Composer, let's go over how to 
+run a quantum score. 
 
-| When you begin an experiment, you'll be prompted to give it a name, so
-  that you can recognize it later. You will also see two choices: Real
-  Quantum Processor, or Custom Topology.  In both cases, you create your
-  score by dragging gates onto the stave, adding a measurement, and then
-  hitting "Run" for the score to execute. 
+When you begin an experiment, you'll be prompted to give it a name, so
+that you can recognize it later. You will also see two choices: Real
+Quantum Processor, or Custom Topology.  In both cases, you create your
+score by dragging gates onto the stave, adding a measurement, and then
+hitting "Run" for the score to execute. 
 
 Running on an Custom Quantum Processor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -23,15 +23,22 @@ execution of your circuit happens immediately (unless the number of
 qubits is large) and the output can then be viewed in the Results (see
 the next section). Try out the "Single Qubit Measurement" below.
 
+**Single Qubit Measurement**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c0e1386ab6ad50c7464096012f656334&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-c0e1386ab6ad50c7464096012f656334.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c0e1386ab6ad50c7464096012f656334&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+
 Running on a Real Quantum Processor (Requires Units)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-| If you select "Real Quantum Processor," the score you compose will be
-  placed into the experimental queue when you hit "Run," and you will be
-  notified via email when it has been executed on the actual quantum
-  computer in our lab. 
+If you select "Real Quantum Processor," the score you compose will be
+placed into the experimental queue when you hit "Run," and you will be
+notified via email when it has been executed on the actual quantum
+computer in our lab. 
 
-You must have Units in your Quantum Experience account to use the Real
+You must have Units in your IBM Q experience account to use the Real
 Quantum Processor.  If the score you are trying to run has previously
 been run, you will be given the choice of seeing the results from the
 cached execution right away (which costs no Units), or spending the
@@ -42,22 +49,14 @@ it is done). 
 Note that many of the score examples found in this User Guide have
 previous executions available for you to view and experiment with!
 
-Once you hit "Run," your score's progress will be visible in the "My
-Scores" tab, sorted by date executed. When your results are ready, you
-will be able to view them from this tab. You can also re-edit your score
+Once you hit "Run," your score's progress will be visible in the "Quantum
+Scores" tab below the composer, sorted by date executed. When your results 
+are ready, you will be able to view them from this tab. 
+You can also re-edit your score
 and execute it on the simulator while you wait for your results to
 return. 
 
-|
-| **Single Qubit Measurement**
-
-.. raw:: html
-
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c0e1386ab6ad50c7464096012f656334&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-c0e1386ab6ad50c7464096012f656334.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c0e1386ab6ad50c7464096012f656334&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
-
-|
-| **Single Qubit Measurement (Real)**
+**Single Qubit Measurement (Real)**
 
 .. raw:: html
 

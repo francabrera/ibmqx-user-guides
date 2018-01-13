@@ -8,14 +8,14 @@ Introducing the IBM Quantum Experience
 
    *
 
-| Quantum computing is here. While today's quantum processors are modest
-  in size, the complexity grows continuously. The time is ripe to build
-  and engage a community of new quantum learners, so that we change the
-  way we think about computing.  Our goal with the IBM Quantum
-  Experience is for you to learn about the quantum world by reading this
-  User Guide, composing your own experiments, running them in
-  simulation, and executing them on the world’s first fully-controllable
-  quantum processor through the IBM Cloud.
+Quantum computing is here. While today's quantum processors are modest
+in size, the complexity grows continuously. The time is ripe to build
+and engage a community of new quantum learners, so that we change the
+way we think about computing.  Our goal with the IBM Q experience is for 
+you to learn about the quantum world by reading this
+User Guide, composing your own experiments, running them in
+simulation, and executing them on the world’s first fully-controllable
+quantum processor through the IBM Cloud.
 
 The IBM Quantum Experience consists of:
 
@@ -47,18 +47,13 @@ corner of each page.
 
 To make sure everyone has a chance to use the real device in our lab via
 the Cloud, we have established a **Units** currency system. If you have
-joined the IBM Quantum Experience as a **Standard User,** you have full
-access to our simulation capabilities and to previously-run cached
-results from the real device and a small number of Units to run
-real experiments on the quantum processor hardware. Once you have read
-through the User Guide you will be rewarded with extra Units to run more
-real-time experiments. This system allows our experiment queue to run
-smoothly. When your Units are used up, you will be replenished once you
-have viewed the results of the completed execution. We also invite
-Standard Users to request an upgrade of your User status to \ **Expert
-User**\ , which provides access to more Units and other advanced
-features as we introduce them. Contact us and let us know why you would
-like to become an Expert User. 
+joined the IBM Q experience you have full access to our simulation 
+capabilities and to previously-run cached results from the real device 
+and a small number of Units to run real experiments on the quantum processor 
+hardware. Once you have read through the User Guide you will be rewarded 
+with extra Units to run more real-time experiments. This system allows our 
+experiment queue to run smoothly. When your Units are used up, you will be 
+replenished once you have viewed the results of the completed execution.  
 
 The quantum processor in our lab requires frequent calibration; during
 these short periods, you will receive a "Down for Calibration" notice
@@ -73,17 +68,12 @@ please continue reading this User Guide, starting with \ `the Quantum World <../
 section on the next page.  Use the numbers at the top and bottom of each
 page to navigate through each section. 
 
-| Prepare yourself for a wild and fascinating journey -- and it all
-  starts with a qubit.
-
 We would like to acknowledge the work done under the IARPA Multi-Qubit
 Coherent Operations program, the Logical Qubits program, the LPS Quantum
 Characterization Validation & Verification program, and the IBM Research
 Frontiers Institute. The research performed in those programs has
-contributed to making this Quantum Experience possible. 
+contributed to making this IBM Q experience possible. 
 
 Thank you,
 
 Jay Gambetta, Jerry Chow, and the IBM Quantum team
-
-| 
