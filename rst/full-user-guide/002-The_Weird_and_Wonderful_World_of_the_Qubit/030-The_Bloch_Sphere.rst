@@ -1,28 +1,23 @@
 The Bloch Sphere
 ================
 
-Probabilities in the standard basis are not enough to specify a quantum
-state because it cannot capture the phase of the superposition. A
-convenient representation for a qubit is the *Bloch sphere*; this
-depiction makes it easier to visualize qubit states and gates.
+Visualization tools are important for understanding what is happening in a quantum circuit. A standard one is the Bloch Sphere as it allows understanding a qubit as a 3 dimensional object. We caution the reader that this tool fails to give intuition when you have multiple qubits as it fails to represent entanglement. This being said it is very useful for understanding single qubits. 
 
 |image0|
 
-| If we define a qubit state by :math:`|\psi\rangle =
-  \cos(\theta/2)|0\rangle + e^{i\phi}\sin(\theta/2)|1\rangle`,
-  where :math:`\theta` and :math:`\phi` are defined in the picture, we see
-  that there is a one-to-one correspondence between pure qubit states
-  (:math:`\mathbb{C}^2`) and the points on the surface of a unit sphere
-  (:math:`\mathbb{R}^3`). We can reconstruct an arbitrary unknown qubit
-  state :math:`|\psi\rangle` by measuring the *Bloch vector*, whose
-  vector components are the `expectation
-  values <https://en.wikipedia.org/wiki/Expectation_value_%28quantum_mechanics%29>`__
-  of the three Pauli operators, given by :math:`\langle X \rangle =
-  \text{tr}(|\psi\rangle\langle \psi|X)`, :math:`\langle Y \rangle
-  = \text{tr}(|\psi\rangle\langle \psi|Y)`, and :math:`\langle Z
-  \rangle = \text{tr}(|\psi\rangle\langle \psi|Z)`. The state
-  is given by :math:`|\psi\rangle \langle\psi|=(I+\langle X\rangle X
-  + \langle Y \rangle Y + \langle Z \rangle Z)/2`.
+As mentioned in the last section a single qubit state can be written as :math:`|\psi\rangle =\cos(\theta/2)|0\rangle + e^{i\phi}\sin(\theta/2)|1\rangle`,
+where :math:`\theta` and :math:`\phi` are defined in the picture, we see
+that there is a one-to-one correspondence between pure qubit states
+(:math:`\mathbb{C}^2`) and the points on the surface of a unit sphere
+(:math:`\mathbb{R}^3`). We can reconstruct an arbitrary unknown qubit
+state :math:`|\psi\rangle` by measuring the *Bloch vector*, whose
+vector components are the `expectation
+values <https://en.wikipedia.org/wiki/Expectation_value_%28quantum_mechanics%29>`__
+of the three Pauli operators, given by :math:`\langle X \rangle =
+\text{tr}(|\psi\rangle\langle \psi|X)`, :math:`\langle Y \rangle
+= \text{tr}(|\psi\rangle\langle \psi|Y)`, and :math:`\langle Z
+\rangle = \text{tr}(|\psi\rangle\langle \psi|Z)`. The state
+is given by :math:`|\psi\rangle \langle\psi|=(I+\langle X\rangle X + \langle Y \rangle Y + \langle Z \rangle Z)/2`.
 
 Each expectation value :math:`\langle Q \rangle` can be obtained
 experimentally by first preparing the state, rotating the standard basis
@@ -44,7 +39,15 @@ reconstruction is often referred to as `state
 tomography <https://en.wikipedia.org/wiki/Quantum_tomography>`__.
 Efficiently running routines for tomography requires running batches of
 quantum scores at a time, and can be set up by more advanced users
-through our API examples. 
+through QISKit. 
+
+.. raw:: html
+
+  <a href="https://qiskit.org"  target="_blank">QISKit</a> example
+
+.. literalinclude:: ../../../qiskit/python/quantum_phase_bloch.py
+  :language: python
+  :linenos:
 
 |
 | **Superposition (+) Z-Measurement**

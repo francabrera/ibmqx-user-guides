@@ -1,9 +1,6 @@
 # use QISKit.org
 from qiskit import QuantumProgram
 
-# useful additional packages
-from qiskit.tools.visualization import plot_histogram
-
 # Define the QProgram and the Quantum and Classical Registers
 qp = QuantumProgram()
 q = qp.create_quantum_register('q', 1)
@@ -17,5 +14,5 @@ superposition_state.measure(q, c)
 # Execute the circuit
 result = qp.execute(['superposition_state'], backend = 'local_qasm_simulator')
 
-# Plot result
-plot_histogram(result.get_counts('superposition_state'))
+# Print result
+print(result.get_counts('superposition_state'))
