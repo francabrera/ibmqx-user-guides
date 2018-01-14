@@ -52,11 +52,12 @@ This one modest idea then becomes extremely profound and leads, by
 inexorable logic, to Einsteinian spacetime.
 
 The counter-intuitive ideas of quantum physics that one must accept
-are 1) *a physical system in a perfectly definite state can still
-behave randomly*, and 2) *two systems that are too far apart to
-influence each other can nevertheless behave in ways that, though
-individually random, are somehow strongly correlated*. Unfortunately,
-unlike relativity, there is no single simple physical principle from
+are: 
+
+1. *a physical system in a perfectly definite state can still behave randomly*. 
+2. *two systems that are too far apart to influence each other can nevertheless behave in ways that, though individually random, are somehow strongly correlated*. 
+
+Unfortunately, unlike relativity, there is no single simple physical principle from
 which these conclusions follow. The best we can do is to distill
 quantum mechanics down to a few abstract-sounding mathematical laws,
 from which all the observed behavior of quantum particles (and qubits

@@ -76,4 +76,4 @@ contributed to making this IBM Q experience possible. 
 
 Thank you,
 
-Jay Gambetta, Jerry Chow, and the IBM Quantum team
+Jay Gambetta, Jerry Chow, and the IBM Q team

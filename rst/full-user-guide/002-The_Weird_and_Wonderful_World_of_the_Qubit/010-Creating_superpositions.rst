@@ -1,72 +1,160 @@
 Creating superpositions
 =======================
 
-| As you may have guessed, a qubit does more than just sit around in the
-  :math:`|0\rangle` ground state. To put it into the :math:`|1\rangle`
-  *excited* state, we need a *quantum gate*. In this section we will
-  introduce gates, and how to use them in the Composer.
+Up to this point, nothing is different from a classical bit. 
+To go beyond classical bits we must explore what it means to make a superposition. 
+The operation for generating a superposition 
+is the Hadamard gate, :math:`H`. In the Composer, this is the
+blue gate labeled :math:`H`.
 
-| Quantum gates, or operations, are typically represented as matrices. A
-  gate that acts on one qubit is represented by a :math:`2 \times 2`
-  `unitary matrix <https://en.wikipedia.org/wiki/Unitary_matrix>`__.
-  Since quantum operations must be reversible and preserve probability
-  amplitudes, the matrices must be unitary. The result of the quantum
-  gate is found by multiplying the matrix representing the gate with the
-  vector representing the quantum state.
+The simple score to make a superposition is given below. It starts with placing 
+the :math:`H` gate on one of the qubits (which starts in the :math:`|0\rangle` state) 
+and a standard measurement. Go run it. 
 
-      :math:`|\psi'\rangle=U|\psi\rangle`  where :math:`U^\dagger U = 1` 
-(:math:`A^\dagger` represents the complex conjugation and transpose of any
-matrix :math:`A`).
-
-| A common group of gates, known as the `Pauli
-  Operators <https://en.wikipedia.org/wiki/Pauli_matrices>`__, are
-  represented by the matrices
-
-|                          |image0|
-
-| The Pauli :math:`X` gate is known as an :math:`X_{\pi}`-rotation. It takes
-  :math:`|0\rangle\rightarrow X|0\rangle=|1\rangle`; in other words,
-  it flips the zero to a one, or vice versa (this is why it is also
-  commonly referred to as a bit-flip). Try the Pauli :math:`X` gate in the
-  Composer, using the score file below. Did you find that, unlike in the
-  example on the previous page, the qubit ended up in the excited
-  state :math:`|1\rangle` with high probability? Like before, any
-  deviation from the excited state is likely due to decoherence and
-  imperfect measurements.
-
-|image1|
-
-| In the other examples below, explore what the Pauli Operators do. What
-  do you get when you try a :math:`Y` or :math:`Z` gate? Did you find that :math:`Y`
-  gave you an excited state and :math:`Z` did not do anything?
-
-|
-| **1Q Pauli X**
+**Superposition state**
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f31eb14f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-d45a9317f90b97fddfda9f15f31eb14f.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f31eb14f&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+  OpenQasm Input
 
-|
-| **1Q Pauli Y**
-
-.. raw:: html
-
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f33478de&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-d45a9317f90b97fddfda9f15f33478de.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=d45a9317f90b97fddfda9f15f33478de&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
-
-|
-| **1Q Pauli Z**
+.. literalinclude:: ../../../qiskit/openqasm/superposition_state.qasm
+  :language: c++
+  :linenos:
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8afcf3a276348f6c37ee3246a5e3c561&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-8afcf3a276348f6c37ee3246a5e3c561.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8afcf3a276348f6c37ee3246a5e3c561&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+  <a href="https://qiskit.org"  target="_blank">QISKit</a> example
 
+.. literalinclude:: ../../../qiskit/python/superposition_state.py
+  :language: python
+  :linenos:
 
+Did you find that the results give half the time a 0 and half the time a 1? 
+Indeed, much like flipping a fair coin, the results are close to 50/50 
+with the non-ideality due to shot noise and errors (if you ran it on 
+a real experiment). 
+You would not be alone thinking the :math:`H` gate is is like flipping a 
+fair coin (it is the randomness that we all experience).
 
+However, quantum randomness is much different. Lets see how.  Let's 
+run the experiment again, but this time with two :math:`H` gates in succession. 
+If we consider the :math:`H` gate to be analog to a coin flip, here we would be 
+flipping it twice. Flipping a coin twice you would still expect a 50/50 
+distribution. Below is a quantum score for this experiment, go run it 
+and see what you get. 
 
-.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-01%20at%209.59.59%20AMg9al3vn7mf1xajor.png
-.. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/excitededl80civwo8ncdi.png
+**Superposition state X basis**
 
+.. raw:: html
+
+  OpenQasm Input
+
+.. literalinclude:: ../../../qiskit/openqasm/superposition_state_xbasis.qasm
+  :language: c++
+  :linenos:
+
+.. raw:: html
+
+  <a href="https://qiskit.org"  target="_blank">QISKit</a> example
+
+.. literalinclude:: ../../../qiskit/python/superposition_state_xbasis.py
+  :language: python
+  :linenos:
+
+This time, the results are surprising. Unlike the classical case, with 
+high probability the outcome is not random, but in the :math:`|0\rangle` 
+state. Quantum randomness is not simply like a classical random coin flip.
+In both of the above experiments, the system (without noise) is in a definite 
+state, but only in the first case does it behave randomly. This is because, 
+in the first case, via the :math:`H` gate, we make a uniform superposition 
+of the ground and excited state, 
+:math:`|+\rangle=(|0\rangle+|1\rangle)/\sqrt{2}`, but then follow 
+it with a measurement in the computational basis. The act of measurement 
+in the computational basis forces the system to be in either the 
+:math:`|0\rangle` state or the :math:`|1\rangle` state with an equal 
+probability. In the second case, 
+we can think of the second :math:`H` gate as being part of the final 
+measurement operation; it changes the measurement basis from the 
+computational basis to a new basis (which we will call the superposition basis 
+or x-basis) and the 
+experiment confirms by giving result 0 that the system is in the :math:`|+\rangle` 
+superposition state.  
+
+Before we give the math to understand this lets consider two more experiments. 
+The first puts the qubit first in the excited state and then applies 
+the :math:`H` gate. The score for this is below and running it on the
+experiment we find that we get the same 50/50 statistics as the first experiment.  
+
+**Negative Superposition state**
+
+.. raw:: html
+
+  OpenQasm Input
+
+.. literalinclude:: ../../../qiskit/openqasm/negative_superposition_state.qasm
+  :language: c++
+  :linenos:
+
+.. raw:: html
+
+  <a href="https://qiskit.org"  target="_blank">QISKit</a> example
+
+.. literalinclude:: ../../../qiskit/python/negative_superposition_state.py
+  :language: python
+  :linenos:
+
+The final experiment consists of first preparing the qubit in the excited state 
+and then applying the 
+:math:`H` gate (putting it in a superposition) and then measuring in the 
+x-basis (another :math:`H` gate followed by a measurement). Here we find 
+with high probability that the system gives outcome 1. This tells us that 
+the state just before the x-basis measurement was a superposition that 
+was orthogonal to the :math:`|+\rangle` state. By definition this state has to be 
+:math:`|-\rangle=(|0\rangle-|1\rangle)/\sqrt{2}`. 
+That is the :math:`H` gate transforms the computational basis into a new basis, 
+the superposition basis, defined by the set :math:`\{|+\rangle, |-\rangle\}`.
+
+**Negative Superposition state X basis**
+
+.. raw:: html
+
+  OpenQasm Input
+
+.. literalinclude:: ../../../qiskit/openqasm/negative_superposition_state_xbasis.qasm
+  :language: c++
+  :linenos:
+
+.. raw:: html
+
+  <a href="https://qiskit.org"  target="_blank">QISKit</a> example
+
+.. literalinclude:: ../../../qiskit/python/negative_superposition_state_xbasis.py
+  :language: python
+  :linenos:
+
+The matrix the represents the :math:`H` gate is
+ 
+.. math:: 
+  ~~~~~~~~H =\frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}.
+
+Applying this gate to the :math:`|0\rangle` gives 
+
+.. math:: 
+  ~~~~~~~~H|0\rangle = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}\begin{pmatrix} 1 \\ 0 \end{pmatrix} = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \\ 1 \end{pmatrix}=|+\rangle
+
+and applying it to the :math:`|1\rangle` gives 
+
+.. math:: 
+  ~~~~~~~~H|1\rangle = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}\begin{pmatrix} 0 \\ 1 \end{pmatrix} = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 \\ -1 \end{pmatrix}=|-\rangle
+  
+From these it is simple to understand the above four experiments and you have 
+now learnt about quantum randomness. You have also learnt about quantum superpositons 
+and that these superpositions can have a sign. The main message we would like you to 
+take away from this this chapter is:
+
+- a physical system in a perfectly definite state can still behave randomly. 
+
+This is the first of the two principles from \ 
+`the Quantum World <../001-The_IBM_Quantum_Experience/002-The_Quantum_World.html>`__ \ 
+section that we believe needs to become your new intuition and 
+what makes quantum systems different to classical systems.

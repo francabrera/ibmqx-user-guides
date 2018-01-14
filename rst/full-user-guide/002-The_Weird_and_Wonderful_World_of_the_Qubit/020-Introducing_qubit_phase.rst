@@ -1,6 +1,8 @@
 Introducing qubit phase
 =======================
 
+In the last two sections we have covered 
+
 | Now that we have the :math:`|0\rangle` and :math:`|1\rangle` states under
   our belt, let's explore superposition, which is the concept that
   adding quantum states together (similar to overlaying two waves)

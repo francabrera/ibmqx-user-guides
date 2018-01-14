@@ -1,15 +1,15 @@
-IBM Quantum Experience user guides
-==================================
+IBM Q experience user guides
+============================
 The repository contains the user guides from the `IBM Q experience <https://quantumexperience.ng.bluemix.net>`__ 
 
 
-| If quantum physics sounds challenging to you, you are not alone. All
-  of our intuitions are based on day-to-day experiences and are defined
-  by classical physics — so most of us find the concepts in quantum
-  physics counterintuitive at first. In order to comprehend the quantum
-  world, you must let go of your beliefs about our physical world, and
-  develop an intuition for a completely different (and often surprising)
-  set of laws.
+If quantum physics sounds challenging to you, you are not alone. All
+of our intuitions are based on day-to-day experiences and are defined
+by classical physics — so most of us find the concepts in quantum
+physics counterintuitive at first. In order to comprehend the quantum
+world, you must let go of your beliefs about our physical world, and
+develop an intuition for a completely different (and often surprising)
+set of laws.
 
 The users guides
 ----------------
