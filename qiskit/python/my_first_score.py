@@ -26,8 +26,10 @@ my_first_score.barrier(q)
 # measurement operations
 my_first_score.measure(q, c)
  
-# Execute the circuit
-result = qp.execute(['my_first_score'], backend = 'local_qasm_simulator')
+# Execute the circuit, to run on the real device change 
+# backend = 'local_qasm_simulator' to backend = 'ibmqx...' and set the API.
+# Also to explore the quantum randomness remove seed = 1
+result = qp.execute(['my_first_score'], backend='local_qasm_simulator', seed=1)
 
 # Print result
 print(result.get_counts('my_first_score'))

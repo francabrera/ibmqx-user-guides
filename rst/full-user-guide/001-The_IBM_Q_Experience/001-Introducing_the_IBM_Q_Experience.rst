@@ -31,8 +31,7 @@ The IBM Quantum Experience consists of:
    you can create your very own quantum circuit (which we call a
    **quantum score),** much like a composer composes a music score;
 -  a simulator that can test your quantum scores;
--  access to an actual quantum processor running in an IBM Quantum
-   Computing lab, where your quantum scores will be executed; and
+-  access to an actual quantum processor running in an IBM Q lab, where your quantum scores will be executed; and
 -  a **quantum community** where your quantum scores, ideas, and
    experiences can be shared and discussed.
 

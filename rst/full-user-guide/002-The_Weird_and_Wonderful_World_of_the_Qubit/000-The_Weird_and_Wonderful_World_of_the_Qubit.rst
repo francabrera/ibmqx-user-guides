@@ -18,5 +18,6 @@ By the end of this section you will have a basic understanding of
 -  The Quantum Bit (Qubit)
 -  Creating superpositions
 -  Introducing qubit phase 
+-  Advanced single qubit gates
 -  The Bloch Sphere
 -  Decoherence

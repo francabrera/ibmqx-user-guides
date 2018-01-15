@@ -24,8 +24,10 @@ for exp_index in exp_vector:
     middle.t(q)
     circuits.append(circuit_name)
 
-# Execute the circuit
-result = qp.execute(circuits, backend = 'local_qasm_simulator')
+# Execute the circuit, to run on the real device change 
+# backend = 'local_qasm_simulator' to backend = 'ibmqx...' and set the API.
+# Also to explore the quantum randomness remove seed = 1
+result = qp.execute(circuits, backend = 'local_qasm_simulator', seed=1)
 
 # Print result
 for exp_index in exp_vector:

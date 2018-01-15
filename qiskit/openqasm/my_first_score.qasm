@@ -23,5 +23,4 @@ t q[0];
 tdg q[1];
 barrier q;
 // measurement operations
-measure q[0] -> c[0];
-measure q[1] -> c[1];
+measure q -> c;

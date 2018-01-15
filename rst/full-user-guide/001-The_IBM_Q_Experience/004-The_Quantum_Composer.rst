@@ -42,18 +42,20 @@ which represent bit-flips (:math:`X`, equivalent to a classical NOT);
 phase-flips (:math:`Z`); and a combined bit-flip and phase-flip (:math:`Y`). We
 also offer *Clifford operations*, which are the **blue** class of gates,
 such as  :math:`H`, :math:`S`, and :math:`S^\dagger` gates for generating quantum
-superpositions, as well as the two-qubit entangling gate CNOT previously
+superpositions and complex quantum phases, as well as the two-qubit entangling gate CNOT previously
 mentioned. The **red** gates are two-phase gates that are not in the
 Clifford group and are important for giving quantum computing its power.
 To measure the state of any qubit, use the **pink** standard measurement
 operation, which is a simple :math:`Z` projection that is assigned to a
-classical bit in a classical bit register. If you ever need a reminder,
-hit the Help button (the **i** mark near the gates heading) for a
-quick summary of all available gates. A quantum algorithm (circuit)
-begins by preparing the qubits in well-defined states (here the ground
-state, :math:`|0\rangle`, which we've automatically done for you), then
-executing a series of one- and two-qubit gates in time, followed by a
-measurement of the qubits.
+classical bit in a classical bit register. The gray barrier allows you to 
+seperate parts of the circuit with a visual line and later on when using 
+optimization it stops the tools from optimizing accross the barrier. 
+If you ever need a reminder, hit the Help button (the **i** mark near 
+the gates heading) for a quick summary of all available gates. 
+A quantum algorithm (circuit) begins by preparing the qubits in 
+well-defined states (here the ground state, :math:`|0\rangle`, 
+which we've automatically done for you), then executing a series of 
+one- and two-qubit gates in time, followed by a measurement of the qubits.
 
 If you are feeling brave, you can hit the **Advanced** button to view an
 additional set of gate operations and sub-routines. These will be explained as 
@@ -67,7 +69,8 @@ the real quantum processor, you cannot add more gates to a circuit
 after placing a measurement; this feature will be added in the future.
 
 Load the quantum circuit below and try out a simulation, or start
-composing your own!
+composing your own!. When possible we will give both the OpenQASM version of 
+the circuit and python code to run it using the QISKit opensource framework. 
   
 **My First Score**
 

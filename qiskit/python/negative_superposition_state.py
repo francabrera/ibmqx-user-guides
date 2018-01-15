@@ -12,8 +12,10 @@ negative_superposition_state.x(q)
 negative_superposition_state.h(q)
 negative_superposition_state.measure(q, c)
 
-# Execute the circuit
-result = qp.execute(['negative_superposition_state'], backend = 'local_qasm_simulator')
+# Execute the circuit, to run on the real device change 
+# backend = 'local_qasm_simulator' to backend = 'ibmqx...' and set the API.
+# Also to explore the quantum randomness remove seed = 1
+result = qp.execute(['negative_superposition_state'], backend = 'local_qasm_simulator',seed=1)
 
 # Print result
 print(result.get_counts('negative_superposition_state'))
