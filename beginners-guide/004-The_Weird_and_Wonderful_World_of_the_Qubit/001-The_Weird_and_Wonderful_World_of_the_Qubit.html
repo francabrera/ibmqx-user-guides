@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../../_static/theme.css" type="text/css" /> 
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>The Weird and Wonderful World of the Qubit &#8212; Experience Documentation 2.0 documentation</title>
+<link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: '../../',
+        VERSION: '2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: true,
+        SOURCELINK_SUFFIX: '.txt'
+    };
+</script>
+<script type="text/javascript" src="../../_static/jquery.js"></script>
+<script type="text/javascript" src="../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Single-Qubit Gates" href="../005-Single-Qubit_Gates/001-Single-Qubit_Gates.html" />
+    <link rel="prev" title="Histogram representation (Bar graph)" href="../003-Getting_Started/002-Histogram_representation_(Bar_graph).html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes"> 
+
+    <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/plex-font-faces.css" type="text/css" />
+
+</head>
+
+<body>    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/ibm-q.png"></span>
+          Experience Documentation</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../introduction.html">Beginners User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../full-user-guide/introduction.html">Full User Guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="../003-Getting_Started/002-Histogram_representation_(Bar_graph).html" title="Previous Chapter: Histogram representation (Bar graph)"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Previous</span>
+    </a>
+  </li>
+  <li>
+    <a href="../005-Single-Qubit_Gates/001-Single-Qubit_Gates.html" title="Next Chapter: Single-Qubit Gates"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Next &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div> 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 breadcrumbs">
+        <ol class="breadcrumb"><li><a href="../introduction.html">Beginners Guide</a></li><li class="active">The Weird and Wonderful World of the Qubit</li>
+        </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 content">
+            
+  <div class="section" id="the-weird-and-wonderful-world-of-the-qubit">
+<h1>The Weird and Wonderful World of the Qubit<a class="headerlink" href="#the-weird-and-wonderful-world-of-the-qubit" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<p>A qubit is a quantum system consisting of two energy levels, labeled
+<span class="math">\(|0\rangle\)</span>&nbsp;and&nbsp;<span class="math">\(|1\rangle\)</span>. The <span class="math">\(|0\rangle\)</span> state is often
+called the ground state because it is the lower of the two energies.
+Together, <span class="math">\(|0\rangle\)</span> and <span class="math">\(|1\rangle\)</span> make up what we call
+“standard basis vectors”. Like all vectors, they point in a direction
+and have a magnitude. Defining basis vectors is a really useful trick we
+have borrowed from linear algebra. The basic idea is that once you have
+defined these vectors, you can construct any other vector from a linear
+combination of the basis vectors.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">Additionally, qubits also have a “phase”, which results from the fact
+that superpositions can be complex. To represent these superpositions,
+we put a coefficient such as a or b in front of the state like so:
+<span class="math">\(a|0\rangle+ b|1\rangle\)</span>. Here’s what the formula is saying:
+“The state is made up of a linear combination of <span class="math">\(|0\rangle\)</span> and
+<span class="math">\(|1\rangle\)</span>, where the proportion of each depends on the
+coefficients <span class="math">\(a\)</span> and <span class="math">\(b\)</span>.” The coefficients <span class="math">\(a\)</span> and <span class="math">\(b\)</span> could
+be positive, negative, or even complex. If we take the absolute value
+of <span class="math">\(a\)</span> or <span class="math">\(b\)</span> and square it (e.g. <span class="math">\(|a|^2`﻿or :math:`|b|^2\)</span> ), we
+get the probability of measuring the&nbsp;<strong>0</strong>&nbsp;or&nbsp;<strong>1</strong>&nbsp;outcome,
+respectively.</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>The basis states <span class="math">\(|0\rangle\)</span> and <span class="math">\(|1\rangle\)</span> and their linear
+combinations <span class="math">\(a|0\rangle\)</span> &nbsp;+ <span class="math">\(b|1\rangle\)</span> describe the state of
+a single qubit. But because the coefficients a and b are not just real
+numbers, but can be imaginary or even complex, visualizing a qubit
+requires a special tool called the Bloch Sphere. The Bloch Sphere is a
+sphere with a radius of one and a point on its surface represents the
+state of a qubit.&nbsp; Like a globe uses&nbsp;longitude and latitude to describe
+points on the surface, the Bloch sphere can also use angles to describe
+the state of a qubit.&nbsp; This representation allows any qubit state,
+including those with complex coefficients, to be represented as a point
+on the surface of the Bloch sphere.&nbsp; Points on the surface of the Bloch
+sphere which lie along the &nbsp;X, Y, or Z axis correspond to special states
+as described below.</p>
+<div class="line-block">
+<div class="line"><img alt="image0" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/bloch-sphere0g2aifid2kpgb9.png" /></div>
+</div>
+<p>The qubit state is shown by the orange line in the picture. In the
+picture, the state at the top of the sphere represents <span class="math">\(|0\rangle\)</span>
+and the state at the bottom of the sphere represents <span class="math">\(|1\rangle\)</span>.</p>
+<p>When the qubit is in a superposition of <span class="math">\(|0\rangle\)</span> and
+<span class="math">\(|1\rangle\)</span>, the vector will point somewhere between the two on the
+sphere (i.e. the angle <span class="math">\(\theta\)</span> angle becomes somewhere between 0
+(pointing straight up) – and 180 degrees, or <span class="math">\(\pi\)</span> radians (pointing
+straight down). Note that in radians, 1/4 of a turn is represented by
+<span class="math">\(\pi/2\)</span>).</p>
+<p>We have another degree of freedom on the sphere: rotations around the Z
+axis, which can be described by the angle <span class="math">\(\phi\)</span>. When <span class="math">\(\phi\)</span> is
+non-zero, this indicates a change in the&nbsp;<em>phase</em>&nbsp;of the qubit. This
+Bloch Sphere depiction works only for single-qubit representations. For
+the purpose of the schematic, we’ll assume that the length of the Bloch
+vector is equal to the radius of the Bloch sphere.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+
+
+        </div>
+          
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-right">
+            <a href="#">Back to top</a> 
+        </p>
+        <p> &copy;
+            Copyright 2017, IBM Research and the IBM QX team.<br/> Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.6.<br/>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>

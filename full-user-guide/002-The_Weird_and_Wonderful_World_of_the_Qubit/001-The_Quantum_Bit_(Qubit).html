@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../../_static/theme.css" type="text/css" /> 
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>The Quantum Bit (Qubit) &#8212; Experience Documentation 2.0 documentation</title>
+<link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: '../../',
+        VERSION: '2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: true,
+        SOURCELINK_SUFFIX: '.txt'
+    };
+</script>
+<script type="text/javascript" src="../../_static/jquery.js"></script>
+<script type="text/javascript" src="../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Excited State and Pauli Operators" href="010-Excited_State_and_Pauli_Operators.html" />
+    <link rel="prev" title="The Weird and Wonderful World of the Qubit" href="000-The_Weird_and_Wonderful_World_of_the_Qubit.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes"> 
+
+    <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/plex-font-faces.css" type="text/css" />
+
+</head>
+
+<body>    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/ibm-q.png"></span>
+          Experience Documentation</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../beginners-guide/introduction.html">Beginners User Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../introduction.html">Full User Guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="000-The_Weird_and_Wonderful_World_of_the_Qubit.html" title="Previous Chapter: The Weird and Wonderful World of the Qubit"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Previous</span>
+    </a>
+  </li>
+  <li>
+    <a href="010-Excited_State_and_Pauli_Operators.html" title="Next Chapter: Excited State and Pauli Operators"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Next &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div> 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 breadcrumbs">
+        <ol class="breadcrumb"><li><a href="../introduction.html">Full User Guide</a></li><li><a href="000-The_Weird_and_Wonderful_World_of_the_Qubit.html">The Weird and Wonderful World of the Qubit</a></li><li class="active">The Quantum Bit (Qubit)</li>
+        </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 content">
+            
+  <div class="section" id="the-quantum-bit-qubit">
+<h1>The Quantum Bit (Qubit)<a class="headerlink" href="#the-quantum-bit-qubit" title="Permalink to this headline">¶</a></h1>
+<div class="line-block">
+<div class="line">In this section you will meet the qubit. You will also see a bit of
+mathematical notation, including some concepts from linear algebra.</div>
+<div class="line">A qubit is a quantum system consisting of two levels, labeled
+<span class="math">\(|0\rangle\)</span> and <span class="math">\(|1\rangle\)</span> (here we are using Dirac’s bra-ket
+notation), and is represented by a two-dimensional vector space over
+the complex numbers <span class="math">\(\mathbb{C}^2\)</span>. This means that a qubit takes
+two complex numbers to fully describe it. The computational (or
+standard) basis corresponds to the two levels <span class="math">\(|0\rangle\)</span> and
+<span class="math">\(|1\rangle\)</span>, which correspond to the following vectors:</div>
+<div class="line">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="image0" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-01%20at%209.56.21%20AMw7bbvnq72lprdx6r.png" /></div>
+<div class="line">The qubit does not always have to be in either <span class="math">\(|0\rangle\)</span> or
+<span class="math">\(|1\rangle\)</span>; it can be in an arbitrary quantum state, denoted
+<span class="math">\(|\psi\rangle\)</span>, which can be any <em>superposition</em>
+<span class="math">\(|\psi\rangle=\alpha |0\rangle + \beta |1\rangle\)</span>, of the
+basis vectors. The superposition quantities <span class="math">\(\alpha\)</span> and <span class="math">\(\beta\)</span>
+are complex numbers; together they obey
+<span class="math">\(|\alpha|^2+|\beta|^2=1\)</span>.</div>
+<div class="line">Interesting things happen when quantum systems are measured, or
+observed. Quantum measurement is described by the <a class="reference external" href="https://en.wikipedia.org/wiki/Born_rule">Born
+rule</a>. In particular, if a
+qubit in some state <span class="math">\(|\psi\rangle\)</span> is measured in the standard
+basis, the result <strong>0</strong> is obtained with probability
+<span class="math">\(|\alpha|^2\)</span>, and the result <strong>1</strong> is obtained with the
+complementary probability <span class="math">\(|\beta|^2\)</span>. Interestingly, a quantum
+measurement takes any superposition state of the qubit, and projects
+it to either the state <span class="math">\(|0\rangle\)</span> or the state <span class="math">\(|1\rangle\)</span>
+with a probability determined from the parameters of the
+superposition.</div>
+<div class="line">What we have described here is the abstract notion of a qubit. The
+prototype quantum computer you interact with in the IBM Quantum
+Experience uses a physical type of qubit called a <em>superconducting
+transmon qubit</em>, which is made from superconducting materials such as
+niobium and aluminum, patterned on a silicon substrate.</div>
+<div class="line">Physically, for this superconducting qubit to behave as the abstract
+notion of the qubit, the device must be at drastically low
+temperatures. In the IBM Quantum Lab, we keep the temperature so cold
+(15 milliKelvin in a dilution refrigerator) that there is no ambient
+noise or heat to excite the superconducting qubit. Once our system has
+gotten cold enough, which takes several days, the superconducting
+qubit reaches equilibrium at the ground state <span class="math">\(|0\rangle\)</span>.</div>
+</div>
+<p>To get a sense for what “ground state” means, try running the first
+score file below in simulation mode (or look at some cached runs on the
+real device). Here, the qubit is initially prepared in the ground state
+<span class="math">\(|0\rangle\)</span>, then is followed by the standard measure. From your
+execution results, you should find in the ideal case (and with very high
+probability for the cached runs) that the qubit is still in the ground
+state. In the real device runs, you can observe that there is some
+error, with some shots giving a <span class="math">\(|1\rangle\)</span> instead, which is due to
+imperfect measurements and some residual heating of the qubit.</p>
+<p><img alt="image1" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/ground_stategoftc7s5fwkrcnmi.png" /></p>
+<div class="line-block">
+<div class="line">The output for every score you run will be in the My Scores tab. Click
+the little bar graph icon next to the time stamp for your quantum
+score to see the results (if the results are not yet ready, or if
+there has been an error, you will see a yellow or red symbol on the
+bar graph icon). This will take you to the Results screen, where you
+can view the outcomes.</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>1Q Measurement</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f03e4cfa53ccf70b3bea5e0955b6f458&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-f03e4cfa53ccf70b3bea5e0955b6f458.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f03e4cfa53ccf70b3bea5e0955b6f458&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a></div>
+
+
+        </div>
+          
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-right">
+            <a href="#">Back to top</a> 
+        </p>
+        <p> &copy;
+            Copyright 2017, IBM Research and the IBM QX team.<br/> Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.6.<br/>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>

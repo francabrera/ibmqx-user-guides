@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../../_static/theme.css" type="text/css" /> 
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Non-Clifford Gates &#8212; Experience Documentation 2.0 documentation</title>
+<link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: '../../',
+        VERSION: '2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: true,
+        SOURCELINK_SUFFIX: '.txt'
+    };
+</script>
+<script type="text/javascript" src="../../_static/jquery.js"></script>
+<script type="text/javascript" src="../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Entanglement and Bell Tests" href="050-Entanglement_and_Bell_Tests.html" />
+    <link rel="prev" title="Multiple Qubits" href="041-Multiple_Qubits.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes"> 
+
+    <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/plex-font-faces.css" type="text/css" />
+
+</head>
+
+<body>    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/ibm-q.png"></span>
+          Experience Documentation</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../beginners-guide/introduction.html">Beginners User Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../introduction.html">Full User Guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="041-Multiple_Qubits.html" title="Previous Chapter: Multiple Qubits"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Previous</span>
+    </a>
+  </li>
+  <li>
+    <a href="050-Entanglement_and_Bell_Tests.html" title="Next Chapter: Entanglement and Bell Tests"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Next &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div> 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 breadcrumbs">
+        <ol class="breadcrumb"><li><a href="../introduction.html">Full User Guide</a></li><li><a href="000-Multiple_Qubits_Gates_and_Entangled_States.html">Multiple Qubits, Gates, and Entangled States</a></li><li class="active">Non-Clifford Gates</li>
+        </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 content">
+            
+  <div class="section" id="non-clifford-gates">
+<h1>Non-Clifford Gates<a class="headerlink" href="#non-clifford-gates" title="Permalink to this headline">¶</a></h1>
+<p>The most general operation that a quantum computer can perform is a
+unitary matrix in <span class="math">\(2^n\)</span> dimensions. A finite set of gates that can
+approximate any unitary matrix arbitrarily well is known as a <a class="reference external" href="https://en.wikipedia.org/wiki/Quantum_gate#Universal_quantum_gates">universal
+gate
+set</a>.
+This is similar to how certain sets of classical logic gates, such as
+{AND, NOT}, are <a class="reference external" href="https://en.wikipedia.org/wiki/Functional_completeness">functionally
+complete</a> and
+can be used to build any Boolean function.</p>
+<p>Up to this point, all the gates we have discussed (<span class="math">\(X, Y, Z, H, S,
+S^\dagger,\)</span> and CNOT) are members of a special group of gates known as
+the Clifford group. These gates can be simulated efficiently on a
+classical computer (see the
+<a class="reference external" href="https://en.wikipedia.org/wiki/Gottesman%E2%80%93Knill_theorem">Gottesman-Knill</a>
+theorem). Therefore, the Clifford group is not universal. It cannot
+harness the full power of quantum computation; for that, we must include
+at least one non-Clifford gate in our circuits.</p>
+<p>Any unitary matrix can be written as a combination of single- and
+two-qubit gates [<a class="reference external" href="http://journals.aps.org/pra/abstract/10.1103/PhysRevA.52.3457?cm_mc_uid=43781767191014577577895&amp;cm_mc_sid_50200000=1460741020">*Barenco et al.,
+1995*</a>].
+(This is unlike classical reversible computing, where 3-bit gates such
+as <a class="reference external" href="https://en.wikipedia.org/wiki/Toffoli_gate">Toffoli</a> are
+additionally required for functional completeness.) It turns out that
+adding almost any non-Clifford gate to single-qubit Clifford gates and
+CNOT gates is universal. There are several popular choices for
+non-Clifford gates, but we implement <span class="math">\(T\)</span> as well as <span class="math">\(T^\dagger\)</span>.
+These are given by</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="image0" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-02%20at%2012.45.45%20AMfhgoazwxmbgctyb9.png" /></p>
+<p>The <span class="math">\(T\)</span> gate essentially makes it possible to reach all different
+points of the Bloch sphere. We can see that by increasing the number of
+<span class="math">\(T\)</span>-gates in our circuit (the so-called <em>:math:`T`-depth</em>) we start to
+cover the Bloch sphere more densely with states we can reach. The
+following figures depict the attainable states by increasing <span class="math">\(T\)</span>-depth
+from 0, 1, … up to 5. In the final Bloch sphere for <span class="math">\(T\)</span>-depth 5, we
+have highlighted a few points in red, green, and blue, which correspond
+to the Clifford+:math:<cite>T</cite> scores given below. Run these circuits to see if
+you end up at those points!</p>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">&nbsp;<img alt="image1" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/int_t_0fi382bh9mhg2e29.png" /><img alt="image2" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/int_t_13fid4cebb6ueg66r.png" /><img alt="image3" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/int_t_27u4tzjysgoczyqfr.png" /><img alt="image4" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/int_t_3q0962f566hqto6r.png" />&nbsp;<img alt="image5" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/int_t_4twgt6a9985hilik9.png" /><img alt="image6" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/int_t_5coloriqn3cbzw7b9.png" /></div>
+</div>
+<p>T-Depths are 0, 1, 2, 3, 4, and 5.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>Red State</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=4c0c46c51bc95c280e3cecc7140121c0&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-4c0c46c51bc95c280e3cecc7140121c0.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=4c0c46c51bc95c280e3cecc7140121c0&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a><div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>Green State</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=4c0c46c51bc95c280e3cecc71432020c&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-4c0c46c51bc95c280e3cecc71432020c.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=4c0c46c51bc95c280e3cecc71432020c&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a><div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>Blue State</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=82f8e7eaf1640aed285a4e982a12571f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-82f8e7eaf1640aed285a4e982a12571f.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=82f8e7eaf1640aed285a4e982a12571f&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+
+
+        </div>
+          
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-right">
+            <a href="#">Back to top</a> 
+        </p>
+        <p> &copy;
+            Copyright 2017, IBM Research and the IBM QX team.<br/> Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.6.<br/>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../../_static/theme.css" type="text/css" /> 
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Quantum Phase Estimation &#8212; Experience Documentation 2.0 documentation</title>
+<link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: '../../',
+        VERSION: '2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: true,
+        SOURCELINK_SUFFIX: '.txt'
+    };
+</script>
+<script type="text/javascript" src="../../_static/jquery.js"></script>
+<script type="text/javascript" src="../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Shor’s algorithm" href="110-Shor&#39;s_algorithm.html" />
+    <link rel="prev" title="Learning Parity with Noise" href="081-Learning_Parity_with_Noise.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes"> 
+
+    <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/plex-font-faces.css" type="text/css" />
+
+</head>
+
+<body>    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/ibm-q.png"></span>
+          Experience Documentation</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../beginners-guide/introduction.html">Beginners User Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../introduction.html">Full User Guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="081-Learning_Parity_with_Noise.html" title="Previous Chapter: Learning Parity with Noise"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Previous</span>
+    </a>
+  </li>
+  <li>
+    <a href="110-Shor&#39;s_algorithm.html" title="Next Chapter: Shor’s algorithm"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Next &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div> 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 breadcrumbs">
+        <ol class="breadcrumb"><li><a href="../introduction.html">Full User Guide</a></li><li><a href="060-Quantum_Algorithms.html">Quantum Algorithms</a></li><li class="active">Quantum Phase Estimation</li>
+        </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 content">
+            
+  <div class="section" id="quantum-phase-estimation">
+<h1>Quantum Phase Estimation<a class="headerlink" href="#quantum-phase-estimation" title="Permalink to this headline">¶</a></h1>
+<p>Quantum phase estimation is one of the most important subroutines in
+quantum computation. It serves as a central building block for many
+quantum algorithms and implements a measurement for essentially any
+<a class="reference external" href="https://en.wikipedia.org/wiki/Hermitian_adjoint">Hermitian
+operator</a>.&nbsp;Recall
+that a quantum computer initially only permits us to measure individual
+qubits. If we want to measure a more complex observable, such as the
+energy described by a Hamiltonian <span class="math">\(H\)</span>, we resort to quantum phase
+estimation.&nbsp;The routine prepares an eigenstate of the Hermitian operator
+in one register and stores the corresponding eigenvalue in a second
+register.</p>
+<div class="section" id="john-von-neumann-s-measurement-scheme">
+<h2>John von Neumann’s measurement scheme<a class="headerlink" href="#john-von-neumann-s-measurement-scheme" title="Permalink to this headline">¶</a></h2>
+<p>Quantum phase estimation is a discretization of von Neumann’s
+prescription to measure a Hermitian observable <span class="math">\(H = \sum_j E_j
+|\psi_j \rangle \langle \psi_j|\)</span>. The scheme that von Neumann
+envisioned is the following. We consider a quantum system that supports
+the observable <span class="math">\(H\)</span>, which we want to measure. We assume that we are only
+able to measure simpler observables, in our case single qubits, or as in
+the original setting the location of a single particle. It is therefore
+our goal to reduce the measurement of the complex observable <span class="math">\(H\)</span> to a
+measurement of the simpler observable, e.g. the location. This simple
+observable is then referred to as the pointer. To map the complex
+observable on to the &nbsp;simpler one we’ll make use of a convenient
+observation from quantum mechanics. It is known that the momentum
+operator <span class="math">\(\hat{p}\)</span> generate shifts for single particles.</p>
+<p><img alt="image0" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-04%20at%203.38.02%20PMn0sfx8psrw0l766r.png" /></p>
+<p>That is, if we apply the unitary <span class="math">\(\exp(- i \hat{p} \lambda)\)</span> to&nbsp;some
+wave packet <span class="math">\(\psi(x)\)</span>, then this&nbsp;wave&nbsp;packet will be shifted by
+<span class="math">\(\lambda\)</span> in the positive direction.</p>
+<div class="line-block">
+<div class="line">The scheme now assumes that we can apply the unitary evolution
+<span class="math">\(\exp(-i H \otimes \hat{p} t )\)</span> to both the system and the
+pointer register as illustrated in the following picture</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><img alt="image1" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-04%20at%203.38.25%20PMf1vr8qjhvh5dygb9.png" />This picture essentially describes von Neumann”s measurement
+scheme. We now follow the steps and&nbsp;first adjoin an ancilla – the
+pointer – which is a continuous quantum variable initialized in the
+state <span class="math">\(|0\rangle\)</span> (the origin), so that the system+pointer is
+initialized in the state <span class="math">\(|\psi\rangle|0\rangle\)</span>, where
+<span class="math">\(|\psi\rangle\)</span> is the initial state of the system. Then we evolve
+according to the new Hamiltonian <span class="math">\(K = H\otimes\hat{p}\)</span> for a time
+<span class="math">\(t\)</span>, so the evolution is given by</div>
+</div>
+<p><span class="math">\(e^{-it H\otimes \hat{p}} = \sum_{j=1}^{2^N}
+|\psi_{j}\rangle\langle \psi_{j}|\otimes e^{-itE_j \hat{p}}.\)</span></p>
+<p>We now observe the action of this measurement apparatus.&nbsp;Suppose that
+<span class="math">\(|\psi\rangle\)</span> is an
+<a class="reference external" href="https://en.wikipedia.org/wiki/Introduction_to_eigenstates">eigenstate</a>
+<span class="math">\(|\psi_{j}\rangle\)</span> of <span class="math">\(H\)</span>, we find that the system evolves to
+<span class="math">\(e^{-it H\otimes \hat{p}}|\psi_{j}\rangle|0\rangle =
+|\psi_{j}\rangle |x = tE_j\rangle.\)</span> A measurement of the
+position of the pointer with sufficiently high accuracy will provide an
+approximation to <span class="math">\(E_j\)</span>.</p>
+</div>
+<div class="section" id="the-quantum-algorithm">
+<h2>The quantum algorithm<a class="headerlink" href="#the-quantum-algorithm" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">To carry out the above operation efficiently on a quantum computer, we
+discretize the pointer using <span class="math">\(r\)</span> qubits, replacing the continuous
+quantum variable with a <span class="math">\(2^r\)</span>-dimensional space, where the
+computational basis states <span class="math">\(|z\rangle\)</span> of the pointer represent
+the basis of momentum eigenstates of the original continuous quantum
+variable. The label <span class="math">\(z\)</span> is the binary representation of the integers
+<span class="math">\(0\)</span> through <span class="math">\(2^r-1\)</span>. In this representation, the discretization of
+the momentum operator becomes</div>
+</div>
+<div class="line-block">
+<div class="line"><span class="math">\(\hat{p} = \sum_{j=1}^r 2^{-j}
+\frac{\mathbb{I}-\sigma^z_j}{2}.\)</span>
+xx</div>
+<div class="line">With this normalization <span class="math">\(\hat{p}|z\rangle =
+\frac{z}{2^r}|z\rangle\)</span>. Now the discretized Hamiltonian <span class="math">\(K =
+H\otimes \hat{p}\)</span> is a sum of terms involving at most <span class="math">\(k+1\)</span>
+qubits, if <span class="math">\(H\)</span> is a Hamiltonian involving terms of at most <span class="math">\(k\)</span>
+qubits. Thus we can simulate the dynamics of <span class="math">\(K\)</span> using standard
+methods. In terms of the momentum eigenbasis the initial (discretized)
+state of the pointer is written <span class="math">\(| x=0\rangle =
+\frac{1}{2^{r/2}}\sum_{z=0}^{2^r-1} |z\rangle\)</span>. This state can
+be prepared efficiently on a quantum computer by first initializing
+the qubits of the pointer in the state <span class="math">\(|0\rangle \cdots
+|0\rangle\)</span> and applying an (inverse) <a class="reference external" href="https://en.wikipedia.org/wiki/Quantum_Fourier_transform">quantum Fourier
+transform</a>.
+Since we have a very simple initial state, the Fourier transform can
+be represented by a product of Hadamard matrices. The discretized
+evolution of the system+pointer now can be written</div>
+</div>
+<div class="line-block">
+<div class="line"><span class="math">\(e^{-it&nbsp; H\otimes \hat{p}}|\psi_{j}\rangle|x=0\rangle =
+\frac{1}{2^{r/2}}\sum_{z=0}^{2^r-1} e^{-iE_j
+zt/2^r}|\psi_{j}\rangle z\rangle.\)</span></div>
+</div>
+<div class="line-block">
+<div class="line">Performing an inverse quantum Fourier transform on the pointer leaves
+the system in the state <span class="math">\(|\psi_{j}\rangle\otimes|\phi\rangle\)</span>,
+where</div>
+</div>
+<p><span class="math">\(| \phi\rangle&nbsp; = \sum_{x=0}^{2^r-1} \left(
+\frac{1}{2^{r}}\sum_{z=0}^{2^r-1}e^{\frac{2\pi
+i}{2^r}\left(x-\frac{E_j t}{2\pi}\right)z} \right)|x\rangle,\)</span></p>
+<div class="line-block">
+<div class="line">which is strongly peaked near the location <span class="math">\(x = \lfloor
+\frac{E_jt}{2\pi} \rfloor\)</span>. To ensure that there are no overflow
+errors we need to choose <span class="math">\(t &lt; \frac{2\pi}{\|H\|}\)</span>. (We assume
+here, for simplicity, that <span class="math">\(H\geq 0\)</span>.) It is easy to see that
+actually performing the simulation of <span class="math">\(K\)</span> for <span class="math">\(t=1\)</span> is a product of
+<span class="math">\(r\)</span> simulations of the evolution according to <span class="math">\(\frac{1}{2^{r}}
+H\otimes \frac{\mathbb{I}-\sigma^z_k}{2}\)</span> for <span class="math">\(1, 2, 2^2,
+\ldots, 2^{r-1}\)</span> units of time, respectively. This results in the
+general circuit for quantum phase estimation:</div>
+</div>
+<div class="line-block">
+<div class="line">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="image2" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-04%20at%203.38.36%20PMa2xe59tw6hvt2o6r.png" /></div>
+</div>
+<p>In order to implement the full circuit on a quantum computer, we still
+need to decompose the controlled unitaries <span class="math">\(e^{-i H &nbsp;\frac{t}{2^k}}\)</span> as
+well as the inverse quantum Fourier transform denoted by <span class="math">\(QFT^{-1}\)</span> into
+our elementary gates.</p>
+</div>
+<div class="section" id="example-circuit">
+<h2>Example circuit<a class="headerlink" href="#example-circuit" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">The example below demonstrates quantum phase estimation for a toy
+single-qubit Hamiltonian <span class="math">\(\sigma^x\)</span> acting on qubit <span class="math">\(Q_2\)</span>. Qubit
+<span class="math">\(Q_3\)</span> serves as a pointer system. In this example the quantum
+Fourier transform on the pointer system is equivalent to the Hadamard
+gate <span class="math">\(H\)</span> on <span class="math">\(Q_3\)</span>. The discretized evolution of the
+system+pointer system is described by the CNOT gate. The final
+measurement outcome on the pointer qubit <span class="math">\(Q_3\)</span> is <span class="math">\(0\)</span> or <span class="math">\(1\)</span>
+depending on whether <span class="math">\(Q_2\)</span> is prepared in the <span class="math">\(+1\)</span> or <span class="math">\(-1\)</span>
+eigenstate of <span class="math">\(\sigma^x\)</span>. In this example, qubit <span class="math">\(Q_2\)</span> is
+initialized in a state <span class="math">\(Z H|0\rangle\)</span> which is <span class="math">\(-1\)</span> eigenvector
+<span class="math">\(\sigma^x\)</span>. Accordingly, the measurement outcome is <span class="math">\(1\)</span>.</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>Phase Estimation Circuit (-)</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=bc8e23382f4bb64da16c0a4579f9dc8a&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-bc8e23382f4bb64da16c0a4579f9dc8a.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=bc8e23382f4bb64da16c0a4579f9dc8a&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a><div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>Phase Estimation Circuit (+)</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e778ebd71&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-b5a0e7376ded40cd7dc1022e778ebd71.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e778ebd71&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a></div>
+</div>
+
+
+        </div>
+          
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-right">
+            <a href="#">Back to top</a> 
+        </p>
+        <p> &copy;
+            Copyright 2017, IBM Research and the IBM QX team.<br/> Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.6.<br/>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>

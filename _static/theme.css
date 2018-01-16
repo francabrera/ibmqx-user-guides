@@ -1,0 +1,54 @@
+div.MathJax_Display {
+    display: inline !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: "ibm-plex-sans","Helvetica Neue", "HelveticaNeue", "HelvRegularIBM", "Helvetica", Arial, sans-serif !important;
+}
+
+body {
+	font-family: "ibm-plex-sans","Helvetica Neue", "HelveticaNeue", "HelvRegularIBM", "Helvetica", Arial, sans-serif !important;
+}
+
+pre {
+    font-family: "ibm-plex-mono","Helvetica Neue", "HelveticaNeue", "HelvRegularIBM", "Helvetica", Arial, sans-serif !important;
+}
+
+
+.guide-toc > ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.guide-toc li.toctree-l1 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+/* Styles for the guides index pages (table of contents) */
+
+.guide-toc > ul > li > ul {
+    list-style-type: disc;
+    margin-top: 5px;
+}
+
+.guide-toc li.toctree-l2 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+/* Styles for the breadcrumbs */
+
+ol.breadcrumb {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 1em;
+    background-color: transparent;
+}

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../../_static/theme.css" type="text/css" /> 
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Basic Circuit Identities and Larger Circuits &#8212; Experience Documentation 2.0 documentation</title>
+<link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: '../../',
+        VERSION: '2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: true,
+        SOURCELINK_SUFFIX: '.txt'
+    };
+</script>
+<script type="text/javascript" src="../../_static/jquery.js"></script>
+<script type="text/javascript" src="../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Grover’s Algorithm" href="070-Grover&#39;s_Algorithm.html" />
+    <link rel="prev" title="Quantum Algorithms" href="060-Quantum_Algorithms.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes"> 
+
+    <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/plex-font-faces.css" type="text/css" />
+
+</head>
+
+<body>    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/ibm-q.png"></span>
+          Experience Documentation</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../beginners-guide/introduction.html">Beginners User Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../introduction.html">Full User Guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="060-Quantum_Algorithms.html" title="Previous Chapter: Quantum Algorithms"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Previous</span>
+    </a>
+  </li>
+  <li>
+    <a href="070-Grover&#39;s_Algorithm.html" title="Next Chapter: Grover’s Algorithm"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Next &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div> 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 breadcrumbs">
+        <ol class="breadcrumb"><li><a href="../introduction.html">Full User Guide</a></li><li><a href="060-Quantum_Algorithms.html">Quantum Algorithms</a></li><li class="active">Basic Circuit Identities and Larger Circuits</li>
+        </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 content">
+            
+  <div class="section" id="basic-circuit-identities-and-larger-circuits">
+<h1>Basic Circuit Identities and Larger Circuits<a class="headerlink" href="#basic-circuit-identities-and-larger-circuits" title="Permalink to this headline">¶</a></h1>
+<div class="line-block">
+<div class="line">There are several facts about quantum circuits that can be used to
+express more complicated <a class="reference external" href="https://en.wikipedia.org/wiki/Unitary_transformation">unitary
+transformations</a>,
+write circuits more concisely, or adapt circuits to experimental
+constraints.</div>
+</div>
+<div class="section" id="changing-the-direction-of-a-cnot-gate">
+<h2>Changing the direction of a CNOT gate<a class="headerlink" href="#changing-the-direction-of-a-cnot-gate" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">In the first example “CNOT (Reverse),” we consider how to implement a
+CNOT gate from control qubit 2 to target qubit 1 (notated
+<span class="math">\(CNOT_{21}\)</span>) using a CNOT gate that acts in the opposite direction,
+from control qubit 1 to target qubit 2, <span class="math">\(CNOT_{12}\)</span>. By multiplying
+the matrices for each gate, you can convince yourself that
+<span class="math">\((H\otimes H)CNOT_{12}(H\otimes H)=CNOT_{21}\)</span>.</div>
+</div>
+<p><img alt="image0" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/cnot_reversetvhxy1y40307ldi.png" /></p>
+<div class="line-block">
+<div class="line">The <a class="reference external" href="https://en.wikipedia.org/wiki/Kronecker_product">Kronecker
+product</a>
+<span class="math">\(H\otimes H\)</span> in this equation is equal to a four-by-four matrix
+<span class="math">\(\frac{1}{\sqrt{2}}\begin{pmatrix} H &amp; H \\ H &amp;
+-H\end{pmatrix}\)</span>. If you run the example, you will confirm that this
+combination of Hadamard and CNOT gates implements a CNOT gate in the
+opposite direction. The <a class="reference external" href="https://en.wikipedia.org/wiki/Quantum_gate#Pauli-X_gate">Pauli</a>
+<span class="math">\(X\)</span> acts
+to invert the control qubit 2, and the result is <span class="math">\(|11\rangle\)</span> as
+expected for <span class="math">\(CNOT_{21}\)</span>.</div>
+</div>
+</div>
+<div class="section" id="swapping-the-states-of-qubits">
+<h2>Swapping the states of qubits<a class="headerlink" href="#swapping-the-states-of-qubits" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">Our second example, “Swap,” demonstrates a building block that allows
+you to permute the information stored in a set of qubits. Suppose we
+want to exchange the states of a pair of qubits by implementing a SWAP
+gate on the pair. There is no SWAP gate in our basis, but we can
+construct one from three CNOT gates
+<span class="math">\(SWAP_{12}=CNOT_{12}CNOT_{21}CNOT_{12}\)</span>.</div>
+</div>
+<p><img alt="image1" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/swapedtm8jhiv1ckgldi.png" /></p>
+<p>To see that this is true, it is enough to look at what happens to each
+classical state <span class="math">\(00\)</span>, <span class="math">\(01\)</span>, <span class="math">\(10\)</span>, and <span class="math">\(11\)</span>. Let’s consider <span class="math">\(01\)</span>. The
+first gate <span class="math">\(CNOT_{12}\)</span> does nothing since the control is <span class="math">\(0\)</span>. The
+second gate <span class="math">\(CNOT_{21}\)</span> flips the first qubit, so we have <span class="math">\(11\)</span>.
+Finally, the last <span class="math">\(CNOT_{12}\)</span> flips the second qubit and we get <span class="math">\(10\)</span>.
+The <span class="math">\(1\)</span> has moved from the second qubit to the first. The other cases
+can be worked out similarly. Now you can see this for yourself by
+running the “Swap” example below. Notice that we have used the “CNOT
+(Reverse)” identity to change the direction of the <span class="math">\(CNOT_{21}\)</span> gate,
+since this is necessary to run the example on the real device. Try
+deleting the Pauli <span class="math">\(X\)</span> and placing a Pauli <span class="math">\(X\)</span> on qubit 1 instead.</p>
+<div class="line-block">
+<div class="line">In the experimental device, not all qubits are connected to each
+other; therefore, some two-qubit gates cannot be applied directly. In
+the third example, “Swap Q0 with Q1,” we show how to swap a pair of
+qubits that are not directly connected to each other but share a
+common neighbor (in this case Q2). The state <span class="math">\(|+\rangle\)</span>, prepared
+by the first Hadamard gate on <span class="math">\(Q_0\)</span>, is swapped into <span class="math">\(Q_1\)</span> by three
+successive SWAP gates.</div>
+</div>
+</div>
+<div class="section" id="adding-a-control-qubit-to-a-gate">
+<h2>Adding a control qubit to a gate<a class="headerlink" href="#adding-a-control-qubit-to-a-gate" title="Permalink to this headline">¶</a></h2>
+<p>Some unitary transformations can be constructed exactly using gates in
+our basis. One set of transformations we use regularly are
+controlled-Pauli operations, where we apply a Pauli gate to a target
+qubit if a control qubit is <span class="math">\(|1\rangle\)</span>. The CNOT gate is a
+controlled-<span class="math">\(X\)</span> gate. Since we know that <span class="math">\(HXH=Z\)</span> and <span class="math">\(SXS^\dagger=Y\)</span>,
+and furthermore that <span class="math">\(HH=I\)</span> and <span class="math">\(SS^\dagger=I\)</span>, it is straightforward
+to construct circuits for controlled-<span class="math">\(Z\)</span> and controlled-<span class="math">\(Y\)</span>. This is
+illustrated in the following figure, where <span class="math">\(P\)</span> is a Pauli gate <span class="math">\(X\)</span>, <span class="math">\(Y\)</span>,
+or <span class="math">\(Z\)</span>, and <span class="math">\(C\)</span> is a Clifford operation such as <span class="math">\(I\)</span>, <span class="math">\(S\)</span>, or <span class="math">\(H\)</span>.</p>
+<div class="line-block">
+<div class="line"><img alt="image2" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/cPauli51b90orbw2zc9pb9.png" /></div>
+</div>
+<div class="line-block">
+<div class="line">For a more involved example, let’s add a control qubit to a Hadamard
+gate to implement a controlled-Hadamard operation:</div>
+</div>
+<div class="line-block">
+<div class="line"><img alt="image3" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/c-Hcmvfpboi12359udi.png" /></div>
+</div>
+<p>It turns out that we can write down a circuit for a controlled-<span class="math">\(V\)</span>
+operation if we can find three circuits <span class="math">\(A\)</span>, <span class="math">\(B\)</span>, and <span class="math">\(C\)</span> such that
+<span class="math">\(ABC=I\)</span> and <span class="math">\(e^{i\alpha}AZBZC=V\)</span> [<a class="reference external" href="http://journals.aps.org/pra/abstract/10.1103/PhysRevA.52.3457?cm_mc_uid=43781767191014577577895&amp;cm_mc_sid_50200000=1460741020">Barenco et al.,
+1995</a>].
+There is a general recipe for doing this, but we will just write down a
+solution for when <span class="math">\(V=H\)</span> that you can check for yourself:
+<span class="math">\(A=e^{i3\pi/8}XSHTHS^\dagger\)</span>, <span class="math">\(B=e^{-i\pi/8}SHT^\dagger
+HS^\dagger HSH\)</span>, <span class="math">\(C=e^{-i\pi/4}HSH\)</span>, and <span class="math">\(e^{i\alpha}=-i\)</span>.
+Combining these circuits as shown here</p>
+<p><img alt="image4" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/add-controldfjvwzojd8udte29.png" /></p>
+<div class="line-block">
+<div class="line">and making some simplifications, we get the result shown in the fourth
+example, “controlled-Hadamard.” This example applies a Hadamard gate
+to the control qubit, <span class="math">\(Q_0\)</span>, and then applies the controlled-Hadamard
+circuit from <span class="math">\(Q_0\)</span> to <span class="math">\(Q_2\)</span>. This creates the output state
+<span class="math">\(\frac{1}{\sqrt{2}}\left(|00\rangle+|1+\rangle\right)=\frac{1}{\sqrt{2}}|00\rangle+\frac{1}{2}|10\rangle+\frac{1}{2}|11\rangle\)</span>.
+Try deleting the first Hadamard gate on <span class="math">\(Q_0\)</span> and replacing it with a
+bit-flip (<span class="math">\(X\)</span>) to see what happens. Can you implement circuits for
+other controlled gates, such as a controlled-S?</div>
+</div>
+</div>
+<div class="section" id="approximating-a-unitary-transformation">
+<h2>Approximating a unitary transformation<a class="headerlink" href="#approximating-a-unitary-transformation" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">Most unitary transformations cannot be written exactly using the gates
+we have in our basis; but because our basis is a discrete universal
+set, it <em>is</em> possible to approximate any unitary transformation to any
+accuracy. Let’s see an example of this. The <span class="math">\(\sqrt{T}\)</span> unitary
+transformation cannot be written exactly using our basis. Since
+<span class="math">\(\sqrt{T}\)</span> is a <span class="math">\(Z\)</span>-rotation, the identity gate (which does nothing)
+is an approximate <span class="math">\(\sqrt{T}\)</span> gate, but not a very good one. The fifth
+example “Approximate sqrt(T)” gives a much better approximation using
+<span class="math">\(17\)</span> Hadamard, S, and T gates. This example first puts the qubit
+<span class="math">\(Q_0\)</span> on the equator of the Bloch sphere using a Hadamard gate, then
+applies the <span class="math">\(17\)</span> gate sequence. We use <a class="reference external" href="https://en.wikipedia.org/wiki/Quantum_tomography">state
+tomography</a> to
+observe the final state on the Bloch sphere. Had we applied an exact
+<span class="math">\(\sqrt{T}\)</span> gate, the final state would correspond to the point
+<span class="math">\((\frac{\sqrt{2+\sqrt{2}}}{2},\frac{\sqrt{2-\sqrt{2}}}{2},0)\approx
+(0.92388,0.38268,0)\)</span> on the Bloch sphere. How good is the <span class="math">\(17\)</span> gate
+approximation? Arbitrarily good approximations exist, so can you find
+a better one? How might you use these circuits to construct an
+approximate controlled-<span class="math">\(T\)</span> unitary transformation?</div>
+</div>
+</div>
+<div class="section" id="the-toffoli-gate">
+<h2>The Toffoli gate<a class="headerlink" href="#the-toffoli-gate" title="Permalink to this headline">¶</a></h2>
+<p>Our final examples, “Toffoli with flips” and “Toffoli state” demonstrate
+how to implement the reversible circuit equivalent of the (irreversible,
+classical) AND gate using gates from our basis. An AND gate has two
+inputs and one output, and outputs 1 if and only if both inputs are 1.
+One reason the AND gate is important for computation is that it is a
+non-linear transformation (a multiplication). Why do we say AND is
+irreversible? Notice that all three inputs <span class="math">\(00\)</span>, <span class="math">\(01\)</span>, and <span class="math">\(10\)</span> result
+in an output of 0. If you see that the output of the gate is 0, you
+can’t undo the gate because you don’t know which of these three inputs
+gave you the result. Since there are three possible answers, even if you
+add another output qubit, you won’t have enough information to undo the
+gate, since you must distinguish 3 cases, and there are only two choices
+for the state of the new qubit. However, it is possible to implement AND
+reversibly using 3 wires. This reversible AND gate is called the
+<a class="reference external" href="https://en.wikipedia.org/wiki/Toffoli_gate">Toffoli gate</a>
+<span class="math">\(TOF|a,b,c\rangle=|a,b,(a\ \mathrm{AND}\ b)\ \mathrm{XOR}\
+c\rangle\)</span>.</p>
+<p><img alt="image5" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/toffoli_def7k5imm5yhlivn29.png" /></p>
+<div class="line-block">
+<div class="line">It is not obvious how to build a Toffoli gate from gates in our basis
+[<a class="reference external" href="http://journals.aps.org/pra/abstract/10.1103/PhysRevA.52.3457?cm_mc_uid=43781767191014577577895&amp;cm_mc_sid_50200000=1460741020">Barenco et al.,
+1995</a>].
+The main idea is illustrated in the following figure</div>
+</div>
+<div class="line-block">
+<div class="line"><img alt="image6" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/double-controlled-Uolugr6dbwti0ms4i.png" /></div>
+</div>
+<div class="line-block">
+<div class="line">where <span class="math">\(V=\sqrt{U}\)</span>. By tracing through each value of the two control
+qubits, you can convince yourself that a <span class="math">\(U\)</span> gate is applied to the
+target qubit if and only if both controls are <span class="math">\(1\)</span>. Using ideas we have
+already described, you could now implement each controlled-<span class="math">\(V\)</span> gate to
+arrive at some circuit for the doubly-controlled-<span class="math">\(U\)</span> gate. It turns
+out that the minimum number of CNOT gates required to implement the
+Toffoli gate is 6 [<a class="reference external" href="http://dl.acm.org/citation.cfm?id=2011799">Shende and Markov,
+2009</a>]:</div>
+</div>
+<p><img alt="image7" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/toffoli-6-cnotshgwstno2n3lerk9.png" /></p>
+<div class="line-block">
+<div class="line">The “Toffoli with flips” example below allows you to choose an input
+state by changing the single-qubit gates at the beginning of the
+circuit. Right now they are set to Pauli <span class="math">\(X\)</span> on qubits 0 and 1 and
+identity on qubit 2, so the default output is <span class="math">\(|111\rangle\)</span>. You
+will notice that the example circuit uses 9 CNOT gates instead of the
+optimal number 6. This is because we wrote the circuit so it can run
+on the real device, which requires inserting a SWAP gate on qubits 1
+and 2 near the end of the circuit. Note that we do not undo this swap,
+so if the input qubit labels are <span class="math">\(0,1,2\)</span>, the output labels are
+actually <span class="math">\(0,2,1\)</span>. This means, for example, that an input of <span class="math">\(010\)</span>
+produces output <span class="math">\(001\)</span> (not <span class="math">\(010\)</span>). Finally, the “Toffoli state”
+example demonstrates the creation of an interesting 3-qubit entangled
+state
+<span class="math">\(SWAP_{1,2}TOF|++0\rangle_{0,1,2}=\frac{1}{2}\left(|000\rangle+|001\rangle+|100\rangle+|111\rangle\right)\)</span>
+that encodes the <a class="reference external" href="https://en.wikipedia.org/wiki/Truth_table">truth
+table</a> of the Toffoli
+gate.</div>
+</div>
+<div class="line-block">
+<div class="line">Using the Toffoli gate, it is possible to construct more complex
+circuits. A single Toffoli gate is sufficient to implement a modulo-4
+addition operation between a pair of 2-bit registers or an
+increment-by-one operation from one 2-bit register to another. Can you
+find circuits for these operations and run them in the Quantum
+Composer?</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>Approximate sqrt(T)</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e778fd799&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-b5a0e7376ded40cd7dc1022e778fd799.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e778fd799&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a><div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>Toffoli with flips</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=4de5b472cdbc8f33b422ee097e26a3f1&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-4de5b472cdbc8f33b422ee097e26a3f1.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=4de5b472cdbc8f33b422ee097e26a3f1&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a><div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>CNOT (Reversed)</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=56bfed556c0d64e8b92649d5fb206a21&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-56bfed556c0d64e8b92649d5fb206a21.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=56bfed556c0d64e8b92649d5fb206a21&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a><div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>SWAP Gate</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd67d26ea&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-5537ba08c4b9b9369c47ea0fd67d26ea.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd67d26ea&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a><div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>Swap q[0] and q[1]</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd67c616a&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-5537ba08c4b9b9369c47ea0fd67c616a.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd67c616a&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a><div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>Controlled-Hadamard</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd6706724&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-5537ba08c4b9b9369c47ea0fd6706724.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd6706724&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a><div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>3Q Toffoli state</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a685beebe7614db5a17b8eddbdcd7e90&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-a685beebe7614db5a17b8eddbdcd7e90.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a685beebe7614db5a17b8eddbdcd7e90&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a></div>
+</div>
+
+
+        </div>
+          
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-right">
+            <a href="#">Back to top</a> 
+        </p>
+        <p> &copy;
+            Copyright 2017, IBM Research and the IBM QX team.<br/> Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.6.<br/>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../../_static/theme.css" type="text/css" /> 
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Deutsch-Jozsa Algorithm &#8212; Experience Documentation 2.0 documentation</title>
+<link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<script type="text/javascript">
+    var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: '../../',
+        VERSION: '2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: true,
+        SOURCELINK_SUFFIX: '.txt'
+    };
+</script>
+<script type="text/javascript" src="../../_static/jquery.js"></script>
+<script type="text/javascript" src="../../_static/underscore.js"></script>
+<script type="text/javascript" src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Learning Parity with Noise" href="081-Learning_Parity_with_Noise.html" />
+    <link rel="prev" title="Grover’s Algorithm" href="070-Grover&#39;s_Algorithm.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes"> 
+
+    <link rel="stylesheet" href="../../_static/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/plex-font-faces.css" type="text/css" />
+
+</head>
+
+<body>    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/ibm-q.png"></span>
+          Experience Documentation</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../beginners-guide/introduction.html">Beginners User Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../introduction.html">Full User Guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="070-Grover&#39;s_Algorithm.html" title="Previous Chapter: Grover’s Algorithm"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Previous</span>
+    </a>
+  </li>
+  <li>
+    <a href="081-Learning_Parity_with_Noise.html" title="Next Chapter: Learning Parity with Noise"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Next &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div> 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 breadcrumbs">
+        <ol class="breadcrumb"><li><a href="../introduction.html">Full User Guide</a></li><li><a href="060-Quantum_Algorithms.html">Quantum Algorithms</a></li><li class="active">Deutsch-Jozsa Algorithm</li>
+        </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 content">
+            
+  <div class="section" id="deutsch-jozsa-algorithm">
+<h1>Deutsch-Jozsa Algorithm<a class="headerlink" href="#deutsch-jozsa-algorithm" title="Permalink to this headline">¶</a></h1>
+<p>The Deutsch-Jozsa algorithm was the first to show a separation between
+the quantum and classical difficulty of a problem. This algorithm
+demonstrates the significance of allowing quantum amplitudes to take
+both positive and negative values, as opposed to classical probabilities
+that are always non-negative.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">The Deutsch-Jozsa problem is defined as follows. Consider a function
+<span class="math">\(f(x)\)</span> that takes as input <span class="math">\(n\)</span>-bit strings <span class="math">\(x\)</span> and returns <span class="math">\(0\)</span>
+or <span class="math">\(1\)</span>. Suppose we are promised that <span class="math">\(f(x)\)</span> is either a
+<strong>constant</strong> function that takes the same value <span class="math">\(c\in \{0,1\}\)</span> on
+all inputs <span class="math">\(x\)</span>, or a <strong>balanced</strong> function that takes each value
+<span class="math">\(0\)</span> and <span class="math">\(1\)</span> on exactly half of the inputs. The goal is to decide
+whether <span class="math">\(f\)</span> is constant or balanced by making as few function
+evaluations as possible. Classically, it requires <span class="math">\(2^{n-1}+1\)</span>
+function evaluations in the worst case. Using the Deutsch-Jozsa
+algorithm, the question can be answered with just one function
+evaluation. In the quantum world the function <span class="math">\(f\)</span> is specified by an
+oracle circuit <span class="math">\(U_f\)</span> (see the previous section on Grover’s
+algorithm, such that <span class="math">\(U_f |x\rangle =(-1)^{f(x)} |x\rangle\)</span>).</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">To understand how the Deutsch-Jozsa algorithm works, let us first
+consider a typical interference experiment: a particle that behaves
+like a wave, such as a photon, can travel from the source to an array
+of detectors by following two or more paths simultaneously. The
+probability of observing the particle will be concentrated at those
+detectors where most of the incoming waves arrive with the same phase.</div>
+<div class="line"><img alt="image0" src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/interferencex663kgbfsoc1sjor.jpg" />Imagine that we can set up an interference experiment as
+above, with <span class="math">\(2^n\)</span> detectors and <span class="math">\(2^n\)</span> possible paths from the
+source to each of the detectors. We shall label the paths and the
+detectors with <span class="math">\(n\)</span>-bit strings <span class="math">\(x\)</span> and <span class="math">\(y\)</span> respectively. Suppose
+further that the phase accumulated along a path <span class="math">\(x\)</span> to a detector
+<span class="math">\(y\)</span> equals <span class="math">\(C(-1)^{f(x)+x\cdot y}\)</span>, where</div>
+</div>
+<p><span class="math">\(x\cdot y=\sum_{i=1}^n x_i y_i\)</span></p>
+<div class="line-block">
+<div class="line">is the binary inner product and <span class="math">\(C\)</span> is a normalizing coefficient.
+The probability to observe the particle at a detector <span class="math">\(y\)</span> can be
+computed by summing up amplitudes of all paths <span class="math">\(x\)</span> arriving at <span class="math">\(y\)</span>
+and taking the absolute value squared:</div>
+</div>
+<div class="line-block">
+<div class="line"><span class="math">\(\mathrm{Pr}(y)=| C\sum_x (-1)^{f(x)+x\cdot y} |^2\)</span></div>
+</div>
+<div class="line-block">
+<div class="line">Normalization condition <span class="math">\(\sum_y \mathrm{Pr}(y)=1\)</span> then gives
+<span class="math">\(C=2^{-n}\)</span>. Let us compute the probability <span class="math">\(\mathrm{Pr}(y=0^n)\)</span>
+of observing the particle at the detector <span class="math">\(y=0^n\)</span> (all zeros
+string). We have&nbsp;<span class="math">\(\mathrm{Pr}(y=0^n)=| 2^{-n}\sum_x (-1)^{f(x)}
+|^2\)</span></div>
+<div class="line">If <span class="math">\(f(x)=c\)</span> is a constant function, we get
+<span class="math">\(\mathrm{Pr}(y=0^n)=|(-1)^c |^2 =1\)</span>. However, if <span class="math">\(f(x)\)</span> is a
+balanced function, we get <span class="math">\(\mathrm{Pr}(y=0^n)=0\)</span>, since all the
+terms in the sum over <span class="math">\(x\)</span> cancel each other.</div>
+</div>
+<div class="line-block">
+<div class="line">We can therefore determine whether <span class="math">\(f\)</span> is constant or balanced with
+certainty by running the experiment just once.</div>
+<div class="line">Of course, this experiment is not practical since it would require an
+impossibly large optical table! However, we can simulate this
+experiment on a quantum computer with just <span class="math">\(n\)</span> qubits and access to
+the oracle circuit <span class="math">\(U_f\)</span>. Indeed, consider the following algorithm:</div>
+<div class="line">Step 1. Initialize <span class="math">\(n\)</span> qubits in the all-zeros state
+<span class="math">\(|0,\ldots,0\rangle\)</span>.</div>
+<div class="line">Step 2. Apply the Hadamard gate <span class="math">\(H\)</span> to each qubit.</div>
+<div class="line">Step 3. Apply the oracle circuit <span class="math">\(U_f\)</span>.</div>
+<div class="line">Step 4. Repeat Step 2.</div>
+<div class="line">Step 5. Measure each qubit. Let <span class="math">\(y=(y_1,\ldots,y_n)\)</span> be the list
+of measurement outcomes.</div>
+<div class="line">We find that <span class="math">\(f\)</span> is a constant function if <span class="math">\(y\)</span> is the all-zeros
+string. Why does this work? Recall that the Hadamard gate <span class="math">\(H\)</span> maps
+<span class="math">\(|0\rangle\)</span> to the uniform superposition of <span class="math">\(|0\rangle\)</span> and
+<span class="math">\(|1\rangle\)</span>. Thus the state reached after Step 2 is <span class="math">\(2^{-n/2}
+\sum_x |x\rangle\)</span>, where the sum runs over all <span class="math">\(n\)</span>-bit strings.
+The oracle circuit maps this state to <span class="math">\(2^{-n/2} \sum_x (-1)^{f(x)}
+|x\rangle\)</span>. Finally, let us apply the layer of Hadamards at Step 4.
+It maps a basis state <span class="math">\(|x\rangle\)</span> to a superposition
+<span class="math">\(2^{-n/2}\sum_y (-1)^{x\cdot y} |y\rangle\)</span>. Thus the state
+reached after Step 4 is <span class="math">\(|\psi\rangle =\sum_y \psi(y)
+|y\rangle\)</span>, where <span class="math">\(\psi(y)=2^{-n}\sum_x (-1)^{f(x)+x\cdot
+y}\)</span>.</div>
+</div>
+<div class="line-block">
+<div class="line">This is exactly what we need for the interference experiment described
+above. The final measurement at Step 5 plays the role of detecting the
+particle. As was shown above, the probability to measure <span class="math">\(y=0^n\)</span> at
+Step 5 is one if <span class="math">\(f\)</span> is a constant function and zero if <span class="math">\(f\)</span> is a
+balanced function. Thus we have solved the Deutsch-Jozsa problem with
+certainty by making just one function evaluation.</div>
+</div>
+<div class="section" id="example-circuits">
+<h2>Example circuits<a class="headerlink" href="#example-circuits" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">Suppose <span class="math">\(n=3\)</span> and <span class="math">\(f(x)=x_0 \oplus x_1 x_2\)</span>. This function is
+balanced since flipping the bit <span class="math">\(x_0\)</span> flips the value of <span class="math">\(f(x)\)</span>
+regardless of <span class="math">\(x_1,x_2\)</span>. To run the Deutsch-Jozsa algorithm we
+need an explicit description of the oracle circuit <span class="math">\(U_f\)</span> as a
+sequence of quantum gates. To this end we need a <span class="math">\(Z_0\)</span> gate such
+that <span class="math">\(Z_0|x\rangle =(-1)^{x_0} |x\rangle\)</span> and a controlled-Z
+gate <span class="math">\(CZ_{1,2}\)</span> such that <span class="math">\(CZ_{1,2} |x\rangle =(-1)^{x_1x_2}
+|x\rangle\)</span>.&nbsp; Using basic circuit identities (see the <em>Basic Circuit
+Identities and Larger Circuits</em> section), one can realize the
+controlled-Z gate as a CNOT sandwiched between two Hadamard gates.</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>DJ N=3 Example</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=dda7fb160013ea06bc75d0204439c9a6&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-dda7fb160013ea06bc75d0204439c9a6.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=dda7fb160013ea06bc75d0204439c9a6&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a><div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>DJ N=3 Constant</strong></div>
+</div>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1f234d4750fe47817393d8e1c8f8943d&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1f234d4750fe47817393d8e1c8f8943d.png" style="width: 100%; max-width: 600px;"></a>
+<a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1f234d4750fe47817393d8e1c8f8943d&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a></div>
+</div>
+
+
+        </div>
+          
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-right">
+            <a href="#">Back to top</a> 
+        </p>
+        <p> &copy;
+            Copyright 2017, IBM Research and the IBM QX team.<br/> Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.6.<br/>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>
