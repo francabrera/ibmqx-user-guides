@@ -10,6 +10,8 @@ just special cases.
 
 The phase gate. 
 
+jay sucks
+
 The U2 gate. 
 
 The SU(2) gate. 
