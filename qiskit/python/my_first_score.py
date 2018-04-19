@@ -1,13 +1,14 @@
 # use QISKit.org
-from qiskit import QuantumProgram
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
+from qiskit.wrapper import execute
 
-# Define the QProgram and the Quantum and Classical Registers
-qp = QuantumProgram()
-q = qp.create_quantum_register('q', 2)
-c = qp.create_classical_register('c', 2)
+
+# Define the Quantum and Classical Registers
+q = QuantumRegister(2)
+c = ClassicalRegister(2)
 
 # Build the circuit
-my_first_score = qp.create_circuit('my_first_score', [q], [c])
+my_first_score = QuantumCircuit(q, c)
 # Pauli operations 
 my_first_score.x(q[0])
 my_first_score.y(q[1])
@@ -26,10 +27,8 @@ my_first_score.barrier(q)
 # measurement operations
 my_first_score.measure(q, c)
  
-# Execute the circuit, to run on the real device change 
-# backend = 'local_qasm_simulator' to backend = 'ibmqx...' and set the API.
-# Also to explore the quantum randomness remove seed = 1
-result = qp.execute(['my_first_score'], backend='local_qasm_simulator', seed=1)
+# Execute the circuit
+result = execute(my_first_score, backend_name = 'local_qasm_simulator')
 
 # Print result
-print(result.get_counts('my_first_score'))
+print(result.get_counts(my_first_score))

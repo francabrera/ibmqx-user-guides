@@ -1,56 +1,46 @@
-# use QISKit.org
-from qiskit import QuantumProgram
 import numpy as np
 
-# Define the QProgram and the Quantum and Classical Registers
-qp = QuantumProgram()
-q = qp.create_quantum_register('q', 1)
-c = qp.create_classical_register('c', 1)
+# use QISKit.org
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
+from qiskit.wrapper import execute
+
+# Define the Quantum and Classical Registers
+q = QuantumRegister(1)
+c = ClassicalRegister(1)
 
 # Build the circuit
-circuits = []
-pre = qp.create_circuit('pre', [q], [c])
+pre = QuantumCircuit(q, c)
 pre.h(q)
 pre.barrier()
-middle = qp.create_circuit('middle', [q], [c])
+middle = QuantumCircuit(q, c)
 
-meas_x = qp.create_circuit('meas_x', [q], [c])
+meas_x = QuantumCircuit(q, c)
 meas_x.barrier()
 meas_x.h(q)
 meas_x.measure(q, c)
 
-meas_y = qp.create_circuit('meas_y', [q], [c])
+meas_y = QuantumCircuit(q, c)
 meas_y.barrier()
 meas_y.s(q).inverse()
 meas_y.h(q)
 meas_y.measure(q, c)
 
-meas_z = qp.create_circuit('meas_z', [q], [c])
+meas_z = QuantumCircuit(q, c)
 meas_z.barrier()
 meas_z.measure(q, c)
 
 bloch_vector = ['x', 'y', 'z']
 exp_vector = range(0, 20)
+circuits = []
 for exp_index in exp_vector:
     phase = 2*np.pi*exp_index/len(exp_vector)
     middle.u1(phase, q)
-
-    circuit_name = "quantum_phase_%d"%exp_index + bloch_vector[0]
-    qp.add_circuit(circuit_name, pre + middle + meas_x)
-    circuits.append(circuit_name)
-
-    circuit_name = "quantum_phase_%d"%exp_index + bloch_vector[1]
-    qp.add_circuit(circuit_name, pre + middle + meas_y)
-    circuits.append(circuit_name)
-
-    circuit_name = "quantum_phase_%d"%exp_index + bloch_vector[2]
-    qp.add_circuit(circuit_name, pre + middle + meas_z)
-    circuits.append(circuit_name)
+    circuits.append(pre + middle + meas_x)
+    circuits.append(pre + middle + meas_y)
+    circuits.append(pre + middle + meas_z)
     
-# Execute the circuit, to run on the real device change 
-# backend = 'local_qasm_simulator' to backend = 'ibmqx...' and set the API.
-# Also to explore the quantum randomness remove seed = 1
-result = qp.execute(circuits, backend = 'local_qasm_simulator',seed=1)
+# Execute the circuit
+result = execute(circuits, backend_name = 'local_qasm_simulator')
 
 # Print result
 for exp_index in exp_vector:

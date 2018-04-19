@@ -1,33 +1,30 @@
-# use QISKit.org
-from qiskit import QuantumProgram
 import numpy as np
 
-# Define the QProgram and the Quantum and Classical Registers
-qp = QuantumProgram()
-q = qp.create_quantum_register('q', 1)
-c = qp.create_classical_register('c', 1)
+# use QISKit.org
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
+from qiskit.wrapper import execute
+
+# Define the Quantum and Classical Registers
+q = QuantumRegister(1)
+c = ClassicalRegister(1)
 
 # Build the circuit
 circuits = []
-pre = qp.create_circuit('pre', [q], [c])
+pre = QuantumCircuit(q, c)
 pre.h(q)
 pre.barrier()
-middle = qp.create_circuit('middle', [q], [c])
-meas_x = qp.create_circuit('meas_x', [q], [c])
+middle = QuantumCircuit(q, c)
+meas_x = QuantumCircuit(q, c)
 meas_x.barrier()
 meas_x.h(q)
 meas_x.measure(q, c)
 exp_vector = range(0,8)
 for exp_index in exp_vector:
-    circuit_name = "quantum_phase_%d"%exp_index
-    qp.add_circuit(circuit_name, pre + middle + meas_x)
+    circuits.append(pre + middle + meas_x)
     middle.t(q)
-    circuits.append(circuit_name)
 
-# Execute the circuit, to run on the real device change 
-# backend = 'local_qasm_simulator' to backend = 'ibmqx...' and set the API.
-# Also to explore the quantum randomness remove seed = 1
-result = qp.execute(circuits, backend = 'local_qasm_simulator', seed=1)
+# Execute the circuit
+result = execute(circuits, backend_name = 'local_qasm_simulator')
 
 # Print result
 for exp_index in exp_vector:
