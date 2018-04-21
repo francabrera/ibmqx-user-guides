@@ -11,13 +11,13 @@ world, you must let go of your beliefs about our physical world, and
 develop an intuition for a completely different (and often surprising)
 set of laws.
 
-The users guides
+The guides
 ----------------
 
-The user guide is divided in two.
+The guide is divided in two.
 
 `Beginner's Guide <rst/beginners-guide/>`__: You can find a simple aproach about Quantum Computing and
-how use the IBM Q Experice tools, like Quantum Composer, or the QISKit example.
+how use the IBM Q Experice tools, like Quantum Composer.
 
 `User's Guide <rst/full-user-guide/>`__: This section contain the more full coverage from Quantum Computing
 and in particular several examples and algorithm.
