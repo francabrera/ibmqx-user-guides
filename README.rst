@@ -1,6 +1,6 @@
 IBM Q experience user guides
 ============================
-The repository contains the user guides from the `IBM Q experience <https://quantumexperience.ng.bluemix.net>`__ 
+The repository contains the user guides from the `IBM Q Experience <https://quantumexperience.ng.bluemix.net>`__ 
 
 
 If quantum physics sounds challenging to you, you are not alone. All
