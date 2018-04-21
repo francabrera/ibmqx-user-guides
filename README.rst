@@ -19,7 +19,7 @@ The user guide is divided in two.
 `Beginner's Guide <rst/beginners-guide/>`__: You can find a simple aproach about Quantum Computing and
 how use the IBM Q Experice tools, like Quantum Composer, or the QISKit example.
 
-`Full User's Guide <rst/full-user-guide/>`__: This section contain the more full coverage from Quantum Computing
+`User's Guide <rst/full-user-guide/>`__: This section contain the more full coverage from Quantum Computing
 and in particular several examples and algorithm.
 
 Contributors
