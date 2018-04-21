@@ -1,6 +1,5 @@
+# quantum_phase_bloch.py
 import numpy as np
-
-# use QISKit.org
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit.wrapper import execute
 

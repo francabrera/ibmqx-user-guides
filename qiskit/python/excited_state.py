@@ -1,4 +1,4 @@
-# use QISKit.org
+# excited_state.py
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit.wrapper import execute
 

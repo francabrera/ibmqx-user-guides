@@ -1,4 +1,4 @@
-Introducing the IBM Q experience
+Introducing the IBM Q Experience
 ================================
 
 .. toctree::
@@ -11,7 +11,7 @@ Introducing the IBM Q experience
 Quantum computing is here. While today's quantum processors are modest
 in size, the complexity grows continuously. The time is ripe to build
 and engage a community of new quantum learners, so that we change the
-way we think about computing.  Our goal with the IBM Q experience is for 
+way we think about computing.  Our goal with the IBM Q Experience is for 
 you to learn about the quantum world by reading this
 User Guide, composing your own experiments, running them in
 simulation, and executing them on the world’s first fully-controllable
@@ -19,7 +19,7 @@ quantum processor through the IBM Cloud.
 
 The IBM Quantum Experience consists of:
 
--  a set of tutorials (this User Guide) that will lead you from the
+-  a **set of tutorials** (this User Guide) that will lead you from the
    basics of simple single-qubit experiments (`Section
    II <../002-The_Weird_and_Wonderful_World_of_the_Qubit/000-The_Weird_and_Wonderful_World_of_the_Qubit.html>`__)
    to more complicated multi-qubit experiments (`Section

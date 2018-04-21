@@ -1,4 +1,4 @@
-# use QISKit.org
+# negative_superposition_state_xbasis.py
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit.wrapper import execute
 

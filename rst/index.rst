@@ -20,10 +20,11 @@ general level— we can more deeply explore all the possibilities quantum
 computing offers, and more rapidly bring its exciting power to a world
 whose perspective is limited by classical physics. 
 
+    Your thinking to classically. -- Jay Gambetta
 
-| |image0|
+    Get Ready to think outside a box you did not know existed. -- Charlie Bennett 
 
-.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/quote-14n5c8oylkb2r19k9.png
+    Prepare yourself for a while and fascinating journey -- and it all starts with a qubit. -- Jerry Chow
 
 
 .. cssclass:: guide-toc
@@ -32,7 +33,7 @@ whose perspective is limited by classical physics. 
    :glob:
    :includehidden:
 
-   Beginners User Guide <beginners-guide/introduction.rst>
+   Beginners Guide <beginners-guide/introduction.rst>
    full-user-guide/introduction.rst
 
 .. cssclass:: guide-toc

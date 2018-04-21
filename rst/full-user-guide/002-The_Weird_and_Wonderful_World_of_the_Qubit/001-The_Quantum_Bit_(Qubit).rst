@@ -36,7 +36,7 @@ superposition.
 
 What we have described here is the abstract notion of a qubit. The
 prototype quantum computer you interact with in the IBM Q
-experience uses a physical type of qubit called a *superconducting
+Experience uses a physical type of qubit called a *superconducting
 transmon qubit*, which is made from superconducting materials such as
 niobium and aluminum, patterned on a silicon substrate. Physically, for this 
 superconducting qubit to behave as the abstract

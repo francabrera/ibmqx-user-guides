@@ -1,4 +1,4 @@
-# use QISKit.org
+# my_first_score.py
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit.wrapper import execute
 

@@ -1,4 +1,4 @@
-# use QISKit.org
+# single_q_measurement.py
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit.wrapper import execute
 

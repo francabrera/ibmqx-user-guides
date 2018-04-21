@@ -1,5 +1,5 @@
-Full User Guide
-===============
+User Guide
+==========
 
 If quantum physics sounds challenging to you, you are not alone. All
 of our intuitions are based on day-to-day experiences and are defined
@@ -9,7 +9,7 @@ world, you must let go of your beliefs about our physical world, and
 develop an intuition for a completely different (and often surprising)
 set of laws.
 
-Our goal with the IBM Q experience is to introduce this world
+Our goal with the IBM Q Experience is to introduce this world
 through a set of short tutorials in our User Guide, and by providing the
 hands-on opportunity to experiment with operations on a real quantum
 computing processor. This way, we hope to foster a quantum intuition in

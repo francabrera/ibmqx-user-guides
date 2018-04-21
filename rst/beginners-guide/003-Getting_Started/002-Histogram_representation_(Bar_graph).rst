@@ -32,35 +32,6 @@ into more detail about the *H* gate in a later section.
 | |image1|
 
 
-.. raw:: html
-
-   <a href="https://qiskit.org"  target="_blank">QISKit SDK python</a> example
-|
-.. code-block:: python
-
-    # use QISKit.org
-    from qiskit import QuantumProgram
-
-    # useful additional packages
-    from tools.visualization import plot_histogram
-
-    # Define the QProgram and the Quantum and Classical Registers
-    qp = QuantumProgram()
-    q = qp.create_quantum_register("q", 3)
-    c = qp.create_classical_register("c", 3)
-
-    # Define the circuit
-    threeQ = qp.create_circuit("threeQ", [q], [c])
-    threeQ.measure(q[0], c[0])
-    threeQ.measure(q[1], c[1])
-    threeQ.measure(q[2], c[2])
-
-    # Execute the circuit
-    result = qp.execute(["threeQ"])
-
-    # Plot result
-    plot_histogram(result.get_counts("threeQ"))
-
 |
 | **3-qubit measurement, full superposition of states**
 
@@ -68,44 +39,10 @@ into more detail about the *H* gate in a later section.
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=db03d34bf6ad5c4f27777fc3c8adb769&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-db03d34bf6ad5c4f27777fc3c8adb769.png" style="width: 100%; max-width: 600px;"></a>
    
-    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=db03d34bf6ad5c4f27777fc3c8adb769&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
-|
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=db03d34bf6ad5c4f27777fc3c8adb769&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+
 
 |image3|
-
-.. raw:: html
-
-   <a href="https://qiskit.org" target="_blank">QISKit SDK python</a> example
-|
-.. code-block:: python
-
-    # use QISKit.org
-    from qiskit import QuantumProgram
-
-    # useful additional packages
-    from tools.visualization import plot_histogram
-
-    # Define the QProgram and the Quantum and Classical Registers
-    qp = QuantumProgram()
-    q = qp.create_quantum_register("q", 3)
-    c = qp.create_classical_register("c", 3)
-
-    # Define the circuit
-    threeQ = qp.create_circuit("threeQ", [q], [c])
-
-    threeQ.h(q[0])
-    threeQ.h(q[1])
-    threeQ.h(q[2])
-
-    threeQ.measure(q[0], c[0])
-    threeQ.measure(q[1], c[1])
-    threeQ.measure(q[2], c[2])
-
-    # Execute the circuit
-    result = qp.execute(["threeQ"])
-
-    # Plot result
-    plot_histogram(result.get_counts("threeQ"))
 
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/3qh8ftza7f3gtlnmi.png

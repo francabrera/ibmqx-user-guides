@@ -16,8 +16,8 @@ one of :math:`2^n` possible states, ranging from :math:`00...0`  to :math:`11�
 
 The power of the quantum computer, meanwhile, lies in its much richer
 repertoire of states. A quantum computer also has bits. But instead of 0
-and 1, its quantum bits, or *qubits*, can represent a 0, 1, or both at
-once, which is a property known as **superposition**. This on its own is
+and 1, its quantum bits, or *qubits*, can represent a 0, 1, or linear combination of both, 
+which is a property known as **superposition**. This on its own is
 no special thing, since a computer whose bits can be intermediate
 between 0 and 1 is just an analog computer, scarcely more powerful than
 an ordinary digital computer. However, a quantum computer takes
@@ -54,8 +54,8 @@ inexorable logic, to Einsteinian spacetime.
 The counter-intuitive ideas of quantum physics that one must accept
 are: 
 
-1. *a physical system in a perfectly definite state can still behave randomly*. 
-2. *two systems that are too far apart to influence each other can nevertheless behave in ways that, though individually random, are somehow strongly correlated*. 
+1. *a physical system in a* **perfectly definite state** *can still behave* **randomly**. 
+2. *two systems that are* **too far apart** *to influence each other can nevertheless behave in ways that, though* **individually random**, *are somehow* **strongly correlated**. 
 
 Unfortunately, unlike relativity, there is no single simple physical principle from
 which these conclusions follow. The best we can do is to distill

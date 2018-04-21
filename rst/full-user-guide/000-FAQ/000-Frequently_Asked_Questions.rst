@@ -37,7 +37,7 @@ computer manipulates its bits.
 A qubit (pronounced “cue-bit” and short for quantum bit) is the physical
 carrier of quantum information. It is the quantum version of a bit, and
 its quantum state can take values of :math:`|0\rangle`, :math:`|1\rangle`,
-or both at once, which is a phenomenon known as **superposition**.\
+or linear combination of both, which is a phenomenon known as **superposition**.\
 
 **What is a superposition?**
 
@@ -115,29 +115,6 @@ equivalent to the CNOT. 
 
 .. cssclass:: h2
 
-General questions about the IBM Q experience
-
-**What is the IBM Q experience?**
-
-The IBM Q experience is a cloud-based platform where you can
-learn, research, and interact with a real quantum computer housed in an
-IBM Research lab. 
-
-**What is the Quantum Composer?**
-
-The Quantum Composer is a graphical interface tool where you can drag
-and drop different operations to control qubits. The Quantum Composer
-permits you to develop your own quantum algorithms, which we call
-Quantum Scores.
-
-**What is a Quantum Score?**
-
-A Quantum Score is the set of instructions, or algorithm, to a quantum
-computer. It is a series of gates versus time played on different
-qubits, much like a musical score. It is also called a quantum circuit. 
-
-.. cssclass:: h2
-
 Questions about quantum computers
 
 **Can a quantum computer solve NP-complete problems?**
@@ -157,17 +134,19 @@ quantum state from an arbitrary input quantum state.
 **What is a universal fault-tolerant quantum computer?**
 
 A universal fault-tolerant quantum computer is the grand challenge of
-quantum computing. It is device that can properly perform universal
+quantum computing. It is a device that can properly perform universal
 quantum operations using unreliable components.
 
 **When will I have a quantum computer?**
 
-You have access to one now with the IBM Q experience. It is small
+You have access to one now with the IBM Q Experience. It is small
 at the moment, but it is a work-in-progress that we are continually improving.
 
 **What is a Quantum circuit?**
 
-It is the same as a quantum score.
+A quantum circuit is the set of instructions, or algorithm, to a quantum
+computer. It is a series of gates versus time played on different
+qubits. 
 
 **What does a quantum computer look like?**
 
@@ -177,6 +156,29 @@ dilution refrigerator and is supported by multiple racks of electronic
 pulse-generating equipment. However, you can access our quantum computer
 with very familiar personal computing devices, such as laptops, tablets,
 and smartphones.
+
+.. cssclass:: h2
+
+General questions about the IBM Q Experience
+
+**What is the IBM Q Experience?**
+
+The IBM Q Experience is a cloud-based platform where you can
+learn, research, and interact with a real quantum computer housed in an
+IBM Research lab. 
+
+**What is the Quantum Composer?**
+
+The Quantum Composer is a graphical interface tool where you can drag
+and drop different operations to control qubits. The Quantum Composer
+permits you to develop your own quantum algorithms, which we call
+Quantum Scores.
+
+**What is a Quantum Score?**
+
+A Quantum Score is the set of instructions, or algorithm, to a quantum
+computer. It is a series of gates versus time played on different
+qubits, much like a musical score. It is also called a quantum circuit. 
 
 .. cssclass:: h2
 

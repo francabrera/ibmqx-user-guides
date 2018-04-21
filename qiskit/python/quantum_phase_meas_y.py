@@ -1,6 +1,5 @@
+# quantum_phase_meas_y.py
 import numpy as np
-
-# use QISKit.org
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit.wrapper import execute
 
@@ -25,17 +24,22 @@ for exp_index in exp_vector:
     middle.t(q)
     
 # Execute the circuit
-result = execute(circuits, backend_name = 'local_qasm_simulator')
+shots = 1024
+compile_config = {
+    'shots': shots,
+    'seed': 8
+}
+result = execute(circuits, backend_name = 'local_qasm_simulator', compile_config=compile_config)
 
 # Print result
 for exp_index in exp_vector:
     data = result.get_counts(circuits[exp_index])
     try:
-        p0 = data['0']/1024.0
+        p0 = data['0']/shots
     except KeyError:
         p0 = 0
     try:
-        p1 = data['1']/1024.0
+        p1 = data['1']/shots
     except KeyError:
         p1 = 0
-    print('exp {}: [{}, {}] X lenght = {}'.format(exp_index, p0, p1, p0-p1))
+    print('exp {}: [{}, {}] Y lenght = {}'.format(exp_index, p0, p1, p0-p1))
