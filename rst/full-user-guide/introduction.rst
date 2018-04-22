@@ -14,8 +14,8 @@ through a set of short tutorials in our User Guide, and by providing the
 hands-on opportunity to experiment with operations on a real quantum
 computing processor. This way, we hope to foster a quantum intuition in
 the greater community, and spark further interest in those who are
-curious. By making quantum concepts more widely understood—even on a
-general level— we can more deeply explore all the possibilities quantum
+curious. By making quantum concepts more widely understood — even on a
+general level — we can more deeply explore all the possibilities quantum
 computing offers, and more rapidly bring its exciting power to a world
 whose perspective is limited by classical physics. 
 
