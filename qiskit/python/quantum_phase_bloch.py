@@ -3,7 +3,7 @@ import numpy as np
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit.wrapper import execute
 
-from qiskit.tools.visualization import plot_state
+from qiskit.tools.visualization import plot_bloch_vector
 
 # Define the Quantum and Classical Registers
 q = QuantumRegister(1)
@@ -43,7 +43,7 @@ for exp_index in exp_vector:
 # Execute the circuit
 result = execute(circuits, backend_name = 'local_qasm_simulator')
 
-# Print result
+# Plot result
 for exp_index in exp_vector:
     bloch = [0, 0, 0]
     for bloch_index in range(len(bloch_vector)):
@@ -57,4 +57,4 @@ for exp_index in exp_vector:
         except KeyError:
             p1 = 0
         bloch[bloch_index] = p0-p1
-    print('[{}, {}, {}]'.format(bloch[0], bloch[1], bloch[2]))
+    plot_bloch_vector(bloch)

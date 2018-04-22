@@ -1,4 +1,4 @@
-# quantum_phase_u1.py
+# t2_echo.py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -12,27 +12,27 @@ register(Qconfig.APItoken, Qconfig.config['url'])
 q = QuantumRegister(1)
 c = ClassicalRegister(1)
 
-# Build the circuit
-circuits = []
+# Build the circuits
 pre = QuantumCircuit(q, c)
 pre.h(q)
 pre.barrier()
-middle = QuantumCircuit(q, c)
 meas_x = QuantumCircuit(q, c)
 meas_x.barrier()
 meas_x.h(q)
 meas_x.measure(q, c)
+circuits = []
 exp_vector = range(1,51)
-phase = 0.0
 for exp_index in exp_vector:
-    delta_phase = 6*np.pi/len(exp_vector)
-    phase = phase + delta_phase
-    middle.u1(delta_phase,q)
-    middle.iden(q)
+    middle = QuantumCircuit(q, c)
+    for i in range(15*exp_index):
+        middle.iden(q)
+    middle.x(q)
+    for i in range(15*exp_index):
+        middle.iden(q)
     circuits.append(pre + middle + meas_x)
 
 
-# Execute the circuit
+# Execute the circuits
 shots = 1024
 compile_config = {
     'shots': shots,
@@ -41,7 +41,7 @@ compile_config = {
 result = execute(circuits, 'ibmqx4', compile_config, wait=5, timeout=1800)
 print(result)
 
-# Get result
+# Plot the result
 exp_data = []
 exp_error = []
 for exp_index in exp_vector:
@@ -54,7 +54,7 @@ for exp_index in exp_vector:
     exp_error.append(np.sqrt(p0*(1-p0)/shots))
 
 plt.errorbar(exp_vector, exp_data, exp_error)
-plt.xlabel('time [gate time]')
+plt.xlabel('time [31*gate time]')
 plt.ylabel('Pr(+)')
 plt.grid(True)
 plt.show()

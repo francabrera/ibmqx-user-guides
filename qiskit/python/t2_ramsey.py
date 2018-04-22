@@ -1,4 +1,4 @@
-# t1.py
+# t2_ramsey.py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -14,17 +14,22 @@ c = ClassicalRegister(1)
 
 # Build the circuits
 pre = QuantumCircuit(q, c)
-pre.x(q)
+pre.h(q)
 pre.barrier()
-meas = QuantumCircuit(q, c)
-meas.measure(q, c)
+meas_x = QuantumCircuit(q, c)
+meas_x.barrier()
+meas_x.h(q)
+meas_x.measure(q, c)
 circuits = []
 exp_vector = range(1,51)
+phase = 0.0
 for exp_index in exp_vector:
     middle = QuantumCircuit(q, c)
-    for i in range(45*exp_index):
+    phase = phase + 6*np.pi/len(exp_vector)
+    middle.u1(phase,q)
+    for i in range(5*exp_index):
         middle.iden(q)
-    circuits.append(pre + middle + meas)
+    circuits.append(pre + middle + meas_x)
 
 # Execute the circuits
 shots = 1024
@@ -48,7 +53,7 @@ for exp_index in exp_vector:
     exp_error.append(np.sqrt(p0*(1-p0)/shots))
 
 plt.errorbar(exp_vector, exp_data, exp_error)
-plt.xlabel('time [45*gate time]')
-plt.ylabel('Pr(0)')
+plt.xlabel('time [5*gate time]')
+plt.ylabel('Pr(+)')
 plt.grid(True)
 plt.show()
