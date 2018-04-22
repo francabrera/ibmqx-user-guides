@@ -23,7 +23,7 @@ meas.measure(q, c)
 circuits = []
 exp_vector = range(1,51)
 for exp_index in exp_vector:
-    for i in range(50):
+    for i in range(45):
         middle.iden(q)
     circuits.append(pre + middle + meas)
 
@@ -36,6 +36,7 @@ compile_config = {
 }
 result = execute(circuits, 'ibmqx4', compile_config, wait=5, timeout=1800)
 print(result)
+
 # Get result
 exp_data = []
 exp_error = []
@@ -49,7 +50,7 @@ for exp_index in exp_vector:
     exp_error.append(np.sqrt(p0*(1-p0)/shots))
 
 plt.errorbar(exp_vector, exp_data, exp_error)
-plt.xlabel('time [50*gate time]')
+plt.xlabel('time [45*gate time]')
 plt.ylabel('Pr(0)')
 plt.grid(True)
 plt.show()

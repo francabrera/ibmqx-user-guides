@@ -11,7 +11,7 @@ just special cases of these.
 Another convenient representation of a single qubit state is
 
 .. math:: 
-  ~~~~~~~~|\psi\rangle = \cos(\theta/2)|0\rangle + \sin(\theta/2)e^{i\phi}|1\rangle
+  ~~~~~~~~|\psi\rangle = \cos(\theta/2)|0\rangle + \sin(\theta/2)e^{i\phi}|1\rangle,
 
 where :math:`0 \leq \phi <2\pi`  and :math:`0\leq \theta \leq \pi`. From this it is clear that 
 there is a one-to-one correspondence between qubit states (:math:`\mathbb{C}^2`) and the points on the 
@@ -54,4 +54,14 @@ From this gate the Hadamard is done by :math:`H= U_2(0,\pi)`.  IBM Q Experience
 this is implemented by a pre and post frame change and a :math:`X_{\pi/2}` pulse.
 
 The 3rd gate is :math:`u3` which is just :math:`u3(\theta,\phi,\lambda) = U(\theta,\phi,\lambda)` and it is 
-implemented using three frame changes and two :math:`X_{\pi/2}` pulses. 
+implemented using three frame changes and two :math:`X_{\pi/2}` pulses. A demonstration of :math:`u3` gate is showed 
+in the script below. Here we show how we can use the :math:`u3` gate to create a arbitrary state and the plot shows 
+the projection onto the :math:`|0\rangle`. A similar thing can be done with :math:`u1`  and :math:`u2`.
+
+.. raw:: html
+
+  <a href="https://qiskit.org"  target="_blank">QISKit</a> example
+
+.. literalinclude:: ../../../qiskit/python/example_u3.py
+  :language: python
+  :linenos:
