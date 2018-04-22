@@ -7,3 +7,7 @@ qiskit/bin/activate
 qiskit/bin/conda
 
 qiskit/bin/deactivate
+
+qiskit/python/Qconfig.py
+
+qiskit/python/__pycache__/Qconfig.cpython-36.pyc
