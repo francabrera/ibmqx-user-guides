@@ -21,7 +21,7 @@ which is a property known as **superposition**. This on its own is
 no special thing, since a computer whose bits can be intermediate
 between 0 and 1 is just an analog computer, scarcely more powerful than
 an ordinary digital computer. However, a quantum computer takes
-advantage of a special kind of superposition that allows for \*exponentially many*\ 
+advantage of a special kind of superposition that allows for *exponentially many* 
 logical states at once, all the states from
 :math:`|00...0\rangle` to :math:`|11...1\rangle`. This is a powerful feat, and
 no classical computer can achieve it. The vast majority of these quantum
