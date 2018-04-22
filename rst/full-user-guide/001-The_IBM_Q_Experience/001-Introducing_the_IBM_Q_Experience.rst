@@ -46,18 +46,18 @@ corner of each page.
 
 To make sure everyone has a chance to use the real device in our lab via
 the Cloud, we have established a **Units** currency system. If you have
-joined the IBM Q Experience you have full access to our simulation 
-capabilities and to previously-run cached results from the real device 
-and a small number of Units to run real experiments on the quantum processor 
-hardware. Once you have read through the User Guide you will be rewarded 
+created an IBM Q Experience account, you have full access to our simulation 
+capabilities and to previously-run cached results from the real device, 
+as well as a small number of Units to run real experiments on the quantum processor 
+hardware. Once you have read through the User Guide, you will be rewarded 
 with extra Units to run more real-time experiments. This system allows our 
 experiment queue to run smoothly. When your Units are used up, you will be 
 replenished once you have viewed the results of the completed execution.  
 
 The quantum processor in our lab requires frequent calibration; during
-these short periods, you will receive a "Down for Calibration" notice
-and if we need to perform maintenance a "Down for Maintenance" message
-will be displayed. In both cases the simulation will be available for
+these short periods, you will receive a "Down for Calibration" notice.
+If we need to perform maintenance, a "Down for Maintenance" message
+will be displayed. In both cases, the simulation will be available for
 you to keep learning and designing new experiments. 
 
 For those who wish to jump right into creating your own experiments, you
@@ -71,7 +71,7 @@ We would like to acknowledge the work done under the IARPA Multi-Qubit
 Coherent Operations program, the Logical Qubits program, the LPS Quantum
 Characterization Validation & Verification program, and the IBM Research
 Frontiers Institute. The research performed in those programs has
-contributed to making this IBM Q Experience possible. 
+contributed to making the IBM Q Experience possible. 
 
 Thank you,
 
