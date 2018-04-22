@@ -37,13 +37,13 @@ computer manipulates its bits.
 A qubit (pronounced “cue-bit” and short for quantum bit) is the physical
 carrier of quantum information. It is the quantum version of a bit, and
 its quantum state can take values of :math:`|0\rangle`, :math:`|1\rangle`,
-or linear combination of both, which is a phenomenon known as **superposition**.\
+or the linear combination of both, which is a phenomenon known as **superposition**.\
 
 **What is a superposition?**
 
 A superposition is a weighted sum or difference of two or more states;
-for example, the state of the air when two or more musical tones are
-sounding at once. Ordinary, or “classical,” superpositions commonly
+for example, the state of the air when two or more musical tones
+sound at once. Ordinary, or “classical,” superpositions commonly
 occur in macroscopic phenomena involving waves.
 
 **How are quantum superpositions different?**
@@ -58,7 +58,7 @@ can only produce a superposition of :math:`n` states.
 
 A set of :math:`n` coins, each of which might be heads or tails, can be
 described as a probabilistic mixture of :math:`2^n` states, but it actually
-**is** in only one of them—we just don’t know which. For this reason,
+**is** in only one of them — we just don’t know which. For this reason,
 quantum superposition is more powerful than classical probabilism.
 Quantum computers capable of holding their data in superposition can
 solve some problems exponentially faster than any known deterministic or
@@ -103,13 +103,13 @@ variables (like the position and momentum of a particle). This implies
 that a quantum system in a perfectly definite state can be certain
 under one measurement and completely random under another.  Moreover,
 if a quantum system starts out in an arbitrary unknown state, no
-measurement can reveal complete information about that state; and the
+measurement can reveal complete information about that state; the
 more information the measurement reveals, the more the state is
 disturbed.  This is a underlying principle of quantum cryptography.
 
 **What is a quantum gate?**
 
-A quantum gate is an operation that is applied to a qubit to change its
+A quantum gate is an operation applied to a qubit to change its
 state. To generate entanglement you must have at least a two-qubit gate
 equivalent to the CNOT. 
 
@@ -142,7 +142,7 @@ quantum operations using unreliable components.
 You have access to one now with the IBM Q Experience. It is small
 at the moment, but it is a work-in-progress that we are continually improving.
 
-**What is a Quantum circuit?**
+**What is a quantum circuit?**
 
 A quantum circuit is the set of instructions, or algorithm, to a quantum
 computer. It is a series of gates versus time played on different
@@ -339,4 +339,4 @@ How do I join IBM Quantum Computing?
 
 We are always interested in meeting the brightest and most inquisitive
 minds! Are you a quantum
-thinker. If so `check out <https://quantumexperience.ng.bluemix.net/qx/community/question?questionId=4ee83621979d8391db8c95523e36ebd6&channel=news>`__.
+thinker? If so, `check out these positions <https://quantumexperience.ng.bluemix.net/qx/community/question?questionId=4ee83621979d8391db8c95523e36ebd6&channel=news>`__.
