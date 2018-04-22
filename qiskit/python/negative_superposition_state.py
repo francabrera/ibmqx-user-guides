@@ -15,5 +15,5 @@ negative_superposition_state.measure(q, c)
 # Execute the circuit
 result = execute(negative_superposition_state, backend_name = 'local_qasm_simulator')
 
-# Print result
+# Print the result
 print(result.get_counts(negative_superposition_state))

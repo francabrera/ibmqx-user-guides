@@ -9,11 +9,10 @@ from qiskit.tools.visualization import plot_bloch_vector
 q = QuantumRegister(1)
 c = ClassicalRegister(1)
 
-# Build the circuit
+# Build the circuits
 pre = QuantumCircuit(q, c)
 pre.h(q)
 pre.barrier()
-middle = QuantumCircuit(q, c)
 
 meas_x = QuantumCircuit(q, c)
 meas_x.barrier()
@@ -31,10 +30,11 @@ meas_z.barrier()
 meas_z.measure(q, c)
 
 bloch_vector = ['x', 'y', 'z']
-exp_vector = range(0, 20)
+exp_vector = range(0, 21)
 circuits = []
 for exp_index in exp_vector:
-    phase = 2*np.pi*exp_index/len(exp_vector)
+    middle = QuantumCircuit(q, c)
+    phase = 2*np.pi*exp_index/(len(exp_vector)-1)
     middle.u1(phase, q)
     circuits.append(pre + middle + meas_x)
     circuits.append(pre + middle + meas_y)
@@ -43,7 +43,7 @@ for exp_index in exp_vector:
 # Execute the circuit
 result = execute(circuits, backend_name = 'local_qasm_simulator')
 
-# Plot result
+# Plot the result
 for exp_index in exp_vector:
     bloch = [0, 0, 0]
     for bloch_index in range(len(bloch_vector)):

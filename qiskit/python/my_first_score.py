@@ -30,5 +30,5 @@ my_first_score.measure(q, c)
 # Execute the circuit
 result = execute(my_first_score, backend_name = 'local_qasm_simulator')
 
-# Print result
+# Print the result
 print(result.get_counts(my_first_score))

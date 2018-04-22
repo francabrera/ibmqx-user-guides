@@ -16,5 +16,5 @@ superposition_state_xbasis.measure(q, c)
 # Execute the circuit
 result = execute(superposition_state_xbasis, backend_name = 'local_qasm_simulator')
 
-# Print result
+# Print the result
 print(result.get_counts(superposition_state_xbasis))

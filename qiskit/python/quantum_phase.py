@@ -7,7 +7,7 @@ from qiskit.wrapper import execute
 q = QuantumRegister(1)
 c = ClassicalRegister(1)
 
-# Build the circuit
+# Build the circuits
 circuits = []
 pre = QuantumCircuit(q, c)
 pre.h(q)
@@ -22,7 +22,7 @@ for exp_index in exp_vector:
     circuits.append(pre + middle + meas_x)
     middle.t(q)
 
-# Execute the circuit
+# Execute the circuita
 shots = 1024
 compile_config = {
     'shots': shots,
@@ -30,7 +30,7 @@ compile_config = {
 }
 result = execute(circuits, backend_name = 'local_qasm_simulator', compile_config=compile_config)
 
-# Print result
+# Print the result
 for exp_index in exp_vector:
     data = result.get_counts(circuits[exp_index])
     try:

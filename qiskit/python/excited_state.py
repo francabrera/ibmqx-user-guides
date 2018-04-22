@@ -15,5 +15,5 @@ excited_state.measure(q, c)
 # Execute the circuit
 result = execute(excited_state, backend_name = 'local_qasm_simulator')
 
-# Print result
+# Print the result
 print(result.get_counts(excited_state))

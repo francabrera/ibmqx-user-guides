@@ -9,7 +9,7 @@ from qiskit.wrapper import execute
 q = QuantumRegister(1)
 c = ClassicalRegister(1)
 
-# Build the circuit
+# Build the circuits
 circuits = []
 middle = QuantumCircuit(q, c)
 meas = QuantumCircuit(q, c)
@@ -25,7 +25,7 @@ for exp_index in exp_vector:
     middle.u3(delta_theta,0,0,q)
     circuits.append(middle + meas)
 
-# Execute the circuit
+# Execute the circuits
 shots = 1024
 compile_config = {
     'shots': shots,
@@ -33,7 +33,7 @@ compile_config = {
 }
 result = execute(circuits, backend_name = 'local_qasm_simulator', compile_config=compile_config)
 
-# Get result
+# Plot the result
 exp_data = []
 exp_error = []
 for exp_index in exp_vector:
