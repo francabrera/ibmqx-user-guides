@@ -99,6 +99,6 @@ encourage you to dig into our full User Guide!
 
 **We anticipate that you will spend about 10-30 min on each section
 (with the later sections requiring more time) as you read through this
-guide and explore the sample quantum scores on the IBM Q experience.**
+guide and explore the sample quantum scores on the IBM Q Experience.**
 
 

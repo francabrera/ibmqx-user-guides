@@ -46,7 +46,7 @@ corner of each page.
 
 To make sure everyone has a chance to use the real device in our lab via
 the Cloud, we have established a **Units** currency system. If you have
-joined the IBM Q experience you have full access to our simulation 
+joined the IBM Q Experience you have full access to our simulation 
 capabilities and to previously-run cached results from the real device 
 and a small number of Units to run real experiments on the quantum processor 
 hardware. Once you have read through the User Guide you will be rewarded 
@@ -71,7 +71,7 @@ We would like to acknowledge the work done under the IARPA Multi-Qubit
 Coherent Operations program, the Logical Qubits program, the LPS Quantum
 Characterization Validation & Verification program, and the IBM Research
 Frontiers Institute. The research performed in those programs has
-contributed to making this IBM Q experience possible. 
+contributed to making this IBM Q Experience possible. 
 
 Thank you,
 

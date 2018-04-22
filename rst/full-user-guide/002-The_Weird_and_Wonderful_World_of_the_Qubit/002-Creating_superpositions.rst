@@ -34,7 +34,7 @@ Indeed, much like flipping a fair coin, the results are close to 50/50
 with the non-ideality due to shot noise and errors (if you ran it on 
 a real experiment). 
 You would not be alone thinking the :math:`H` gate is is like flipping a 
-fair coin (it is the randomness that we all experience).
+fair coin (it is the randomness that we all Experience).
 
 However, quantum randomness is much different. Lets see how.  Let's 
 run the experiment again, but this time with two :math:`H` gates in succession. 

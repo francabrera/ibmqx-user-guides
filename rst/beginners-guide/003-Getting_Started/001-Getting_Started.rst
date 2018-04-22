@@ -76,7 +76,7 @@ you repeat the experiment many times on the real device (what we call
 find that about half the time you measure 0 and half the time you
 measure 1.
 
-In the IBM Q experience, the results of your quantum scores are shown in
+In the IBM Q Experience, the results of your quantum scores are shown in
 a standard histogram/bar graph representation.
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/p0-1xkkbcfvusaotuik9.png

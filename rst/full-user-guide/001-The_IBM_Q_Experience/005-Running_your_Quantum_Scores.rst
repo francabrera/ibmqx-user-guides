@@ -50,7 +50,7 @@ placed into the experimental queue when you hit "Run," and you will be
 notified via email when it has been executed on the actual quantum
 computer in our lab. 
 
-You must have Units in your IBM Q experience account to use the Real
+You must have Units in your IBM Q Experience account to use the Real
 Quantum Processor.  If the score you are trying to run has previously
 been run, you will be given the choice of seeing the results from the
 cached execution right away (which costs no Units), or spending the
