@@ -7,12 +7,12 @@ computation, which dates back to
 `Turing <https://en.wikipedia.org/wiki/Alan_Turing>`__ and `von
 Neumann <https://en.wikipedia.org/wiki/John_von_Neumann>`__. In this
 model, all information is reducible to bits, which can take the values
-of either 0 or 1 -- and all processing can be performed via simple
+of either 0 or 1 - and all processing can be performed via simple
 `logic gates <https://en.wikipedia.org/wiki/Logic_gate>`__ (AND, OR,
 NOT, NAND) acting on one or two bits at a time. At any point in its
 computation, a classical computer’s state is entirely determined by the
 states of all its bits, so that a computer with :math:`n` bits can exist in
-one of :math:`2^n` possible states, ranging from :math:`00...0`  to :math:`11…1`.
+one of :math:`2^n` possible states, ranging from :math:`00...0`  to :math:`11...1`.
 
 The power of the quantum computer, meanwhile, lies in its much richer
 repertoire of states. A quantum computer also has bits - but instead of 0
