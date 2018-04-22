@@ -1,4 +1,4 @@
-# quantum_phase.py
+# quantum_phase_u1.py
 import numpy as np
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit.wrapper import execute
@@ -17,10 +17,14 @@ meas_x = QuantumCircuit(q, c)
 meas_x.barrier()
 meas_x.h(q)
 meas_x.measure(q, c)
-exp_vector = range(0,8)
+exp_vector = range(0,50)
+exp_phase = []
+phase = 0.0
 for exp_index in exp_vector:
+    phase = phase + 2*np.pi/len(exp_vector)
+    exp_phase.append(phase)
+    middle.u1(phase,q)
     circuits.append(pre + middle + meas_x)
-    middle.t(q)
 
 # Execute the circuit
 shots = 1024
@@ -31,6 +35,7 @@ compile_config = {
 result = execute(circuits, backend_name = 'local_qasm_simulator', compile_config=compile_config)
 
 # Print result
+exp_data = []
 for exp_index in exp_vector:
     data = result.get_counts(circuits[exp_index])
     try:
@@ -41,4 +46,9 @@ for exp_index in exp_vector:
         p1 = data['1']/shots
     except KeyError:
         p1 = 0
-    print('exp {}: [{}, {}] X lenght = {}'.format(exp_index, p0, p1, p0-p1))
+    exp_data.append(p0-p1)
+
+import matplotlib.pyplot as plt
+
+plt.plot(exp_phase, exp_data)
+plt.show()

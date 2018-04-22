@@ -2,7 +2,7 @@ Advanced single qubit gates
 ===========================
 
 Ok we are ready to hit the advance button. Go ahead and click the tick box. 
-Doing this you should find that three orange gates :math:`\{u1,u2,u3` (and some 
+Doing this you should find that three orange gates :math:`\{u1,u2,u3\}` (and some 
 more stuff we will touch on later) appear. These are the three physical single qubit 
 gates of the IBM Q Experience which take in one, two and three parameters respectively.
 These are the main single qubit gates and the rest you have learnt about are 
@@ -51,7 +51,7 @@ The second gate is :math:`u2` which has the form
   & e^{i\lambda+i\phi} \end{pmatrix}.
 
 From this gate the Hadamard is done by :math:`H= U_2(0,\pi)`.  IBM Q Experience 
-this is implemented a pre and post frame change and a :math:`X_{\pi/2}` pulse.
+this is implemented by a pre and post frame change and a :math:`X_{\pi/2}` pulse.
 
 The 3rd gate is :math:`u3` which is just :math:`u3(\theta,\phi,\lambda) = U(\theta,\phi,\lambda)` and it is 
 implemented using three frame changes and two :math:`X_{\pi/2}` pulses. 
