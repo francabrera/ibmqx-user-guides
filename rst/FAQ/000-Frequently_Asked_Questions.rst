@@ -15,6 +15,11 @@ General questions about quantum information science
 
 **What does “quantum” mean?**
 
+In physics, a quantum (plural: quanta) is the minimum amount of any physical entity involved in an interaction. Physical properties may be "quantized," which means that the magnitude of the physical property can only take on discrete values consisting of integer multiples of one quantum. Quantum theory revolutionized physics and chemistry by successfully explaining the weird behavior of atoms, electrons, and other tiny particles, as well as bits of information itself. **[INCLUDE EXAMPLES OF QUANTIZED PROPERTIES].**
+
+
+**What is Quantum Theory?**
+
 Quantum theory is a revolutionary advancement in physics and chemistry
 that emerged in the early twentieth century. It is an elegant
 mathematical theory able to explain the counterintuitive behavior of
@@ -37,14 +42,15 @@ computer manipulates its bits.
 A qubit (pronounced “cue-bit” and short for quantum bit) is the physical
 carrier of quantum information. It is the quantum version of a bit, and
 its quantum state can take values of :math:`|0\rangle`, :math:`|1\rangle`,
-or the linear combination of both, which is a phenomenon known as **superposition**.\
+or the linear combination of both, which is a phenomenon known as **superposition**. 
+The half angle bracket notation :math:`| \rangle` is conventionally used to distinguish qubits from ordinary bits.
 
 **What is a superposition?**
 
 A superposition is a weighted sum or difference of two or more states;
 for example, the state of the air when two or more musical tones
 sound at once. Ordinary, or “classical,” superpositions commonly
-occur in macroscopic phenomena involving waves.
+occur in everyday macroscopic phenomena involving waves.
 
 **How are quantum superpositions different?**
 
@@ -66,16 +72,17 @@ probabilistic classical algorithm. A more technical difference is that
 while probabilities must be positive (or zero), the weights in a
 superposition can be positive, negative, or even complex numbers.
 
-**How is a quantum superposition different from exponential
-parallelism?**
+**How is a quantum superposition different from exponential parallelism?**
 
-Just as a superposition is stronger than a probabilistic mixture, so it
+A superposition is stronger than a probabilistic mixture, but it
 is weaker than actually having an exponentially large army of real
-computers (which is an unrealistic proposition in any case, since the
+computers. (This is an unrealistic proposition in any case, since the
 observable universe isn’t big enough to hold :math:`2^{100}` of anything).
-The power of quantum computers remains to be explored, but it is
-considered to be strictly weaker than exponential parallelism, and
-strictly stronger than probabilism.
+The full power of quantum computers remains to be explored, but it is
+considered to be strictly weaker than exponential `parallelism
+<http://www.python.org/>`_, and
+strictly stronger than `probabalism
+<http://www.python.org/>`_.
 
 **What is entanglement?**
 
