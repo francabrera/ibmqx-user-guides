@@ -1,4 +1,4 @@
-Creating superposition
+Creating Superposition
 ======================
 
 | Now that we know how to switch between :math:`|0\rangle`
@@ -13,15 +13,14 @@ Creating superposition
 
 |
 
-| Place the *H* gate, known as the Hadamard gate, on one of the qubits
-  (which starts in the :math:`|0\rangle` state) and run the standard
-  measurement. Did you find that the qubit behaves half the time like
-  a :math:`|0\rangle` and half the time like a :math:`|1\rangle`? Before the
-  measurement forced the qubit to choose a final state, the qubit's
-  state was neither :math:`|0\rangle` nor :math:`|1\rangle` but rather a
-  uniquely quantum state, a superposition, consisting of an
-  equal-weighted combination of these two states. 
-
+Place the *H* gate, known as the Hadamard gate, on one of the qubits
+(which starts in the :math:`|0\rangle` state) and run the standard
+measurement. Did you find that the qubit behaves half the time like
+a :math:`|0\rangle` and half the time like a :math:`|1\rangle`? Before the
+measurement forced the qubit to choose a final state, the qubit's
+state was neither :math:`|0\rangle` nor :math:`|1\rangle` but rather a
+uniquely quantum state, a superposition, consisting of an
+equal-weighted combination of these two states. 
 
 |   
   
@@ -36,10 +35,13 @@ rotation around the X+Z axis, shown below with a dotted line. This is
 the standard representation of a superposition state, and **points
 along +X on the Bloch sphere**.
 
-|  
+*π rotation around X+Z axis (exchanges X and Z):*
 
-:math:`|+\rangle` superposition state, the standard representation of a
-superposition:
+| |image3|
+
+|
+
+:math:`|+\rangle` *superposition state, the standard representation of a superposition:*
 
 .. raw:: html
 
@@ -55,8 +57,6 @@ produce this result exactly, just as 100 fair coin tosses generally
 won't yield exactly 50 heads and 50 tails.
 
 | |image2|
-
-| |image3|
 
 Together with the state :math:`|-\rangle = \frac{1}{\sqrt{2}}(|0\rangle
 - |1\rangle)`, which is **a vector pointing along –X on the Bloch
