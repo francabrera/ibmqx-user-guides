@@ -58,36 +58,6 @@ impossible. To do all of this, quantum computers will use two
 fundamental properties of the quantum world: **superposition** and
 **entanglement**.
 
-| 
-
-So, what is **superposition**? Qubits can be in the “:math:`|0\rangle`”
-state (called a zero-ket), the “:math:`|1\rangle`” state (called the
-one-ket), or a linear combination of the two (superposition). The
-half-angle bracket notation :math:`|\rangle` is conventionally used to
-indicate qubits, as opposed to ordinary bits. When you measure the
-:math:`|0\rangle` quantum state, you get a classical 0, and when you
-measure the :math:`|1\rangle` quantum state, you get a classical 1. The
-:math:`|0\rangle` state is sometimes called the ground state because in
-many physical implementations of quantum computing, including ours, it
-is the lowest energy state.
-
-| 
-
-Now, for **entanglement**. Entanglement is a property of many quantum
-superpositions and does not have a classical analog. In an entangled
-state, the whole system can be described definitively, even though the
-parts cannot. Observing one of two entangled qubits causes it to behave
-randomly, but tells the observer exactly how the other qubit would act
-if observed in a similar manner. Entanglement involves a correlation
-between individually random behaviors of the two qubits, so it cannot be
-used to send a message. Some people call it “instantaneous action at a
-distance,” but this is a misnomer. There is no **action,** but rather
-**correlation**; the correlation between the two qubits’ outcomes is
-detected only after the two measurements when the observations are
-compared. The ability of quantum computers to exist in entangled states
-is responsible for much of their extra computing power, as well as many
-other feats of quantum information processing that cannot be performed,
-or even described, classically.
 
 | 
 
@@ -111,4 +81,4 @@ Bennett <http://www.research.ibm.com/quantum/expertise.html>`_ on
 our website.
 
 If you want to see more of the math and theory behind the concepts, we
-encourage you to dig into our `Full User Guide <https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=full-user-guide&page=introduction>`!
+encourage you to dig into our `Full User Guide <https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=full-user-guide&page=introduction>`_!
