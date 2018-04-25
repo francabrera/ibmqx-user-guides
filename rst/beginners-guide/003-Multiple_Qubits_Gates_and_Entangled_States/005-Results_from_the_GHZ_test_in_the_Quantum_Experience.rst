@@ -39,8 +39,5 @@ real quantum processor, which is imperfect.
 
 | 
 
-**We will soon be adding a section to this Beginner’s Guide about how to
-implement a GHZ test yourself in the QX! So watch this space.**
-
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/ghz-test-new-conventiongm4l8dnexijatt9.png
 
