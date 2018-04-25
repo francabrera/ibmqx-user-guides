@@ -14,8 +14,11 @@ The basis states :math:`|0\rangle` and :math:`|1\rangle` and their linear
 combinations :math:`a|0\rangle`  + :math:`b|1\rangle` describe the state of
 a single qubit. But because the coefficients a and b are not just real
 numbers, but can be imaginary or even complex, visualizing a qubit
-requires a special tool called the Bloch Sphere. The Bloch Sphere is a
-sphere with a radius of one and a point on its surface represents the
+requires a special tool called the Bloch Sphere. 
+
+| 
+
+The **Bloch Sphere** is a sphere with a radius of one and a point on its surface represents the
 state of a qubit.  Like a globe uses longitude and latitude to describe
 points on the surface, the Bloch sphere can also use angles to describe
 the state of a qubit.  This representation allows any qubit state,
@@ -44,7 +47,7 @@ Bloch Sphere depiction works only for single-qubit representations. For
 the purpose of the schematic, we’ll assume that the length of the Bloch
 vector is equal to the radius of the Bloch sphere.
 
-| 
+|
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/bloch-sphere0g2aifid2kpgb9.png
 
