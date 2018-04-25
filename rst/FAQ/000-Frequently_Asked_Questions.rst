@@ -79,7 +79,7 @@ is weaker than actually having an exponentially large army of real
 computers. (This is an unrealistic proposition in any case, since the
 observable universe isn’t big enough to hold :math:`2^{100}` of anything).
 The full power of quantum computers remains to be explored, but it is
-considered to be strictly weaker than exponential `parallelism
+considered to be strictly weaker than `exponential parallelism
 <http://www.python.org/>`_, and
 strictly stronger than `probabalism
 <http://www.python.org/>`_.
@@ -116,7 +116,7 @@ disturbed.  This is a underlying principle of quantum cryptography.
 
 **What is a quantum gate?**
 
-A quantum gate is an operation applied to a qubit to change its
+Quantum gates are the elementary building blocks for quantum computation, acting on qubits the way classical logic gates act on bits. A quantum gate is an operation applied to a qubit to change its
 state. To generate entanglement you must have at least a two-qubit gate
 equivalent to the CNOT. 
 
@@ -186,6 +186,15 @@ Quantum Scores.
 A Quantum Score is the set of instructions, or algorithm, to a quantum
 computer. It is a series of gates versus time played on different
 qubits, much like a musical score. It is also called a quantum circuit. 
+
+
+**How do I join IBM Quantum Computing?**
+
+We are always interested in meeting the brightest and most inquisitive
+minds! **[MORE DETAIL NOT JUST A LINK].** 
+
+Are you a quantum thinker? If so, `check out these positions <https://quantumexperience.ng.bluemix.net/qx/community/question?questionId=4ee83621979d8391db8c95523e36ebd6&channel=news>`__.
+
 
 .. cssclass:: h2
 
@@ -311,6 +320,10 @@ will be "Down for Maintenance."
 
 Questions about running the simulator versus the experiment
 
+**What is the difference between simulation and running on a "real" quantum machine?**
+
+**[PROVIDE AN ANSWER TO THIS QUESTION.]**
+
 **What does the simulator do?**
 
 The simulator computes the quantum state we expect a circuit to
@@ -339,11 +352,3 @@ run off the queue. On the other hand, "Promo Units" are extra units that
 allow you to run extra executions but, once used, these credits won't be
 replenished. If you have "Promo Units", these will be used first rather
 than "Current Units".
-
-.. cssclass:: h2
-
-How do I join IBM Quantum Computing?
-
-We are always interested in meeting the brightest and most inquisitive
-minds! Are you a quantum
-thinker? If so, `check out these positions <https://quantumexperience.ng.bluemix.net/qx/community/question?questionId=4ee83621979d8391db8c95523e36ebd6&channel=news>`__.
