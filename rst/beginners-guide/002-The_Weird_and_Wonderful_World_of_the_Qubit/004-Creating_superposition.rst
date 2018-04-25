@@ -53,6 +53,7 @@ along +X on the Bloch sphere**.
   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3033b263493f8f4eacad676036b70f22&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 | 
+| 
 
 Below is a sample histogram showing the results of running the above
 circuit 100 times. Although on average we expect this circuit to yield 0
@@ -73,19 +74,24 @@ Sphere**, we can define a new basis (or measurement direction) called
 the superposition basis. The :math:`|-\rangle` state is made using the
 circuit below. The *X* gate flips the :math:`|0\rangle` to a
 :math:`|1\rangle`, and then the *H* gate rotates the qubit around the X+Z
-direction to produce the :math:`|-\rangle` state. When you run this
-circuit you will find that, like before, the outcomes are equal.
-Different states give the same outcomes! 
+direction to produce the :math:`|-\rangle` state.
 
-:math:`|-\rangle` superposition state
+:math:`|-\rangle` *Superposition State Bloch representation:*
+
 
 | |image4|
 
+When you run this circuit you will find that, like before, the outcomes are equal.
+Different states give the same outcomes! 
+
+:math:`|-\rangle` *Superposition Composer circuit diagram:*
 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=69105edada81f30718a6872b1133ee2d&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-69105edada81f30718a6872b1133ee2d.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=69105edada81f30718a6872b1133ee2d&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+
+:math:`|-\rangle` *Superposition Composer Result Histogram:*
 
 | |image6|
 
@@ -93,7 +99,12 @@ When you measure along the standard basis Z (which is the only direction
 we can access with our pink Z measurement gate), we are not able to
 access information about the qubit’s phase. 
 
-To tell the difference between these states, :math:`|+\rangle` and
+
+.. cssclass:: h2
+
+:math:`|+\rangle` and :math:`|-\rangle` States
+
+To tell the difference between the states :math:`|+\rangle` and
 :math:`|-\rangle`, we need to \ *measure*\  in the superposition basis.
 Experimentally, we cannot physically measure along the different
 directions of the Bloch Sphere; however, we can make it look like we’re
@@ -106,7 +117,15 @@ measurement. 
 
 |image7|
 
-:math:`|+\rangle` state measured in X basis:
+|
+
+Try the above measurements of the superposition :math:`|+\rangle` and
+:math:`|-\rangle` states in the X basis. You should find that 100% of the
+time the outcome is 0 and 1 respectively. That is, if we make a
+measurement in the standard (“Z”) basis, the outcome is completely
+random. But, in the X basis, it has a deterministic outcome!
+
+:math:`|+\rangle` *state measured in X basis:*
 
 .. raw:: html
 
@@ -115,18 +134,12 @@ measurement. 
 
 | |image9|
 
-:math:`|-\rangle` state measured in X basis:
+:math:`|-\rangle` *state measured in X basis:*
 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b8c9dbdafa24ade6bc96be2916487493&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-b8c9dbdafa24ade6bc96be2916487493.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b8c9dbdafa24ade6bc96be2916487493&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
-
-Try the above measurements of the superposition :math:`|+\rangle` and
-:math:`|-\rangle` states in the X basis. You should find that 100% of the
-time the outcome is 0 and 1 respectively. That is, if we make a
-measurement in the standard (“Z”) basis, the outcome is completely
-random. But, in the X basis, it has a deterministic outcome!
 
 
 
