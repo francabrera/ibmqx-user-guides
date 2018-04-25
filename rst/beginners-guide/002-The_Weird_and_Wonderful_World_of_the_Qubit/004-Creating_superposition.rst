@@ -13,6 +13,10 @@ Creating Superposition
 
 |
 
+.. cssclass:: h2
+
+The Hadamard Gate
+
 Place the *H* gate, known as the Hadamard gate, on one of the qubits
 (which starts in the :math:`|0\rangle` state) and run the standard
 measurement. Did you find that the qubit behaves half the time like
@@ -57,6 +61,11 @@ produce this result exactly, just as 100 fair coin tosses generally
 won't yield exactly 50 heads and 50 tails.
 
 | |image2|
+
+
+.. cssclass:: h2
+
+The Superposition Basis (X Basis)
 
 Together with the state :math:`|-\rangle = \frac{1}{\sqrt{2}}(|0\rangle
 - |1\rangle)`, which is **a vector pointing along –X on the Bloch
