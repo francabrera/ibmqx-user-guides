@@ -19,7 +19,7 @@ Introducing Qubit Phase
  
 |
 
-| **Applying a Z gate to a qubit in |0> state**
+| *Applying a Z gate to a qubit in |0> state (Bloch Sphere and Circuit Diagram)*
 
   
 |image1|\ 
@@ -40,7 +40,7 @@ state from :math:`|+\rangle` to :math:`|-\rangle`.
 
 |
 
-| **Applying a Z gate to a qubit in |+> state**
+| *Applying a Z gate to a qubit in |+> state (Bloch Sphere and Circuit Diagram)*
 
 
 | |image3|
