@@ -8,7 +8,7 @@ Introducing Qubit Phase
 
 |image0|
 
-| The *:math:`Z`* gate is a :math:`\pi` rotation around the Z axis, the :math:`S`
+| The :math:`Z` gate is a :math:`\pi` rotation around the Z axis, the :math:`S`
   gate is a rotation of :math:`\pi/2` around Z, and the :math:`T` gate is a
   :math:`\pi/4` rotation around Z. :math:`S^{\dagger}` is the inverse of :math:`S`
   (does a :math:`-\pi/2` around Z; :math:`SS^{\dagger}` returns the original
