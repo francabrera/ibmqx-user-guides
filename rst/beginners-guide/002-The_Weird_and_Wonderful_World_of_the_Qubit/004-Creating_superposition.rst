@@ -39,6 +39,8 @@ rotation around the X+Z axis, shown below with a dotted line. This is
 the standard representation of a superposition state, and **points
 along +X on the Bloch sphere**.
 
+|   
+
 *π rotation around X+Z axis (exchanges X and Z):*
 
 | |image3|
@@ -63,10 +65,14 @@ won't yield exactly 50 heads and 50 tails.
 
 | |image2|
 
+|   
 
 .. cssclass:: h2
 
 The Superposition Basis (X Basis)
+
+|   
+
 
 Together with the state :math:`|-\rangle = \frac{1}{\sqrt{2}}(|0\rangle
 - |1\rangle)`, which is **a vector pointing along –X on the Bloch
@@ -78,11 +84,14 @@ direction to produce the :math:`|-\rangle` state.
 
 :math:`|-\rangle` *Superposition State Bloch representation:*
 
+|   
 
 | |image4|
 
 When you run this circuit you will find that, like before, the outcomes are equal.
 Different states give the same outcomes! 
+
+|   
 
 :math:`|-\rangle` *Superposition Composer circuit diagram:*
 
@@ -119,17 +128,20 @@ To measure in the X basis, we rotate the qubit’s state until the qubit’s
 component that previously pointed along X points now in the “+Z”
 direction, which is accomplished by applying a Hadamard gate before the
 measurement. 
+|   
+
 
 |image7|
 
 |
 
-Try the above measurements of the superposition :math:`|+\rangle` and
+Try the measurements below of the superposition :math:`|+\rangle` and
 :math:`|-\rangle` states in the X basis. You should find that 100% of the
 time the outcome is 0 and 1 respectively. That is, if we make a
 measurement in the standard (“Z”) basis, the outcome is completely
 random. But, in the X basis, it has a deterministic outcome!
 
+|   
 
 | |image9|
 
