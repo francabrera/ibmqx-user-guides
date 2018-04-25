@@ -13,6 +13,7 @@ Single-Qubit Gates
   calculations on a quantum computer. In this section, we’ll show you
   how to use some important single-qubit gates.**
 
+| 
 
 .. cssclass:: h2
 
