@@ -1,4 +1,4 @@
-Summary of quantum gates
+Summary of Quantum Gates
 ========================
 
 | 
