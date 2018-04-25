@@ -1,7 +1,7 @@
-Histogram representation (Bar graph)
+Interpreting Results with the Histogram representation
 ====================================
 
-In the histogram/bar graph representation, the combination of 0’s and
+In the histogram (or bar graph) representation, the combination of 0’s and
 1’s at the bottom of each bar represents the measured state of the
 qubit(s), and the height of the bar represents how frequently the
 outcome occured in the different runs of the experiment. Note that the
