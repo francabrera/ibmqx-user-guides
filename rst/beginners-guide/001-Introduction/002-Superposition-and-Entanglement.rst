@@ -10,6 +10,10 @@ Superposition and Entanglement
    
 | 
 
+.. cssclass:: h2
+
+Introducing Superposition
+
 So, what is **superposition**? Qubits can be in the “:math:`|0\rangle`”
 state (called a zero-ket), the “:math:`|1\rangle`” state (called the
 one-ket), or a linear combination of the two (superposition). The
@@ -22,6 +26,10 @@ many physical implementations of quantum computing, including ours, it
 is the lowest energy state.
 
 | 
+
+.. cssclass:: h2
+
+Introducing Entanglement
 
 Now, for **entanglement**. Entanglement is a property of many quantum
 superpositions and does not have a classical analog. In an entangled
