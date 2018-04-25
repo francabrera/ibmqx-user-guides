@@ -9,9 +9,9 @@ The Weird and Wonderful World of the Qubit
 ..
    *
 
-**A qubit is a quantum system consisting of two energy levels, labeled
+A qubit is a quantum system consisting of two energy levels, labeled
 :math:`|0\rangle` and :math:`|1\rangle`. The :math:`|0\rangle` state is often
-called the ground state because it is the lower of the two energies.**
+called the ground state because it is the lower of the two energies.
 
 |
 
