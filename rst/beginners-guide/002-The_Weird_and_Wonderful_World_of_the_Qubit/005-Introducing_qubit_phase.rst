@@ -16,14 +16,16 @@ Introducing Qubit Phase
   give the qubit a component along the Y direction of the Bloch sphere,
   which is a representation of the complex information in the qubit
   state.
-  
+ 
+|
+
+| **Applying a Z gate to a qubit in |0> state**
+
   
 |image1|\ 
 
 |
 
-
-| **Z gate: when qubit is in the |0> state**
 
 .. raw:: html
 
@@ -36,12 +38,14 @@ When the qubit is in the \|0> state, Z doesn’t do much. But when the
 qubit is in the :math:`|+\rangle` state, you can see that Z flips the
 state from :math:`|+\rangle` to :math:`|-\rangle`.
 
+|
+
+| **Applying a Z gate to a qubit in |+> state**
+
+
 | |image3|
 
 | 
-
-|
-| **Z gate: when the qubit is in the |+> state**
 
 .. raw:: html
 
