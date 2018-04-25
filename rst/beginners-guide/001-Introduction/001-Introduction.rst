@@ -67,18 +67,6 @@ guide and explore the sample quantum scores on the IBM Q Experience.**
 
 | 
 
-To learn more about the concepts of superposition and
-entanglement, `see <https://www.youtube.com/watch?v=Hi0BzqV_b44>`_ actor
-Paul Rudd defeat Stephen Hawking in a game of Quantum Chess. The rules
-can be
-found `online <https://www.youtube.com/watch?v=jJoDKHKE2gA>`_,
-and you
-can `watch <https://www.youtube.com/watch?v=LikdmXfWO2A&t=24s>`_ the
-inventor of the game, Chris Cantwell, play a friendly game with chess
-expert Anna Rudolf. You can also find both a short and longer
-introduction to quantum concepts by IBM Fellow `Charlie
-Bennett <http://www.research.ibm.com/quantum/expertise.html>`_ on
-our website.
 
 If you want to see more of the math and theory behind the concepts, we
 encourage you to dig into our `Full User Guide <https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=full-user-guide&page=introduction>`_!
