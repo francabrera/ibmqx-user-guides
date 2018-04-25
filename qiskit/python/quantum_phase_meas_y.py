@@ -42,4 +42,4 @@ for exp_index in exp_vector:
         p1 = data['1']/shots
     except KeyError:
         p1 = 0
-    print('exp {}: [{}, {}] Y lenght = {}'.format(exp_index, p0, p1, p0-p1))
+    print('exp {}: [{}, {}] Y length = {}'.format(exp_index, p0, p1, p0-p1))

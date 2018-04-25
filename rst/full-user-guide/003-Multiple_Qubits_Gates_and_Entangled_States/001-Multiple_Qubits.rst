@@ -1,21 +1,22 @@
 Multiple Qubits
 ===============
 
-| Until this point, we have only considered a single qubit; let's now
-  consider more than one qubit in a system. The complex vector space of
-  an :math:`n` qubit system has a dimension equal to :math:`2^n`, which we
-  denote :math:`\mathbb{C}^{2^{n}}`. The standard basis is the set of all
-  binary strings for :math:`k\in \{0, 2^n-1\}`. For example, the basis
-  for two qubits is
+Until this point, we have only considered a single qubit; let's now
+consider more than one qubit in a system. The complex vector space of
+an :math:`n` qubit system has a dimension equal to :math:`2^n`, which we
+denote :math:`\mathbb{C}^{2^{n}}`. The standard basis is the set of all
+binary strings for :math:`k\in \{0, 2^n-1\}`. For example, the basis
+for two qubits is
 
-| :math:`\{|00\rangle, |01\rangle,  |10\rangle,  |11\rangle\}`;
+.. math:: 
+  ~~~~~~~~\{|00\rangle, |01\rangle,  |10\rangle,  |11\rangle\};
 
-| for three qubits,
+for three qubits,
 
-| :math:`\{|000\rangle, |001\rangle,  |010\rangle,  |011\rangle, 
+:math:`\{|000\rangle, |001\rangle,  |010\rangle,  |011\rangle, 
   |100\rangle,  |101\rangle,  |110\rangle,  |111\rangle \}`;
 
-| and for four qubits,
+and for four qubits,
 
 :math:`\{|0000\rangle, |0001\rangle,  |0010\rangle,  |0011\rangle, 
 |0100\rangle,  |0101\rangle,  |0110\rangle,  |0111\rangle,
@@ -89,56 +90,53 @@ make your own complex quantum states. In the next sections we will show
 you how quantum computers take advantage of a certain peculiarity known
 as *entangled* states.
 
-| 
+.. raw:: html
 
-|
-| **A Random Classical Circuit**
+  OpenQasm Input
+
+.. literalinclude:: ../../../qiskit/openqasm/classical_state.qasm
+  :language: c++
+  :linenos:
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=eb66af75098f190ea9e7c6f7df658b1b&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-eb66af75098f190ea9e7c6f7df658b1b.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=eb66af75098f190ea9e7c6f7df658b1b&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+  OpenQasm Input
 
-|
-| **CNOT (input 00)**
-
-.. raw:: html
-
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a95f11718a78d8ff64bdd87cecc8ba63&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-a95f11718a78d8ff64bdd87cecc8ba63.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a95f11718a78d8ff64bdd87cecc8ba63&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
-
-|
-| **CNOT (input 01)**
+.. literalinclude:: ../../../qiskit/openqasm/h5.qasm
+  :language: c++
+  :linenos:
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6c3621d910c99f3d4670a5ea5285e9d9&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-6c3621d910c99f3d4670a5ea5285e9d9.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6c3621d910c99f3d4670a5ea5285e9d9&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+  OpenQasm Input
 
-|
-| **CNOT (input 10)**
-
-.. raw:: html
-
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec02153c124&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-6dcb75a9dd05dca9f0504ec02153c124.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec02153c124&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
-
-|
-| **CNOT (input 11)**
+.. literalinclude:: ../../../qiskit/openqasm/cnot_00.qasm
+  :language: c++
+  :linenos:
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec0216cd1b6&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-6dcb75a9dd05dca9f0504ec0216cd1b6.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec0216cd1b6&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+  OpenQasm Input
 
-|
-| **5Q Complete Superposition Circuit**
+.. literalinclude:: ../../../qiskit/openqasm/cnot_01.qasm
+  :language: c++
+  :linenos:
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a300838ec&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-e21164be4db4b6f5698f254a300838ec.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a300838ec&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+  OpenQasm Input
 
+.. literalinclude:: ../../../qiskit/openqasm/cnot_10.qasm
+  :language: c++
+  :linenos:
+
+.. raw:: html
+
+  OpenQasm Input
+
+.. literalinclude:: ../../../qiskit/openqasm/cnot_11.qasm
+  :language: c++
+  :linenos:
 
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/exponential-2nyf69faj94rkke29.png

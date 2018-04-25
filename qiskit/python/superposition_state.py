@@ -1,4 +1,4 @@
-# superposition_state.pymak
+# superposition_state.py
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit.wrapper import execute
 
