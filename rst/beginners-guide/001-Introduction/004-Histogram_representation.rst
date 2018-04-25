@@ -15,10 +15,6 @@ experiment with three qubits. Drag a pink measurement gate over to each
 of them and click “Run” or “Simulate.” At this point, there should be
 only one possible outcome, 000. That’s because all of the qubits began
 in the :math:`|0\rangle` state and we haven’t changed them with any gates.
-Now, drag a blue *H* gate to each of the qubits before the measurement.
-The *H* gate puts each of the qubits into an equal superposition state.
-Now you should see that there are many more possible outcomes. We’ll go
-into more detail about the *H* gate in a later section.
 
 |
 | **3-qubit measurement, ground state**
@@ -30,7 +26,12 @@ into more detail about the *H* gate in a later section.
 
 
 | |image1|
+|
 
+Now, drag a blue *H* gate to each of the qubits before the measurement.
+The *H* gate puts each of the qubits into an equal superposition state.
+Now you should see that there are many more possible outcomes. We’ll go
+into more detail about the *H* gate in a later section.
 
 |
 | **3-qubit measurement, full superposition of states**
