@@ -19,25 +19,31 @@ Creating superposition
   state was neither :math:`|0\rangle` nor :math:`|1\rangle` but rather a
   uniquely quantum state, a superposition, consisting of an
   equal-weighted combination of these two states. 
-| The special case where the *H* gate is applied to the :math:`|0\rangle`
-  state is given its own symbol and definition: :math:`|+\rangle =
-  \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)`. This is a fancy way
-  of saying that this new state that we call “\ :math:`|+\rangle`\ ”
-  has a 1/2 probability of giving the outcome 0 and 1/2 probability of
-  giving the outcome 1 (remember how the coefficient squared gives the
-  probability of the outcome?). You can think of the *H* gate as a
-  rotation around the X+Z axis, shown below with a dotted line. This is
-  the standard representation of a superposition state, and **points
-  along +X on the Bloch sphere**.
-|  :math:`|+\rangle` superposition state, the standard representation of a
-  superposition:
+
+
+|   
+  
+The special case where the *H* gate is applied to the :math:`|0\rangle`
+state is given its own symbol and definition: :math:`|+\rangle =
+\frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)`. This is a fancy way
+of saying that this new state that we call “\ :math:`|+\rangle`\ ”
+has a 1/2 probability of giving the outcome 0 and 1/2 probability of
+giving the outcome 1 (remember how the coefficient squared gives the
+probability of the outcome?). You can think of the *H* gate as a
+rotation around the X+Z axis, shown below with a dotted line. This is
+the standard representation of a superposition state, and **points
+along +X on the Bloch sphere**.
+
+|  
+
+:math:`|+\rangle` superposition state, the standard representation of a
+superposition:
 | 
 | 
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3033b263493f8f4eacad676036b70f22&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-3033b263493f8f4eacad676036b70f22.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3033b263493f8f4eacad676036b70f22&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
-
 
 | 
 
