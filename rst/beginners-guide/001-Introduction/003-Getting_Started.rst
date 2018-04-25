@@ -8,6 +8,10 @@ Getting Started with IBM Q Experience
 
    *
 
+.. cssclass:: h2
+
+The Quantum Composer
+
 The **Quantum Composer** is a graphical user interface for programming a
 quantum processor. Think of it as a tool to construct quantum algorithms
 using a library of well-defined measurements and gates (operations that
@@ -31,7 +35,7 @@ deviations that occur due to experimental errors). We encourage you to
 run some experiments on both the custom and real processors so that you
 can understand the differences.
 
-The Composer enables you to create a quantum score -- not a score as in
+The Composer enables you to create a **quantum score** -- not a score as in
 a sporting match, but rather in the musical sense. In a quantum score,
 just as with music, time progresses from left to right. Each line
 represents a qubit (as well as what happens to that qubit over time).
@@ -43,6 +47,13 @@ from left to right.
 
 | |image0|
 
+|
+
+.. cssclass:: h2
+
+Creating and Running a Quantum Circuit
+
+To create a quantum circuit, you will need to add **quantum gates** to your score.
 Quantum gates are represented by square boxes; they play a frequency for
 different durations, amplitudes, and phases. These are called
 single-qubit gates. To apply a gate to a qubit, simply drag the gate box
@@ -54,10 +65,16 @@ you’d like, click “Run” (only available for the real processor) or
 “Simulate” to generate results for your experiment. Each circuit must
 end with a measurement gate in order to run the experiment.
 
-**Single Qubit Measurement:**
+|
+
+.. cssclass:: h2
+
+Single Qubit Measurement
 
 
 | |image1|
+
+|
 
 In the above example, we created a single-qubit score with one classical
 bit in the classical bit register. We measured Qubit “0” and stored the
@@ -77,7 +94,7 @@ find that about half the time you measure 0 and half the time you
 measure 1.
 
 In the IBM Q Experience, the results of your quantum scores are shown in
-a standard histogram/bar graph representation.
+a standard histogram/bar graph representation, which we will cover in the next section.
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/p0-1xkkbcfvusaotuik9.png
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/p1-1xg3szp1jk40f3whfr.png
