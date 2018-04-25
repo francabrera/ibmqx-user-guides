@@ -154,6 +154,7 @@ random. But, in the X basis, it has a deterministic outcome!
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=61eed74ff0b30d2476bdac5d454f0024&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
+|
 
 :math:`|-\rangle` *state measured in X basis:*
 
