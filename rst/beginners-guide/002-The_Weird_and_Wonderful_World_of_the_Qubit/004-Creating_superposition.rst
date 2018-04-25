@@ -11,6 +11,8 @@ Creating superposition
 
 | |image0|
 
+|
+
 | Place the *H* gate, known as the Hadamard gate, on one of the qubits
   (which starts in the :math:`|0\rangle` state) and run the standard
   measurement. Did you find that the qubit behaves half the time like
@@ -38,12 +40,11 @@ along +X on the Bloch sphere**.
 
 :math:`|+\rangle` superposition state, the standard representation of a
 superposition:
-| 
-| 
+
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3033b263493f8f4eacad676036b70f22&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-3033b263493f8f4eacad676036b70f22.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3033b263493f8f4eacad676036b70f22&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+  <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3033b263493f8f4eacad676036b70f22&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 | 
 
