@@ -1,4 +1,4 @@
-Introducing qubit phase
+Introducing Qubit Phase
 =======================
 
 | Now that we have seen how to make :math:`|0\rangle`, :math:`|1\rangle`,
