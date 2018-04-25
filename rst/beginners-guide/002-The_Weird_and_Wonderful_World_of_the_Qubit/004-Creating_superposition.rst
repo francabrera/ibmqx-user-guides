@@ -91,14 +91,19 @@ Different states give the same outcomes! 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=69105edada81f30718a6872b1133ee2d&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-69105edada81f30718a6872b1133ee2d.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=69105edada81f30718a6872b1133ee2d&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
+|
+
 :math:`|-\rangle` *Superposition Composer Result Histogram:*
 
 | |image6|
+
+|
 
 When you measure along the standard basis Z (which is the only direction
 we can access with our pink Z measurement gate), we are not able to
 access information about the qubit’s phase. 
 
+|
 
 .. cssclass:: h2
 
@@ -125,6 +130,10 @@ time the outcome is 0 and 1 respectively. That is, if we make a
 measurement in the standard (“Z”) basis, the outcome is completely
 random. But, in the X basis, it has a deterministic outcome!
 
+
+| |image9|
+
+
 :math:`|+\rangle` *state measured in X basis:*
 
 .. raw:: html
@@ -132,7 +141,7 @@ random. But, in the X basis, it has a deterministic outcome!
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=61eed74ff0b30d2476bdac5d454f0024&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-61eed74ff0b30d2476bdac5d454f0024.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=61eed74ff0b30d2476bdac5d454f0024&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
-| |image9|
+|
 
 :math:`|-\rangle` *state measured in X basis:*
 
