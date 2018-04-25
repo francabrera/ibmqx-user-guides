@@ -1,4 +1,4 @@
-Interpreting Results with the Histogram representation
+Viewing Results with the Histogram Representation
 ====================================
 
 In the histogram (or bar graph) representation, the combination of 0’s and
