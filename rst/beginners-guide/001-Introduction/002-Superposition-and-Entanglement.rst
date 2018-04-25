@@ -29,7 +29,7 @@ is the lowest energy state.
 
 .. cssclass:: h2
 
-Introducing Entanglement
+Entanglement
 
 Now, for **entanglement**. Entanglement is a property of many quantum
 superpositions and does not have a classical analog. In an entangled
