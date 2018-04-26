@@ -90,7 +90,7 @@ representation of
 .. math:: 
   ~~~~~~~~X =\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}.
 
-In the composer it is given by a green gate with a X in the middle (see the example 
+In the Composer it is given by a green gate with a X in the middle (see the example 
 score file below). Try running it. Did you find that, unlike in the
 example above, the qubit ended up in the excited state :math:`|1\rangle` 
 (with high probability if you used the real device)? 
