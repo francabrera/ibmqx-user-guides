@@ -26,7 +26,7 @@ if and only if their directions are orthogonal :math:`\langle\phi|\psi\rangle=0`
 Evolution of a closed system is a unitary transformation on its
 Hilbert space.
 
-**Scaling - how parts make a whole.**
+**Scaling: how parts make a whole.**
 
 The Hilbert space of a composite system is the tensor product of the Hilbert 
 space of the parts.
