@@ -24,7 +24,7 @@ and test some of the strangest properties of quantum physics. 
 The tutorials are broken down into the follow topics:
 
 -  CNOT and multi-qubit states
--  Bell States
+-  Bell states
 -  GHZ states
 
 .. raw:: html
