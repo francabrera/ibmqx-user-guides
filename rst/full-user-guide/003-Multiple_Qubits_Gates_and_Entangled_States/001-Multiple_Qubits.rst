@@ -37,12 +37,12 @@ number of terms growing exponentially. A classical computer that has
 time, the computer state is in one and only one of these configurations.
 For example, a classical computer takes an :math:`n` bit number, say
 :math:`00000`, and performs bit-wise operations on it, mapping the input
-though an :math:`n`-bit intermediate state such as :math:`00001`, which is then
+through an :math:`n`-bit intermediate state such as :math:`00001`, which is then
 output as another :math:`n`-bit number :math:`10101`. Interestingly, a quantum
 computer also takes in an :math:`n`-bit number and outputs an :math:`n`-bit
 number; but because of the superposition principle and the possibility
 of entanglement, the intermediate state is very different. To describe
-it requires :math:`2^n` complex numbers, giving a lot more room for
+it requires :math:`2^n` complex numbers, which provides a lot more room for
 maneuvering. 
 
 | |image0|
@@ -57,7 +57,7 @@ maneuvering. 
 
 To do interesting things that make use of those many configurations in
 the quantum world, we need gates that perform conditional logic between
-qubits. The conditional gate we have provided is the Controlled-NOT, or
+qubits. The conditional gate we give in the Composer is the Controlled-NOT, or
 CNOT.  It is represented by the element  
 
 |                         |image1|
@@ -84,9 +84,11 @@ algorithms <https://en.wikipedia.org/wiki/Quantum_algorithm>`__ start
 out by applying a Hadamard gate, because it maps *:math:`n`* qubits prepared
 in state :math:`|0\rangle^{\otimes n}` to a superposition of all :math:`2^n`
 orthogonal states with equal weight. Try out the five-qubit version. You
-should see that it has made a quantum sphere that points in all
+should see that it has made a quantum sphere pointing in all
 directions with a small weight :math:`1/(2^5)`. Try adding the CNOT gate to
-make your own complex quantum states. In the next sections we will show
+make your own complex quantum states. 
+
+In the next sections we will show
 you how quantum computers take advantage of a certain peculiarity known
 as *entangled* states.
 
