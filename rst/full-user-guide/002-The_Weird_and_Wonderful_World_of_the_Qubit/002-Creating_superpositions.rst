@@ -2,7 +2,7 @@ Creating Superpositions
 =======================
 
 Up to this point, our system has behaved like a classical bit. 
-To go beyond classical bit behavior, we must explore what it means to make a superposition. 
+To go beyond classical behavior, we must explore what it means to make a superposition. 
 The operation for generating a superposition 
 is the Hadamard gate, :math:`H`. In the Composer, this is the
 blue gate labeled :math:`H`.
@@ -33,7 +33,7 @@ Did you find that the results give a 0 half the time, and a 1 the rest of the ti
 Indeed, much like flipping a fair coin, the results are close to 50/50 
 (running on the real device will give less-than-ideal results, due to noise and errors). 
 
-However, quantum randomness is much different. Lets see how.  Run the experiment 
+However, quantum randomness is much different. Let's see how.  Run the experiment 
 again, but this time with two :math:`H` gates in succession. 
 If we consider the :math:`H` gate to be analog to a coin flip, here we would be 
 flipping it twice. When you flip a coin twice in a row, you would still expect a 50/50 
@@ -71,12 +71,12 @@ in the computational basis forces the system to be in either the
 probability. In the second case, 
 we can think of the second :math:`H` gate as being part of the final 
 measurement operation; it changes the measurement basis from the 
-computational basis to a new basis (which we call the superposition basis 
-or x-basis). The experiment confirms this by giving the result 0, 
+computational basis to a new basis - which we call the superposition basis, 
+or x-basis. The experiment confirms this by giving the result 0, 
 showing the system is in the :math:`|+\rangle` superposition state.  
 
 Before we give the math to explain this, let's consider two more experiments. 
-The first puts the qubit in the excited state, and then applies 
+The first puts the qubit in the excited state, then applies 
 the :math:`H` gate. The score for this is below; run it and you will see
 that we get the same 50/50 statistics as the first experiment.  
 
