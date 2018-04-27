@@ -5,8 +5,8 @@ Visualization tools are important for understanding what is happening in a quant
 
 |image0|
 
-As mentioned in the last section a single qubit state can be written as :math:`|\psi\rangle =\cos(\theta/2)|0\rangle + e^{i\phi}\sin(\theta/2)|1\rangle`,
-where :math:`\theta` and :math:`\phi` are defined in the picture, we see
+As mentioned in the last section, a single-qubit state can be written as :math:`|\psi\rangle =\cos(\theta/2)|0\rangle + e^{i\phi}\sin(\theta/2)|1\rangle`,
+where :math:`\theta` and :math:`\phi` are defined in the picture. We see
 that there is a one-to-one correspondence between pure qubit states
 (:math:`\mathbb{C}^2`) and the points on the surface of a unit sphere
 (:math:`\mathbb{R}^3`). We can reconstruct an arbitrary unknown qubit
