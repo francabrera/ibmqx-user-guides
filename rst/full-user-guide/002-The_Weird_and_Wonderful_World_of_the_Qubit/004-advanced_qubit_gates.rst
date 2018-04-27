@@ -2,8 +2,7 @@ Advanced Single-Qubit Gates
 ===========================
 
 We are ready to check the advanced box! Find it above the list of gates in the Composer. 
-When you check it, three orange gates :math:`\{u1,u2,u3\}` (and some 
-more stuff we will touch on later) appear. These are the three physical single-qubit 
+When you check it, three orange gates :math:`\{u1,u2,u3\}` appear. These are the three physical single-qubit 
 gates of the IBM Q Experience which take in one, two, and three parameters respectively.
 These are the main single-qubit gates; the others we have mentioned are 
 just special cases of these. 
