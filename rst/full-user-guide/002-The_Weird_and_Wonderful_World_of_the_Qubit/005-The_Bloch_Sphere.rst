@@ -1,7 +1,7 @@
 The Bloch Sphere
 ================
 
-Visualization tools are important for understanding what is happening in a quantum circuit. A standard one is the Bloch Sphere, as it represents a qubit as a three-dimensional object. We caution the reader that this tool fails to give intuition when you have multiple qubits as it fails to represent entanglement. This being said it is very useful for understanding single qubits. 
+Visualization tools are important for understanding what is happening in a quantum circuit. A standard one is the Bloch Sphere, as it represents a qubit as a three-dimensional object. We caution the reader that this tool will not help you think about multiple qubits, as it fails to demonstrate entanglement. This being said, it is very useful for understanding single qubits. 
 
 |image0|
 
