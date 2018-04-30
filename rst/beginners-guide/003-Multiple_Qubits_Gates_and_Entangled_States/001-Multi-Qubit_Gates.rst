@@ -51,8 +51,8 @@ is represented by the element:  
 |image0|
 
 The CNOT gate's action on classical basis states is to flip (apply a NOT
-or X gate to) the target qubit \ *only*\ if the control qubit
-is :math:`|1\rangle`; otherwise it does nothing. 
+or X gate to) the target qubit \ *only*\  if the control qubit
+is :math:`|1\rangle`. Otherwise, it does nothing. 
 
 Below is how the CNOT gate transforms a set of 2 qubits (where **the
 first qubit – the one on the right – is the control**):
