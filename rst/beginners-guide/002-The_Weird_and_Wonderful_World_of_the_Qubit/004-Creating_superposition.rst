@@ -129,6 +129,12 @@ access information about the qubit’s phase. 
 
 :math:`|+\rangle` and :math:`|-\rangle` States
 
+|   
+
+|image7|
+
+|   
+
 To tell the difference between the states :math:`|+\rangle` and
 :math:`|-\rangle`, we need to \ *measure*\  in the superposition basis.
 Experimentally, we cannot physically measure along the different
@@ -141,8 +147,7 @@ direction, which is accomplished by applying a Hadamard gate before the
 measurement. 
 |   
 
-
-|image7|
+| |image9|
 
 |
 
@@ -151,10 +156,6 @@ Try the measurements below of the superposition :math:`|+\rangle` and
 time the outcome is 0 and 1 respectively. That is, if we make a
 measurement in the standard (“Z”) basis, the outcome is completely
 random. But, in the X basis, it has a deterministic outcome!
-
-|   
-
-| |image9|
 
 |   
 
