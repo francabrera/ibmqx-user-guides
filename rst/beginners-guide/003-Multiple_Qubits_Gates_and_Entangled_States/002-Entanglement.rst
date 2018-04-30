@@ -13,6 +13,13 @@ Entanglement
   apart to influence one another, they behave in ways that are 1)
   individually random, but also 2) too strongly correlated to be
   explained by supposing that each object is independent from the other.
+
+|
+
+.. cssclass:: h2
+
+Entangled and Bell States
+
 | An entangled state is a state consisting of multiple qubits which
   cannot be expressed as a list of the individual qubits. For example,
   none of these two-qubit states: :math:`|00\rangle`, :math:`|01\rangle`,
@@ -24,8 +31,9 @@ Entanglement
   :math:`(|0\rangle+|1\rangle)/\sqrt{2}` and the second in the
   :math:`|0\rangle` state. However, the state
   :math:`(|01\rangle+|10\rangle)/\sqrt{2}` is entangled, because there
-  is no way of expressing it as a list of one-qubit states. When you
-  measure one of the qubits in this state, along any measurement axis at
+  is no way of expressing it as a list of one-qubit states. 
+  
+  |When you measure one of the qubits in this state, along any measurement axis at
   all, it behaves randomly, but its random behavior allows you to
   perfectly predict how the other qubit would behave if measured along
   the same axis. No unentangled state exhibits this distinctive
@@ -33,7 +41,7 @@ Entanglement
   randomness. 
 
 | 
-| Two examples of Bell, or entangled, states:
+| **Two examples of Bell, or entangled, states:**
 
 | |image0|
 
