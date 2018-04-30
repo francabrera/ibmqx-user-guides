@@ -1,28 +1,29 @@
-Introducing Qubit Phase
+Qubit Phase
 =======================
 
-| Now that we have seen how to make :math:`|0\rangle`, :math:`|1\rangle`,
-  and superposition states, let’s investigate how we can change the
-  phase of the superposition. We have added the following gates: :math:`Z`,
-  :math:`S`, :math:`S^{\dagger}`, :math:`T`, and :math:`T^{\dagger}`.
+Now that we have seen how to make :math:`|0\rangle`, :math:`|1\rangle`, 
+and superposition states, let’s investigate how we can change the 
+**phase** of the superposition. We have added the following gates: :math:`Z`, 
+:math:`S`, :math:`S^{\dagger}`, :math:`T`, and :math:`T^{\dagger}`.
 
+|
 |image0|
+|
 
-| The :math:`Z` gate is a :math:`\pi` rotation around the Z axis, the :math:`S`
-  gate is a rotation of :math:`\pi/2` around Z, and the :math:`T` gate is a
-  :math:`\pi/4` rotation around Z. :math:`S^{\dagger}` is the inverse of :math:`S`
-  (does a :math:`-\pi/2` around Z; :math:`SS^{\dagger}` returns the original
-  state), and :math:`T^{\dagger}` is the inverse of :math:`T`. These rotations
-  give the qubit a component along the Y direction of the Bloch sphere,
-  which is a representation of the complex information in the qubit
-  state.
+The :math:`Z` gate is a :math:`\pi` rotation around the Z axis, the :math:`S` 
+gate is a rotation of :math:`\pi/2` around Z, and the :math:`T` gate is a 
+:math:`\pi/4` rotation around Z. :math:`S^{\dagger}` is the inverse of :math:`S` 
+(does a :math:`-\pi/2` around Z; :math:`SS^{\dagger}` returns the original 
+state), and :math:`T^{\dagger}` is the inverse of :math:`T`. These rotations 
+give the qubit a component along the Y direction of the Bloch sphere, 
+which is a representation of the complex information in the qubit state.
  
 |
 
-| *Applying a Z gate to a qubit in |0> state (Bloch Sphere and Circuit Diagram)*
+| **Applying a Z gate to a qubit in |0> state (Bloch Sphere and Circuit Diagram)**
 
   
-|image1|\ 
+|image1|
 
 |
 
@@ -40,7 +41,7 @@ state from :math:`|+\rangle` to :math:`|-\rangle`.
 
 |
 
-| *Applying a Z gate to a qubit in |+> state (Bloch Sphere and Circuit Diagram)*
+| **Applying a Z gate to a qubit in |+> state (Bloch Sphere and Circuit Diagram)**
 
 
 | |image3|
@@ -60,11 +61,13 @@ the :math:`|+\rangle` superposition state. Below is a summary of how
 different rotations around the Z axis impact measurements in the
 superposition basis.
 
-|image5|\ 
+|
+
+|image5|
 
 | 
 
-| |image6|
+|image6|
 
 
 |
