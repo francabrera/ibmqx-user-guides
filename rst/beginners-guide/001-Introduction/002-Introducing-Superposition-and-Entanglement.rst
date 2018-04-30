@@ -1,4 +1,4 @@
-Superposition and Entanglement
+Introducing Superposition and Entanglement
 ===============
 
 .. toctree::
