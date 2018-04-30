@@ -32,9 +32,8 @@ it flips the 0 to 1 and vice versa. This is similar to a classical NOT gate.
 It is also known as an X-rotation, since it rotates the state by 
 :math:`\pi` radians around the X-axis. If you start in the 
 :math:`|0\rangle` state at the top of the Bloch sphere, the X gate
-rotates you to the bottom of the Bloch sphere (:math:`|1\rangle`). See
-the below schematic and also try the X gate in the Composer, using the
-score below.
+rotates you to the bottom of the Bloch sphere (:math:`|1\rangle`), 
+as can be seen in the schematic below.
 
 | 
 
@@ -42,6 +41,11 @@ score below.
 
 | 
 
+Try using the X gate in the Composer, using the example score below.
+
+|
+**Applying X Gate (Composer Diagram):**
+|
 .. raw:: html
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1a35de9b1f3b236cf98fc3e0960da72e&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1a35de9b1f3b236cf98fc3e0960da72e.png" style="width: 100%; max-width: 600px;"></a>
@@ -49,6 +53,8 @@ score below.
 
 
 | 
+**Applying X Gate (Results Histogram):**
+|
 
 | |image3|
 
