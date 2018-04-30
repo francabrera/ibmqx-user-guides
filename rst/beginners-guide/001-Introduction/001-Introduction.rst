@@ -31,11 +31,9 @@ well-understood and useful. The basic unit of quantum information is
 called a **qubit** (pronounced CUE-bit), and a machine for storing and
 processing qubits is called a **quantum computer**. We’ve been
 building and testing increasingly powerful quantum computers for
-several years, and last year we made a 5-qubit one, housed at our
-Yorktown lab, available over the Internet to the general public. In
+several years, housed at our Yorktown lab. Over the past two years we've made our 5-qubit and 16-qubit quantum computers available over the Internet to the general public. In
 other words, YOU now have a programmable quantum computer at your
-fingertips! We’ll soon be upgrading our public quantum computer, but
-even five qubits are enough to get a feel for quantum computing.
+fingertips! 
   
 | 
 
@@ -43,20 +41,15 @@ Quantum theory, developed in the early 1900’s, revolutionized physics
 and chemistry by successfully explaining the weird behavior of tiny
 particles like atoms and electrons. In the late twentieth century it
 was discovered that it applied not just to these particles, but to
-information itself. This led to a revolution in the science and
-technology of information processing, opening the door to new types of
-computing and communication.
+information itself. This finding led to a revolution in the science and
+technology of information processing, Potential applications for this new kind of computing include designing new materials and
+drugs, searching databases faster, and solving systems of linear
+equations with breathtaking efficiency.
 
 | 
 
 By going through this Beginner’s Guide, we hope you will learn what’s
-different about quantum computing, and the new possibilities that it
-opens up. Some of these might include designing new materials and
-drugs, searching databases faster, and solving systems of linear
-equations with breathtaking efficiency, in ways that are currently
-impossible. To do all of this, quantum computers will use two
-fundamental properties of the quantum world: **superposition** and
-**entanglement**.
+different about quantum computing, the fundamental quantum properties that quantum computing relies on, and how start experimenting with our quantum computers via IBM's `Quantum Composer <https://quantumexperience.ng.bluemix.net/qx/editor>`_.
 
 
 | 
