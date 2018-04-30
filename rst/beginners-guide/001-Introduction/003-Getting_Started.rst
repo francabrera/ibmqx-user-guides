@@ -17,11 +17,17 @@ quantum processor. Think of it as a tool to construct quantum algorithms
 using a library of well-defined measurements and gates (operations that
 change the state of the qubit).
 
+|
+
 Throughout this guide, you'll try out many different experiments (feel
-free to explore on your own as well). When you first click on the
-"Composer" tab, you’ll name your experiment and choose between running
-a \ *real* quantum processor or a \ *custom* quantum processor
-(simulator). If you choose custom, you'll select the number of qubits in
+free to explore on your own as well). When you first navigate to the 
+Composer, you’ll name your experiment and choose between using
+a **real quantum processor** or a **custom quantum processor**
+(also referred to as a **simulator**). 
+
+|
+
+If you choose custom, you'll select the number of qubits in
 the experiment and the number of classical bits in the classical bit
 register (you can keep this the same as the number of qubits). In the
 real processor, the possible connectivity between the qubits is limited
@@ -35,6 +41,8 @@ deviations that occur due to experimental errors). We encourage you to
 run some experiments on both the custom and real processors so that you
 can understand the differences.
 
+|
+
 The Composer enables you to create a **quantum score** -- not a score as in
 a sporting match, but rather in the musical sense. In a quantum score,
 just as with music, time progresses from left to right. Each line
@@ -45,6 +53,8 @@ well-defined states (for example, “:math:`|0\rangle`” in the picture
 below), then executing a series of single- and two-qubit gates in time
 from left to right.
 
+|
+
 | |image0|
 
 |
@@ -54,9 +64,9 @@ from left to right.
 Creating and Running a Quantum Circuit
 
 To create a quantum circuit, you will need to add **quantum gates** to your score.
-Quantum gates are represented by square boxes; they play a frequency for
-different durations, amplitudes, and phases. These are called
-single-qubit gates. To apply a gate to a qubit, simply drag the gate box
+Quantum gates are represented by square boxes. Those that play a frequency for
+different durations, amplitudes, and phases are called
+**single-qubit gates.** To apply a gate to a qubit, simply drag the gate box
 into the qubit staff. To delete, simply double-tap the box or drag it to
 the trash bin.
 
@@ -71,6 +81,7 @@ end with a measurement gate in order to run the experiment.
 
 Single Qubit Measurement
 
+|
 
 | |image1|
 
@@ -79,11 +90,13 @@ Single Qubit Measurement
 In the above example, we created a single-qubit score with one classical
 bit in the classical bit register. We measured Qubit “0” and stored the
 measurement result in the 0th position of the classical bit register
-(this is the line below the score labeled 'c').
-
-After performing a quantum measurement, a qubit's information becomes a
+(this is the line below the score labeled 'c'). After performing a quantum measurement, a qubit's information becomes a
 classical bit, meaning it loses the quantum properties of superposition
-and entanglement. Each qubit in the measurement either takes the value
+and entanglement.  
+
+|
+
+Each qubit in the measurement either takes the value
 0, e.g., if the qubit is measured in state :math:`|0\rangle`; or 1, e.g.,
 if the qubit is measured in state :math:`|1\rangle`. Sometimes your qubit
 has an equal chance of being a :math:`|0\rangle` or a :math:`|1\rangle`,
