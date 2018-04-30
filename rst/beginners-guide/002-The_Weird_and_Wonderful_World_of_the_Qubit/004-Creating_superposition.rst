@@ -65,6 +65,12 @@ and 1 with equal probabilities, any finite set of trials is unlikely to
 produce this result exactly, just as 100 fair coin tosses generally
 won't yield exactly 50 heads and 50 tails.
 
+|
+
+**Results Histogram of** :math:`|+\rangle` **superposition state:**
+
+|
+
 | |image2|
 
 |   
@@ -82,6 +88,8 @@ the superposition basis. The :math:`|-\rangle` state is made using the
 circuit below. The *X* gate flips the :math:`|0\rangle` to a
 :math:`|1\rangle`, and then the *H* gate rotates the qubit around the X+Z
 direction to produce the :math:`|-\rangle` state.
+
+|   
 
 :math:`|-\rangle` **Superposition State Bloch representation:**
 
