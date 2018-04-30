@@ -43,7 +43,7 @@ along +X on the Bloch sphere**.
 
 |   
 
-*π rotation around X+Z axis (exchanges X and Z):*
+**π rotation around X+Z axis (exchanges X and Z):**
 
 | |image3|
 
@@ -84,7 +84,7 @@ circuit below. The *X* gate flips the :math:`|0\rangle` to a
 :math:`|1\rangle`, and then the *H* gate rotates the qubit around the X+Z
 direction to produce the :math:`|-\rangle` state.
 
-:math:`|-\rangle` *Superposition State Bloch representation:*
+:math:`|-\rangle` **Superposition State Bloch representation:**
 
 |   
 
@@ -95,7 +95,7 @@ Different states give the same outcomes! 
 
 |   
 
-:math:`|-\rangle` *Superposition Composer circuit diagram:*
+:math:`|-\rangle` **Superposition Composer circuit diagram:**
 
 .. raw:: html
 
@@ -104,7 +104,7 @@ Different states give the same outcomes! 
 
 |
 
-:math:`|-\rangle` *Superposition Composer Result Histogram:*
+:math:`|-\rangle` **Superposition Composer Result Histogram:**
 
 | |image6|
 
@@ -148,7 +148,7 @@ random. But, in the X basis, it has a deterministic outcome!
 | |image9|
 
 
-:math:`|+\rangle` *state measured in X basis:*
+:math:`|+\rangle` **state measured in X basis:**
 
 .. raw:: html
 
@@ -158,7 +158,7 @@ random. But, in the X basis, it has a deterministic outcome!
 |
 |
 
-:math:`|-\rangle` *state measured in X basis:*
+:math:`|-\rangle` **state measured in X basis:**
 
 .. raw:: html
 
