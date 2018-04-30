@@ -17,9 +17,8 @@ Multi-Qubit States
 
 The notation for the state of a machine with multiple qubits is similar
 to what we have been using in this guide, but now there are multiple 
-numbers inside the :math:`|\rangle` ‘ket’. 
-
-For a two-qubit processor, the qubits can be in four possible states:
+numbers inside the :math:`|\rangle` ‘ket’. For a two-qubit processor, 
+the qubits can be in four possible states: 
 :math:`|00\rangle`, :math:`|01\rangle`, :math:`|10\rangle`, and :math:`|11\rangle`. 
 
 Reading from left to right, the first number
