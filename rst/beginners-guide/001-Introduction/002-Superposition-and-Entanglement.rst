@@ -8,13 +8,18 @@ Superposition and Entanglement
 
    *
    
+|    
+
+Quantum computing has the potential to revolutionize how we process information, opening the door to new types of computing and communication.To do all of this, quantum computers rely on two fundamental properties of the quantum world: **superposition** and **entanglement.**
+
 | 
+
 
 .. cssclass:: h2
 
 Introducing Superposition
 
-So, what is **superposition**? Qubits can be in the “:math:`|0\rangle`”
+What is **superposition**? Qubits can be in the “:math:`|0\rangle`”
 state (called a zero-ket), the “:math:`|1\rangle`” state (called the
 one-ket), or a linear combination of the two (superposition). The
 half-angle bracket notation :math:`|\rangle` is conventionally used to
@@ -31,7 +36,7 @@ is the lowest energy state.
 
 Entanglement
 
-Now, for **entanglement**. Entanglement is a property of many quantum
+**Entanglement** is a property of many quantum
 superpositions and does not have a classical analog. In an entangled
 state, the whole system can be described definitively, even though the
 parts cannot. Observing one of two entangled qubits causes it to behave
@@ -49,7 +54,7 @@ or even described, classically.
 
 | 
 
-To learn more about the concepts of superposition and
+For a fun exploration of the concepts of superposition and
 entanglement, `see <https://www.youtube.com/watch?v=Hi0BzqV_b44>`_ actor
 Paul Rudd defeat Stephen Hawking in a game of Quantum Chess. The rules
 can be
