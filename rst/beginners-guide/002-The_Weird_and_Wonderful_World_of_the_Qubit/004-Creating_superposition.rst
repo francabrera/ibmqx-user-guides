@@ -1,13 +1,13 @@
 Creating Superposition
 ======================
 
-| Now that we know how to switch between :math:`|0\rangle`
-  and :math:`|1\rangle`, let's explore superposition, which is the concept
-  of generating a new quantum state which is a combination of the basis
-  states :math:`|0\rangle` and :math:`|1\rangle`. To make superposition
-  states, we will expand our set of gates to include \ *H* (which you
-  saw earlier in the guide). In the Quantum Composer, this is the blue
-  gate labeled *H*.
+Now that we know how to switch between :math:`|0\rangle` 
+and :math:`|1\rangle`, let's learn more about **superposition.** 
+Superposition is the concept of generating a new quantum state which 
+is a combination of the basis states :math:`|0\rangle` and :math:`|1\rangle`. 
+To make superposition states, we will expand our set of gates to include 
+\ *H* (which you saw earlier in the guide). In the Quantum Composer, 
+this is the blue gate labeled *H*.
   
 |
 
@@ -20,13 +20,13 @@ Creating Superposition
 The Hadamard Gate
 
 Place the *H* gate, known as the **Hadamard gate,** on one of the qubits
-(which starts in the :math:`|0\rangle` state) and run the standard
+(which starts in the :math:`|0\rangle` state) in a circuit and run a standard
 measurement. Did you find that the qubit behaves half the time like
 a :math:`|0\rangle` and half the time like a :math:`|1\rangle`? Before the
 measurement forced the qubit to choose a final state, the qubit's
-state was neither :math:`|0\rangle` nor :math:`|1\rangle` but rather a
+state was neither :math:`|0\rangle` nor :math:`|1\rangle`, but rather a
 uniquely quantum state, a superposition, consisting of an
-equal-weighted combination of these two states. 
+**equal-weighted combination of these two states.** 
 
 |   
   
@@ -57,7 +57,7 @@ along +X on the Bloch sphere**.
   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3033b263493f8f4eacad676036b70f22&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 | 
-| 
+
 
 Below is a sample histogram showing the results of running the above
 circuit 100 times. Although on average we expect this circuit to yield 0
