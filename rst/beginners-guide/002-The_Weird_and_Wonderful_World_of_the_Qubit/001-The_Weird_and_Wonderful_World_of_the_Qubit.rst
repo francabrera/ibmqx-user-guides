@@ -32,7 +32,7 @@ we put a coefficient such as a or b in front of the state like so:
 :math:`|1\rangle`, where the proportion of each depends on the
 coefficients :math:`a` and :math:`b`.” The coefficients :math:`a` and :math:`b` could
 be positive, negative, or even complex. If we take the absolute value
-of :math:`a` or :math:`b` and square it (e.g. :math:`|a|^2`﻿or :math:`|b|^2` ), we
+of :math:`a` or :math:`b` and square it (e.g. :math:`|a|^2` or :math:`|b|^2` ), we
 get the probability of measuring the \ **0** or **1** outcome, respectively.
 
 | 
