@@ -33,15 +33,14 @@ It is also known as an **X-rotation,** since it rotates the state by
 :math:`\pi` radians around the X-axis. If you start in the 
 :math:`|0\rangle` state at the top of the Bloch sphere, the X gate
 rotates you to the bottom of the Bloch sphere (:math:`|1\rangle`), 
-as can be seen in the schematic below.
+as can be seen in the following schematic. Try using the X gate in the Composer, 
+using the example score below.
+
 
 | 
 
 | |image1|
 
-| 
-
-Try using the X gate in the Composer, using the example score below.
 
 |
 **Applying X Gate (Composer Diagram):**
