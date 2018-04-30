@@ -29,6 +29,8 @@ as described below.
 
 | |image0|
 
+| 
+
 The qubit state is shown by the orange line in the picture. In the
 picture, the state at the top of the sphere represents :math:`|0\rangle`
 and the state at the bottom of the sphere represents :math:`|1\rangle`. 
