@@ -24,7 +24,7 @@ combination of the basis vectors. 
 
 | 
 
-Additionally, qubits also have a “phase”, which results from the fact
+Additionally, qubits also have a **phase**, which results from the fact
 that superpositions can be complex. To represent these superpositions,
 we put a coefficient such as a or b in front of the state like so:
 :math:`a|0\rangle+ b|1\rangle`. Here’s what the formula is saying:
