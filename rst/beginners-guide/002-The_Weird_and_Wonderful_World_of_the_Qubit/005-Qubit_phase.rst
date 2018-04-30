@@ -7,7 +7,9 @@ and superposition states, let’s investigate how we can change the
 :math:`S`, :math:`S^{\dagger}`, :math:`T`, and :math:`T^{\dagger}`.
 
 |
+
 |image0|
+
 |
 
 The :math:`Z` gate is a :math:`\pi` rotation around the Z axis, the :math:`S` 
@@ -44,7 +46,7 @@ state from :math:`|+\rangle` to :math:`|-\rangle`.
 | **Applying a Z gate to a qubit in |+> state (Bloch Sphere and Circuit Diagram)**
 
 
-| |image3|
+|image3|
 
 | 
 
@@ -53,7 +55,6 @@ state from :math:`|+\rangle` to :math:`|-\rangle`.
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=95d0c305399b7db58c1c6189b6c3e493&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-95d0c305399b7db58c1c6189b6c3e493.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=95d0c305399b7db58c1c6189b6c3e493&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
-|
 |
 
 Let’s now examine intermediate rotations around the Z axis, starting in
