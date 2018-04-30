@@ -8,6 +8,8 @@ Creating Superposition
   states, we will expand our set of gates to include \ *H* (which you
   saw earlier in the guide). In the Quantum Composer, this is the blue
   gate labeled *H*.
+  
+|
 
 | |image0|
 
@@ -17,7 +19,7 @@ Creating Superposition
 
 The Hadamard Gate
 
-Place the *H* gate, known as the Hadamard gate, on one of the qubits
+Place the *H* gate, known as the **Hadamard gate,** on one of the qubits
 (which starts in the :math:`|0\rangle` state) and run the standard
 measurement. Did you find that the qubit behaves half the time like
 a :math:`|0\rangle` and half the time like a :math:`|1\rangle`? Before the
