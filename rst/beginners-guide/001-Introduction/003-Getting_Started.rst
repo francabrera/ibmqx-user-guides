@@ -27,9 +27,9 @@ a **real quantum processor** or a **custom quantum processor**
 
 |
 
-If you choose custom, you'll select the number of qubits in
-the experiment and the number of classical bits in the classical bit
-register (you can keep this the same as the number of qubits). In the
+If you choose custom, you'll select the number of **quantum bits** (or **qubits**) 
+in the experiment, as well as the number of classical bits 
+(you can keep this the same as the number of qubits). In the
 real processor, the possible connectivity between the qubits is limited
 by the experimental setup; there are also some errors in the measurement
 due to experimental imperfections. In the custom processor, however,
@@ -58,6 +58,7 @@ from left to right.
 | |image0|
 
 |
+|
 
 .. cssclass:: h2
 
@@ -85,6 +86,7 @@ Single Qubit Measurement
 
 | |image1|
 
+|
 |
 
 In the above example, we created a single-qubit score with one classical
