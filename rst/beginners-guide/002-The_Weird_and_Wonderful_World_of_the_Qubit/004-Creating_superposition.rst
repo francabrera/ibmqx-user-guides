@@ -145,6 +145,7 @@ To measure in the X basis, we rotate the qubit’s state until the qubit’s
 component that previously pointed along X points now in the “+Z”
 direction, which is accomplished by applying a Hadamard gate before the
 measurement. 
+
 |   
 
 | |image9|
