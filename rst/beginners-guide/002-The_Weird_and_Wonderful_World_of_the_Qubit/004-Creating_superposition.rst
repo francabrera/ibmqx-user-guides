@@ -49,7 +49,7 @@ along +X on the Bloch sphere**.
 
 |
 
-:math:`|+\rangle` *superposition state, the standard representation of a superposition:*
+:math:`|+\rangle` **superposition state, the standard representation of a superposition:**
 
 .. raw:: html
 
@@ -75,7 +75,6 @@ The Superposition Basis (X Basis)
 
 |   
 
-
 Together with the state :math:`|-\rangle = \frac{1}{\sqrt{2}}(|0\rangle
 - |1\rangle)`, which is **a vector pointing along –X on the Bloch
 Sphere**, we can define a new basis (or measurement direction) called
@@ -89,6 +88,8 @@ direction to produce the :math:`|-\rangle` state.
 |   
 
 | |image4|
+
+|   
 
 When you run this circuit you will find that, like before, the outcomes are equal.
 Different states give the same outcomes! 
@@ -147,6 +148,7 @@ random. But, in the X basis, it has a deterministic outcome!
 
 | |image9|
 
+|   
 
 :math:`|+\rangle` **state measured in X basis:**
 
