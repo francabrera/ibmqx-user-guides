@@ -17,15 +17,12 @@ quantum processor. Think of it as a tool to construct quantum algorithms
 using a library of well-defined measurements and gates (operations that
 change the state of the qubit).
 
-|
 
 Throughout this guide, you'll try out many different experiments (feel
 free to explore on your own as well). When you first navigate to the 
 Composer, you’ll name your experiment and choose between using
 a **real quantum processor** or a **custom quantum processor**
 (also referred to as a **simulator**). 
-
-|
 
 If you choose custom, you'll select the number of **quantum bits** (or **qubits**) 
 in the experiment, as well as the number of classical bits 
@@ -40,8 +37,6 @@ of running experiments on the custom processor (to avoid confusion about
 deviations that occur due to experimental errors). We encourage you to
 run some experiments on both the custom and real processors so that you
 can understand the differences.
-
-|
 
 The Composer enables you to create a **quantum score** -- not a score as in
 a sporting match, but rather in the musical sense. In a quantum score,
@@ -96,8 +91,6 @@ measurement result in the 0th position of the classical bit register
 classical bit, meaning it loses the quantum properties of superposition
 and entanglement.  
 
-|
-
 Each qubit in the measurement either takes the value
 0, e.g., if the qubit is measured in state :math:`|0\rangle`; or 1, e.g.,
 if the qubit is measured in state :math:`|1\rangle`. Sometimes your qubit
@@ -108,7 +101,6 @@ you repeat the experiment many times on the real device (what we call
 find that about half the time you measure 0 and half the time you
 measure 1.
 
-|
 
 In the IBM Q Experience, the results of your quantum scores are shown in
 a standard histogram/bar graph representation, which we will cover in the next section.
