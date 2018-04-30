@@ -108,6 +108,8 @@ you repeat the experiment many times on the real device (what we call
 find that about half the time you measure 0 and half the time you
 measure 1.
 
+|
+
 In the IBM Q Experience, the results of your quantum scores are shown in
 a standard histogram/bar graph representation, which we will cover in the next section.
 
