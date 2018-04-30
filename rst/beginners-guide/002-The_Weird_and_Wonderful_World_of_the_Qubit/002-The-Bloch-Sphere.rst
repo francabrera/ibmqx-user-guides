@@ -16,8 +16,6 @@ a single qubit. But because the coefficients a and b are not just real
 numbers, but can be imaginary or even complex, visualizing a qubit
 requires a special tool called the **Bloch Sphere.** 
 
-| 
-
 The Bloch Sphere is a sphere with a radius of one and a point on its surface represents the
 state of a qubit.  Like a globe uses longitude and latitude to describe
 points on the surface, the Bloch sphere can also use angles to describe
