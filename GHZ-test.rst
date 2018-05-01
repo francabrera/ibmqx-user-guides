@@ -16,7 +16,7 @@ entangled state.
 
 Let’s suppose that instead of two qubits, there are now three. We
 prepare a superposition of all qubits in the 0 state and all qubits in
-the 1 state: :math:`1/\sqrt{2}`(:math:`|000\rangle`-:math:`|111\rangle`). This
+the 1 state: :math:`1/\sqrt{2}` (:math:`|000\rangle`-:math:`|111\rangle`). This
 state is called a GHZ state. GHZ states are named after Greenberger,
 Horne, and Zeilinger, who were the first to study them in 1997. By
 performing a series of measurements on this state, we can prove that
