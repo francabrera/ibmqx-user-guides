@@ -6,13 +6,13 @@ designed a test called the **Bell Test** (which was later expanded into
 the CHSH inequality). He realized that measuring both of the two entangled 
 qubits along the same axis(e.g. the Z direction) always gave complementary 
 responses, but that this could have a classical explanation (i.e. a concrete 
-rule thatpre-determined the outcome). Instead, Bell realized he could perform 
+rule that pre-determined the outcome). Instead, Bell realized he could perform 
 the measurements of the two qubits along different measurement directions
 and by collecting statistics of the outcomes, he could show that the
 particles were not behaving classically. Describing how this works with
 two particles requires an understanding of statistics, so we will not go
 through it here. Instead we will introduce a more advanced multi-qubit
-entangled state.
+entangled state that illustrates the same phenomenon.
 
 Let’s suppose that instead of two qubits, there are now three. We
 prepare a superposition of all qubits in the 0 state and all qubits in
