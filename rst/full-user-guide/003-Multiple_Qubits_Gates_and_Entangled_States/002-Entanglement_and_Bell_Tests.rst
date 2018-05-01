@@ -75,7 +75,7 @@ independent of the measurement (+1 or -1). This implies that either
 
 Perfectly reasonable, right? However, as you see, :math:`|C|>2`. How is
 this possible? The above assumptions must not be valid, and this is one
-of those astonishing counterintuitive ideas one must accept in the
+of those astonishing counterintuitive ideas necessary to accept in the
 quantum world. Before you launch the scores below, let's try to
 understand what is happening and how each observable is measured and
 combined to give :math:`|C|`.
@@ -96,8 +96,8 @@ combined to give :math:`|C|`.
 
    <div>
 
-The Bell experiment we have provided uses the entangled state
-:math:`\frac{1}{\sqrt{2}}(|00\rangle+|11\rangle)` and the two
+The Bell experiment we provide uses the entangled state
+:math:`\frac{1}{\sqrt{2}}(|00\rangle+|11\rangle)`, and the two
 measurements for system A are :math:`Z` and :math:`X`, while the two for B are
 :math:`W=\frac{1}{\sqrt{2}}(Z+X)` and :math:`V=\frac{1}{\sqrt{2}}(Z-X)`. 
 
@@ -138,37 +138,37 @@ give, 
 
 which gives :math:`|C|=2\sqrt{2}`. 
 
-To run this experiment with our hardware we need the following quantum
+To run this experiment with our hardware, we need the following quantum
 score and 4 measurements. 
 
 |                             |image7|
 
-In the first part of the experiment the qubits are initially prepared in
+In the first part of the experiment, the qubits are initially prepared in
 the ground state :math:`|00\rangle`. The :math:`H` takes the first qubit to
-the equal superposition :math:`\frac{|00\rangle+|10\rangle}{\sqrt{2}}`
+the equal superposition :math:`\frac{|00\rangle+|10\rangle}{\sqrt{2}}`,
 and the CNOT gate flips the second qubit if the first is excited, making
 the state :math:`\frac{|00\rangle+|11\rangle}{\sqrt{2}}`. This is the
 entangled state (commonly called a *Bell state*) required for this test.
-In the first experiment the measurements are of the observable :math:`Z` and
+In the first experiment, the measurements are of the observable :math:`Z` and
 :math:`W= \frac{1}{\sqrt{2}}(X+Z)`.  To rotate the measurement basis to
-the :math:`W` axis, use the sequence of gates :math:`S`-:math:`H`-:math:`T`-:math:`H` and
+the :math:`W` axis, use the sequence of gates :math:`S`-:math:`H`-:math:`T`-:math:`H`,
 then perform a standard measurement. The correlator :math:`\langle ZW
-\rangle` should be close to :math:`1/\sqrt{2}` and is found using the
+\rangle` should be close to :math:`1/\sqrt{2}`, and is found using the
 above equation. 
 
-| In the second experiment the two observables are :math:`Z` and :math:`V=
-  \frac{1}{\sqrt{2}}(-X+Z)`. To rotate to this basis we use the
-  sequence of gates :math:`S`-:math:`H`-:math:`T^\dagger`-:math:`H` and then perform a
+| In the second experiment, the two observables are :math:`Z` and :math:`V=
+  \frac{1}{\sqrt{2}}(-X+Z)`. To rotate to this basis, we use the
+  sequence of gates :math:`S`-:math:`H`-:math:`T^\dagger`-:math:`H`, then perform a
   standard measurement. The correlator :math:`\langle ZV \rangle` is found
-  in a similar way as before and should be close to :math:`1/\sqrt{2}`.
+  in a similar way as before; it should be close to :math:`1/\sqrt{2}`.
 
-Finally, in the third and fourth experiment the correlators :math:`\langle
-XW\rangle` and :math:`\langle XV\rangle ` are measured and should be
+Finally, in the third and fourth experiment, the correlators :math:`\langle
+XW\rangle` and :math:`\langle XV\rangle ` are measured, and should be
 close to :math:`1/\sqrt{2}` and :math:`-1/\sqrt{2}` respectively. The :math:`W`
-and :math:`V` measurement is performed the same way as above and the :math:`X`
+and :math:`V` measurement are performed the same way as above, and the :math:`X`
 via a Hadamard gate before a standard measurement. 
 
-Here you can see the results we got when we ran this experiment on the
+Here you can see the results of this experiment on the
 processor: 
 
 |                      |image8|
