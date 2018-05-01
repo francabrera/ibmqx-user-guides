@@ -8,11 +8,11 @@ Entanglement
 
    *
 
-We now come to entanglement, the weirdest of all quantum phenomena. 
+We now come to **entanglement,** the weirdest of all quantum phenomena. 
 Two or more quantum objects are entangled when, despite being too far
-apart to influence one another, they behave in ways that are 1)
-individually random, but also 2) too strongly correlated to be
-explained by supposing that each object is independent from the other.
+apart to influence one another, they behave in ways that are **1)
+individually random,** but also **2) too strongly correlated to be
+explained by supposing that each object is independent from the other.**
 
 |
 
@@ -80,8 +80,8 @@ combination of perfect correlation with perfect individual randomness. 
 Some people may find this hard to believe. Our classical intuition
 wonders if rather than two particles existing in a superposition of
 both states until measured, one of the particles was 1 all along and
-the other was 0 all along. This is called a “local hidden variable” theory. 
-A researcher named John Bell devised an experiment to determine whether local hidden variables are responsible for the weirdness associated with quantuem phenomena, which we will learn more about in the next section.
+the other was 0 all along. This is called a **“local hidden variable”** theory. 
+A researcher named John Bell devised an experiment to determine whether local hidden variables are responsible for the bizarre behavior associated with quantum entanglement, which we will learn more about in the next section.
 
 |
 
