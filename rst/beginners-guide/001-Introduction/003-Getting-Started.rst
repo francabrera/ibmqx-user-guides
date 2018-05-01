@@ -1,4 +1,4 @@
-Getting Started with IBM Q Experience
+Getting Started with the IBM Q Experience
 ===============
 
 .. toctree::
