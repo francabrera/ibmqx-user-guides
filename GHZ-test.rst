@@ -2,11 +2,13 @@ Bell and GHZ Tests
 ==================
 
 To finally settle the matter of "local hidden variables," John Bell 
-designed a test now referred to as the **Bell Test** (which was later expanded into 
+designed a test, now referred to as the **Bell Test** (which was later expanded into 
 the CHSH inequality). He realized that measuring both of the two entangled 
 qubits along the same axis(e.g. the Z direction) always gave complementary 
 responses, but that this could have a classical explanation (i.e. a concrete 
-rule that pre-determined the outcome). Instead, Bell realized he could perform 
+rule that pre-determined the outcome). 
+
+Instead, Bell realized he could perform 
 the measurements of the two qubits along different measurement directions
 and by collecting statistics of the outcomes, he could show that the
 particles were not behaving classically. Describing how this works with
