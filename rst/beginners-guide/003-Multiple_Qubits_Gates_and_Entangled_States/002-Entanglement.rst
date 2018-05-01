@@ -20,18 +20,18 @@ explained by supposing that each object is independent from the other.
 
 Entangled and Bell States
 
-| An **entangled state** is a state consisting of multiple qubits which
-  cannot be expressed as a list of the individual qubits. For example,
-  none of these two-qubit states: :math:`|00\rangle`, :math:`|01\rangle`,
-  :math:`|10\rangle`, or :math:`|11\rangle`, is entangled because they can
-  all be described by attributing a definite state to each qubit. The
-  state :math:`(|00\rangle+|01\rangle)/\sqrt{2}`, is also not
-  entangled, because it can be expressed by saying the first qubit is in
-  a superposed single-qubit state
-  :math:`(|0\rangle+|1\rangle)/\sqrt{2}` and the second in the
-  :math:`|0\rangle` state. However, the state
-  :math:`(|01\rangle+|10\rangle)/\sqrt{2}` is entangled, because there
-  is no way of expressing it as a list of one-qubit states. 
+An **entangled state** is a state consisting of multiple qubits which 
+cannot be expressed as a list of the individual qubits. For example, 
+none of these two-qubit states: :math:`|00\rangle`, :math:`|01\rangle`, 
+:math:`|10\rangle`, or :math:`|11\rangle`, is entangled because they can 
+all be described by attributing a definite state to each qubit. The 
+state :math:`(|00\rangle+|01\rangle)/\sqrt{2}`, is also not 
+entangled, because it can be expressed by saying the first qubit is in 
+a superposed single-qubit state 
+:math:`(|0\rangle+|1\rangle)/\sqrt{2}` and the second in the 
+:math:`|0\rangle` state. However, the state 
+:math:`(|01\rangle+|10\rangle)/\sqrt{2}` is entangled, because there 
+is no way of expressing it as a list of one-qubit states. 
   
   |When you measure one of the qubits in this state, along any measurement axis at
   all, it behaves randomly, but its random behavior allows you to
