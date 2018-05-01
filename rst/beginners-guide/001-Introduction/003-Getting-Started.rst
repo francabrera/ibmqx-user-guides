@@ -8,7 +8,7 @@ Getting Started with the IBM Q Experience
 
    *
 
-In the following section, you'll learn the basics on how to create and run experiments on IBM's **Quantum Composer**, a graphical user interface for programming a quantum processor. Think of it as a tool to construct quantum algorithms
+In the following section, you'll learn the basics of how to create and run experiments on IBM's **Quantum Composer**, a graphical user interface for programming a quantum processor. Think of it as a tool to construct quantum algorithms
 using a library of well-defined *measurements* and *gates*, which are operations that change the state of a *qubit.* 
 (We'll learn more about the special properities of qubits in Chapter 2). 
 
