@@ -1,8 +1,8 @@
 Bell and GHZ Tests
 ==================
 
-To finally settle the matter, John Bell designed a test called the Bell
-Test (which was later expanded into the CHSH inequality). He realized
+To finally settle the matter of "local hidden variables," John Bell designed a test called the **Bell
+Test** (which was later expanded into the CHSH inequality). He realized
 that measuring both of the two entangled qubits along the same axis
 (e.g. the Z direction) always gave complementary responses, but that
 this could have a classical explanation (i.e. a concrete rule that
