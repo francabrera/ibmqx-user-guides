@@ -54,7 +54,11 @@ or even described, classically.
 
 | 
 
-For a fun exploration of the concepts of superposition and
+Superposition and entanglement are fundamental to how quantum computing works. 
+In the following chapters, we will cover how to create superpositions and 
+entangled states using IBM Q's Quantum Composer.
+
+For additional fun resources on superposition and
 entanglement, `see <https://www.youtube.com/watch?v=Hi0BzqV_b44>`_ actor
 Paul Rudd defeat Stephen Hawking in a game of Quantum Chess. The rules
 can be
@@ -62,7 +66,4 @@ found `online <https://www.youtube.com/watch?v=jJoDKHKE2gA>`_,
 and you
 can `watch <https://www.youtube.com/watch?v=LikdmXfWO2A&t=24s>`_ the
 inventor of the game, Chris Cantwell, play a friendly game with chess
-expert Anna Rudolf. You can also find both a short and longer
-introduction to quantum concepts by IBM Fellow `Charlie
-Bennett <http://www.research.ibm.com/quantum/expertise.html>`_ on
-our website.
+expert Anna Rudolf.
