@@ -12,6 +12,8 @@ In the following section, you'll learn the basics on how to create and run exper
 using a library of well-defined *measurements* and *gates*, which are operations that change the state of a *qubit.* 
 (We'll learn more about the special properities of qubits in Chapter 2). 
 
+|
+
 .. cssclass:: h2
 
 Choosing Your Quantum Setup
