@@ -81,8 +81,6 @@ Single Qubit Measurement
 
 |
 
-**Single Qubit Measurement on the Composer**
-
 | |image1|
 
 |
