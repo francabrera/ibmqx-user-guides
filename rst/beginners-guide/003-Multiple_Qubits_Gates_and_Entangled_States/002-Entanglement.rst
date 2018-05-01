@@ -8,11 +8,11 @@ Entanglement
 
    *
 
-We now come to **entanglement,** the weirdest of all quantum phenomena. 
+We now come to **entanglement**, the weirdest of all quantum phenomena. 
 Two or more quantum objects are entangled when, despite being too far
-apart to influence one another, they behave in ways that are **1)
-individually random,** but also **2) too strongly correlated to be
-explained by supposing that each object is independent from the other.**
+apart to influence one another, they behave in ways that are 1)
+individually random, but also 2) too strongly correlated to be
+explained by supposing that each object is independent from the other.
 
 |
 
@@ -61,7 +61,7 @@ combination of perfect correlation with perfect individual randomness. 
 
 | 
 
-**Example 1 - Bell, or entangled, state:**
+**Example 2 - Bell, or entangled, state:**
    
 |
 
