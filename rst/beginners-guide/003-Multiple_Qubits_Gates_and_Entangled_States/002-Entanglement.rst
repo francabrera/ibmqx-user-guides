@@ -29,23 +29,38 @@ state :math:`(|00\rangle+|01\rangle)/\sqrt{2}`, is also not
 entangled, because it can be expressed by saying the first qubit is in 
 a superposed single-qubit state 
 :math:`(|0\rangle+|1\rangle)/\sqrt{2}` and the second in the 
-:math:`|0\rangle` state. However, the state 
-:math:`(|01\rangle+|10\rangle)/\sqrt{2}` is entangled, because there 
-is no way of expressing it as a list of one-qubit states. 
+:math:`|0\rangle` state. 
+
+However, the state :math:`(|01\rangle+|10\rangle)/\sqrt{2}` is entangled, 
+because there is no way of expressing it as a list of one-qubit states. 
+A maximally entangled quantum state consisting of two qubits, like the 
+examples below, are also known as **Bell states.** 
   
-  |When you measure one of the qubits in this state, along any measurement axis at
-  all, it behaves randomly, but its random behavior allows you to
-  perfectly predict how the other qubit would behave if measured along
-  the same axis. No unentangled state exhibits this distinctive
-  combination of perfect correlation with perfect individual
-  randomness. 
+When you measure one of the qubits in this state, along any measurement axis at
+all, it behaves randomly, but its random behavior allows you to
+perfectly predict how the other qubit would behave if measured along
+the same axis. No unentangled state exhibits this distinctive
+combination of perfect correlation with perfect individual randomness. 
 
 | 
-| **Two examples of Bell, or entangled, states:**
-
-| |image0|
+**Two examples of Bell, or entangled, states:**
 
 | 
+
+|image0|
+
+| 
+
+
+|
+| **Example of Bell, or entangled, states**
+
+.. raw:: html
+
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1fcc3d6878c984ce05e69298a76abe36&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1fcc3d6878c984ce05e69298a76abe36.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1fcc3d6878c984ce05e69298a76abe36&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+
+|
 | 
 
 |image1|
@@ -61,21 +76,13 @@ is no way of expressing it as a list of one-qubit states.
 
 | 
 
-| Some people may find this hard to believe. Our classical intuition
-  wonders if rather than two particles existing in a superposition of
-  both states until measured, one of the particles was 1 all along and
-  the other was 0 all along. This is called a “local hidden variable”
-  theory.
+Some people may find this hard to believe. Our classical intuition
+wonders if rather than two particles existing in a superposition of
+both states until measured, one of the particles was 1 all along and
+the other was 0 all along. This is called a “local hidden variable” theory. 
+A researcher named John Bell devised an experiment to determine whether local hidden variables are responsible for the weirdness associated with quantuem phenomena, which we will learn more about in the next section.
 
-|
-| **Example of Bell, or entangled, states**
 
-.. raw:: html
-
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1fcc3d6878c984ce05e69298a76abe36&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1fcc3d6878c984ce05e69298a76abe36.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1fcc3d6878c984ce05e69298a76abe36&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
-
-|
 | **Example of Bell, or entangled, states (2)**
 
 .. raw:: html
