@@ -25,7 +25,7 @@ Composer, you’ll name your experiment and choose between using
 a **real quantum processor** or a **custom quantum processor**
 (also referred to as a **simulator**). 
 
-If you choose custom, you'll select the number of **qubits**
+If you choose custom, you'll select the number of qubits 
 in the experiment, as well as the number of classical bits 
 (you can keep this the same as the number of qubits). In the
 real processor, the possible connectivity between the qubits is limited
