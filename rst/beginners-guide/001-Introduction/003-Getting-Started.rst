@@ -8,16 +8,13 @@ Getting Started with the IBM Q Experience
 
    *
 
-.. cssclass:: h2
-
-The Quantum Composer
-
-The **Quantum Composer** is a graphical user interface for programming a
-quantum processor. Think of it as a tool to construct quantum algorithms
-using a library of well-defined *measurements* and *gates*, which are 
-operations that change the state of a *qubit.* 
+In the following section, you'll learn the basics on how to create and run experiments on IBM's **Quantum Composer**, a graphical user interface for programming a quantum processor. Think of it as a tool to construct quantum algorithms
+using a library of well-defined *measurements* and *gates*, which are operations that change the state of a *qubit.* 
 (We'll learn more about the special properities of qubits in Chapter 2). 
 
+.. cssclass:: h2
+
+Choosing Your Quantum Setup
 
 Throughout this guide, you'll try out many different experiments (feel
 free to explore on your own as well). When you first navigate to the 
@@ -63,7 +60,8 @@ Creating and Running a Quantum Circuit
 
 |
 
-To create a quantum circuit, you will need to add **quantum gates** to your score.
+To create a **quantum circuit** (another term for "experiment" that we'll 
+use in this guide), you will need to add **quantum gates** to your score.
 Quantum gates are represented by square boxes. Those that play a frequency for
 different durations, amplitudes, and phases are called
 **single-qubit gates.** To apply a gate to a qubit, simply drag the gate box
@@ -91,9 +89,9 @@ Single Qubit Measurement
 In the above example, we created a single-qubit score with one classical
 bit in the classical bit register. We measured Qubit “0” and stored the
 measurement result in the 0th position of the classical bit register
-(this is the line below the score labeled 'c'). After performing a quantum measurement, a qubit's information becomes a
-classical bit, meaning it loses the quantum properties of superposition
-and entanglement.  
+(this is the line below the score labeled 'c'). After performing a quantum 
+measurement, a qubit's information becomes a classical bit, meaning it 
+loses the quantum properties of superposition and entanglement.  
 
 Each qubit in the measurement either takes the value
 0, e.g., if the qubit is measured in state :math:`|0\rangle`; or 1, e.g.,
