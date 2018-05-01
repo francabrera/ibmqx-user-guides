@@ -55,8 +55,8 @@ or even described, classically.
 | 
 
 Superposition and entanglement are fundamental to how quantum computing works. 
-In the following chapters, we will cover how to create superpositions and 
-entangled states using IBM Q's Quantum Composer.
+The rest of this guide will cover how to create superpositions and 
+entangled states using IBM Q's Quantum Composer, and what we can do with them.
 
 | 
 
