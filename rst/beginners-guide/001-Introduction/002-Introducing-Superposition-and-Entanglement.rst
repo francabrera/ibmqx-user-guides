@@ -58,6 +58,8 @@ Superposition and entanglement are fundamental to how quantum computing works.
 In the following chapters, we will cover how to create superpositions and 
 entangled states using IBM Q's Quantum Composer.
 
+| 
+
 For additional fun resources on superposition and
 entanglement, `see <https://www.youtube.com/watch?v=Hi0BzqV_b44>`_ actor
 Paul Rudd defeat Stephen Hawking in a game of Quantum Chess. The rules
