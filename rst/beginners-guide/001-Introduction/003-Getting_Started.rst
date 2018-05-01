@@ -50,6 +50,7 @@ below), then executing a series of single- and two-qubit gates in time
 from left to right.
 
 |
+**Empty Quantum Score on the Composer**
 
 | |image0|
 
@@ -76,7 +77,7 @@ end with a measurement gate in order to run the experiment.
 
 .. cssclass:: h2
 
-Single Qubit Measurement
+**Single Qubit Measurement on the Composer**
 
 |
 
