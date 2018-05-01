@@ -77,9 +77,11 @@ end with a measurement gate in order to run the experiment.
 
 .. cssclass:: h2
 
-**Single Qubit Measurement on the Composer**
+Single Qubit Measurement
 
 |
+
+**Single Qubit Measurement on the Composer**
 
 | |image1|
 
