@@ -2,11 +2,13 @@ Bell and GHZ Tests (Cont.)
 ==========================
 
 | Here’s where we show that our classical intuition is wrong.
+
 | Let’s say that instead of performing quantum measurements on a quantum
   system, we perform “classical” measurements on a similar “classical”
   system. To distinguish the two, we’ll call measurements along the X
   direction “\ |image0|\ ” for the classical system and measurements
   along Y “\ |image1|\ ”.
+  
 | If the outcomes (|image2| or  |image3|) were pre-determined for each
   qubit ahead of the measurement, then we could already plug in a “1” or
   “-1” for each of the \ |image4| and \ |image5| measurements for each
