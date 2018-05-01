@@ -8,11 +8,11 @@ Entanglement
 
    *
 
-| We now come to entanglement, the weirdest of all quantum phenomena.
-  Two or more quantum objects are entangled when, despite being too far
-  apart to influence one another, they behave in ways that are 1)
-  individually random, but also 2) too strongly correlated to be
-  explained by supposing that each object is independent from the other.
+We now come to entanglement, the weirdest of all quantum phenomena. 
+Two or more quantum objects are entangled when, despite being too far
+apart to influence one another, they behave in ways that are 1)
+individually random, but also 2) too strongly correlated to be
+explained by supposing that each object is independent from the other.
 
 |
 
@@ -20,7 +20,7 @@ Entanglement
 
 Entangled and Bell States
 
-| An entangled state is a state consisting of multiple qubits which
+| An **entangled state** is a state consisting of multiple qubits which
   cannot be expressed as a list of the individual qubits. For example,
   none of these two-qubit states: :math:`|00\rangle`, :math:`|01\rangle`,
   :math:`|10\rangle`, or :math:`|11\rangle`, is entangled because they can
