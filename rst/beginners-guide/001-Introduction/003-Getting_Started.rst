@@ -15,7 +15,7 @@ The Quantum Composer
 The **Quantum Composer** is a graphical user interface for programming a
 quantum processor. Think of it as a tool to construct quantum algorithms
 using a library of well-defined *measurements* and *gates*, which are 
-operations that change the state of a **qubit.** 
+operations that change the state of a *qubit.* 
 (We'll learn more about the special properities of qubits in Chapter 2). 
 
 
