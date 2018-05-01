@@ -2,7 +2,7 @@ Bell and GHZ Tests
 ==================
 
 To finally settle the matter of "local hidden variables," John Bell 
-designed a test called the **Bell Test** (which was later expanded into 
+designed a test now referred to as the **Bell Test** (which was later expanded into 
 the CHSH inequality). He realized that measuring both of the two entangled 
 qubits along the same axis(e.g. the Z direction) always gave complementary 
 responses, but that this could have a classical explanation (i.e. a concrete 
@@ -14,10 +14,14 @@ two particles requires an understanding of statistics, so we will not go
 through it here. Instead we will introduce a more advanced multi-qubit
 entangled state that illustrates the same phenomenon.
 
+.. cssclass:: h2
+
+GHZ States
+
 Let’s suppose that instead of two qubits, there are now three. We
 prepare a superposition of all qubits in the 0 state and all qubits in
 the 1 state: :math:`1/\sqrt{2}` (:math:`|000\rangle`-:math:`|111\rangle`). This
-state is called a GHZ state. GHZ states are named after Greenberger,
+state is called a **GHZ state.** GHZ states are named after Greenberger,
 Horne, and Zeilinger, who were the first to study them in 1997. By
 performing a series of measurements on this state, we can prove that
 this state violates certain assumptions that most people consider to
