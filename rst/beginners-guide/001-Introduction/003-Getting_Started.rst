@@ -61,6 +61,8 @@ from left to right.
 
 Creating and Running a Quantum Circuit
 
+|
+
 To create a quantum circuit, you will need to add **quantum gates** to your score.
 Quantum gates are represented by square boxes. Those that play a frequency for
 different durations, amplitudes, and phases are called
