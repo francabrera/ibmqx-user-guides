@@ -3,11 +3,15 @@ Bell and GHZ Tests (Cont.)
 
 | Here’s where we show that our classical intuition is wrong.
 
+|
+
 | Let’s say that instead of performing quantum measurements on a quantum
   system, we perform “classical” measurements on a similar “classical”
   system. To distinguish the two, we’ll call measurements along the X
   direction “\ |image0|\ ” for the classical system and measurements
   along Y “\ |image1|\ ”.
+ 
+| 
   
 | If the outcomes (|image2| or  |image3|) were pre-determined for each
   qubit ahead of the measurement, then we could already plug in a “1” or
@@ -33,7 +37,7 @@ to\ |image13|\ |image14|\ |image15|\  = 1. This is the outcome we’d get
 if the system was classical. However, \ **quantum mechanics and
 experiments**\  both tell us that the result of an XXX measurement on
 the GHZ state (the quantum equivalent of the
-classical \ |image16|\ |image17|\ |image18|\ ) is \ **XXX**\  = -1! 
+classical \ |image16|\ |image17|\ |image18|\ ) is \ **XXX**\ = -1! 
 
 | 
 | Based on the results of these experiments, we have to accept what
