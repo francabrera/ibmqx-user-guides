@@ -96,7 +96,7 @@ as *entangled* states.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=eb66af75098f190ea9e7c6f7df658b1b&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-eb66af75098f190ea9e7c6f7df658b1b.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=eb66af75098f190ea9e7c6f7df658b1b&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-eb66af75098f190ea9e7c6f7df658b1b.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=eb66af75098f190ea9e7c6f7df658b1b&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -104,7 +104,7 @@ as *entangled* states.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a95f11718a78d8ff64bdd87cecc8ba63&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-a95f11718a78d8ff64bdd87cecc8ba63.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a95f11718a78d8ff64bdd87cecc8ba63&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-a95f11718a78d8ff64bdd87cecc8ba63.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a95f11718a78d8ff64bdd87cecc8ba63&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -112,7 +112,7 @@ as *entangled* states.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6c3621d910c99f3d4670a5ea5285e9d9&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-6c3621d910c99f3d4670a5ea5285e9d9.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6c3621d910c99f3d4670a5ea5285e9d9&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-6c3621d910c99f3d4670a5ea5285e9d9.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6c3621d910c99f3d4670a5ea5285e9d9&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -120,7 +120,7 @@ as *entangled* states.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec02153c124&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-6dcb75a9dd05dca9f0504ec02153c124.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec02153c124&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-6dcb75a9dd05dca9f0504ec02153c124.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec02153c124&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -128,7 +128,7 @@ as *entangled* states.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec0216cd1b6&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-6dcb75a9dd05dca9f0504ec0216cd1b6.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec0216cd1b6&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-6dcb75a9dd05dca9f0504ec0216cd1b6.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6dcb75a9dd05dca9f0504ec0216cd1b6&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -136,13 +136,13 @@ as *entangled* states.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a300838ec&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-e21164be4db4b6f5698f254a300838ec.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a300838ec&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-e21164be4db4b6f5698f254a300838ec.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=e21164be4db4b6f5698f254a300838ec&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
 
-.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/exponential-2nyf69faj94rkke29.png
-.. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-01%20at%2011.19.55%20AMsvbpgjmu97iizfr.png
-.. |image2| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-01%20at%2011.21.09%20AM77nnrwadzwa5rk9.png
-.. |image3| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-03%20at%2010.04.10%20PMkoyeh28bqm4y4x6r.png
+.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/exponential-2nyf69faj94rkke29.png
+.. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/Screen%20Shot%202016-05-01%20at%2011.19.55%20AMsvbpgjmu97iizfr.png
+.. |image2| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/Screen%20Shot%202016-05-01%20at%2011.21.09%20AM77nnrwadzwa5rk9.png
+.. |image3| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/Screen%20Shot%202016-05-03%20at%2010.04.10%20PMkoyeh28bqm4y4x6r.png
 

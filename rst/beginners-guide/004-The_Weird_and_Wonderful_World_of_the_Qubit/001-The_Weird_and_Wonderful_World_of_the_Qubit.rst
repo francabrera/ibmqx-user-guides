@@ -70,5 +70,5 @@ vector is equal to the radius of the Bloch sphere.
 
 | 
 
-.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/bloch-sphere0g2aifid2kpgb9.png
+.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/bloch-sphere0g2aifid2kpgb9.png
 

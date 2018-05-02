@@ -54,7 +54,7 @@ qubits in a different configuration for each example.**\
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1ae7fa71f3ad1e6f8fbe269fafcc7ca9&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1ae7fa71f3ad1e6f8fbe269fafcc7ca9.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1ae7fa71f3ad1e6f8fbe269fafcc7ca9&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-1ae7fa71f3ad1e6f8fbe269fafcc7ca9.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1ae7fa71f3ad1e6f8fbe269fafcc7ca9&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -62,7 +62,7 @@ qubits in a different configuration for each example.**\
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1ae7fa71f3ad1e6f8fbe269fafd9abf4&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1ae7fa71f3ad1e6f8fbe269fafd9abf4.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1ae7fa71f3ad1e6f8fbe269fafd9abf4&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-1ae7fa71f3ad1e6f8fbe269fafd9abf4.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1ae7fa71f3ad1e6f8fbe269fafd9abf4&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -70,7 +70,7 @@ qubits in a different configuration for each example.**\
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=15d54765a0eeedcf83c173d5a6b80166&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-15d54765a0eeedcf83c173d5a6b80166.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=15d54765a0eeedcf83c173d5a6b80166&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-15d54765a0eeedcf83c173d5a6b80166.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=15d54765a0eeedcf83c173d5a6b80166&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -78,11 +78,11 @@ qubits in a different configuration for each example.**\
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=7177ed173b5d2e3124c405339b9b6f15&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-7177ed173b5d2e3124c405339b9b6f15.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=7177ed173b5d2e3124c405339b9b6f15&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-7177ed173b5d2e3124c405339b9b6f15.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=7177ed173b5d2e3124c405339b9b6f15&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
 
-.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/cnotpiv8xpd3ep2jra4i.png
-.. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/screen-shot-2017-03-04-at-5.10.14-pmb3gj6v8t7d9m5cdi.png
+.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/cnotpiv8xpd3ep2jra4i.png
+.. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/screen-shot-2017-03-04-at-5.10.14-pmb3gj6v8t7d9m5cdi.png
 

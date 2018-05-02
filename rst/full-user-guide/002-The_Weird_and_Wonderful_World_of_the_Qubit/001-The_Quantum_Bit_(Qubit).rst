@@ -67,10 +67,10 @@ imperfect measurements and some residual heating of the qubit. 
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f03e4cfa53ccf70b3bea5e0955b6f458&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-f03e4cfa53ccf70b3bea5e0955b6f458.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f03e4cfa53ccf70b3bea5e0955b6f458&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-f03e4cfa53ccf70b3bea5e0955b6f458.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f03e4cfa53ccf70b3bea5e0955b6f458&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
-.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/Screen%20Shot%202016-05-01%20at%209.56.21%20AMw7bbvnq72lprdx6r.png
-.. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/ground_stategoftc7s5fwkrcnmi.png
+.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/Screen%20Shot%202016-05-01%20at%209.56.21%20AMw7bbvnq72lprdx6r.png
+.. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/ground_stategoftc7s5fwkrcnmi.png
 
