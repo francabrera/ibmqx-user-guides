@@ -67,7 +67,7 @@ imperfect measurements and some residual heating of the qubit. 
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f03e4cfa53ccf70b3bea5e0955b6f458&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-f03e4cfa53ccf70b3bea5e0955b6f458.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f03e4cfa53ccf70b3bea5e0955b6f458&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-570b68405ba63ca75c724d3f40a0ef6d.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f03e4cfa53ccf70b3bea5e0955b6f458&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 

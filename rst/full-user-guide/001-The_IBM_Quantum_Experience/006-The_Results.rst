@@ -78,7 +78,7 @@ Pascal's triangle. 
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8ea323460b6f03cb9002b802139af008&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-8ea323460b6f03cb9002b802139af008.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8ea323460b6f03cb9002b802139af008&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-b9096192e0ccec3ff6ac2156b7cc34b8.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=8ea323460b6f03cb9002b802139af008&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
