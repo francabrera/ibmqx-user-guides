@@ -28,7 +28,7 @@ state from :math:`|+\rangle` to :math:`|-\rangle`.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=95d0c305399b7db58c1c6189b6a333e5&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-95d0c305399b7db58c1c6189b6a333e5.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=95d0c305399b7db58c1c6189b6a333e5&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-86e01da97076b98d2319178fd24446ef.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=95d0c305399b7db58c1c6189b6a333e5&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 | |image3|
@@ -40,7 +40,7 @@ state from :math:`|+\rangle` to :math:`|-\rangle`.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=95d0c305399b7db58c1c6189b6c3e493&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-95d0c305399b7db58c1c6189b6c3e493.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=95d0c305399b7db58c1c6189b6c3e493&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-075df8e2dacac4fa2f76486ecc87db3e.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=95d0c305399b7db58c1c6189b6c3e493&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 Let’s now examine intermediate rotations around the Z axis, starting in

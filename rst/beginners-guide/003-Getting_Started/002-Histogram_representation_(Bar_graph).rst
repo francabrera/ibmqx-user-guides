@@ -25,7 +25,7 @@ into more detail about the *H* gate in a later section.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f45e53d09688085a2363c7fc60406e9c&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-f45e53d09688085a2363c7fc60406e9c.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f45e53d09688085a2363c7fc60406e9c&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-570b68405ba63ca75c724d3f409e8873.png" style="width: 100%; max-width: 600px;"></a>
       <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f45e53d09688085a2363c7fc60406e9c&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
@@ -66,9 +66,9 @@ into more detail about the *H* gate in a later section.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=db03d34bf6ad5c4f27777fc3c8adb769&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-db03d34bf6ad5c4f27777fc3c8adb769.png" style="width: 100%; max-width: 600px;"></a>
-   
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=db03d34bf6ad5c4f27777fc3c8adb769&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-ba6021130f09ec06b6a5646bdcf843d3.png" style="width: 100%; max-width: 600px;"></a>
     <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=db03d34bf6ad5c4f27777fc3c8adb769&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+
 |
 
 |image3|
