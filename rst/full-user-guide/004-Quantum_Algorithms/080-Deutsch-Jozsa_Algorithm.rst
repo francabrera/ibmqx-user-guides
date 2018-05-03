@@ -120,5 +120,5 @@ Example circuits
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1f234d4750fe47817393d8e1c8f8943d&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
    
 
-.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/interferencex663kgbfsoc1sjor.jpg
+.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/interferencex663kgbfsoc1sjor.jpg
 

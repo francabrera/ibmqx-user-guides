@@ -108,5 +108,5 @@ Progress in decoherence with superconducting qubits
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b44dce9f84c53d75c991e794006a83f2&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
-.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/T2h1lc19xmqrdlsor.png
+.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/T2h1lc19xmqrdlsor.png
 

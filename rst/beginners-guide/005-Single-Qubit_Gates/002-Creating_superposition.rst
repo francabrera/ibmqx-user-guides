@@ -115,14 +115,14 @@ random. But, in the X basis, it has a deterministic outcome!
 
 
 .. |image0| image:: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAm1pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpYUmVzb2x1dGlvbj43MjwvdGlmZjpYUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6WVJlc29sdXRpb24+NzI8L3RpZmY6WVJlc29sdXRpb24+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjE8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlBob3RvbWV0cmljSW50ZXJwcmV0YXRpb24+MjwvdGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4K0ULlwgAAAj5JREFUaAXtWktOwzAQHafpR7SCDWJVQWGHxIIVa86AuEdViSU7uAC3YVGx5BCIM0BFCxL9pLyJErGxEzfxlBB5JFOIn8fz5k1cO0ENX+drqpOBzVlXkaLxZ72IRUTDkyaFFNSLF0GrABXIrZbmif03Wb1iXrGKZMCXYkWEsA7DK2adqooAvWIVEcI6DK+YdapS4Fqlv5k/GWODM3sw9oTGnjIdIQJuoC3hZJVxLGqi3wZXIBb3pRgpuj9q0eSiQ7eHLSL8rTVcf8CBkHE3fTDEAdGluSeG6PYaaFCti88s24VajOuxao5NhFiEUyxbRhHG/alIebgYvOEPEWIbxiACry0xmVUx0WDJNRbXm+YewvWsBbOsjKLETncUXR5gBdHUhQKxQUdDuCyjZLwosev9BnH7CxMl9vwR0eNbRIFGmAhlegXS5z1Np4NMiBIbTyK6e/nG7kIT6Yqo326DmEwIMl4THk0Wg798tU+bFfHOS8o0t7XUVNv164ltN9/lZxNRLEh2iXm3UDp5Hq4IzdR3kbHGMVN8+b5j2/HFa3qGTbH1YNxMYAui6GmWPXtGYMYuXu648Z4q3lcZkLxsxgfNHJxhuPYyznmjAb/4k7AFnC6SfGXV2ZwnB04lWIexyBCzDdQWV4CwyD1WIA7nQzwx5ykVdugVE06wc/deMecpFXboFRNOsHP3XjHnKRV26BUTTrBz914x5ykVdhga3zgKTyzmHo8l+IlEODrmF8EFzf3Bt2Agv8PWiIn/2fkHtm5mLH8+iCoAAAAASUVORK5CYII=
-.. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/1q-hgate8rwln2i8kpc1h5mi.png
-.. |image2| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/4-4ygaleeu23g4on7b9.png
-.. |image3| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/h-gateic85jejrw0l766r.png
-.. |image4| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/x-h-gatehj08yk31ihog8pvi.png
-.. |image5| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/-superpostionsate-2pyvl6vu05y3w61or.png
-.. |image6| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/-superpostionsate-3fstlnp0jvk95p14i.png
-.. |image7| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/hadamard-gate07x3vqw802t3ayvi.png
-.. |image8| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/1q-hgate-xmeasm9641j8qcl3di.png
-.. |image9| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/h-h-gates4dutkkydoaqt1emi.png
-.. |image10| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/1q-x-hgates-xmeas5a5ys1vws2ejc3di.png
+.. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/1q-hgate8rwln2i8kpc1h5mi.png
+.. |image2| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/4-4ygaleeu23g4on7b9.png
+.. |image3| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/h-gateic85jejrw0l766r.png
+.. |image4| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/x-h-gatehj08yk31ihog8pvi.png
+.. |image5| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/-superpostionsate-2pyvl6vu05y3w61or.png
+.. |image6| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/-superpostionsate-3fstlnp0jvk95p14i.png
+.. |image7| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/hadamard-gate07x3vqw802t3ayvi.png
+.. |image8| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/1q-hgate-xmeasm9641j8qcl3di.png
+.. |image9| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/h-h-gates4dutkkydoaqt1emi.png
+.. |image10| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/1q-x-hgates-xmeas5a5ys1vws2ejc3di.png
 

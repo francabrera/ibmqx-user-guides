@@ -191,5 +191,5 @@ When we ran these experiments we got 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e777c3e7a&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
-.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/images-classroom/PlaquetteWebExp18626ul21g1ra4i.png
+.. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/PlaquetteWebExp18626ul21g1ra4i.png
 
