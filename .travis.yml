@@ -12,7 +12,7 @@ before_install:
     - sudo ln -s /run/shm /dev/shm
 
 install:
-    - conda install --yes python="2.7" sphinx>=1.6,<1.7
+    - conda install --yes python="2.7" sphinx=1.6.7
     - pip install --user travis-sphinx==1.4.4
 
 script:
