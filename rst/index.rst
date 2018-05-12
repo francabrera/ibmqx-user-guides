@@ -20,7 +20,7 @@ general level— we can more deeply explore all the possibilities quantum
 computing offers, and more rapidly bring its exciting power to a world
 whose perspective is limited by classical physics. 
 
-    Your thinking to classically. -- Jay Gambetta
+    Your thinking too classically. -- Jay Gambetta
 
     Get Ready to think outside a box you did not know existed. -- Charlie Bennett 
 
