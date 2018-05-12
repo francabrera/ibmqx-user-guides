@@ -1,6 +1,5 @@
 # superposition_state_xbasis.py
-from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
-from qiskit.wrapper import execute
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, execute
 
 # Define the Quantum and Classical Registers
 q = QuantumRegister(1)
@@ -14,7 +13,8 @@ superposition_state_xbasis.h(q)
 superposition_state_xbasis.measure(q, c)
 
 # Execute the circuit
-result = execute(superposition_state_xbasis, backend_name = 'local_qasm_simulator')
+job = execute(superposition_state_xbasis, backend = 'local_qasm_simulator', shots=1024)
+result = job.result()
 
 # Print the result
 print(result.get_counts(superposition_state_xbasis))

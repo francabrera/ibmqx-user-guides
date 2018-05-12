@@ -1,7 +1,6 @@
 # quantum_phase.py
 import numpy as np
-from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
-from qiskit.wrapper import execute
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, execute
 
 # Define the Quantum and Classical Registers
 q = QuantumRegister(1)
@@ -24,11 +23,8 @@ for exp_index in exp_vector:
 
 # Execute the circuits
 shots = 1024
-compile_config = {
-    'shots': shots,
-    'seed': 8
-}
-result = execute(circuits, backend_name = 'local_qasm_simulator', compile_config=compile_config)
+job = execute(circuits, backend = 'local_qasm_simulator', shots=shots, seed=8)
+result = job.result()
 
 # Print the result
 for exp_index in exp_vector:

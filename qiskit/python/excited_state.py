@@ -1,7 +1,5 @@
 # excited_state.py
-from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
-from qiskit.wrapper import execute
-
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, execute
 
 # Define the Quantum and Classical Registers
 q = QuantumRegister(1)
@@ -13,7 +11,8 @@ excited_state.x(q)
 excited_state.measure(q, c)
 
 # Execute the circuit
-result = execute(excited_state, backend_name = 'local_qasm_simulator')
+job = execute(excited_state, backend = 'local_qasm_simulator', shots=1024)
+result = job.result()
 
 # Print the result
 print(result.get_counts(excited_state))

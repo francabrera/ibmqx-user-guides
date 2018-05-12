@@ -1,7 +1,5 @@
 # my_first_score.py
-from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
-from qiskit.wrapper import execute
-
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, execute
 
 # Define the Quantum and Classical Registers
 q = QuantumRegister(2)
@@ -28,7 +26,8 @@ my_first_score.barrier(q)
 my_first_score.measure(q, c)
  
 # Execute the circuit
-result = execute(my_first_score, backend_name = 'local_qasm_simulator')
+job = execute(my_first_score, backend = 'local_qasm_simulator', shots=1024)
+result = job.result()
 
 # Print the result
 print(result.get_counts(my_first_score))
