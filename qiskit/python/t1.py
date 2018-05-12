@@ -36,7 +36,7 @@ exp_error = []
 for exp_index in exp_vector:
     data = result.get_counts(circuits[exp_index-1])
     try:
-        p0 = data['00000']/shots
+        p0 = data['0']/shots
     except KeyError:
         p0 = 0
     exp_data.append(p0)
