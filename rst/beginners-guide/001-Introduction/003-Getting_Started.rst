@@ -1,5 +1,5 @@
 Getting Started with the IBM Q Experience
-===============
+===========================================
 
 .. toctree::
    :maxdepth: 1
