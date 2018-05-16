@@ -1,5 +1,5 @@
 Viewing Results with the Histogram Representation
-====================================
+===================================================
 
 In the **histogram (or bar graph) representation**, the combination of 0’s and
 1’s at the bottom of each bar represents the measured state of the
