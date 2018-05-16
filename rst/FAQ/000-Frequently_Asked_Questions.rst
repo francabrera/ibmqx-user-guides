@@ -11,7 +11,7 @@ Frequently Asked Questions
 
 .. cssclass:: h2
 
-General questions about quantum information science
+General questions about Quantum Information Science
 
 **What does “quantum” mean?**
 
