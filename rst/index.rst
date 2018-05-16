@@ -33,7 +33,7 @@ whose perspective is limited by classical physics. 
    :glob:
    :includehidden:
 
-   Beginners Guide <beginners-guide/introduction.rst>
+   Beginner's Guide <beginners-guide/introduction.rst>
    full-user-guide/introduction.rst
 
 .. cssclass:: guide-toc
