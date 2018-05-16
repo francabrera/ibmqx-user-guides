@@ -1,4 +1,4 @@
-User Guide
+Full User Guide
 ==========
 
 If quantum physics sounds challenging to you, you are not alone. All
