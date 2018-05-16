@@ -6,11 +6,7 @@ Beginners Guide
    :maxdepth: 2
    :glob:
    :includehidden:
-   
-   
-   **Table of Contents**
-   
-   
+      
    001-Introduction/001*
    002-The_Weird_and_Wonderful_World_of_the_Qubit/001*
    003-Multiple-Qubits-Gates-and-Entangled-States/001*
