@@ -1,5 +1,5 @@
 Introducing Superposition and Entanglement
-===============
+===========================================
 
 .. toctree::
    :maxdepth: 1
