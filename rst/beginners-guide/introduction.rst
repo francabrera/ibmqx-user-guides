@@ -7,10 +7,11 @@ Beginners Guide
    :glob:
    :includehidden:
    
-   000-FAQ_for_Beginners/001*
-   002-Introduction/001*
-   003-Getting_Started/001*
-   004-The_Weird_and_Wonderful_World_of_the_Qubit/001*
-   005-Single-Qubit_Gates/001*
-   006-Multi-Qubit_Gates/001*
-   007-Entanglement/001*
+   
+   **Table of Contents**
+   
+   
+   001-Introduction/001*
+   002-The_Weird_and_Wonderful_World_of_the_Qubit/001*
+   003-Multiple-Qubits-Gates-and-Entangled-States/001*
+   004-Next-Steps/001*
