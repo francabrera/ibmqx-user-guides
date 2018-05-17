@@ -1,5 +1,5 @@
 Qubit Phase
-=======================
+===========
 
 Now that we have seen how to make :math:`|0\rangle`, :math:`|1\rangle`, 
 and superposition states, let’s investigate how we can change the 
