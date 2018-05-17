@@ -1,6 +1,11 @@
 Beginner's Guide
 ===============
 
+Introductory text about the goals and purpose of the Beginner’s Guide (and how it differs from other IBM-Q learning resources). Some additional text about the intended audience, and potential next steps / goals for learners after they’ve completed the Beginner’s Guides.
+
+The Beginner’s Guide has no formal prequisites, though it will tackle some counter-intuitive topics, like superposition and entanglement. Paper, pencil, and quantum enthusiasm are recommended. 
+
+
 .. cssclass:: guide-toc
 .. toctree::
    :maxdepth: 2
