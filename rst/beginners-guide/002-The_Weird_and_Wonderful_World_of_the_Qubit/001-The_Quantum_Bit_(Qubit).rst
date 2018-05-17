@@ -1,5 +1,5 @@
-The Weird and Wonderful World of the Qubit
-==========================================
+The Quantum Bit (Qubit)
+=======================
 
 .. toctree::
    :maxdepth: 1
@@ -38,3 +38,6 @@ get the probability of measuring the \ **0** or **1** outcome, respectively.
 | 
 
 In this chapter, we will dig deeper into how we can use single qubit gates to manipulate quantum states, as well as the concepts of superposition and phase.
+
+| 
+
