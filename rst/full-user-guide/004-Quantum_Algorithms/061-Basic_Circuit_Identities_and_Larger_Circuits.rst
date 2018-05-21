@@ -198,7 +198,7 @@ c\rangle`.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e778fd799&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-b5a0e7376ded40cd7dc1022e778fd799.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e778fd799&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-b9096192e0ccec3ff6ac2156b7d080ee.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b5a0e7376ded40cd7dc1022e778fd799&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -206,7 +206,7 @@ c\rangle`.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=4de5b472cdbc8f33b422ee097e26a3f1&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-4de5b472cdbc8f33b422ee097e26a3f1.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=4de5b472cdbc8f33b422ee097e26a3f1&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-6d67a99a2c4c052189cdc290465a8a0f.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=4de5b472cdbc8f33b422ee097e26a3f1&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -214,7 +214,7 @@ c\rangle`.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=56bfed556c0d64e8b92649d5fb206a21&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-56bfed556c0d64e8b92649d5fb206a21.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=56bfed556c0d64e8b92649d5fb206a21&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-6d67a99a2c4c052189cdc290465a7bda.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=56bfed556c0d64e8b92649d5fb206a21&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -222,7 +222,7 @@ c\rangle`.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd67d26ea&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-5537ba08c4b9b9369c47ea0fd67d26ea.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd67d26ea&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-cab6cbd8d09fa9a72bd276d9c2c1f6db.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd67d26ea&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -230,7 +230,7 @@ c\rangle`.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd67c616a&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-5537ba08c4b9b9369c47ea0fd67c616a.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd67c616a&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-ac12517d7526a77d19ce104d971a024a.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd67c616a&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -238,7 +238,7 @@ c\rangle`.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd6706724&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-5537ba08c4b9b9369c47ea0fd6706724.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd6706724&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-4568159e2e0816fb088fec7ee6955bbf.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=5537ba08c4b9b9369c47ea0fd6706724&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -246,7 +246,7 @@ c\rangle`.
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a685beebe7614db5a17b8eddbdcd7e90&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-a685beebe7614db5a17b8eddbdcd7e90.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a685beebe7614db5a17b8eddbdcd7e90&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-ba6021130f09ec06b6a5646bdcfeba8b.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=a685beebe7614db5a17b8eddbdcd7e90&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 

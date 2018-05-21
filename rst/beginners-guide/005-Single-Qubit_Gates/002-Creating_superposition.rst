@@ -35,7 +35,7 @@ Creating superposition
 | 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3033b263493f8f4eacad676036b70f22&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-3033b263493f8f4eacad676036b70f22.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3033b263493f8f4eacad676036b70f22&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-075df8e2dacac4fa2f76486ecc850ba0.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=3033b263493f8f4eacad676036b70f22&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
@@ -68,7 +68,7 @@ Different states give the same outcomes! 
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=69105edada81f30718a6872b1133ee2d&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-69105edada81f30718a6872b1133ee2d.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=69105edada81f30718a6872b1133ee2d&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-7bf1fe8b112a27f1defdd1797e4925fe.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=69105edada81f30718a6872b1133ee2d&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 | |image6|
@@ -94,7 +94,7 @@ measurement. 
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=61eed74ff0b30d2476bdac5d454f0024&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-61eed74ff0b30d2476bdac5d454f0024.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=61eed74ff0b30d2476bdac5d454f0024&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-7bf1fe8b112a27f1defdd1797e495ab4.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=61eed74ff0b30d2476bdac5d454f0024&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 | |image9|
@@ -103,7 +103,7 @@ measurement. 
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b8c9dbdafa24ade6bc96be2916487493&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-b8c9dbdafa24ade6bc96be2916487493.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b8c9dbdafa24ade6bc96be2916487493&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-ba6021130f09ec06b6a5646bdcf6c6b6.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=b8c9dbdafa24ade6bc96be2916487493&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 Try the above measurements of the superposition :math:`|+\rangle` and

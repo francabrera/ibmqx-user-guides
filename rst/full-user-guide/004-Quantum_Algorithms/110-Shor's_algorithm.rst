@@ -435,7 +435,7 @@ example, one can choose the initial state as the basis vector
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b15913f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-858317af73c7a5ed31f676db5b15913f.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b15913f&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-570b68405ba63ca75c724d3f40aaa614.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b15913f&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -443,7 +443,7 @@ example, one can choose the initial state as the basis vector
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c97d1b1f88e0615685200e6cd6d4b8d2&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-c97d1b1f88e0615685200e6cd6d4b8d2.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c97d1b1f88e0615685200e6cd6d4b8d2&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-4568159e2e0816fb088fec7ee697568a.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=c97d1b1f88e0615685200e6cd6d4b8d2&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -451,7 +451,7 @@ example, one can choose the initial state as the basis vector
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b62695e&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-858317af73c7a5ed31f676db5b62695e.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b62695e&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-d9c40f27d67d4bf722209faa34abcc28.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b62695e&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -459,7 +459,7 @@ example, one can choose the initial state as the basis vector
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b9099fd&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-858317af73c7a5ed31f676db5b9099fd.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b9099fd&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-c1908bfce53e5d26b810465dbb742499.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=858317af73c7a5ed31f676db5b9099fd&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -467,7 +467,7 @@ example, one can choose the initial state as the basis vector
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=0a1742807714ccbf73df68bbef062fae&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-0a1742807714ccbf73df68bbef062fae.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=0a1742807714ccbf73df68bbef062fae&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-6d67a99a2c4c052189cdc290465cf383.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=0a1742807714ccbf73df68bbef062fae&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 
