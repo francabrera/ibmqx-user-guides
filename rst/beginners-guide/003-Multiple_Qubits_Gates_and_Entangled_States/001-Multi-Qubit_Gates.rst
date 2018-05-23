@@ -6,7 +6,6 @@ Multi-Qubit Gates
    :glob:
    :hidden:
 
-..
    *
 
 
