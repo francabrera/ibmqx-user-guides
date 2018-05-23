@@ -52,6 +52,7 @@ into more detail about the *H* gate in a later section.
 |
 
 |image3|
+
 |
 
 The Results histogram provides a way to interpret the cumulative effect of the gates applied to the circuit and its qubits, after a measurement has been taken.

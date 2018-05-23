@@ -29,7 +29,7 @@ whose perspective is limited by classical physics. 
 
 .. cssclass:: guide-toc
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :glob:
    :includehidden:
 

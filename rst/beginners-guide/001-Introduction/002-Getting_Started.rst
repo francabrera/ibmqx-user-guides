@@ -1,12 +1,7 @@
 Getting Started with the IBM Q Experience
 ===========================================
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   :hidden:
-
-   *
+|
 
 In this section, you'll learn the basics of how to create and run experiments on IBM's **Quantum Composer**, a graphical user interface for programming a quantum processor. Think of the Composer as a tool to construct quantum algorithms
 using a library of well-defined *measurements* and *gates*, which are operations that change the state of a *qubit.* 
@@ -87,6 +82,7 @@ Single Qubit Measurement
 | |image1|
 
 |
+
 |
 
 In the above example, we created a single-qubit score with one classical
