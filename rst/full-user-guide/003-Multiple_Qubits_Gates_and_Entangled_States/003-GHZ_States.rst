@@ -93,7 +93,7 @@ the GHZ state is a :math:`-1` eigenvector of a three-qubit Pauli operator
 :math:`XXX=-1`
 
 for each realization of the experiment. Next consider the Pauli operator
-:math:`XYY`. One can check that the GHZ state is a :math:`+1` eigenevector of
+:math:`XYY`. One can check that the GHZ state is a :math:`+1` eigenvector of
 :math:`XYY`. Therefore,
 
 :math:`XYY=1`
