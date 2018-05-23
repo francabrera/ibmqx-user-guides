@@ -49,6 +49,7 @@ below), then executing a series of single- and two-qubit gates in time
 from left to right.
 
 |
+
 **Empty Quantum Score on the Composer**
 
 | |image0|
@@ -108,6 +109,7 @@ measure 1.
 
 In the IBM Q Experience, the results of your quantum scores are shown in
 a standard histogram/bar graph representation, which we will cover in the next section.
+
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/p0-1xkkbcfvusaotuik9.png
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/p1-1xg3szp1jk40f3whfr.png
