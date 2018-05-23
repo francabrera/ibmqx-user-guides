@@ -6,7 +6,6 @@ Introduction
    :glob:
    :hidden:
 
-..
    *
 
 | We’re at the start of a new stage in the information revolution. The
