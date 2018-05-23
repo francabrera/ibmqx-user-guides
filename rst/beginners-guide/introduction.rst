@@ -1,5 +1,5 @@
 Beginner's Guide
-===============
+================
 
 Introductory text about the goals and purpose of the Beginner’s Guide (and how it differs from other IBM-Q learning resources). Some additional text about the intended audience, and potential next steps / goals for learners after they’ve completed the Beginner’s Guides.
 
