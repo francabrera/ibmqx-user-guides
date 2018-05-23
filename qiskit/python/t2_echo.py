@@ -2,8 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
-from qiskit.wrapper import execute, register
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, execute, register
 
 import Qconfig
 register(Qconfig.APItoken, Qconfig.config['url'])

@@ -334,9 +334,3 @@ replenished. If you have "Promo Units", these will be used first rather
 than "Current Units".
 
 .. cssclass:: h2
-
-How do I join IBM Quantum Computing?
-
-We are always interested in meeting the brightest and most inquisitive
-minds! Are you a quantum
-thinker? If so, `check out these positions <https://quantumexperience.ng.bluemix.net/qx/community/question?questionId=4ee83621979d8391db8c95523e36ebd6&channel=news>`__.
