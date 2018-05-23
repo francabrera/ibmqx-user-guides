@@ -1,14 +1,7 @@
 Introducing Superposition and Entanglement
 ===========================================
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   :hidden:
-
-   *
-   
-|    
+|   
 
 Quantum computing has the potential to revolutionize how we process information, opening the door to new types of computing and communication. To do this, quantum computers rely on two fundamental properties of the quantum world: **superposition** and **entanglement.**
 
