@@ -43,6 +43,7 @@ the same axis. No unentangled state exhibits this distinctive
 combination of perfect correlation with perfect individual randomness. 
 
 | 
+
 **Example 1 - Bell, or entangled, state:**
 
 | 
