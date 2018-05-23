@@ -6,20 +6,21 @@ Introduction
    :glob:
    :hidden:
 
-..
    *
 
-| We’re at the start of a new stage in the information revolution. The
-  first stage began around 1950 with a handful of expensive room-sized
-  computers, used only by specialists. Today there are more computers in
-  the world than people, and we rely on them for everything from
-  communication to transportation, commerce, and (of course!) the
-  Internet. All of our computers’ varied abilities are produced by
-  manipulating zeros and ones using simple operations like **AND**,
-  **OR**, and **NOT**, which are called *logic gates*. By doing so
-  billions of times per second in billions of places at once, they keep
-  our world humming along in the manner to which we have become
-  accustomed.
+| 
+
+We’re at the start of a new stage in the information revolution. The
+first stage began around 1950 with a handful of expensive room-sized
+computers, used only by specialists. Today there are more computers in
+the world than people, and we rely on them for everything from 
+communication to transportation, commerce, and (of course!) the
+Internet. All of our computers’ varied abilities are produced by
+manipulating zeros and ones using simple operations like **AND**, 
+**OR**, and **NOT**, which are called *logic gates*. By doing so
+billions of times per second in billions of places at once, they keep
+our world humming along in the manner to which we have become
+accustomed.
   
 | 
 
