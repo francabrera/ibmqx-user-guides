@@ -1,12 +1,6 @@
 Single-Qubit Gates
 ==================
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   :hidden:
-
-   *
 
 Just as classical computers perform calculations by manipulating 
 bits between the 0 and 1 states, we manipulate qubits to perform 
