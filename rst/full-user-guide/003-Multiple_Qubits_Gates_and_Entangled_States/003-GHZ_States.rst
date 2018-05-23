@@ -157,8 +157,8 @@ provided below. 
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6c4bde9c626ac855632af7f949c601b4" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-6d67a99a2c4c052189cdc2904663388a.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=6c4bde9c626ac855632af7f949c601b4" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=ae3e60e47e4c28f29edcb5a9a49519c3&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-0e6a68c3cd23d638b8093ad4d06b9d72.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=ae3e60e47e4c28f29edcb5a9a49519c3&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 | **3Q GHZ State XXX-Measurement**

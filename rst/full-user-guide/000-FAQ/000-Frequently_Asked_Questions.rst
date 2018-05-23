@@ -13,49 +13,37 @@ Frequently Asked Questions
 
 General questions about quantum information science
 
-
-
 **What does “quantum” mean?**
 
-| Quantum theory is a revolutionary advancement in physics and chemistry
-  that emerged in the early twentieth century. It is an elegant
-  mathematical theory able to explain the counterintuitive behavior of
-  subatomic particles, most notably the phenomenon of **entanglement**.
-  In the late twentieth century it was discovered that quantum theory
-  applies not only to atoms and molecules, but to bits and logic
-  operations in a computer. This realization has been bringing about a
-  revolution in the science and technology of information processing,
-  making possible kinds of computing and communication hitherto unknown
-  in the Information Age.
+Quantum theory is a revolutionary advancement in physics and chemistry
+that emerged in the early twentieth century. It is an elegant
+mathematical theory able to explain the counterintuitive behavior of
+subatomic particles, most notably the phenomenon of **entanglement**.
+In the late twentieth century it was discovered that quantum theory
+applies not only to atoms and molecules, but to bits and logic
+operations in a computer. This realization has been bringing about a
+revolution in the science and technology of information processing,
+making possible kinds of computing and communication hitherto unknown
+in the Information Age.
 
-| **What is a quantum computer?**
-| A quantum computer is a device able to manipulate delicate quantum
-  states in a controlled fashion, not dissimilar to the way an ordinary
-  computer manipulates its bits.
+**What is a quantum computer?**
 
-**Can a quantum computer solve NP-complete problems?**
-
-| We do not believe that quantum computers are likely to provide any
-  more than a quadratic speedup to NP-complete problems. This is the
-  consensus view of the quantum information research community, and in
-  fact the idea that quantum computers can solve NP-complete problems
-  efficiently has been described as "`the *central* crock about quantum
-  computing <http://www.scottaaronson.com/democritus/lec10.html>`__".
+A quantum computer is a device able to manipulate delicate quantum
+states in a controlled fashion, not dissimilar to the way an ordinary
+computer manipulates its bits.
 
 **What is a qubit?**
 
 A qubit (pronounced “cue-bit” and short for quantum bit) is the physical
 carrier of quantum information. It is the quantum version of a bit, and
 its quantum state can take values of :math:`|0\rangle`, :math:`|1\rangle`,
-or both at once, which is a phenomenon known as **superposition**.\
-
-
+or the linear combination of both, which is a phenomenon known as **superposition**.\
 
 **What is a superposition?**
 
 A superposition is a weighted sum or difference of two or more states;
-for example, the state of the air when two or more musical tones are
-sounding at once. Ordinary, or “classical,” superpositions commonly
+for example, the state of the air when two or more musical tones
+sound at once. Ordinary, or “classical,” superpositions commonly
 occur in macroscopic phenomena involving waves.
 
 **How are quantum superpositions different?**
@@ -70,7 +58,7 @@ can only produce a superposition of :math:`n` states.
 
 A set of :math:`n` coins, each of which might be heads or tails, can be
 described as a probabilistic mixture of :math:`2^n` states, but it actually
-**is** in only one of them—we just don’t know which. For this reason,
+**is** in only one of them — we just don’t know which. For this reason,
 quantum superposition is more powerful than classical probabilism.
 Quantum computers capable of holding their data in superposition can
 solve some problems exponentially faster than any known deterministic or
@@ -110,56 +98,33 @@ that cannot be performed, or even described, classically.
 
 **What is the uncertainty principle?**
 
-| In quantum physics, we cannot simultaneously know two non-commuting
-  variables (like the position and momentum of a particle). This implies
-  that a quantum system in a perfectly definite state can be certain
-  under one measurement and completely random under another.  Moreover,
-  if a quantum system starts out in an arbitrary unknown state, no
-  measurement can reveal complete information about that state; and the
-  more information the measurement reveals, the more the state is
-  disturbed.  This is a underlying principle of quantum cryptography.
+In quantum physics, we cannot simultaneously know two non-commuting
+variables (like the position and momentum of a particle). This implies
+that a quantum system in a perfectly definite state can be certain
+under one measurement and completely random under another.  Moreover,
+if a quantum system starts out in an arbitrary unknown state, no
+measurement can reveal complete information about that state; the
+more information the measurement reveals, the more the state is
+disturbed.  This is a underlying principle of quantum cryptography.
 
 **What is a quantum gate?**
 
-A quantum gate is an operation that is applied to a qubit to change its
+A quantum gate is an operation applied to a qubit to change its
 state. To generate entanglement you must have at least a two-qubit gate
 equivalent to the CNOT. 
 
 .. cssclass:: h2
 
-General questions about the IBM Quantum Experience
-
-
-**What is the IBM Quantum Experience?**
-
-The IBM Quantum Experience is a cloud-based platform where you can
-learn, research, and interact with a real quantum computer housed in an
-IBM Research lab. 
-
-**What is the Quantum Composer?**
-
-| The Quantum Composer is a graphical interface tool where you can drag
-  and drop different operations to control qubits. The Quantum Composer
-  permits you to develop your own quantum algorithms, which we call
-  Quantum Scores.
-
-**What is a Quantum Score?**
-
-A Quantum Score is the set of instructions, or algorithm, to a quantum
-computer. It is a series of gates versus time played on different
-qubits, much like a musical score.
-
-**What is the Quantum Sphere?**
-
-The Quantum Sphere is a graphical representation of the output of a
-Quantum Score. It provides the user a way to easily visualize properties
-of the measurements performed on a number of qubits, all in one
-diagram.
-
-.. cssclass:: h2
-
 Questions about quantum computers
 
+**Can a quantum computer solve NP-complete problems?**
+
+We do not believe that quantum computers are likely to provide any
+more than a quadratic speedup to NP-complete problems. This is the
+consensus view of the quantum information research community, and in
+fact the idea that quantum computers can solve NP-complete problems
+efficiently has been described as "`the *central* crock about quantum
+computing <http://www.scottaaronson.com/democritus/lec10.html>`__".
 
 **What is a universal quantum computer?**
 
@@ -169,14 +134,19 @@ quantum state from an arbitrary input quantum state.
 **What is a universal fault-tolerant quantum computer?**
 
 A universal fault-tolerant quantum computer is the grand challenge of
-quantum computing. It is device that can properly perform universal
+quantum computing. It is a device that can properly perform universal
 quantum operations using unreliable components.
 
 **When will I have a quantum computer?**
 
-You have access to one now with the Quantum Experience. It is small
-at the moment, with a five-qubit processor, but it is a work-in-progress
-that we are continually improving.
+You have access to one now with the IBM Q Experience. It is small
+at the moment, but it is a work-in-progress that we are continually improving.
+
+**What is a quantum circuit?**
+
+A quantum circuit is the set of instructions, or algorithm, to a quantum
+computer. It is a series of gates versus time played on different
+qubits. 
 
 **What does a quantum computer look like?**
 
@@ -189,19 +159,41 @@ and smartphones.
 
 .. cssclass:: h2
 
-Questions about our qubits and experiments
+General questions about the IBM Q Experience
 
+**What is the IBM Q Experience?**
+
+The IBM Q Experience is a cloud-based platform where you can
+learn, research, and interact with a real quantum computer housed in an
+IBM Research lab. 
+
+**What is the Quantum Composer?**
+
+The Quantum Composer is a graphical interface tool where you can drag
+and drop different operations to control qubits. The Quantum Composer
+permits you to develop your own quantum algorithms, which we call
+Quantum Scores.
+
+**What is a Quantum Score?**
+
+A Quantum Score is the set of instructions, or algorithm, to a quantum
+computer. It is a series of gates versus time played on different
+qubits, much like a musical score. It is also called a quantum circuit. 
+
+.. cssclass:: h2
+
+Questions about our qubits and experiments
 
 **What is the qubit that you are physically using?**
 
-| The qubit we use is a fixed-frequency superconducting transmon qubit.
-  It is a Josephson-junction-based qubit that is insensitive to charge
-  noise. For more information on this type of qubit please see here
-  (`Koch *et al.*
-  2007 <http://journals.aps.org/pra/abstract/10.1103/PhysRevA.76.042319>`__).
-  We use fixed-frequency qubits, as opposed to tunable qubits, to
-  minimize our sensitivity to external magnetic field fluctuations that
-  could corrupt the quantum information.
+The qubit we use is a fixed-frequency superconducting transmon qubit.
+It is a Josephson-junction-based qubit that is insensitive to charge
+noise. For more information on this type of qubit please see here
+(`Koch *et al.* 
+2007 <http://journals.aps.org/pra/abstract/10.1103/PhysRevA.76.042319>`__).
+We use fixed-frequency qubits, as opposed to tunable qubits, to
+minimize our sensitivity to external magnetic field fluctuations that
+could corrupt the quantum information.
 
 **How do you make the qubits?**
 
@@ -213,7 +205,7 @@ references (`Chow *et al.* 2014 <http://www.nature.com/ncomms/2014/140624/ncomms
 
 **What are the properties of these qubits?**
 
-The properties of the qubits can be seen below the Quantum Composer.
+The properties of the qubits can be seen in the Devices tab.
 Properties such as relaxation time (:math:`T_1`), coherence time (:math:`T_2`),
 readout errors, and gate errors are given, posted from the last
 calibration experiment run on the actual quantum processor device. 
@@ -261,22 +253,22 @@ example is the Hadamard gate performed by the sequence
 
 **What about two-qubit gates?**
 
-| Two-qubit gates typically require tuning to calibrate the interaction
-  between the two qubits during the gate duration, and minimizing the
-  interaction at any other time. Since our qubits of choice are
-  fixed-frequency transmons, we cannot tune the interaction by bringing
-  them closer in frequency during the two-qubit gate. Instead, we
-  exploit the cross-resonance effect (`Chow *et al*.,
-  2011 <http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.107.080502>`__),
-  by driving one of the qubits (called **control**) with a microwave
-  pulse tuned at the frequency of the second qubit (called **target**).
-  By doing this, we can actively increase the strength of the coupling
-  between them. The nature of the cross-resonance effect also allows us
-  to perform rotations in the target qubit conditioned on the state of
-  the control qubit, a key characteristic of the CNOT operation required
-  for a universal quantum gate set. From our cross-resonance microwave
-  pulse, we only need to perform an additional frame change :math:`S` on the
-  control qubit and a :math:`X_{\pi/2}` on the target to implement a CNOT.
+Two-qubit gates typically require tuning to calibrate the interaction
+between the two qubits during the gate duration, and minimizing the
+interaction at any other time. Since our qubits of choice are
+fixed-frequency transmons, we cannot tune the interaction by bringing
+them closer in frequency during the two-qubit gate. Instead, we
+exploit the cross-resonance effect (`Chow *et al*.,
+2011 <http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.107.080502>`__),
+by driving one of the qubits (called **control**) with a microwave
+pulse tuned at the frequency of the second qubit (called **target**).
+By doing this, we can actively increase the strength of the coupling
+between them. The nature of the cross-resonance effect also allows us
+to perform rotations in the target qubit conditioned on the state of
+the control qubit, a key characteristic of the CNOT operation required
+for a universal quantum gate set. From our cross-resonance microwave
+pulse, we only need to perform an additional frame change :math:`S` on the
+control qubit and a :math:`X_{\pi/2}` on the target to implement a CNOT.
 
 **How are measurements performed in the system?**
 
@@ -292,94 +284,59 @@ inside of our dilution refrigerator, including a quantum-limited
 amplifier at 15 mK, and a high-electron mobility transistor amplifier at
 4 K. 
 
-| Do not forget to include measurements in your score! Because the
-  measurement of a qubit in a superposition state seems random -- the
-  outcome is sometimes 0 and sometimes 1 -- you must repeat the
-  measurement multiple times to determine the likelihood of a qubit
-  being in a particular state. When performing the experiment, you will
-  be asked how many "shots" or experiments to run in order to determine
-  the qubit state probabilities. 
+Do not forget to include measurements in your score! Because the
+measurement of a qubit in a superposition state seems random -- the
+outcome is sometimes 0 and sometimes 1 -- you must repeat the
+measurement multiple times to determine the likelihood of a qubit
+being in a particular state. When performing the experiment, you will
+be asked how many "shots" or experiments to run in order to determine
+the qubit state probabilities. 
 
 **How often is the system tuned up?**
 
-| We perform a full round of single- and two-qubit calibrations, as well
-  as measurements of relaxation time, coherence time, and gate errors
-  two times a day at 8AM and 8PM EST. Each full calibration round takes
-  about one hour.  During calibration, you will notice that the device
-  will be "Down for Maintenance."
+We perform a full round of single- and two-qubit calibrations, as well
+as measurements of relaxation time, coherence time, and gate errors
+two times a day at 8AM and 8PM EST. Each full calibration round takes
+about one hour.  During calibration, you will notice that the device
+will be "Down for Maintenance."
 
 .. cssclass:: h2
 
 Questions about running the simulator versus the experiment
 
-
 **What does the simulator do?**
 
-| The simulator computes the quantum state we expect a circuit to
-  produce. 
-
-**What is the difference between ideal and realistic simulator?**
-
-| The ideal simulator treats each gate as a unitary matrix and composes
-  the gates to find the output state. This simulator tells us what to
-  expect when all of the operations are perfect. The realistic
-  simulator, on the other hand, numerically solves a system of
-  differential equations known as a
-  `master <https://en.wikipedia.org/wiki/Master_equation>`__ equation.
-  The master equation we solve includes dissipation and phase noise, as
-  well as time-dependent terms for gates and interactions between
-  adjacent qubits. The various interaction strengths are computed from
-  realistic parameters and an effective
-  `Hamiltonian <https://en.wikipedia.org/wiki/Hamiltonian_%28quantum_mechanics%29>`__.
-  The results are qualitatively similar to what is observed in a typical
-  experiment.
+The simulator computes the quantum state we expect a circuit to
+produce. 
 
 **How many experiments can I run?**
 
-| You can run as many experiments as you have Units to run; each
-  experiment execution requires between 3 and 5 Units. No Units are
-  required to perform simulations or to recall results of an experiment
-  that was run previously.
-
-**How do I gain more Units?**
-
-Depending on your usage pattern and by requesting upgraded status, the
-team will consider converting users from Standard to Expert. 
+You can run as many experiments as you have Units to run; each
+experiment execution requires between 3 and 5 Units. No Units are
+required to perform simulations or to recall results of an experiment
+that was run previously.
 
 **What happens when I run out of Units?**
 
-| You can still run simulations or recall the result of the experiments
-  that have been run previously, but you must wait for the Units to
-  replenish, which happens either once your execution has run off the
-  queue, or 24 hours, whichever is greater.
+You can still run simulations or recall the result of the experiments
+that have been run previously, but you must wait for the Units to
+replenish, which happens either once your execution has run off the
+queue, or 24 hours, whichever is greater.
 
 **What is the difference between "Current Units" and "Promo Units"?**
 
 The maximum number of "Current Units" available is based on your user
-level.  A Standard User has a maximum of 15 credits, and these credits
+level.  A  User has a maximum of 15 credits, and these credits
 are replenished upon the greater of 24 hours or when your execution has
 run off the queue. On the other hand, "Promo Units" are extra units that
 allow you to run extra executions but, once used, these credits won't be
 replenished. If you have "Promo Units", these will be used first rather
 than "Current Units".
 
-**What are the different user levels?**
-
-| Everyone begins as a Standard User. This level of user is advised to
-  work through the entire User Guide, running scores in either
-  Simulation mode or viewing cached results (both options require no
-  Units). At the beginning, you will have 5 Units and 6 additional promo
-  Units. Upon completion of the User Guide, the Standard User is given
-  15 Units for use on the actual quantum hardware. Request a
-  replenishment of Units via the Account page. Once you have gotten
-  familiar with the tool, tell us about yourself and request an upgrade
-  to the Expert User level. 
-
 .. cssclass:: h2
 
 How do I join IBM Quantum Computing?
 
-
 We are always interested in meeting the brightest and most inquisitive
-minds! Are you a `quantum
-thinker <http://ibm-research.jobs/l/recruiting/jobsearchaction/1ed388e3-9ff9-11e4-b295-bc764e10782d/4fc7376b-11b4-11e6-bc9f-bc764e11b6f3/false?term=quantum&tags=&jobTypes=&locations=&postalCode=&distance=1000000>`__? 
+minds! Are you a quantum
+thinker? If so, `check out these positions <https://quantumexperience.ng.bluemix.net/qx/community/question?questionId=4ee83621979d8391db8c95523e36ebd6&channel=news>`__.

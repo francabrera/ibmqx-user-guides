@@ -1,31 +1,31 @@
-IBM Quantum Experience user guides
-==================================
-The repository contains the user guides from the `IBM Q experience <https://quantumexperience.ng.bluemix.net>`__ 
+IBM Q Experience user guides
+============================
+The repository contains the user guides from the `IBM Q Experience <https://quantumexperience.ng.bluemix.net>`__ 
 
 
-| If quantum physics sounds challenging to you, you are not alone. All
-  of our intuitions are based on day-to-day experiences and are defined
-  by classical physics — so most of us find the concepts in quantum
-  physics counterintuitive at first. In order to comprehend the quantum
-  world, you must let go of your beliefs about our physical world, and
-  develop an intuition for a completely different (and often surprising)
-  set of laws.
+If quantum physics sounds challenging to you, you are not alone. All
+of our intuitions are based on day-to-day experiences and are defined
+by classical physics — so most of us find the concepts in quantum
+physics counterintuitive at first. In order to comprehend the quantum
+world, you must let go of your beliefs about our physical world, and
+develop an intuition for a completely different (and often surprising)
+set of laws.
 
-The users guides
+The guides
 ----------------
 
-The user guide is divided in two.
+The guide is divided in two.
 
 `Beginner's Guide <rst/beginners-guide/>`__: You can find a simple aproach about Quantum Computing and
-how use the IBM Q Experice tools, like Quantum Composer, or the QISKit example.
+how use the IBM Q Experice tools, like Quantum Composer.
 
-`Full User's Guide <rst/full-user-guide/>`__: This section contain the more full coverage from Quantum Computing
+`User's Guide <rst/full-user-guide/>`__: This section contain the more full coverage from Quantum Computing
 and in particular several examples and algorithm.
 
-Contributors (alphabetically)
------------------------------
+Contributors
+------------
 
-Lev Bishop, Antonio Córcoles, Abigail Cross, Andrew Cross, Jay M. Gambetta.
+Jay M. Gambetta, Antonio Córcoles,  Andrew Cross, Lev Bishop, and Abigail Cross
 
 
 Installation and setup
@@ -132,9 +132,9 @@ needed. Once they're updated/added run this be sure they keep passing:
 Other QISKit projects
 ---------------------
 
-- `ibmqx backend information <https://github.com/QISKit/ibmqx-backend-information>`__ Information about the different IBM Q experience backends.
+- `ibmqx backend information <https://github.com/QISKit/ibmqx-backend-information>`__ Information about the different IBM Q Experience backends.
 - `OpenQasm <https://github.com/QISKit/openqasm>`__ Examples and tools for the OpenQASM intermediate representation.
-- `Python API <https://github.com/QISKit/qiskit-api-py>`__ API Client to use IBM Q experience in Python.
+- `Python API <https://github.com/QISKit/qiskit-api-py>`__ API Client to use IBM Q Experience in Python.
 - `Python SDK <https://github.com/QISKit/qiskit-sdk-py>`__ Software development kit for working with quantum programs in Python.
 - `Tutorial <https://github.com/QISKit/qiskit-tutorial>`__ Jupyter notebooks for using QISKit.
 
