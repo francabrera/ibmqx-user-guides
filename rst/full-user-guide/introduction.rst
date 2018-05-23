@@ -1,5 +1,5 @@
 Full User Guide
-==========
+===============
 
 If quantum physics sounds challenging to you, you are not alone. All
 of our intuitions are based on day-to-day experiences and are defined
