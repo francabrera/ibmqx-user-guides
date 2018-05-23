@@ -24,9 +24,11 @@ in the :math:`|0\rangle` state and we haven’t changed them with any gates.
 
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f45e53d09688085a2363c7fc60406e9c&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-f45e53d09688085a2363c7fc60406e9c.png" style="width: 100%; max-width: 600px;"></a>
       <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=f45e53d09688085a2363c7fc60406e9c&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+      
 |
 | **3-qubit measurement, ground state (Results Histogram)**
 |
+
 | |image1|
 |
 
@@ -48,8 +50,8 @@ into more detail about the *H* gate in a later section.
 |
 | **3-qubit measurement, full superposition of states (Results Histogram)**
 |
-|image3|
 
+|image3|
 |
 
 The Results histogram provides a way to interpret the cumulative effect of the gates applied to the circuit and its qubits, after a measurement has been taken.
