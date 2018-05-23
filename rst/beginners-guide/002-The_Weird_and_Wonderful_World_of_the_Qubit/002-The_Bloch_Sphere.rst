@@ -1,15 +1,6 @@
 The Bloch Sphere
 =================
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   :hidden:
-
-..
-   *
-
-
 The basis states :math:`|0\rangle` and :math:`|1\rangle` and their linear
 combinations :math:`a|0\rangle` + :math:`b|1\rangle` describe the state of
 a single qubit. But because the coefficients a and b are not just real
