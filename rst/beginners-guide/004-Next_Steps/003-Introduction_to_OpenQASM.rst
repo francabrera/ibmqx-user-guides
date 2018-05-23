@@ -1,5 +1,5 @@
-Introduction to QASM
-===============
+Introduction to OpenQASM
+========================
 
 .. toctree::
    :maxdepth: 1
