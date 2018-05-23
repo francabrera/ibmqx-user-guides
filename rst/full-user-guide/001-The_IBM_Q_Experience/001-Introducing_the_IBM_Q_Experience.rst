@@ -21,12 +21,12 @@ The IBM Quantum Experience consists of:
 
 -  a **set of tutorials** (this User Guide) that will lead you from the
    basics of simple single-qubit experiments (`Section
-   II <>`__)
+   II <../002-The_Weird_and_Wonderful_World_of_the_Qubit/000-The_Weird_and_Wonderful_World_of_the_Qubit.html>`__)
    to more complicated multi-qubit experiments (`Section
-   III <>`__),
+   III <../003-Multiple_Qubits_Gates_and_Entangled_States/000-Multiple_Qubits_Gates_and_Entangled_States.html>`__),
    and then toward more advanced ideas in the area of quantum algorithms
-   (`Section IV <>`__)
-   and quantum error correction (`Section V <>`__);
+   (`Section IV <../004-Quantum_Algorithms/060-Quantum_Algorithms.html>`__)
+   and quantum error correction (`Section V <../005-Quantum_Error_Correction/059-Quantum_Error_Correction.html>`__);
 -  the **Quantum Composer,** which is a graphical user interface where
    you can create your very own quantum circuit (which we call a
    **quantum score),** much like a composer composes a music score;
@@ -61,10 +61,11 @@ will be displayed. In both cases, the simulation will be available for
 you to keep learning and designing new experiments. 
 
 For those who wish to jump right into creating your own experiments, you
-can skip right to the \ `Quantum Composer <>`__\ .
+can skip right to the \ `Quantum Composer <../001-The_IBM_Q_Experience/004-The_Quantum_Composer.html>`__\ .
 If you wish to improve your understanding of the quantum world first,
 please continue reading this User Guide, starting with \ 
-`the Quantum World <>`__\ .  Use the numbers at the top and bottom of each
+`the Quantum World <../001-The_IBM_Q_Experience/002-The_Quantum_World.html>`__\ .  
+Use the numbers at the top and bottom of each
 page to navigate through each section. 
 
 We would like to acknowledge the work done under the IARPA Multi-Qubit
