@@ -146,7 +146,7 @@ You have also learnt about quantum superpositions, and that these superpositions
 can have a sign. The main message we would like you to 
 take away from this this chapter is:
 
-- a physical system in a perfectly definite state can still behave randomly. 
+- a physical system in a definite state can still behave randomly. 
 
 This is the first of the two principles from \ 
 `the Quantum World <../001-The_IBM_Qu_Experience/002-The_Quantum_World.html>`__ \ 

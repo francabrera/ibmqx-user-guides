@@ -53,7 +53,7 @@ inexorable logic, to Einsteinian spacetime.
 
 The counter-intuitive ideas of quantum physics are: 
 
-1. *a physical system in a* **perfectly definite state** *can still behave* **randomly**. 
+1. *a physical system in a* **definite state** *can still behave* **randomly**. 
 2. *two systems that are* **too far apart** *to influence each other can nevertheless behave in ways that, though* **individually random**, *are somehow* **strongly correlated**. 
 
 Unfortunately, unlike relativity, there is no single simple physical principle from
