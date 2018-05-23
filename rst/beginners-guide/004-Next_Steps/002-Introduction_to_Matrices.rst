@@ -1,5 +1,5 @@
 Introduction to Matrices
-===============
+========================
 
 .. toctree::
    :maxdepth: 1
