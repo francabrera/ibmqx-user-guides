@@ -1,5 +1,5 @@
-Getting Started with the IBM Q Experience
-===========================================
+Getting Started with the Composer
+=================================
 
 |
 
