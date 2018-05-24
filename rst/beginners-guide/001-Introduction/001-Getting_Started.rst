@@ -11,7 +11,6 @@ Throughout this user guide, we will create and run experiments on IBM's **Quantu
 
 Choosing Your Quantum Setup
 
-|
 
 Throughout this guide, you'll try out many different experiments (feel
 free to explore on your own as well). When you first navigate to the 
@@ -56,7 +55,6 @@ from left to right.
 
 Creating and Running a Quantum Circuit
 
-|
 
 To create a **quantum circuit** (another term for "experiment" that we'll 
 use in this guide), you will need to add **quantum gates** to your score.
@@ -77,7 +75,6 @@ end with a measurement gate in order to run the experiment.
 
 Single Qubit Measurement
 
-|
 
 In the example below, we've created a single-qubit score with one classical
 bit in the classical bit register. We measured Qubit “0” and stored the
