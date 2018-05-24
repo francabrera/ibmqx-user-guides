@@ -1,6 +1,8 @@
 Viewing Results 
 ================
 
+|
+
 In the **histogram (or bar graph) representation**, the combination of 0’s and
 1’s at the bottom of each bar represents the measured state of the
 qubit(s), and the height of the bar represents how frequently the
@@ -57,6 +59,7 @@ into more detail about the *H* gate in a later section.
 
 The Results histogram provides a way to interpret the cumulative effect of the gates applied to the circuit and its qubits, after a measurement has been taken.
 
+|
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/3qh8ftza7f3gtlnmi.png
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/p2-1xvj9gkvh8rakvgqfr.png

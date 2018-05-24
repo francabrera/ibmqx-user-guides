@@ -52,9 +52,8 @@ equations with breathtaking efficiency.
 By going through this Beginner’s Guide, we hope you will learn what’s
 different about quantum computing, the fundamental quantum properties that quantum computing relies on, and how start experimenting with our quantum computers via IBM's `Quantum Composer <https://quantumexperience.ng.bluemix.net/qx/editor>`_. **We anticipate that you will spend about 10-30 min on each section
 (with the later sections requiring more time) as you read through this
-guide and explore the sample quantum scores on the IBM Q Experience.**
-
-| 
-
-If you want to see more of the math and theory behind the concepts, we
+guide and explore the sample quantum scores on the IBM Q Experience.** If you want to see more of the math and theory behind the concepts, we
 encourage you to dig into our `Full User Guide <https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=full-user-guide&page=introduction>`_!
+
+|
+

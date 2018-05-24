@@ -3,9 +3,7 @@ Getting Started with the Composer
 
 |
 
-In this section, you'll learn the basics of how to create and run experiments on IBM's **Quantum Composer**, a graphical user interface for programming a quantum processor. Think of the Composer as a tool to construct quantum algorithms
-using a library of well-defined *measurements* and *gates*, which are operations that change the state of a *qubit.* 
-(We'll learn more about the special properities of qubits in Chapter 2). 
+Throughout this user guide, we will create and run experiments on IBM's **Quantum Composer**, a graphical user interface for programming a quantum processor. Think of the Composer as a tool to construct quantum algorithms using a library of well-defined *measurements* and *gates*, which are operations that change the state of a *qubit.* (We'll learn more about the special properities of qubits in Chapter 2). Below, we go through the steps of setting up and running algorithms on the Composer.
 
 |
 
@@ -45,7 +43,7 @@ from left to right.
 
 |
 
-**Empty Quantum Score on the Composer**
+**Empty quantum score on the Composer**
 
 | |image0|
 
@@ -79,18 +77,20 @@ Single Qubit Measurement
 
 |
 
-| |image1|
-
-|
-
-|
-
-In the above example, we created a single-qubit score with one classical
+In the example below, we've created a single-qubit score with one classical
 bit in the classical bit register. We measured Qubit “0” and stored the
 measurement result in the 0th position of the classical bit register
 (this is the line below the score labeled 'c'). After performing a quantum 
 measurement, a qubit's information becomes a classical bit, meaning it 
 loses the quantum properties of superposition and entanglement.  
+
+|
+
+**Single qubit measurement on the Composer**
+
+| |image1|
+
+|
 
 Each qubit in the measurement either takes the value
 0, e.g., if the qubit is measured in state :math:`|0\rangle`; or 1, e.g.,
@@ -105,6 +105,8 @@ measure 1.
 
 In the IBM Q Experience, the results of your quantum scores are shown in
 a standard histogram/bar graph representation, which we will cover in the next section.
+
+|
 
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/p0-1xkkbcfvusaotuik9.png
