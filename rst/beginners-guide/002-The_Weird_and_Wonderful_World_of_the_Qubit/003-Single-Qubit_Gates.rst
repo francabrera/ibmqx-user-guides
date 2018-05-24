@@ -36,13 +36,10 @@ using the example score below.
 | |image1|
 
 |
-<<<<<<< HEAD:rst/beginners-guide/002-The_Weird_and_Wonderful_World_of_the_Qubit/003-Single-Qubit_Gates.rst
 
 **Applying X Gate (Composer Diagram):**
 
 |
-=======
->>>>>>> upstream/master:rst/beginners-guide/005-Single-Qubit_Gates/001-Single-Qubit_Gates.rst
 
 .. raw:: html
 
@@ -51,11 +48,8 @@ using the example score below.
 
 |
 
-<<<<<<< HEAD:rst/beginners-guide/002-The_Weird_and_Wonderful_World_of_the_Qubit/003-Single-Qubit_Gates.rst
 **Applying X Gate (Results Histogram):**
 
-=======
->>>>>>> upstream/master:rst/beginners-guide/005-Single-Qubit_Gates/001-Single-Qubit_Gates.rst
 |
 
 | |image3|
