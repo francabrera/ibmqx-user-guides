@@ -43,12 +43,10 @@ combination of perfect correlation with perfect individual randomness. 
 
 | 
 
-|image0|
-
-| 
-
 .. raw:: html
 
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1fcc3d6878c984ce05e69298a76abe36&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-9d173b5b4a53131382b97843d2f3fbe1.png" style="width: 100%; max-width: 600px;"></a>
+   
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1fcc3d6878c984ce05e69298a76abe36&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
@@ -57,24 +55,18 @@ combination of perfect correlation with perfect individual randomness. 
 
 | 
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1fcc3d6878c984ce05e69298a76abe36&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-9d173b5b4a53131382b97843d2f3fbe1.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1fcc3d6878c984ce05e69298a76abe36&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
-
-|
-
 **Example 2 - Bell, or entangled, state:**
    
 |
 
-|image2|
-
-|
-
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=136177cb0d92579d4630b69d7812ea54&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-31eab8feb732d30cb1c9fad2bcf38d7e.png" style="width: 100%; max-width: 600px;"></a>
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=136177cb0d92579d4630b69d7812ea54&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=136177cb0d92579d4630b69d7812ea54&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-31eab8feb732d30cb1c9fad2bcf38d7e.png" style="width: 100%"></a>
    
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=136177cb0d92579d4630b69d7812ea54&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
+ 
+|
+
 |
    
 |image3|
