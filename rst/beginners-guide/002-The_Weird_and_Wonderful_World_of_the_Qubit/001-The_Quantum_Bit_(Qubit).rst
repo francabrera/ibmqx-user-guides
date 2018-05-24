@@ -8,6 +8,8 @@ The Quantum Bit (Qubit)
 
    *
 
+|
+
 Now that we have a basic understanding of quantum properties and how to 
 use the Quantum Composer, let's dive into the weird and wonderful world of the qubit!
 
@@ -21,7 +23,6 @@ have borrowed from linear algebra. The basic idea is that once you have
 defined these vectors, you can construct any other vector from a linear 
 combination of the basis vectors. 
 
-| 
 
 Additionally, qubits also have a **phase**, which results from the fact
 that superpositions can be complex. To represent these superpositions,
@@ -36,7 +37,8 @@ get the probability of measuring the \ **0** or **1** outcome, respectively.
 
 | 
 
-In this chapter, we will dig deeper into how we can use single qubit gates to manipulate quantum states, as well as the concepts of superposition and phase.
+In this chapter, we will dig deeper into how we can use single qubit gates to 
+manipulate quantum states, as well as the concepts of **superposition** and **phase.**
 
 | 
 

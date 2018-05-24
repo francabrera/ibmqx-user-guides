@@ -1,9 +1,11 @@
 Qubit Phase
 ===========
 
+|
+
 Now that we have seen how to make :math:`|0\rangle`, :math:`|1\rangle`, 
 and superposition states, let’s investigate how we can change the 
-**phase** of the superposition. We have added the following gates: :math:`Z`, 
+**phase** of the superposition. To do so, we have added the following gates: :math:`Z`, 
 :math:`S`, :math:`S^{\dagger}`, :math:`T`, and :math:`T^{\dagger}`.
 
 |
@@ -12,13 +14,18 @@ and superposition states, let’s investigate how we can change the
 
 |
 
-The :math:`Z` gate is a :math:`\pi` rotation around the Z axis, the :math:`S` 
-gate is a rotation of :math:`\pi/2` around Z, and the :math:`T` gate is a 
-:math:`\pi/4` rotation around Z. :math:`S^{\dagger}` is the inverse of :math:`S` 
-(does a :math:`-\pi/2` around Z; :math:`SS^{\dagger}` returns the original 
-state), and :math:`T^{\dagger}` is the inverse of :math:`T`. These rotations 
-give the qubit a component along the Y direction of the Bloch sphere, 
-which is a representation of the complex information in the qubit state.
+These gates can be understood as rotations around the Z axis:
+
+- The :math:`Z` gate is a :math:`\pi` rotation around the Z axis 
+- The :math:`S` gate is a rotation of :math:`\pi/2` around Z axis
+- The :math:`T` gate is a :math:`\pi/4` rotation around Z axis
+- :math:`S^{\dagger}` is the inverse of :math:`S` (does a :math:`-\pi/2` around Z, and :math:`SS^{\dagger}` returns the original state) 
+- :math:`T^{\dagger}` is the inverse of :math:`T` 
+
+These rotations give the qubit a component along the Y direction of the Bloch sphere, 
+which is a representation of the complex information in the qubit state. Applying a 
+Z gate to a qubit in the :math:`|0\rangle` state doesn't appear to affect the qubit, 
+as can be seen in the Bloch diagram below.
  
 |
 
@@ -39,7 +46,7 @@ which is a representation of the complex information in the qubit state.
 
 |
 
-When the qubit is in the \|0> state, Z doesn’t do much. But when the
+When the qubit is in the \|0> state, Z doesn’t seem to do much. But when the
 qubit is in the :math:`|+\rangle` state, you can see that Z flips the
 state from :math:`|+\rangle` to :math:`|-\rangle`.
 

@@ -1,6 +1,7 @@
 Single-Qubit Gates
 ==================
 
+|
 
 Just as classical computers perform calculations by manipulating 
 bits between the 0 and 1 states, we manipulate qubits to perform 
@@ -9,19 +10,15 @@ how to use some important single-qubit gates.
 
 | 
 
-.. cssclass:: h2
+.. cssclass:: h3
 
-X gate
-
-
-| 
+X Gate
 
 Let’s start with the **X gate**, which is known as a “bit-flip”, since 
 it flips the 0 to 1 and vice versa. This is similar to a classical NOT gate.
 
 | |image0|
 
-|
 
 It is also known as an **X-rotation,** since it rotates the state by 
 :math:`\pi` radians around the X-axis. If you start in the 

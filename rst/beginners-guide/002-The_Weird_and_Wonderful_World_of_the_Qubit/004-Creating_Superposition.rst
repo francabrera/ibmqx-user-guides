@@ -1,6 +1,8 @@
 Creating Superposition
 ======================
 
+|
+
 Now that we know how to switch between :math:`|0\rangle` 
 and :math:`|1\rangle`, let's learn more about **superposition.** 
 Superposition is the concept of generating a new quantum state which 
@@ -8,14 +10,12 @@ is a combination of the basis states :math:`|0\rangle` and :math:`|1\rangle`. 
 To make superposition states, we will expand our set of gates to include 
 \ *H* (which you saw earlier in the guide). In the Quantum Composer, 
 this is the blue gate labeled *H*.
-  
-|
 
 | |image0|
 
 |
 
-.. cssclass:: h2
+.. cssclass:: h3
 
 The Hadamard Gate
 
@@ -27,8 +27,6 @@ measurement forced the qubit to choose a final state, the qubit's
 state was neither :math:`|0\rangle` nor :math:`|1\rangle`, but rather a
 uniquely quantum state, a superposition, consisting of an
 **equal-weighted combination of these two states.** 
-
-|   
   
 The special case where the *H* gate is applied to the :math:`|0\rangle`
 state is given its own symbol and definition: :math:`|+\rangle =
@@ -70,17 +68,14 @@ won't yield exactly 50 heads and 50 tails.
 
 **Results Histogram of** :math:`|+\rangle` **superposition state:**
 
-|
-
 | |image2|
 
 |   
 
-.. cssclass:: h2
+.. cssclass:: h3
 
 The Superposition Basis (X Basis)
-
-|   
+ 
 
 Together with the state :math:`|-\rangle = \frac{1}{\sqrt{2}}(|0\rangle
 - |1\rangle)`, which is **a vector pointing along –X on the Bloch
@@ -93,8 +88,6 @@ direction to produce the :math:`|-\rangle` state.
 |   
 
 :math:`|-\rangle` **Superposition State Bloch representation:**
-
-|   
 
 | |image4|
 
@@ -118,7 +111,6 @@ Different states give the same outcomes! 
 
 | |image6|
 
-|
 
 When you measure along the standard basis Z (which is the only direction
 we can access with our pink Z measurement gate), we are not able to
@@ -126,7 +118,7 @@ access information about the qubit’s phase. 
 
 |
 
-.. cssclass:: h2
+.. cssclass:: h3
 
 :math:`|+\rangle` and :math:`|-\rangle` States
 

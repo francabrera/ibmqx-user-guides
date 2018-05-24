@@ -1,6 +1,8 @@
 The Bloch Sphere
 =================
 
+|
+
 The basis states :math:`|0\rangle` and :math:`|1\rangle` and their linear
 combinations :math:`a|0\rangle` + :math:`b|1\rangle` describe the state of
 a single qubit. But because the coefficients a and b are not just real
@@ -23,7 +25,6 @@ as described below.
 The qubit state is shown by the orange line in the picture. In the
 picture, the state at the top of the sphere represents :math:`|0\rangle`
 and the state at the bottom of the sphere represents :math:`|1\rangle`. 
-
 When the qubit is in a superposition of :math:`|0\rangle` and
 :math:`|1\rangle`, the vector will point somewhere between the two on the
 sphere (i.e. the angle :math:`\theta` angle becomes somewhere between 0
