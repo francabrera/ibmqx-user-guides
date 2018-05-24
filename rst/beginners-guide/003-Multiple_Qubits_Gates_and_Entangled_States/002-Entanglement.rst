@@ -11,7 +11,7 @@ explained by supposing that each object is independent from the other.
 
 |
 
-.. cssclass:: h2
+.. cssclass:: h3
 
 Entangled and Bell States
 
@@ -28,8 +28,8 @@ a superposed single-qubit state
 
 However, the state :math:`(|01\rangle+|10\rangle)/\sqrt{2}` is entangled, 
 because there is no way of expressing it as a list of one-qubit states. 
-A maximally entangled quantum state consisting of two qubits, like the 
-examples below, are also known as **Bell states.** 
+Maximally entangled quantum states consisting of two qubits, like the 
+examples below, are also referred tos as **Bell states.** 
   
 When you measure one of the qubits in this state, along any measurement axis at
 all, it behaves randomly, but its random behavior allows you to
@@ -49,11 +49,12 @@ combination of perfect correlation with perfect individual randomness. 
    
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1fcc3d6878c984ce05e69298a76abe36&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
-|
 
 |image1|
 
 | 
+
+|
 
 **Example 2 - Bell, or entangled, state:**
    
@@ -65,9 +66,7 @@ combination of perfect correlation with perfect individual randomness. 
    
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=136177cb0d92579d4630b69d7812ea54&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
  
-|
 
-|
    
 |image3|
 

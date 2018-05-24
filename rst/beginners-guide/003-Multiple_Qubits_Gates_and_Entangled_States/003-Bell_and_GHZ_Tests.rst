@@ -1,22 +1,23 @@
 Bell and GHZ Tests
 ==================
 
+|
+
 To finally settle the matter of "local hidden variables," John Bell 
 designed a test, now referred to as the **Bell Test** (which was later expanded into 
-the CHSH inequality). He realized that measuring both of the two entangled 
-qubits along the same axis(e.g. the Z direction) always gave complementary 
-responses, but that this could have a classical explanation (i.e. a concrete 
+the CHSH inequality). Bell knew that measuring the two entangled 
+qubits along the same axis (e.g. in the Z direction) always gave complementary 
+responses. however, this outcome could have a classical explanation (i.e. a concrete 
 rule that pre-determined the outcome). 
 
-Instead, Bell realized he could perform 
-the measurements of the two qubits along different measurement directions
-and by collecting statistics of the outcomes, he could show that the
-particles were not behaving classically. Describing how this works with
-two particles requires an understanding of statistics, so we will not go
-through it here. Instead we will introduce a more advanced multi-qubit
-entangled state that illustrates the same phenomenon.
+Instead, Bell realized that by performing the measurements of the two qubits 
+along different measurement directions and collecting statistics of the outcomes, 
+he could definitively show that the particles were not behaving classically. 
+Describing how this works with two particles requires a robust understanding of statistics, 
+so we will not go through it here. Instead, we will introduce a more advanced multi-qubit
+entangled state that more easily illustrates the same phenomenon.
 
-.. cssclass:: h2
+.. cssclass:: h3
 
 GHZ States
 
@@ -39,6 +40,8 @@ correlations) of the possible outcomes of the measurements along the
 different bases (X and Y). This is well described in the 1990 paper by
 N. David Mermin, called "*What's wrong with these elements of reality?*."
 
+|
+
 |image1|
 
 |
@@ -58,16 +61,12 @@ by 0 and lose information in the process). Each measurement of a qubit
 gives us either a 1 or -1, and then we’ll multiply the results (i.e.
 the 1’s and -1’s) together and look at the correlations.
 
-| 
-
 Here’s how the notation works in practice. Let’s say the three qubits
 together are in the state :math:`|000\rangle`. When we measure all three
 of them in the Z basis, we would represent that quantum measurement as
 ZZZ. Based on the above mapping, the results would be 1, 1, 1 and the
 value of ZZZ would be 1. If the state was :math:`|001\rangle`, then
 measuring ZZZ would give you -1.
-
-| 
 
 To measure in another basis, such as XXX, we need to apply gates to
 the qubits to rotate them to the Z basis before measurement (as

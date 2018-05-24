@@ -1,5 +1,5 @@
-Multi-Qubit Gates
-=================
+Multi-Qubit Interactions
+========================
 
 .. toctree::
    :maxdepth: 1
@@ -8,10 +8,11 @@ Multi-Qubit Gates
 
    *
 
+|
 
-.. cssclass:: h2
+.. cssclass:: h3
 
-Multi-Qubit States
+Representing Multi-Qubit States
 
 
 The notation for the state of a machine with multiple qubits is similar
@@ -33,32 +34,27 @@ be 1. 
 
 |
 
-.. cssclass:: h2
+.. cssclass:: h3
 
 Controlled-NOT (CNOT) Gates
 
-|
 
-To do interesting things and make use of those many configurations in
+To make use of the many possible configurations in
 the quantum world, we need gates that perform *conditional* logic
 between qubits, meaning the state of one qubit depends on the state of
-another. 
-
-The conditional gate we will use is the **Controlled-NOT,** or **CNOT Gate.**  It
-is represented by the element:  
+another. The conditional gate we will use is the **Controlled-NOT,** or **CNOT Gate.**  
+It is represented by the following element:  
 
 |image0|
 
 The CNOT gate's action on classical basis states is to flip (apply a NOT
 or X gate to) the target qubit \ *only*\  if the control qubit
-is :math:`|1\rangle`. Otherwise, it does nothing. 
-
-Below is how the CNOT gate transforms a set of 2 qubits (where **the
-first qubit – the one on the right – is the control**):
+is :math:`|1\rangle`. Otherwise, it does nothing. Below is how the CNOT gate 
+transforms a set of 2 qubits. (Remember that **the first qubit – the one on the right – is the control**).
 
 |image1|
 
-Try the "CNOT Circuits" example below with different input states. Drag
+Try the **CNOT circuit examples** below with different input states. Drag
 the CNOT gate to the target qubit and then click on the control qubit to
 add the link between them. \ **Note that the X gates have prepared the
 qubits in a different configuration for each example.**\

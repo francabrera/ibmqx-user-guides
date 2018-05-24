@@ -1,26 +1,27 @@
 Bell and GHZ Tests (Cont.)
 ==========================
 
-| Here’s where we show that our classical intuition is wrong.
+| 
+
+Here’s where we show that our classical intuition is wrong.
 
 |
 
-| Let’s say that instead of performing quantum measurements on a quantum
-  system, we perform “classical” measurements on a similar “classical”
-  system. To distinguish the two, we’ll call measurements along the X
-  direction “\ |image0|\ ” for the classical system and measurements
-  along Y “\ |image1|\ ”.
+Let’s say that instead of performing quantum measurements on a quantum 
+system, we perform “classical” measurements on a similar “classical” 
+system. To distinguish the two, we’ll call measurements along the X 
+direction “\ |image0|\ ” for the classical system and measurements 
+along Y “\ |image1|\ ”.
  
-| 
   
-| If the outcomes (|image2| or  |image3|) were pre-determined for each
-  qubit ahead of the measurement, then we could already plug in a “1” or
-  “-1” for each of the \ |image4| and \ |image5| measurements for each
-  qubit (though we don’t yet know if we should use a 1 or -1). Since
-  each of the above represents a measurement on *all 3 qubits*, we need
-  to multiply down the columns to get the results we would have obtained
-  for each of the individual qubits (again, assuming the outcomes were
-  pre-determined and independent of each other!).
+If the outcomes (|image2| or  |image3|) were pre-determined for each
+qubit ahead of the measurement, then we could already plug in a “1” or
+“-1” for each of the \ |image4| and \ |image5| measurements for each
+qubit (though we don’t yet know if we should use a 1 or -1). Since
+each of the above represents a measurement on *all 3 qubits*, we need
+to multiply down the columns to get the results we would have obtained
+for each of the individual qubits (again, assuming the outcomes were
+pre-determined and independent of each other!).
 
 |image6|\     Multiply down all columns
 
@@ -39,24 +40,25 @@ experiments**\  both tell us that the result of an XXX measurement on
 the GHZ state (the quantum equivalent of the
 classical \ |image16|\ |image17|\ |image18|\ ) is \ **XXX**\ = -1! 
 
-| 
-| Based on the results of these experiments, we have to accept what
-  quantum mechanics teaches us: there is not hidden information in each
-  independent qubit’s state which predetermines the outcomes of
-  measurements X and Y, independent of the other two qubits. \ **The
-  outcomes of X or Y measurements for any given qubit are fundamentally
-  tied to the outcomes of the X and/or Y measurements of the qubits with
-  which it is entangled.** For example, if the Y measurements on qubits
-  2 and 3 give +1, then the X measurement of qubit 1 will give **+1**.
-  If the X measurements of qubits 2 and 3 give +1, then the X
-  measurement of qubit 1 will give **-1**. Strange but true!
+ 
+Based on the results of these experiments, we have to accept what
+quantum mechanics teaches us: there is not hidden information in each
+independent qubit’s state which predetermines the outcomes of
+measurements X and Y, independent of the other two qubits. \ **The
+outcomes of X or Y measurements for any given qubit are fundamentally
+tied to the outcomes of the X and/or Y measurements of the qubits with
+which it is entangled.** For example, if the Y measurements on qubits
+2 and 3 give +1, then the X measurement of qubit 1 will give **+1**.
+If the X measurements of qubits 2 and 3 give +1, then the X
+measurement of qubit 1 will give **-1**. Strange but true!
 
 | 
 
-| Important note: the **combined** properties of the three-qubit system
-  (e.g. the outcome of XYY) can be predicted, but the **individual**
-  outcome of measuring each qubit (e.g. X, Y) cannot! This is an
-  important property of entanglement!
+Important note: the **combined** properties of the three-qubit system
+(e.g. the outcome of XYY) can be predicted, but the **individual**
+outcome of measuring each qubit (e.g. X, Y) cannot! This is an
+important property of entanglement.
+
 | 
 
 .. |image0| image:: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAYAAAAGRPQsAAAAAXNSR0IArs4c6QAAAdVpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpDb21wcmVzc2lvbj4xPC90aWZmOkNvbXByZXNzaW9uPgogICAgICAgICA8dGlmZjpQaG90b21ldHJpY0ludGVycHJldGF0aW9uPjI8L3RpZmY6UGhvdG9tZXRyaWNJbnRlcnByZXRhdGlvbj4KICAgICAgICAgPHRpZmY6T3JpZW50YXRpb24+MTwvdGlmZjpPcmllbnRhdGlvbj4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cjl0tmoAAAF3SURBVDgRY2CgImAEmVVeWPjwPyOjMBcfn1hDQ8M3mPnlxcVV///9a2VgZLTs6us7ARPHRTMhS3z/+NEPmc/w/38EkP8TRQwPB9mwLUDXRcLUVhQVGQLZL4BO/wITI0TDDQMyVgM1egC9KQDS9J+BIeb////LCRmALI8wjInpJlDi+rePH4OBBjIBvRjExc+/HlkxITbcMJBCoGtWAwM78seXL05A7kWgoR8IGYAsj2IYGzPzKqCLHP79+1cMVLQCWSGIXVFYuKC8vFwOzC4ujgbGth2yGhTDWrq7bwMlLwOxLSc//yZkhSD2fyamlf9//+6oqKgQBCaZoI6ensPIalAMA0kwMjHlAnE0cnqDaejs7d3O+P8/z/9fv5YzMzPXMzIyAkMGAcCJFsElzAJ6NesfI2OJxP//2kX9/d+RdWC4DFkSnQ30ngLQIBugC7pfMTJ2oMsTbdiqVauY///82cvFxFTQ2dc3/R8Dg0pFSYkTuoGDkw8A06t2mOzrI0AAAAAASUVORK5CYII=

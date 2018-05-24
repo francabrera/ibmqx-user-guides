@@ -1,8 +1,9 @@
 Superposition and Entanglement
 ==============================
+
 |   
 
-Quantum computing has the potential to revolutionize how we process information, opening the door to new types of computing and communication. To do this, quantum computers rely on two fundamental properties of the quantum world: **superposition** and **entanglement.**
+Now that we've covered the basics of creating and running an algorithm on the Composer, let's learn a little about the underlying physics. Quantum computing has the potential to revolutionize how we process information, opening the door to new types of computing and communication. To do this, quantum computers rely on two fundamental properties of the quantum world: **superposition** and **entanglement.**
 
 | 
 
@@ -11,7 +12,7 @@ Quantum computing has the potential to revolutionize how we process information,
 
 Superposition
 
-What is **superposition**? Qubits can be in the “:math:`|0\rangle`”
+What is **superposition**? Quantum bits can be in the “:math:`|0\rangle`”
 state (called a zero-ket), the “:math:`|1\rangle`” state (called the
 one-ket), or a linear combination of the two (superposition). The
 half-angle bracket notation :math:`|\rangle` is conventionally used to

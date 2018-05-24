@@ -1,21 +1,20 @@
-Results from the GHZ test in the Quantum Experience
-===================================================
+GHZ Test Results in the IBM Q Experience
+==========================================
 
-| Amazingly enough, we can test this ourselves in the Quantum Experience
-  by creating a GHZ state, applying gates to the three qubits to put
-  them in a state of superposition and entanglement, and performing the
-  above combination of measurements. When we measure all three along the
-  X basis, we get the equivalent of this “-1” condition compared to when
-  we measure two of the qubits along the Y basis and the third along the
-  X basis.
+|
 
-| 
+Amazingly enough, we can test this ourselves in the Quantum Experience
+by creating a GHZ state, applying gates to the three qubits to put
+them in a state of superposition and entanglement, and performing the
+above combination of measurements. When we measure all three along the
+X basis, we get the equivalent of this “-1” condition compared to when
+we measure two of the qubits along the Y basis and the third along the
+X basis.
 
 Our observation tells us that the system behaves as quantum mechanics
 predicts, and not how our classical intuition would have predicted! 
 
 | 
-
 
 ==========================  ============================
 **Measurement (Q3/Q2/Q1)**  **States that are observed**

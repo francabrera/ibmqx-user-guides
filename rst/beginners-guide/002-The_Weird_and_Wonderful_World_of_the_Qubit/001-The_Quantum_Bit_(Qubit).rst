@@ -13,6 +13,8 @@ The Quantum Bit (Qubit)
 Now that we have a basic understanding of quantum properties and how to 
 use the Quantum Composer, let's dive into the weird and wonderful world of the qubit!
 
+|
+
 A **qubit** (short for **quantum bit**) is a quantum system consisting of 
 two energy levels, labeled :math:`|0\rangle` and :math:`|1\rangle`. 
 The :math:`|0\rangle` state is often called the ground state because it 
