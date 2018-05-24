@@ -7,9 +7,11 @@ Throughout this user guide, we will create and run experiments on IBM's **Quantu
 
 |
 
-.. cssclass:: h2
+.. cssclass:: h3
 
 Choosing Your Quantum Setup
+
+|
 
 Throughout this guide, you'll try out many different experiments (feel
 free to explore on your own as well). When you first navigate to the 
@@ -50,7 +52,7 @@ from left to right.
 |
 |
 
-.. cssclass:: h2
+.. cssclass:: h3
 
 Creating and Running a Quantum Circuit
 
@@ -71,7 +73,7 @@ end with a measurement gate in order to run the experiment.
 
 |
 
-.. cssclass:: h2
+.. cssclass:: h3
 
 Single Qubit Measurement
 

@@ -7,7 +7,7 @@ Quantum computing has the potential to revolutionize how we process information,
 | 
 
 
-.. cssclass:: h2
+.. cssclass:: h3
 
 Superposition
 
@@ -26,7 +26,7 @@ is the lowest energy state.
 
 | 
 
-.. cssclass:: h2
+.. cssclass:: h3
 
 Entanglement
 
