@@ -17,7 +17,7 @@ User Guide, composing your own experiments, running them in
 simulation, and executing them on the world’s first fully-controllable
 quantum processor through the IBM Cloud.
 
-The IBM Quantum Experience consists of:
+The IBM Q Experience consists of:
 
 -  a **set of tutorials** (this User Guide) that will lead you from the
    basics of simple single-qubit experiments (`Section

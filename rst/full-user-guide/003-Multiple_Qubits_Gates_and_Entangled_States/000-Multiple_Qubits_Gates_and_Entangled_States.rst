@@ -1,8 +1,6 @@
 Multiple Qubits, Gates, and Entangled States
 ============================================
 
-THIS IS WHERE JAY IS UP TO
-
 
 .. toctree::
    :maxdepth: 1
@@ -23,12 +21,10 @@ and test some of the strangest properties of quantum physics. 
 
    <div class="mathjax ng-binding">
 
-| 
-| The tutorials are broken down into the follow topics:
+The tutorials are broken down into the follow topics:
 
 -  CNOT and multi-qubit states
--  T-gates (non-Clifford gates)
--  Bell States
+-  Bell states
 -  GHZ states
 
 .. raw:: html

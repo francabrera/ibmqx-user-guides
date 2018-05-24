@@ -1,14 +1,12 @@
 The Bloch Sphere
 ================
 
-THIS IS WHERE JAY IS UP TO
-
-Visualization tools are important for understanding what is happening in a quantum circuit. A standard one is the Bloch Sphere as it allows understanding a qubit as a 3 dimensional object. We caution the reader that this tool fails to give intuition when you have multiple qubits as it fails to represent entanglement. This being said it is very useful for understanding single qubits. 
+Visualization tools are important for understanding what is happening in a quantum circuit. A standard one is the Bloch Sphere, as it represents a qubit as a three-dimensional object. We caution the reader that this tool will not help you think about multiple qubits, as it fails to demonstrate entanglement. This being said, it is very useful for understanding single qubits. 
 
 |image0|
 
-As mentioned in the last section a single qubit state can be written as :math:`|\psi\rangle =\cos(\theta/2)|0\rangle + e^{i\phi}\sin(\theta/2)|1\rangle`,
-where :math:`\theta` and :math:`\phi` are defined in the picture, we see
+As mentioned in the last section, a single-qubit state can be written as :math:`|\psi\rangle =\cos(\theta/2)|0\rangle + e^{i\phi}\sin(\theta/2)|1\rangle`,
+where :math:`\theta` and :math:`\phi` are defined in the picture. We see
 that there is a one-to-one correspondence between pure qubit states
 (:math:`\mathbb{C}^2`) and the points on the surface of a unit sphere
 (:math:`\mathbb{R}^3`). We can reconstruct an arbitrary unknown qubit

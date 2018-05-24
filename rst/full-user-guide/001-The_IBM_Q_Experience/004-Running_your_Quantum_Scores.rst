@@ -6,11 +6,11 @@ run a quantum score. 
 
 When you begin an experiment, you'll be prompted to give it a name, so
 that you can recognize it later. You will also see two choices: Real
-Quantum Processor, or Custom Topology.  In both cases, you create your
+Quantum Processor, or Custom Topology.  In both cases, you will create your
 score by dragging gates onto the stave, adding a measurement, and then
 hitting "Run" for the score to execute. 
 
-Running on an Custom Quantum Processor
+Running on a Custom Quantum Processor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you select "Custom Topology," your only option is to run your score
@@ -21,9 +21,9 @@ you to select the number of qubits and classical bits assigned to
 different registers. We have set the maximum number of qubits to 20. The
 execution of your circuit happens immediately (unless the number of
 qubits is large) and the output can then be viewed in the Results (see
-the next section). Try out the "Single Qubit Measurement" below.
+the next section). Try out the "Single-Qubit Measurement" below.
 
-**Single Qubit Measurement**
+**Single-Qubit Measurement**
 
 .. raw:: html
 
@@ -59,7 +59,7 @@ the experimental queue, and you will receive an email notification when
 it is done). 
 
 Note that many of the score examples found in this User Guide have
-previous executions available for you to view and experiment with!
+previous executions available for you to view and experiment with.
 
 Once you hit "Run," your score's progress will be visible in the "Quantum
 Scores" tab below the composer, sorted by date executed. When your results 

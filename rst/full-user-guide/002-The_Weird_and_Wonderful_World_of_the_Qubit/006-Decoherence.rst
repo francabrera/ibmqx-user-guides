@@ -50,9 +50,9 @@ relaxation, it affects only superposition states. It can be understood
 solely in a quantum setting as it has no classical analog. The time
 constant :math:`T_2` includes the effect of dephasing as well as energy
 relaxation, and is another crucial figure-of-merit. Again, IBM has
-some of the world's best qubits by this metric. Experiment with the
-scripts below to investigate Ramsey and echo experiment. A Ramsey experiment measures
-:math:`T_2^*` which can be effected by slow noise and echo experiment removes some of this noise. 
+some of the world's best qubits by this metric. Practice with the
+scripts below to investigate the Ramsey and echo experiments. A Ramsey experiment measures
+:math:`T_2^*`, which can be affected by slow noise, and the echo experiment removes some of this noise. 
 
 Below is a QISKit script for measuring :math:`T_2^*` (Ramsey) and :math:`T_2` (echo).
 

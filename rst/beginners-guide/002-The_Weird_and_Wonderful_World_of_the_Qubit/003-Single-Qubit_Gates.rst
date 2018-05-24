@@ -31,25 +31,31 @@ as can be seen in the following schematic. Try using the X gate in the Compose
 using the example score below.
 
 
-| 
+|
 
 | |image1|
 
 |
+<<<<<<< HEAD:rst/beginners-guide/002-The_Weird_and_Wonderful_World_of_the_Qubit/003-Single-Qubit_Gates.rst
 
 **Applying X Gate (Composer Diagram):**
 
 |
+=======
+>>>>>>> upstream/master:rst/beginners-guide/005-Single-Qubit_Gates/001-Single-Qubit_Gates.rst
 
 .. raw:: html
 
-   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1a35de9b1f3b236cf98fc3e0960da72e&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/codes/code-1a35de9b1f3b236cf98fc3e0960da72e.png" style="width: 100%; max-width: 600px;"></a>
+   <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1a35de9b1f3b236cf98fc3e0960da72e&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-075df8e2dacac4fa2f76486ecc824a52.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=1a35de9b1f3b236cf98fc3e0960da72e&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
 |
 
+<<<<<<< HEAD:rst/beginners-guide/002-The_Weird_and_Wonderful_World_of_the_Qubit/003-Single-Qubit_Gates.rst
 **Applying X Gate (Results Histogram):**
 
+=======
+>>>>>>> upstream/master:rst/beginners-guide/005-Single-Qubit_Gates/001-Single-Qubit_Gates.rst
 |
 
 | |image3|

@@ -2,8 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
-from qiskit.wrapper import execute, register
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, execute, register
 
 import Qconfig
 register(Qconfig.APItoken, Qconfig.config['url'])
@@ -33,12 +32,8 @@ for exp_index in exp_vector:
 
 # Execute the circuits
 shots = 1024
-compile_config = {
-    'shots': shots,
-    'max_credits': 10
-}
-result = execute(circuits, 'ibmqx4', compile_config, wait=5, timeout=1800)
-print(result)
+job = execute(circuits, 'ibmqx4', shots=shots, max_credits=10)
+result = job.result()
 
 # Plot the result
 exp_data = []
@@ -46,7 +41,7 @@ exp_error = []
 for exp_index in exp_vector:
     data = result.get_counts(circuits[exp_index-1])
     try:
-        p0 = data['00000']/shots
+        p0 = data['0']/shots
     except KeyError:
         p0 = 0
     exp_data.append(p0)
