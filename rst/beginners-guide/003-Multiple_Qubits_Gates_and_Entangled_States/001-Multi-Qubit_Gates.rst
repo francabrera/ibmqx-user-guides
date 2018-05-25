@@ -98,7 +98,7 @@ qubits in a different configuration for each example.**\
 |
 
 Have a good understanding of this chapter's material, and want to learn more about the math behind the concepts? 
-Check out the `Full User Guide Chapter 3 <../003-Multiple_Qubits_Gates_and_Entangled_States/000-Multiple_Qubits_Gates_and_Entangled_States.html>`_ for more in-depth content!
+Check out the `Full User Guide Chapter 3 <../full-user-guide/003-Multiple_Qubits_Gates_and_Entangled_States/000-Multiple_Qubits_Gates_and_Entangled_States.html>`_ for more in-depth content!
 
 |
 | 

@@ -43,7 +43,7 @@ get the probability of measuring the \ **0** or **1** outcome, respectively.
 | 
 
 Have a good understanding of this chapter's material, and want to learn more about the math behind the concepts? 
-Check out the `Full User Guide Chapter 2 <../002-The_Weird_and_Wonderful_World_of_the_Qubit/000-The_Weird_and_Wonderful_World_of_the_Qubit.html>`_ for more in-depth content!
+Check out the `Full User Guide Chapter 2 <../full-user-guide/002-The_Weird_and_Wonderful_World_of_the_Qubit/000-The_Weird_and_Wonderful_World_of_the_Qubit.html>`_ for more in-depth content!
 
 | 
 | 

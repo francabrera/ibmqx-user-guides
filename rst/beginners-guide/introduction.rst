@@ -1,7 +1,7 @@
 Beginner's Guide
 ================
 
-The Beginner’s Guide is designed to teach new learners how work with a with real quantum computer, via IBM's 
+The Beginner’s Guide is designed to teach new learners how work with a real quantum computer, via IBM's 
 `Quantum Composer <https://quantumexperience.ng.bluemix.net/qx/editor>`_ interface. 
 It introduces the fundamental concepts of quantum information science, and explains how those concepts are utilized in quantum computing. 
 Readers are encouraged to try out interactive examples included throughout the Guide, and to then go on to the 
