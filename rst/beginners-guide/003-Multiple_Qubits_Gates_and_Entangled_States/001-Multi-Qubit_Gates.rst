@@ -101,6 +101,8 @@ Have a good understanding of this chapter's material, and want to learn more abo
 Check out the `Full User Guide Chapter 3 <../003-Multiple_Qubits_Gates_and_Entangled_States/000-Multiple_Qubits_Gates_and_Entangled_States.html>`_ for more in-depth content!
 
 |
+| 
+
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/cnotpiv8xpd3ep2jra4i.png
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/screen-shot-2017-03-04-at-5.10.14-pmb3gj6v8t7d9m5cdi.png
