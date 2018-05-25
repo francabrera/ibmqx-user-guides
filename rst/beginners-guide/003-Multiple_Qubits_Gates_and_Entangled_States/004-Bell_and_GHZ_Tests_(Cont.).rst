@@ -4,9 +4,6 @@ Bell and GHZ Tests (Cont.)
 | 
 
 Here’s where we show that our classical intuition is wrong.
-
-|
-
 Let’s say that instead of performing quantum measurements on a quantum 
 system, we perform “classical” measurements on a similar “classical” 
 system. To distinguish the two, we’ll call measurements along the X 

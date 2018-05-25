@@ -3,7 +3,7 @@ Superposition and Entanglement
 
 |   
 
-Now that we've covered the basics of creating and running an algorithm on the Composer, let's learn a little about the underlying physics. Quantum computing has the potential to revolutionize how we process information, opening the door to new types of computing and communication. To do this, quantum computers rely on two fundamental properties of the quantum world: **superposition** and **entanglement.**
+Let's learn a little about the underlying physics behind creating and running algorithms on the Composer. Quantum computing has the potential to revolutionize how we process information, opening the door to new types of computing and communication. To do this, quantum computers rely on two fundamental properties of the quantum world: **superposition** and **entanglement.**
 
 | 
 

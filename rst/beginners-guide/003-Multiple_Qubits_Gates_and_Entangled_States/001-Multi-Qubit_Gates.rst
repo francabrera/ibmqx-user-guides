@@ -10,6 +10,10 @@ Multi-Qubit Interactions
 
 |
 
+In this chapter, we begin to explore multi-qubit systems, and will use them to prove the quantum nature of nature on the Quantum Composer. We will dig deeper into multi-qubit gates, as well as the concept of **engtanglement.**
+
+|
+
 .. cssclass:: h3
 
 Representing Multi-Qubit States
@@ -91,7 +95,12 @@ qubits in a different configuration for each example.**\
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=7177ed173b5d2e3124c405339b9b6f15&sharedCode=true" target="_parent"><img src="https://dal.objectstorage.open.softlayer.com/v1/AUTH_42263efc45184c7ca4742512588a1942/codes/code-c1908bfce53e5d26b810465dbb68ef3e.png" style="width: 100%; max-width: 600px;"></a>
    <a href="https://quantumexperience.ng.bluemix.net/qx/editor?codeId=7177ed173b5d2e3124c405339b9b6f15&sharedCode=true" target="_blank" style="text-align: right; display: block;">Open in composer</a>
 
+|
 
+Have a good understanding of this chapter's material, and want to learn more about the math behind the concepts? 
+Check out the `Full User Guide Chapter 3 <../003-Multiple_Qubits_Gates_and_Entangled_States/000-Multiple_Qubits_Gates_and_Entangled_States.html>`_ for more in-depth content!
+
+|
 
 .. |image0| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/cnotpiv8xpd3ep2jra4i.png
 .. |image1| image:: https://dal.objectstorage.open.softlayer.com/v1/AUTH_039c3bf6e6e54d76b8e66152e2f87877/images-classroom/screen-shot-2017-03-04-at-5.10.14-pmb3gj6v8t7d9m5cdi.png

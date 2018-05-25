@@ -11,7 +11,9 @@ The Quantum Bit (Qubit)
 |
 
 Now that we have a basic understanding of quantum properties and how to 
-use the Quantum Composer, let's dive into the weird and wonderful world of the qubit!
+use the Quantum Composer, let's dive into the weird and wonderful world of the qubit! 
+In this chapter, we will dig deeper into how we can use single qubit gates to 
+manipulate quantum states, as well as the concepts of **superposition** and **phase.**
 
 |
 
@@ -37,10 +39,8 @@ be positive, negative, or even complex. If we take the absolute value
 of :math:`a` or :math:`b` and square it (e.g. :math:`|a|^2` or :math:`|b|^2` ), we
 get the probability of measuring the \ **0** or **1** outcome, respectively.
 
-| 
-
-In this chapter, we will dig deeper into how we can use single qubit gates to 
-manipulate quantum states, as well as the concepts of **superposition** and **phase.**
 
 | 
 
+Have a good understanding of this chapter's material, and want to learn more about the math behind the concepts? 
+Check out the `Full User Guide Chapter 2 <../002-The_Weird_and_Wonderful_World_of_the_Qubit/000-The_Weird_and_Wonderful_World_of_the_Qubit.html>`_ for more in-depth content!
