@@ -40,12 +40,16 @@ made our 5-qubit and 16-qubit quantum computers available over the Internet
 to the general public. In other words, YOU now have a programmable 
 quantum computer at your fingertips! 
 
-| 
+By going through this Beginner’s Guide, we hope you will learn some of the the fundamental 
+concepts that quantum computing relies on, and how start experimenting with a real quantum 
+computer via IBM's `Quantum Composer <https://quantumexperience.ng.bluemix.net/qx/editor>`_. 
+We anticipate that you will spend about 10-30 min on each section (with the later sections 
+requiring more time) as you read through thisguide and explore the sample quantum scores on the IBM Q Experience. 
 
-By going through this Beginner’s Guide, we hope you will learn some of the the fundamental concepts that quantum computing relies on, and how start experimenting with a real quantum computer via IBM's `Quantum Composer <https://quantumexperience.ng.bluemix.net/qx/editor>`_. We anticipate that you will spend about 10-30 min on each section (with the later sections requiring more time) as you read through this
-guide and explore the sample quantum scores on the IBM Q Experience. 
-If you want to see more of the math and theory behind the concepts, we
-encourage you to dig into our `Full User Guide <https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=full-user-guide&page=introduction>`_!
+If you already have a firm understanding of quantum fundamentals and linear algebra, and want to see more of the math and theory behind the concepts, we encourage you to dig into our 
+`Full User Guide <https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=full-user-guide&page=introduction>`_ for more in-depth content.
 
 |
+|
+
 
