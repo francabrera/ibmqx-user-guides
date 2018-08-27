@@ -14,6 +14,7 @@ Paper, pencil, and quantum enthusiasm are recommended!
 
 .. cssclass:: guide-toc
 .. toctree::
+   :hidden:
    :maxdepth: 3
    :glob:
    :includehidden:
